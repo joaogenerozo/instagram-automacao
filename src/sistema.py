@@ -277,8 +277,29 @@ def cta(texto, i, n, destino, cfg):
     return _salvar(img, destino)
 
 
+CENARIO_TEMA = {"sites": "escritorio", "paginas": "loja", "agenda": "salao-de-beleza", "cardapio": "restaurante",
+                "catalogo": "loja", "marca": "escritorio"}
+
+
+def foto_capa(p):
+    """Foto profissional licenciada para a capa: campo "cenario" do post ou padrão do tema.
+    Procura midia/fotos/cenarios/<slug>.jpg e o crédito em creditos.json ("cenarios/<slug>")."""
+    import json
+    raiz = Path(__file__).resolve().parent.parent
+    slug = p.get("cenario") or CENARIO_TEMA.get(p.get("tema", ""))
+    f = raiz / f"midia/fotos/cenarios/{slug}.jpg" if slug else None
+    if not f or not f.exists():
+        return None, None
+    cred = json.load(open(raiz / "midia/fotos/creditos.json")).get(f"cenarios/{slug}")
+    if not cred:
+        return None, None  # sem crédito registrado não publica
+    return str(f), cred if isinstance(cred, str) else cred.get("credito") or cred.get("texto")
+
+
 def carrossel(p, pasta, cfg, foto=None, credito=None):
     """p: {titulo, subtitulo, hashtags, slides:[{titulo, texto, layout?}], cta_final}. Devolve a lista de arquivos."""
+    if not foto:
+        foto, credito = foto_capa(p)
     pasta = Path(pasta)
     pasta.mkdir(parents=True, exist_ok=True)
     for velho in pasta.glob("*.jpg"):

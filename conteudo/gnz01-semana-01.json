@@ -97,7 +97,8 @@
       "site profissional",
       "presença digital"
      ],
-     "direcao_visual": "Capa preta com título forte; slides numerados 01-07 em off-white, texto curto. Último slide com botão off-white do WhatsApp."
+     "direcao_visual": "Capa preta com título forte; slides numerados 01-07 em off-white, texto curto. Último slide com botão off-white do WhatsApp.",
+     "cenario": "comerciante-balcao"
     },
     {
      "tipo": "post",
@@ -499,7 +500,8 @@
       "agendamento automático",
       "sistema de agendamento"
      ],
-     "direcao_visual": "Carrossel escuro, números grandes off-white, um passo por slide, frases curtas."
+     "direcao_visual": "Carrossel escuro, números grandes off-white, um passo por slide, frases curtas.",
+     "cenario": "salao-de-beleza"
     },
     {
      "tipo": "post",
@@ -773,7 +775,8 @@
       "o que um site precisa ter",
       "contratar site"
      ],
-     "direcao_visual": "Carrossel em versão clara (off-white), números pretos, para variar do carrossel escuro de sexta."
+     "direcao_visual": "Carrossel em versão clara (off-white), números pretos, para variar do carrossel escuro de sexta.",
+     "cenario": "notebook-mesa"
     },
     {
      "tipo": "post",
@@ -1051,7 +1054,8 @@
       "como funciona cardápio digital",
       "pedido no WhatsApp"
      ],
-     "direcao_visual": "Carrossel escuro, um passo por slide, números grandes. Último slide com botão off-white."
+     "direcao_visual": "Carrossel escuro, um passo por slide, números grandes. Último slide com botão off-white.",
+     "cenario": "restaurante"
     },
     {
      "tipo": "post",
@@ -1338,7 +1342,8 @@
       "como fazer um site profissional",
       "agência de sites"
      ],
-     "direcao_visual": "Carrossel escuro, títulos fortes e frases curtas, numeração off-white."
+     "direcao_visual": "Carrossel escuro, títulos fortes e frases curtas, numeração off-white.",
+     "cenario": "reuniao-escritorio"
     },
     {
      "tipo": "post",
@@ -1602,7 +1607,8 @@
       "tipos de site",
       "qual site escolher"
      ],
-     "direcao_visual": "Carrossel claro, um formato por slide, títulos pretos fortes."
+     "direcao_visual": "Carrossel claro, um formato por slide, títulos pretos fortes.",
+     "cenario": "loja"
     },
     {
      "tipo": "post",
@@ -1890,7 +1896,8 @@
       "página para consultório odontológico",
       "marketing odontológico"
      ],
-     "direcao_visual": "Carrossel escuro sóbrio, tom institucional, numeração off-white."
+     "direcao_visual": "Carrossel escuro sóbrio, tom institucional, numeração off-white.",
+     "cenario": "consultorio-odontologico"
     },
     {
      "tipo": "post",
