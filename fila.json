@@ -57,7 +57,7 @@
   },
   {
     "id": "gnz01_2026-11-05_extrastory3",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-05T19:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -65,7 +65,9 @@
     "imagens": [
       "midia/gnz01/2026-11-05/stories/extra3.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18108979004194278",
+    "publicado_em": "2026-11-05T22:36:33.241845+00:00"
   },
   {
     "id": "gnz01_2026-11-05_extra3",
