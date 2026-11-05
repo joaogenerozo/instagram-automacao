@@ -40,7 +40,8 @@
       "Passar confiança antes do primeiro contato",
       "Levar o cliente direto ao WhatsApp"
      ],
-     "escuro": false
+     "escuro": false,
+     "cenario": "comercio-rua"
     },
     {
      "tipo": "carrossel",
@@ -447,7 +448,8 @@
       "O Google mostra sites, não stories",
       "No site, você controla a experiência"
      ],
-     "escuro": false
+     "escuro": false,
+     "cenario": "celular-mao"
     },
     {
      "tipo": "carrossel",
@@ -561,7 +563,8 @@
       "Prato sem foto e sem descrição",
       "Preço desatualizado"
      ],
-     "escuro": true
+     "escuro": true,
+     "cenario": "pizzaria"
     },
     {
      "tipo": "post",
@@ -807,7 +810,8 @@
       "Visual que valoriza a marca",
       "Atendimento próximo"
      ],
-     "escuro": false
+     "escuro": false,
+     "cenario": "escritorio"
     },
     {
      "tipo": "post",
@@ -846,7 +850,8 @@
       "Confirmação com um toque",
       "Horário liberado se o cliente desmarcar"
      ],
-     "escuro": true
+     "escuro": true,
+     "cenario": "salao-beleza"
     },
     {
      "tipo": "post",
@@ -999,7 +1004,8 @@
       "Seus serviços explicados",
       "Contato fácil e direto"
      ],
-     "escuro": false
+     "escuro": false,
+     "cenario": "notebook"
     },
     {
      "tipo": "carrossel",
@@ -1137,7 +1143,8 @@
       "Fácil de lembrar e divulgar",
       "E-mail profissional com o seu nome"
      ],
-     "escuro": true
+     "escuro": true,
+     "cenario": "loja"
     }
    ],
    "stories": [
@@ -1369,7 +1376,8 @@
       "Divulgue o link onde quiser",
       "Use junto com os aplicativos"
      ],
-     "escuro": false
+     "escuro": false,
+     "cenario": "delivery"
     },
     {
      "tipo": "post",
@@ -1400,7 +1408,8 @@
      "layout_anterior": "pergunta",
      "rotulo": "Ensaio · Vendas",
      "apoio": [],
-     "escuro": true
+     "escuro": true,
+     "cenario": "notebook"
     },
     {
      "tipo": "post",
@@ -1541,7 +1550,8 @@
      "layout_anterior": "pergunta",
      "rotulo": "Ensaio · Presença digital",
      "apoio": [],
-     "escuro": false
+     "escuro": false,
+     "cenario": "comercio-rua"
     },
     {
      "tipo": "carrossel",
@@ -1662,7 +1672,8 @@
      "layout_anterior": "numero",
      "rotulo": "Ensaio · Atendimento",
      "apoio": [],
-     "escuro": true
+     "escuro": true,
+     "cenario": "clinica"
     },
     {
      "tipo": "post",
@@ -1828,7 +1839,8 @@
       "Estrutura, textos e visual",
       "Ajustes com você e entrega"
      ],
-     "escuro": false
+     "escuro": false,
+     "cenario": "escritorio"
     },
     {
      "tipo": "carrossel",
@@ -1915,7 +1927,8 @@
       "Dá para ler sem dar zoom?",
       "Achou o WhatsApp em 1 toque?"
      ],
-     "escuro": true
+     "escuro": true,
+     "cenario": "celular-mao"
     },
     {
      "tipo": "post",

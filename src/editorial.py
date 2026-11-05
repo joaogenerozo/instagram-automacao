@@ -1,5 +1,6 @@
 """Layout editorial (padrão revista): serifada para frases de impacto, Inter para apoio,
 fotografia real opcional (campo "foto": caminho local + "credito"), grão fotográfico sutil."""
+import json
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
@@ -147,6 +148,7 @@ def carrossel(p, pasta):
     capa = p["capa"]
     if capa.get("foto"):
         caminhos = [capa_central(capa["foto"], capa["titulo"], pasta / "01.jpg", autor=capa.get("autor"),
+                                 citacao=capa.get("citacao_estilo", True),
                                  fonte_citacao=capa.get("fonte_citacao"), credito=capa.get("credito"),
                                  pagina=f"1/{total}  Arraste →")]
     else:
@@ -316,3 +318,22 @@ def capa_central(foto, titulo, destino, tam=(1080, 1350), autor=None, fonte_cita
     destino.parent.mkdir(parents=True, exist_ok=True)
     img.save(destino, "JPEG", quality=93)
     return destino
+
+
+def render_editorial(arte, pasta):
+    """Post editorial. Com foto de cenário licenciada (campo cenario -> midia/fotos/cenarios/<slug>.jpg) usa a capa central
+    (foto + degradê marinho + serifada caixa alta); sem foto, o layout tipográfico."""
+    pasta = Path(pasta)
+    raiz = Path(__file__).resolve().parent.parent
+    cen = arte.get("cenario")
+    foto = raiz / f"midia/fotos/cenarios/{cen}.jpg" if cen else None
+    if foto and foto.exists() and not arte.get("capa", {}).get("foto"):
+        cred = json.load(open(raiz / "midia/fotos/creditos.json")).get(f"cenarios/{cen}", {}).get("credito")
+        if arte["tipo"] == "carrossel":
+            arte = {**arte, "capa": {**arte["capa"], "foto": str(foto), "credito": cred, "citacao_estilo": False}}
+        else:
+            return [capa_central(foto, arte["titulo"], pasta / "01.jpg", credito=cred, citacao=False,
+                                 reflexao=arte.get("subtitulo"))]
+    if arte["tipo"] == "carrossel":
+        return carrossel(arte, pasta)
+    return [peca(arte, pasta / "01.jpg")]

@@ -100,7 +100,7 @@ def main():
                 for velho in pasta.glob("*.jpg"):
                     velho.unlink()
                 arte = json.loads(json.dumps(post).replace("{whatsapp}", cfg["whatsapp"]))
-                imgs = ed.carrossel(arte, pasta) if arte["tipo"] == "carrossel" else [ed.peca(arte, pasta / "01.jpg")]
+                imgs = ed.render_editorial(arte, pasta)
             elif post["tipo"] == "carrossel":
                 imgs = des.carrossel(post, pasta)
             else:

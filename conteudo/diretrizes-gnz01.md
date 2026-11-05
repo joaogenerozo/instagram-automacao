@@ -96,3 +96,8 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 - Telas: enquanto o João não enviar prints reais dos produtos, as telas são demonstrações com nomes fictícios e a peça diz "Demonstração ilustrativa · nomes fictícios". Não inventar funcionalidades, integrações, números, clientes ou avaliações.
 - Fotografia de cenário licenciada opcional em midia/fotos/cenarios/<slug>.jpg (cozinha-profissional, barbearia, loja, escritorio...).
 - Varie os títulos por segmento; não repita a mesma composição em sequência.
+
+## 16. Estilo revista nos posts editoriais (escolha do João, 05/11)
+- Posts editoriais (2 por dia) e posts/stories de personalidade usam a capa central: foto real licenciada, degradê azul-marinho, título em serifada caixa alta centralizado, GNZ01 centralizado (referência: post estilo G4 enviado pelo João).
+- Cada post editorial tem o campo "cenario" (midia/fotos/cenarios/<slug>.jpg, crédito em creditos.json com chave "cenarios/<slug>"). Sem foto, sai no layout tipográfico. Para refazer pendentes: python tools/rerender_editorial.py <semana.json>.
+- Demonstrações de produto seguem no padrão Product Showcase (seção 15).
