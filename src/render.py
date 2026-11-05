@@ -73,7 +73,8 @@ class Desenhista:
         # círculos decorativos translúcidos
         camada = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         d = ImageDraw.Draw(camada)
-        d.ellipse([W - 380, -220, W + 220, 380], fill=cor_tema + (110,))
+        claro = sum(self.fundo) > 600
+        d.ellipse([W - 380, -220, W + 220, 380], fill=cor_tema + ((35,) if claro else (110,)))
         d.ellipse([-260, H - 330, 260, H + 190], fill=self.destaque + (28,))
         img = Image.alpha_composite(img.convert("RGBA"), camada)
         draw = ImageDraw.Draw(img)
@@ -225,3 +226,120 @@ def desenhar_story(self, item, destino, numero=None):
 
 
 Desenhista.story = desenhar_story
+
+
+# ---------- variações de layout (para não repetir o visual) ----------
+from contextlib import contextmanager
+
+CLARO = {"fundo": "#F4F3EE", "fundo2": "#E9E8E2", "destaque": "#18191D", "texto": "#18191D", "texto_suave": "#5B6068"}
+
+
+@contextmanager
+def _paleta(self, clara):
+    if not clara:
+        yield
+        return
+    salvo = (self.fundo, self.fundo2, self.destaque, self.texto, self.suave)
+    self.fundo, self.fundo2 = hex_rgb(CLARO["fundo"]), hex_rgb(CLARO["fundo2"])
+    self.destaque, self.texto, self.suave = hex_rgb(CLARO["destaque"]), hex_rgb(CLARO["texto"]), hex_rgb(CLARO["texto_suave"])
+    try:
+        yield
+    finally:
+        self.fundo, self.fundo2, self.destaque, self.texto, self.suave = salvo
+
+
+def _grade_pontos(self, draw, x0, y0, colunas=6, linhas=6, passo=34):
+    for i in range(colunas):
+        for j in range(linhas):
+            r = 4
+            draw.ellipse([x0 + i * passo - r, y0 + j * passo - r, x0 + i * passo + r, y0 + j * passo + r], fill=self.suave)
+
+
+def _post_pergunta(self, p, destino):
+    img, draw, _ = self._base(p["tema"])
+    larg = W - 2 * MARGEM
+    _grade_pontos(self, draw, W - MARGEM - 170, 230)
+    f, linhas, tam, alt = bloco(draw, p["titulo"], "bold", 110, 60, larg, 640)
+    y = (H - alt) // 2 - 60
+    y = escrever(draw, MARGEM, y, linhas, f, tam, self.texto) + 40
+    if p.get("subtitulo"):
+        f, linhas, tam, _ = bloco(draw, p["subtitulo"], "regular", 42, 30, larg, 200, 1.3)
+        escrever(draw, MARGEM, y, linhas, f, tam, self.suave, 1.3)
+    self._rodape(draw, p.get("cta_imagem", "Responda no Direct"))
+    return self._salvar(img, destino)
+
+
+def _post_numero(self, p, destino):
+    img, draw, _ = self._base(p["tema"])
+    larg = W - 2 * MARGEM
+    _grade_pontos(self, draw, W - MARGEM - 170, 230, 6, 4)
+    f = fonte("bold", 260)
+    draw.text((MARGEM - 8, 200), p["numero"], font=f, fill=self.destaque)
+    y = 520
+    f, linhas, tam, alt = bloco(draw, p["titulo"], "bold", 80, 50, larg, 330)
+    y = escrever(draw, MARGEM, y, linhas, f, tam, self.texto) + 30
+    if p.get("subtitulo"):
+        f, linhas, tam, _ = bloco(draw, p["subtitulo"], "regular", 42, 30, larg, H - 260 - y, 1.3)
+        escrever(draw, MARGEM, y, linhas, f, tam, self.suave, 1.3)
+    self._rodape(draw, p.get("cta_imagem", "Chame no WhatsApp"))
+    return self._salvar(img, destino)
+
+
+_post_original = Desenhista.post
+_carrossel_original = Desenhista.carrossel
+
+
+def _post_variado(self, p, destino):
+    layout = p.get("layout", "padrao")
+    with _paleta(self, p.get("claro", False)):
+        if layout == "pergunta":
+            return _post_pergunta(self, p, destino)
+        if layout == "numero":
+            return _post_numero(self, p, destino)
+        return _post_original(self, p, destino)
+
+
+def _carrossel_variado(self, p, pasta):
+    with _paleta(self, p.get("claro", False)):
+        return _carrossel_original(self, p, pasta)
+
+
+Desenhista.post = _post_variado
+Desenhista.carrossel = _carrossel_variado
+
+
+def story_texto(self, item, destino):
+    """Story de texto (bastidor, pergunta para o Direct, chamada para orçamento)."""
+    with _paleta(self, item.get("claro", False)):
+        img = Image.new("RGB", (SW, SH), self.fundo)
+        d = ImageDraw.Draw(img)
+        for y in range(SH):
+            t = y / SH
+            d.line([(0, y), (SW, y)], fill=tuple(int(self.fundo[i] * (1 - t) + self.fundo2[i] * t) for i in range(3)))
+        draw = ImageDraw.Draw(img)
+        larg = SW - 2 * MARGEM
+        f = fonte("semi", 32)
+        rot = item.get("rotulo", "GNZ01")
+        lr = draw.textlength(rot, font=f)
+        draw.rounded_rectangle([MARGEM, 260, MARGEM + lr + 56, 324], radius=32, fill=(48, 52, 59))
+        draw.text((MARGEM + 28, 273), rot, font=f, fill=(255, 255, 255))
+        _grade_pontos(self, draw, SW - MARGEM - 170, 280, 6, 4)
+        ft, lt, tt, at = bloco(draw, item["titulo"], "bold", 100, 60, larg, 640)
+        y = 560
+        y = escrever(draw, MARGEM, y, lt, ft, tt, self.texto) + 50
+        if item.get("texto"):
+            fr, lr_, tr, _ = bloco(draw, item["texto"], "regular", 52, 36, larg, SH - 560 - y, 1.35)
+            escrever(draw, MARGEM, y, lr_, fr, tr, self.suave, 1.35)
+        cta = item.get("cta", f"WhatsApp {self.cfg['whatsapp']}")
+        fb = fonte("bold", 40)
+        lb = draw.textlength(cta, font=fb)
+        yb = SH - 440
+        draw.rounded_rectangle([(SW - lb) / 2 - 45, yb, (SW + lb) / 2 + 45, yb + 100], radius=50, fill=self.destaque)
+        draw.text(((SW - lb) / 2, yb + 26), cta, font=fb, fill=self.fundo)
+        marca = f"{self.cfg['marca']}  ·  {self.cfg['instagram']}"
+        fm = fonte("semi", 32)
+        draw.text(((SW - draw.textlength(marca, font=fm)) / 2, yb + 140), marca, font=fm, fill=self.suave)
+        return self._salvar(img, destino)
+
+
+Desenhista.story_texto = story_texto

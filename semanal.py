@@ -5,11 +5,16 @@ import subprocess
 import sys
 
 from src.comum import RAIZ, carregar_fila
+from datetime import date, datetime, timedelta
+
 from gerar import proxima_segunda
 
-inicio = proxima_segunda()
-if any(p["id"].startswith(inicio.isoformat()) for p in carregar_fila()):
-    sys.exit(f"Semana de {inicio} já está agendada.")
+# começa no dia seguinte ao último já agendado (sem sobrepor semanas), ou na próxima segunda
+fila = carregar_fila()
+ultimo = max((datetime.fromisoformat(p["quando"]).date() for p in fila), default=None)
+inicio = max(proxima_segunda(), ultimo + timedelta(days=1)) if ultimo else proxima_segunda()
+if ultimo and (ultimo - date.today()).days >= 7:
+    sys.exit(f"Já há conteúdo agendado até {ultimo}. Nada a fazer.")
 
 arquivos = sorted((RAIZ / "conteudo").glob("semana-*.json"))
 arquivo = None
@@ -19,8 +24,10 @@ if os.environ.get("ANTHROPIC_API_KEY"):
     if r.returncode == 0:
         arquivo = r.stdout.strip().splitlines()[-1]
 if not arquivo:
-    semanas_agendadas = len({p["id"][:10] for p in carregar_fila()}) // 7
+    semanas_agendadas = len({p["quando"][:10] for p in fila}) // 7
     arquivo = str(arquivos[semanas_agendadas % len(arquivos)].relative_to(RAIZ))
     print("Reaproveitando", arquivo)
 
-subprocess.run([sys.executable, "gerar.py", arquivo, "--inicio", inicio.isoformat()], check=True, cwd=RAIZ)
+# cada semana nova entra como "aguardando_aprovacao"; defina AUTO_APROVAR=1 para publicar direto
+extra = [] if os.environ.get("AUTO_APROVAR") == "1" else ["--aprovacao"]
+subprocess.run([sys.executable, "gerar.py", arquivo, "--inicio", inicio.isoformat(), *extra], check=True, cwd=RAIZ)

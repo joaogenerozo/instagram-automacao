@@ -79,14 +79,16 @@ def _chips(draw, x, y, nomes, ativo=0):
         x += lw + 14
 
 
-def story_cardapio(cfg, destino):
+def story_cardapio(cfg, destino, titulo="Pare de anotar pedido na mão.",
+                   subtitulo="Veja como fica o cardápio digital do seu restaurante.",
+                   sigla="SR", nome="Seu Restaurante", chips=("Lanches", "Porções", "Bebidas"),
+                   itens=None, total="R$ 90,40", notif=("Novo pedido no WhatsApp", "#0427 · R$ 90,40 · Pix")):
     img, draw = _fundo(cfg)
-    _topo(draw, cfg, "CARDÁPIO DIGITAL", "Pare de anotar pedido na mão.",
-          "Veja como fica o cardápio digital do seu restaurante.")
+    _topo(draw, cfg, "CARDÁPIO DIGITAL", titulo, subtitulo)
     x, y, larg = _celular(draw, 170, 700, 740, 860)
-    _cabecalho_app(draw, x, y, "SR", "Seu Restaurante", "Aberto agora · entrega 30-40 min")
-    _chips(draw, x, y + 120, ["Lanches", "Porções", "Bebidas"])
-    itens = [("Burger da Casa", "Brioche, blend 180g e cheddar", "R$ 32,90"),
+    _cabecalho_app(draw, x, y, sigla, nome, "Aberto agora · entrega 30-40 min")
+    _chips(draw, x, y + 120, list(chips))
+    itens = itens or [("Burger da Casa", "Brioche, blend 180g e cheddar", "R$ 32,90"),
              ("Batata Rústica", "Porção 400g com alecrim", "R$ 21,00"),
              ("Smash Duplo", "Dois smash, bacon e picles", "R$ 36,50")]
     yy = y + 220
@@ -100,22 +102,25 @@ def story_cardapio(cfg, destino):
         draw.text((x + larg - 40, yy + 30), "+", font=fonte("bold", 40), fill=(255, 255, 255))
         yy += 128
     draw.rounded_rectangle([x, yy + 10, x + larg, yy + 100], radius=45, fill=ESCURO)
-    t = "Enviar pedido · R$ 90,40"
+    t = f"Enviar pedido · {total}"
     ft = fonte("bold", 32)
     draw.text((x + larg / 2 - draw.textlength(t, font=ft) / 2, yy + 34), t, font=ft, fill=(255, 255, 255))
-    _notificacao(draw, 0, 625, "Novo pedido no WhatsApp", "#0427 · R$ 90,40 · Pix")
+    _notificacao(draw, 0, 625, *notif)
     _rodape(draw, cfg, "Imagem ilustrativa para demonstração.")
     img.save(destino, "JPEG", quality=92)
     return destino
 
 
-def story_agenda_manicure(cfg, destino):
+def story_agenda_manicure(cfg, destino, titulo="Sua cliente marca a unha sozinha.",
+                          subtitulo="Veja como fica a agenda online de um studio de manicure.",
+                          sigla="SN", nome="Seu Studio de Unhas", chips=("Mão", "Pé e mão", "Gel"),
+                          notif=("Novo agendamento", "Pé e mão · Sex 14:30 · lembrete enviado"),
+                          botao="Confirmar · Sex 14:30"):
     img, draw = _fundo(cfg)
-    _topo(draw, cfg, "AGENDA ONLINE", "Sua cliente marca a unha sozinha.",
-          "Veja como fica a agenda online de um studio de manicure.")
+    _topo(draw, cfg, "AGENDA ONLINE", titulo, subtitulo)
     x, y, larg = _celular(draw, 170, 700, 740, 860)
-    _cabecalho_app(draw, x, y, "SN", "Seu Studio de Unhas", "Agende seu horário")
-    _chips(draw, x, y + 120, ["Mão", "Pé e mão", "Gel"], ativo=1)
+    _cabecalho_app(draw, x, y, sigla, nome, "Agende seu horário")
+    _chips(draw, x, y + 120, list(chips), ativo=1)
     # dias
     dias = [("SEG", "10"), ("TER", "11"), ("QUA", "12"), ("QUI", "13"), ("SEX", "14")]
     dw = (larg - 4 * 12) / 5
@@ -146,10 +151,43 @@ def story_agenda_manicure(cfg, destino):
         draw.text((hx + hw / 2 - draw.textlength(h, font=fh) / 2, hy + 18), h, font=fh, fill=cor)
     yy = y + 620
     draw.rounded_rectangle([x, yy, x + larg, yy + 90], radius=45, fill=ESCURO)
-    t = "Confirmar · Sex 14:30"
+    t = botao
     ft = fonte("bold", 32)
     draw.text((x + larg / 2 - draw.textlength(t, font=ft) / 2, yy + 24), t, font=ft, fill=(255, 255, 255))
-    _notificacao(draw, 0, 625, "Novo agendamento", "Pé e mão · Sex 14:30 · lembrete enviado")
+    _notificacao(draw, 0, 625, *notif)
     _rodape(draw, cfg, "Imagem ilustrativa para demonstração.")
     img.save(destino, "JPEG", quality=92)
+    return destino
+
+
+def story_catalogo(cfg, destino, titulo="Seus produtos num link só.",
+                   subtitulo="Veja como fica o catálogo digital de uma loja.",
+                   sigla="SL", nome="Sua Loja", chips=("Novidades", "Vestidos", "Blusas"),
+                   produtos=(("Vestido Linho", "R$ 189,90"), ("Blusa Seda", "R$ 119,90"),
+                             ("Calça Alfaiataria", "R$ 159,90"), ("Camisa Off", "R$ 99,90")),
+                   notif=("Novo pedido no WhatsApp", "2 itens · R$ 309,80")):
+    img, draw = _fundo(cfg)
+    _topo(draw, cfg, "CATÁLOGO DIGITAL", titulo, subtitulo)
+    x, y, larg = _celular(draw, 170, 700, 740, 860)
+    _cabecalho_app(draw, x, y, sigla, nome, "Catálogo · pedido pelo WhatsApp")
+    _chips(draw, x, y + 120, list(chips))
+    cw = (larg - 20) / 2
+    tons = [(201, 190, 172), (176, 181, 186), (150, 140, 128), (214, 210, 200)]
+    for i, (n, preco) in enumerate(produtos[:4]):
+        cx = x + (i % 2) * (cw + 20)
+        cy = y + 220 + (i // 2) * 250
+        draw.rounded_rectangle([cx, cy, cx + cw, cy + 160], radius=22, fill=tons[i % 4])
+        draw.text((cx + 6, cy + 172), n, font=fonte("bold", 28), fill=ESCURO)
+        draw.text((cx + 6, cy + 208), preco, font=fonte("regular", 26), fill=SUAVE_ESC)
+    _notificacao(draw, 0, 625, *notif)
+    _rodape(draw, cfg, "Imagem ilustrativa para demonstração.")
+    img.save(destino, "JPEG", quality=92)
+    return destino
+
+
+def para_feed(caminho_story, destino):
+    """Recorta um story de vitrine no formato do feed (1080x1350)."""
+    im = Image.open(caminho_story)
+    feed = im.crop((0, 215, 1080, 1590)).resize((1080, 1350))
+    feed.save(destino, "JPEG", quality=92)
     return destino

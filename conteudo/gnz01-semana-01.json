@@ -1,0 +1,1705 @@
+{
+ "semana": "gnz01-01",
+ "inicio": "2026-11-06",
+ "dias": [
+  {
+   "posts": [
+    {
+     "tipo": "post",
+     "tema": "sites",
+     "pilar": "educacao",
+     "layout": "padrao",
+     "nicho": "Pequenos e médios comerciantes",
+     "objetivo": "Fazer o dono de negócio perceber que está perdendo clientes por não aparecer no Google.",
+     "publico_alvo": "Comerciantes e prestadores de serviço sem site",
+     "tecnica": "PAS (problema, agitação, solução)",
+     "titulo": "Seu cliente procurou no Google. E achou o concorrente.",
+     "subtitulo": "Quem não aparece na busca não entra na disputa.",
+     "itens": [
+      "Aparecer quando procuram por você",
+      "Passar confiança antes do primeiro contato",
+      "Levar o cliente direto ao WhatsApp"
+     ],
+     "legenda": "Antes de comprar, o cliente pesquisa. Digita o serviço, o nome da cidade e escolhe entre quem aparece.\n\nSe o seu negócio não está ali, a decisão acontece sem você. Não porque o seu trabalho é pior, mas porque ele não foi encontrado.\n\nUm site profissional coloca sua empresa nessa vitrine: mostra o que você faz, responde as dúvidas e leva o cliente direto para a conversa.\n\n👉 Quer saber como o seu negócio pode aparecer? Solicite um orçamento personalizado: {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#criacaodesites",
+      "#sitesparaempresas",
+      "#negociolocal",
+      "#presencadigital"
+     ],
+     "palavras_chave": [
+      "criação de sites",
+      "site para empresa",
+      "aparecer no Google"
+     ],
+     "direcao_visual": "Fundo preto com degradê grafite, título grande em branco, três benefícios com check off-white. Muito respiro e um círculo grafite discreto no canto."
+    },
+    {
+     "tipo": "carrossel",
+     "tema": "sites",
+     "pilar": "educacao",
+     "nicho": "Profissionais autônomos e comerciantes",
+     "objetivo": "Gerar salvamentos e autoridade com um checklist de diagnóstico.",
+     "publico_alvo": "Donos de negócio que ainda acham que não precisam de site",
+     "tecnica": "Curiosidade + lista de diagnóstico",
+     "titulo": "7 sinais de que seu negócio precisa de um site",
+     "subtitulo": "Quantos você marcaria hoje?",
+     "slides": [
+      {
+       "titulo": "Só te acham por indicação",
+       "texto": "Indicação é ótima, mas quem não te conhece não tem onde te encontrar."
+      },
+      {
+       "titulo": "Você repete as mesmas respostas",
+       "texto": "Preço, endereço, horário. Um site responde isso antes do cliente perguntar."
+      },
+      {
+       "titulo": "Seu concorrente aparece no Google",
+       "texto": "Quando pesquisam seu serviço na sua cidade, quem aparece leva o cliente."
+      },
+      {
+       "titulo": "Seu Instagram faz tudo sozinho",
+       "texto": "O perfil atrai, mas não é seu. Se a conta tiver problema, sua vitrine some."
+      },
+      {
+       "titulo": "Você quer cobrar mais",
+       "texto": "Presença profissional muda a percepção de valor do seu serviço."
+      },
+      {
+       "titulo": "Seu atendimento não para",
+       "texto": "Mensagens chegando o dia todo pedem uma página que informe por você."
+      },
+      {
+       "titulo": "Você pensa em anunciar",
+       "texto": "Anúncio sem uma página preparada é dinheiro levando o cliente a lugar nenhum."
+      }
+     ],
+     "cta_final": "Marcou 2 ou mais? Vamos conversar.",
+     "legenda": "Muita gente diz que ainda não precisa de site. Mas os sinais costumam aparecer antes da decisão. 👀\n\nArrasta para o lado e conte quantos desses você vive hoje.\n\nSe marcou dois ou mais, o seu negócio já está pedindo uma presença digital profissional.\n\n💾 Salve para revisar depois\n💬 Me diga no Direct quantos você marcou, ou fale direto no WhatsApp: {whatsapp}",
+     "cta": "Envie uma mensagem pelo Direct",
+     "hashtags": [
+      "#criacaodesites",
+      "#siteprofissional",
+      "#pequenasempresas",
+      "#profissionalautonomo"
+     ],
+     "palavras_chave": [
+      "preciso de um site",
+      "site profissional",
+      "presença digital"
+     ],
+     "direcao_visual": "Capa preta com título forte; slides numerados 01-07 em off-white, texto curto. Último slide com botão off-white do WhatsApp."
+    },
+    {
+     "tipo": "post",
+     "tema": "cardapio",
+     "pilar": "demonstracao",
+     "vitrine": {
+      "tipo": "cardapio",
+      "titulo": "O cardápio da pizzaria, direto no celular.",
+      "subtitulo": "Veja como fica um cardápio digital para pizzarias.",
+      "sigla": "SP",
+      "nome": "Sua Pizzaria",
+      "chips": [
+       "Pizzas",
+       "Bordas",
+       "Bebidas"
+      ],
+      "itens": [
+       [
+        "Margherita",
+        "Molho, mussarela e manjericão",
+        "R$ 54,90"
+       ],
+       [
+        "Calabresa",
+        "Calabresa fatiada e cebola roxa",
+        "R$ 52,90"
+       ],
+       [
+        "Quatro Queijos",
+        "Mussarela, provolone, gorgonzola",
+        "R$ 62,90"
+       ]
+      ],
+      "total": "R$ 117,80",
+      "notif": [
+       "Novo pedido no WhatsApp",
+       "2 pizzas · R$ 117,80 · entrega"
+      ]
+     },
+     "nicho": "Restaurantes e pizzarias",
+     "objetivo": "Mostrar o produto funcionando para gerar desejo e pedidos de demonstração.",
+     "publico_alvo": "Donos de pizzaria e delivery",
+     "tecnica": "Demonstração + antecipação",
+     "titulo": "Veja como fica o cardápio digital de uma pizzaria",
+     "legenda": "Sexta à noite, pedidos chegando por áudio, foto do cardápio antigo, cliente perguntando o preço da borda... 🍕\n\nNo cardápio digital, o cliente escolhe sabores, bordas e bebidas, vê o total e envia o pedido pronto no seu WhatsApp. Você recebe tudo organizado e só confirma.\n\nEsta é uma demonstração de como fica. O seu sai com o nome, as cores e os sabores da sua pizzaria.\n\n👉 Quer ver como ficaria o seu? Solicite uma demonstração: {whatsapp}",
+     "cta": "Solicite uma demonstração",
+     "hashtags": [
+      "#cardapiodigital",
+      "#pizzaria",
+      "#donoderestaurante",
+      "#deliverydepizza"
+     ],
+     "palavras_chave": [
+      "cardápio digital pizzaria",
+      "pedido pelo WhatsApp",
+      "cardápio online"
+     ],
+     "direcao_visual": "Mockup de celular off-white sobre fundo preto, notificação de pedido no canto superior. Nota discreta: imagem ilustrativa."
+    },
+    {
+     "tipo": "post",
+     "tema": "marca",
+     "pilar": "autoridade",
+     "layout": "padrao",
+     "claro": true,
+     "nicho": "Geral",
+     "objetivo": "Apresentar a GNZ01 e os serviços para quem chega ao perfil.",
+     "publico_alvo": "Novos visitantes do perfil",
+     "tecnica": "Posicionamento claro",
+     "titulo": "Soluções digitais para negócios que querem atender melhor.",
+     "subtitulo": "Sites, cardápios, agendas e catálogos feitos sob medida.",
+     "itens": [
+      "Sites e landing pages",
+      "Cardápios digitais",
+      "Agendamento online",
+      "Catálogos e páginas profissionais"
+     ],
+     "legenda": "Prazer, somos a GNZ01. 👋\n\nCriamos soluções digitais para empresas e profissionais que querem modernizar o atendimento e conquistar mais clientes:\n\n▪️ Sites profissionais e landing pages\n▪️ Cardápios digitais para restaurantes e pizzarias\n▪️ Agendamento online para quem atende com hora marcada\n▪️ Catálogos digitais e páginas profissionais\n▪️ Soluções personalizadas para o seu negócio\n\nTudo com visual limpo, rápido no celular e pensado para levar o cliente até você.\n\n👉 Conheça nossas soluções: {whatsapp}",
+     "cta": "Conheça nossas soluções",
+     "hashtags": [
+      "#gnz01",
+      "#solucoesdigitais",
+      "#criacaodesites",
+      "#transformacaodigital"
+     ],
+     "palavras_chave": [
+      "GNZ01",
+      "soluções digitais",
+      "agência de sites"
+     ],
+     "direcao_visual": "Versão clara: fundo off-white, título em preto, lista de serviços com check grafite. Serve como post fixado."
+    },
+    {
+     "tipo": "post",
+     "tema": "agenda",
+     "pilar": "conexao",
+     "layout": "pergunta",
+     "nicho": "Barbearias, salões e manicures",
+     "objetivo": "Gerar comentários e identificação com a dor de quem marca horário pelo WhatsApp.",
+     "publico_alvo": "Profissionais que atendem com hora marcada",
+     "tecnica": "Pergunta de identificação",
+     "titulo": "Quantas mensagens você responde só para marcar horário?",
+     "subtitulo": "Comenta aqui o seu número de hoje.",
+     "cta_imagem": "Comente aqui",
+     "legenda": "\"Tem horário amanhã?\" \"E às 15h?\" \"Pode ser depois do almoço?\" 📱\n\nSe você é barbeiro, manicure, cabeleireira ou atende com hora marcada, sabe quanto tempo vai embora só nessa troca de mensagens.\n\nComenta aqui: quantas mensagens você respondeu hoje só para marcar horário? 👇\n\nAmanhã eu mostro como a agenda online resolve isso. Ou, se não quiser esperar: {whatsapp}",
+     "cta": "Comente e acompanhe",
+     "hashtags": [
+      "#agendaonline",
+      "#barbearia",
+      "#manicure",
+      "#saloesdebeleza"
+     ],
+     "palavras_chave": [
+      "agendamento online",
+      "marcar horário",
+      "agenda para salão"
+     ],
+     "direcao_visual": "Layout pergunta: título enorme centralizado, grade de pontos discreta no canto, quase nenhum outro elemento."
+    }
+   ],
+   "stories": [
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "BOM DIA",
+     "titulo": "Sexta-feira começa com café e layout aberto.",
+     "texto": "Por aqui o dia começa revisando cada detalhe antes de qualquer site ir ao ar.",
+     "claro": false,
+     "cta": "WhatsApp {whatsapp}"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "RESPONDA NO DIRECT",
+     "titulo": "Seu negócio já tem site?",
+     "texto": "Responda SIM ou AINDA NÃO. Eu te digo o próximo passo para o seu caso.",
+     "cta": "Responda no Direct",
+     "claro": false
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "agenda",
+     "pilar": "demonstracao",
+     "titulo": "Sua cliente marca a unha sozinha.",
+     "subtitulo": "Veja como fica a agenda online de um studio de manicure.",
+     "sigla": "SN",
+     "nome": "Seu Studio de Unhas",
+     "chips": [
+      "Mão",
+      "Pé e mão",
+      "Gel"
+     ],
+     "notif": [
+      "Novo agendamento",
+      "Pé e mão · Sex 14:30 · lembrete enviado"
+     ],
+     "botao": "Confirmar · Sex 14:30"
+    },
+    {
+     "tipo": "texto",
+     "pilar": "vendas",
+     "rotulo": "ORÇAMENTO",
+     "titulo": "Seu site pode começar na próxima semana.",
+     "texto": "Conte como é seu negócio e receba um orçamento personalizado, sem compromisso.",
+     "claro": true,
+     "cta": "WhatsApp {whatsapp}"
+    }
+   ]
+  },
+  {
+   "posts": [
+    {
+     "tipo": "post",
+     "tema": "sites",
+     "pilar": "educacao",
+     "layout": "padrao",
+     "claro": true,
+     "nicho": "Comerciantes e autônomos",
+     "objetivo": "Quebrar a objeção 'já tenho Instagram, não preciso de site'.",
+     "publico_alvo": "Negócios que vendem só pelo Instagram",
+     "tecnica": "Quebra de objeção",
+     "titulo": "Instagram não é site.",
+     "subtitulo": "O perfil atrai. O site convence e converte.",
+     "itens": [
+      "O perfil é da plataforma, o site é seu",
+      "O Google mostra sites, não stories",
+      "No site, você controla a experiência"
+     ],
+     "legenda": "\"Mas eu já tenho Instagram.\" Ótimo, ele é essencial. Só que ele não faz tudo. 📲\n\nO Instagram é a vitrine que atrai. O site é o lugar onde o cliente entende o que você faz, confia e decide falar com você. E é ele que aparece quando alguém pesquisa no Google.\n\nOs dois juntos formam a estratégia completa.\n\n👉 Quer um site que trabalhe junto com o seu perfil? {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#criacaodesites",
+      "#marketingdigital",
+      "#instagramparanegocios",
+      "#siteprofissional"
+     ],
+     "palavras_chave": [
+      "site ou Instagram",
+      "site para negócio",
+      "presença digital"
+     ],
+     "direcao_visual": "Versão clara com título curto e forte. Três itens. Contraste preto sobre off-white."
+    },
+    {
+     "tipo": "carrossel",
+     "tema": "agenda",
+     "pilar": "demonstracao",
+     "nicho": "Salões de beleza e barbearias",
+     "objetivo": "Mostrar o fluxo da agenda online e responder a pergunta de ontem.",
+     "publico_alvo": "Profissionais da beleza",
+     "tecnica": "Antecipação cumprida + passo a passo",
+     "titulo": "Como seu cliente agenda sozinho, em 5 passos",
+     "subtitulo": "Sem troca de mensagens.",
+     "slides": [
+      {
+       "titulo": "Ele abre o seu link",
+       "texto": "Na bio do Instagram, no status do WhatsApp ou no Google."
+      },
+      {
+       "titulo": "Escolhe o serviço",
+       "texto": "Corte, barba, escova, unha. Cada um com duração e preço definidos."
+      },
+      {
+       "titulo": "Escolhe o profissional",
+       "texto": "Se você tem equipe, cada pessoa tem a própria agenda."
+      },
+      {
+       "titulo": "Vê só os horários livres",
+       "texto": "Nada de choque de horário. O que está ocupado nem aparece."
+      },
+      {
+       "titulo": "Recebe confirmação e lembrete",
+       "texto": "Você recebe o aviso e o cliente é lembrado antes do horário."
+      }
+     ],
+     "cta_final": "Quer ver funcionando no seu negócio?",
+     "legenda": "Ontem perguntei quantas mensagens você responde só para marcar horário. Hoje, a solução. ✂️💅\n\nArrasta para o lado e veja como o cliente agenda sozinho, em 5 passos, sem precisar falar com você.\n\nVocê ganha tempo para atender, e o cliente marca na hora em que lembra, até de madrugada.\n\n👉 Solicite uma demonstração da agenda online: {whatsapp}",
+     "cta": "Solicite uma demonstração",
+     "hashtags": [
+      "#agendaonline",
+      "#salaodebeleza",
+      "#barbearia",
+      "#sistemadeagendamento"
+     ],
+     "palavras_chave": [
+      "agenda online para salão",
+      "agendamento automático",
+      "sistema de agendamento"
+     ],
+     "direcao_visual": "Carrossel escuro, números grandes off-white, um passo por slide, frases curtas."
+    },
+    {
+     "tipo": "post",
+     "tema": "sites",
+     "pilar": "autoridade",
+     "layout": "numero",
+     "numero": "24h",
+     "nicho": "Geral",
+     "objetivo": "Mostrar o valor do site como atendente que não para.",
+     "publico_alvo": "Donos de negócio com atendimento sobrecarregado",
+     "tecnica": "Gatilho de autoridade + benefício",
+     "titulo": "Seu site atende enquanto você descansa.",
+     "subtitulo": "Informações, serviços e contato disponíveis a qualquer hora, rápido no celular.",
+     "legenda": "Seu horário de atendimento termina. O interesse do cliente, não. 🌙\n\nUm site bem feito responde o básico por você: o que você faz, onde fica, como funciona e como falar com você. A qualquer hora, inclusive no domingo.\n\nNa GNZ01, cada site é pensado para carregar rápido no celular e levar o visitante até o seu WhatsApp.\n\n👉 Veja como funciona: {whatsapp}",
+     "cta": "Veja como funciona",
+     "hashtags": [
+      "#criacaodesites",
+      "#siteresponsivo",
+      "#atendimentoaocliente",
+      "#sitesparaempresas"
+     ],
+     "palavras_chave": [
+      "site 24 horas",
+      "site rápido",
+      "site para celular"
+     ],
+     "direcao_visual": "Layout número: '24h' gigante em off-white, título abaixo, grade de pontos tecnológica no canto."
+    },
+    {
+     "tipo": "post",
+     "tema": "cardapio",
+     "pilar": "educacao",
+     "layout": "padrao",
+     "nicho": "Restaurantes, lanchonetes e pizzarias",
+     "objetivo": "Educar sobre erros de cardápio e posicionar a GNZ01 como especialista.",
+     "publico_alvo": "Donos de restaurante e delivery",
+     "tecnica": "PAS",
+     "titulo": "3 erros que fazem o cardápio vender menos",
+     "subtitulo": "O cliente decide rápido. O cardápio precisa ajudar.",
+     "itens": [
+      "Itens demais e sem categorias",
+      "Prato sem foto e sem descrição",
+      "Preço desatualizado"
+     ],
+     "legenda": "O cliente abre o cardápio com fome e pouca paciência. 🍔\n\nSe ele precisa procurar demais, não entende o prato ou descobre outro preço na hora de pagar, a venda fica menor, ou nem acontece.\n\nNo cardápio digital, você organiza por categorias, coloca foto e descrição em cada item e atualiza preços em segundos.\n\n👉 Quer revisar o seu cardápio com a gente? {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#cardapiodigital",
+      "#restaurante",
+      "#gestaoderestaurante",
+      "#lanchonete"
+     ],
+     "palavras_chave": [
+      "cardápio que vende",
+      "cardápio digital",
+      "erros no cardápio"
+     ],
+     "direcao_visual": "Padrão escuro, título forte, três erros listados com marcador off-white."
+    },
+    {
+     "tipo": "post",
+     "tema": "sites",
+     "pilar": "vendas",
+     "layout": "pergunta",
+     "claro": true,
+     "nicho": "Geral",
+     "objetivo": "Converter interessados em pedidos de orçamento.",
+     "publico_alvo": "Quem já está considerando ter um site",
+     "tecnica": "Oferta direta + quebra de objeção",
+     "titulo": "Seu site. Do seu jeito. Sem complicação.",
+     "subtitulo": "Você conta como é o seu negócio. A GNZ01 cuida do resto.",
+     "cta_imagem": "Peça seu orçamento",
+     "legenda": "Muita gente adia o site por achar que vai dar trabalho. Não precisa. ✅\n\nFunciona assim:\n1️⃣ Uma conversa rápida sobre o seu negócio\n2️⃣ Você envia logo, fotos e informações\n3️⃣ A GNZ01 cria o site e você aprova\n4️⃣ Seu site no ar, pronto para receber clientes\n\nO orçamento é sem compromisso e feito sob medida para o que você precisa.\n\n👉 Solicite o seu: {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#criacaodesites",
+      "#orcamentodesite",
+      "#sitesparapequenasempresas",
+      "#gnz01"
+     ],
+     "palavras_chave": [
+      "orçamento de site",
+      "fazer um site",
+      "criação de site profissional"
+     ],
+     "direcao_visual": "Layout pergunta em versão clara, título grande centralizado, botão de texto 'Peça seu orçamento' no rodapé."
+    }
+   ],
+   "stories": [
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "BASTIDORES",
+     "titulo": "Antes do design, vem a conversa.",
+     "texto": "Todo projeto da GNZ01 começa entendendo como o seu cliente compra de você.",
+     "claro": true,
+     "cta": "WhatsApp {whatsapp}"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "RESPONDA NO DIRECT",
+     "titulo": "Quantas vezes por dia você manda o mesmo preço no WhatsApp?",
+     "texto": "Se a resposta for \"muitas\", um cardápio ou catálogo digital resolve.",
+     "cta": "Responda no Direct",
+     "claro": true
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "cardapio",
+     "pilar": "demonstracao",
+     "titulo": "O lanche escolhido em poucos toques.",
+     "subtitulo": "Veja como fica o cardápio digital de uma hamburgueria.",
+     "sigla": "SH",
+     "nome": "Sua Hamburgueria",
+     "chips": [
+      "Lanches",
+      "Porções",
+      "Bebidas"
+     ],
+     "itens": [
+      [
+       "Burger da Casa",
+       "Brioche, blend 180g e cheddar",
+       "R$ 32,90"
+      ],
+      [
+       "Batata Rústica",
+       "Porção 400g com alecrim",
+       "R$ 21,00"
+      ],
+      [
+       "Smash Duplo",
+       "Dois smash, bacon e picles",
+       "R$ 36,50"
+      ]
+     ],
+     "total": "R$ 90,40",
+     "notif": [
+      "Novo pedido no WhatsApp",
+      "3 itens · R$ 90,40 · Pix"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "pilar": "vendas",
+     "rotulo": "ORÇAMENTO",
+     "titulo": "Seu negócio merece uma vitrine profissional.",
+     "texto": "Sites, cardápios, agendas e catálogos sob medida para o seu atendimento.",
+     "claro": true,
+     "cta": "WhatsApp {whatsapp}"
+    }
+   ]
+  },
+  {
+   "posts": [
+    {
+     "tipo": "post",
+     "tema": "landing",
+     "pilar": "demonstracao",
+     "layout": "numero",
+     "numero": "1",
+     "nicho": "Profissionais que anunciam ou lançam serviços",
+     "objetivo": "Explicar landing page de forma simples e despertar interesse.",
+     "publico_alvo": "Quem faz ou pretende fazer anúncios",
+     "tecnica": "Curiosidade + definição clara",
+     "titulo": "Uma página. Um objetivo. Isso é landing page.",
+     "subtitulo": "Feita para transformar visitante em contato, sem distrações.",
+     "legenda": "Landing page é uma página com um único objetivo: fazer o visitante tomar uma ação. Pedir orçamento, agendar, se inscrever, chamar no WhatsApp. 🎯\n\nSem menus que distraem, sem informação sobrando. Só o que a pessoa precisa para decidir.\n\nÉ ideal para quem anuncia, lança um serviço novo ou quer captar clientes de um nicho específico.\n\n👉 Quer uma landing page para o seu serviço? {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#landingpage",
+      "#captacaodeclientes",
+      "#paginadevendas",
+      "#trafegopago"
+     ],
+     "palavras_chave": [
+      "o que é landing page",
+      "página de captura",
+      "landing page profissional"
+     ],
+     "direcao_visual": "Número '1' gigante off-white, título forte, muito espaço negativo."
+    },
+    {
+     "tipo": "carrossel",
+     "tema": "sites",
+     "pilar": "educacao",
+     "claro": true,
+     "nicho": "Geral",
+     "objetivo": "Conteúdo salvável que gera autoridade antes da contratação.",
+     "publico_alvo": "Quem vai contratar um site",
+     "tecnica": "Checklist + gatilho de autoridade",
+     "titulo": "Checklist: o que todo site profissional precisa ter",
+     "subtitulo": "Salve antes de contratar o seu.",
+     "slides": [
+      {
+       "titulo": "Domínio próprio",
+       "texto": "seunegocio.com.br passa mais confiança do que um endereço genérico."
+      },
+      {
+       "titulo": "Perfeito no celular",
+       "texto": "A maior parte das visitas vem do celular. O site precisa ser pensado para ele."
+      },
+      {
+       "titulo": "Carregamento rápido",
+       "texto": "Quem espera demais vai embora. Velocidade também ajuda no Google."
+      },
+      {
+       "titulo": "Contato a um toque",
+       "texto": "WhatsApp, telefone, endereço e mapa sempre fáceis de achar."
+      },
+      {
+       "titulo": "Prova de trabalho",
+       "texto": "Fotos reais, portfólio e avaliações de clientes reais."
+      },
+      {
+       "titulo": "Pronto para o Google",
+       "texto": "Estrutura e textos pensados para ser encontrado na sua região."
+      }
+     ],
+     "cta_final": "Quer um site com tudo isso?",
+     "legenda": "Antes de contratar um site, confira se ele vai ter o básico que faz diferença. ✅\n\nArrasta para o lado e salve este checklist.\n\nNa GNZ01, todo site já sai com esses itens. Sem surpresa no final.\n\n💾 Salve para consultar depois\n👉 Solicite seu orçamento personalizado: {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#criacaodesites",
+      "#siteprofissional",
+      "#webdesign",
+      "#dicasdemarketing"
+     ],
+     "palavras_chave": [
+      "checklist site profissional",
+      "o que um site precisa ter",
+      "contratar site"
+     ],
+     "direcao_visual": "Carrossel em versão clara (off-white), números pretos, para variar do carrossel escuro de sexta."
+    },
+    {
+     "tipo": "post",
+     "tema": "marca",
+     "pilar": "conexao",
+     "layout": "padrao",
+     "nicho": "Geral",
+     "objetivo": "Criar conexão contando o propósito da GNZ01.",
+     "publico_alvo": "Seguidores e visitantes do perfil",
+     "tecnica": "Storytelling",
+     "titulo": "Por que a GNZ01 existe",
+     "subtitulo": "Porque bons negócios merecem ser encontrados.",
+     "itens": [
+      "Tecnologia simples de usar",
+      "Visual que valoriza a marca",
+      "Atendimento próximo"
+     ],
+     "legenda": "A GNZ01 nasceu de uma observação simples: muitos negócios excelentes perdem clientes não pela qualidade do trabalho, mas pela forma como aparecem na internet. 💡\n\nA barbearia cheia de clientes fiéis que ninguém novo encontra. O restaurante com comida incrível e pedidos anotados no papel. A profissional talentosa que passa a noite respondendo mensagem para marcar horário.\n\nNosso trabalho é resolver isso com soluções digitais simples, bonitas e que funcionam no dia a dia.\n\nSe você se identificou com algum desses exemplos, me conta no Direct. 💬",
+     "cta": "Envie uma mensagem pelo Direct",
+     "hashtags": [
+      "#gnz01",
+      "#empreendedorismo",
+      "#solucoesdigitais",
+      "#negociolocal"
+     ],
+     "palavras_chave": [
+      "GNZ01",
+      "história da marca",
+      "soluções digitais"
+     ],
+     "direcao_visual": "Padrão escuro, título curto, três valores da marca em lista."
+    },
+    {
+     "tipo": "post",
+     "tema": "agenda",
+     "pilar": "educacao",
+     "layout": "padrao",
+     "nicho": "Clínicas de estética, salões e manicures",
+     "objetivo": "Fazer o profissional calcular o custo das faltas.",
+     "publico_alvo": "Quem sofre com clientes que faltam",
+     "tecnica": "PAS + conta simples",
+     "titulo": "Cliente que falta custa caro. Faça a conta.",
+     "subtitulo": "Faltas por semana × valor do serviço × 4 semanas.",
+     "itens": [
+      "Lembrete automático antes do horário",
+      "Confirmação com um toque",
+      "Horário liberado se o cliente desmarcar"
+     ],
+     "legenda": "Faça a conta comigo: quantos clientes faltaram na sua última semana? Multiplique pelo valor do serviço e por 4. 🧮\n\nEsse é o valor aproximado que fica parado na sua agenda todo mês.\n\nA agenda online envia lembrete antes do horário, permite confirmar ou remarcar com um toque e libera o horário para outra pessoa quando alguém desmarca.\n\nComenta o resultado da sua conta 👇 ou fale comigo: {whatsapp}",
+     "cta": "Comente e solicite uma demonstração",
+     "hashtags": [
+      "#agendaonline",
+      "#clinicadeestetica",
+      "#manicure",
+      "#gestaodeagenda"
+     ],
+     "palavras_chave": [
+      "clientes que faltam",
+      "lembrete de agendamento",
+      "agenda online"
+     ],
+     "direcao_visual": "Padrão escuro, fórmula da conta no subtítulo, três soluções com check."
+    },
+    {
+     "tipo": "post",
+     "tema": "catalogo",
+     "pilar": "autoridade",
+     "layout": "padrao",
+     "claro": true,
+     "nicho": "Pequenos e médios comerciantes",
+     "objetivo": "Apresentar o catálogo digital como solução para quem vende pelo WhatsApp.",
+     "publico_alvo": "Lojistas que mandam foto por foto no WhatsApp",
+     "tecnica": "Problema + solução",
+     "titulo": "Seus produtos organizados em um link.",
+     "subtitulo": "Catálogo digital com fotos, preços e pedido direto no WhatsApp.",
+     "itens": [
+      "Fim do foto por foto",
+      "Cliente escolhe e envia o pedido",
+      "Atualização rápida de preços e estoque"
+     ],
+     "legenda": "Cliente pede \"me manda o que você tem\" e lá vai você mandar 30 fotos, uma por uma, com preço digitado embaixo. 📸\n\nCom um catálogo digital, você manda um link só. O cliente vê tudo organizado por categorias, escolhe e envia o pedido pronto no seu WhatsApp.\n\nIdeal para lojas de roupas, cosméticos, presentes, distribuidoras e quem vende pelo celular.\n\n👉 Conheça o catálogo digital da GNZ01: {whatsapp}",
+     "cta": "Conheça nossas soluções",
+     "hashtags": [
+      "#catalogodigital",
+      "#vendaspelowhatsapp",
+      "#lojadeRoupas",
+      "#lojistas"
+     ],
+     "palavras_chave": [
+      "catálogo digital",
+      "catálogo online WhatsApp",
+      "vender pelo WhatsApp"
+     ],
+     "direcao_visual": "Versão clara, título em preto, três benefícios. Visual limpo de vitrine."
+    }
+   ],
+   "stories": [
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "BOM DIA",
+     "titulo": "Domingo também é dia de pensar no negócio.",
+     "texto": "Qual tarefa do seu atendimento você mais queria automatizar?",
+     "claro": false,
+     "cta": "WhatsApp {whatsapp}"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "RESPONDA NO DIRECT",
+     "titulo": "Como seus clientes marcam horário hoje?",
+     "texto": "Mensagem, ligação ou caderno? Conta aqui que eu te mostro uma alternativa.",
+     "cta": "Responda no Direct",
+     "claro": false
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "agenda",
+     "pilar": "demonstracao",
+     "titulo": "Avaliação marcada sem trocar mensagens.",
+     "subtitulo": "Veja como fica a agenda online de uma clínica de estética.",
+     "sigla": "SC",
+     "nome": "Sua Clínica de Estética",
+     "chips": [
+      "Facial",
+      "Corporal",
+      "Avaliação"
+     ],
+     "notif": [
+      "Novo agendamento",
+      "Limpeza de pele · Sex 14:30"
+     ],
+     "botao": "Confirmar · Sex 14:30"
+    },
+    {
+     "tipo": "texto",
+     "pilar": "vendas",
+     "rotulo": "ORÇAMENTO",
+     "titulo": "Comece a semana com o site pronto para ser planejado.",
+     "texto": "Uma conversa rápida já define o que o seu negócio precisa.",
+     "claro": true,
+     "cta": "WhatsApp {whatsapp}"
+    }
+   ]
+  },
+  {
+   "posts": [
+    {
+     "tipo": "post",
+     "tema": "paginas",
+     "pilar": "educacao",
+     "layout": "padrao",
+     "nicho": "Profissionais autônomos e liberais",
+     "objetivo": "Mostrar que a indicação se perde sem presença digital.",
+     "publico_alvo": "Advogados, psicólogos, dentistas, arquitetos, consultores",
+     "tecnica": "Storytelling curto + PAS",
+     "titulo": "Profissional sem site perde indicação.",
+     "subtitulo": "A pessoa recebe seu nome, pesquisa e não encontra nada.",
+     "itens": [
+      "Sua formação e especialidade",
+      "Seus serviços explicados",
+      "Contato fácil e direto"
+     ],
+     "legenda": "Alguém indica você. A pessoa anota seu nome, pesquisa no Google... e encontra pouco ou nada. 🔎\n\nNesse momento, a indicação perde força. A confiança que veio do amigo não encontra confirmação.\n\nUma página profissional mostra sua formação, sua especialidade, como você trabalha e como agendar. Ela transforma indicação em cliente.\n\n👉 Para advogados, psicólogos, dentistas, nutricionistas, arquitetos e consultores: {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#paginaprofissional",
+      "#profissionalliberal",
+      "#psicologos",
+      "#advogados"
+     ],
+     "palavras_chave": [
+      "site para profissional liberal",
+      "página profissional",
+      "site para psicólogo"
+     ],
+     "direcao_visual": "Padrão escuro, sóbrio, título forte. Tom mais institucional."
+    },
+    {
+     "tipo": "carrossel",
+     "tema": "cardapio",
+     "pilar": "demonstracao",
+     "nicho": "Restaurantes, bares e pizzarias",
+     "objetivo": "Mostrar o fluxo do QR Code ao pedido e gerar pedidos de demonstração.",
+     "publico_alvo": "Donos de restaurante com atendimento em mesa e delivery",
+     "tecnica": "Passo a passo + demonstração",
+     "titulo": "Do QR Code ao pedido no WhatsApp, em 4 passos",
+     "subtitulo": "Como funciona o cardápio digital na prática.",
+     "slides": [
+      {
+       "titulo": "O cliente aponta a câmera",
+       "texto": "QR Code na mesa, no balcão ou na embalagem. Sem baixar aplicativo."
+      },
+      {
+       "titulo": "Vê o cardápio completo",
+       "texto": "Categorias, fotos, descrição e preço de cada item, sempre atualizados."
+      },
+      {
+       "titulo": "Monta o pedido",
+       "texto": "Escolhe itens, adicionais e observações. O total aparece na hora."
+      },
+      {
+       "titulo": "Envia pronto no WhatsApp",
+       "texto": "Você recebe o pedido organizado, sem áudio confuso e sem erro de anotação."
+      }
+     ],
+     "cta_final": "Quer ver o seu cardápio assim?",
+     "legenda": "Como funciona um cardápio digital na prática? Arrasta para o lado. 👉\n\nDo QR Code na mesa até o pedido chegando pronto no seu WhatsApp, em 4 passos simples para o cliente e muito mais organização para a sua cozinha.\n\nFunciona para atendimento na mesa, retirada e delivery.\n\n👉 Solicite uma demonstração com o seu cardápio: {whatsapp}",
+     "cta": "Solicite uma demonstração",
+     "hashtags": [
+      "#cardapiodigital",
+      "#qrcode",
+      "#restaurantes",
+      "#bar"
+     ],
+     "palavras_chave": [
+      "cardápio QR Code",
+      "como funciona cardápio digital",
+      "pedido no WhatsApp"
+     ],
+     "direcao_visual": "Carrossel escuro, um passo por slide, números grandes. Último slide com botão off-white."
+    },
+    {
+     "tipo": "post",
+     "tema": "sites",
+     "pilar": "autoridade",
+     "layout": "pergunta",
+     "claro": true,
+     "nicho": "Geral",
+     "objetivo": "Posicionar o design premium como fator de confiança e valor.",
+     "publico_alvo": "Empresas que querem se diferenciar",
+     "tecnica": "Gatilho de autoridade",
+     "titulo": "Design premium não é luxo. É confiança.",
+     "subtitulo": "O cliente julga sua empresa em segundos. O visual fala antes de você.",
+     "cta_imagem": "Conheça a GNZ01",
+     "legenda": "Antes de ler uma palavra, o visitante já formou uma impressão. ✨\n\nUm site com visual descuidado passa a sensação de um serviço descuidado, mesmo quando o trabalho é excelente. Um visual limpo, organizado e profissional faz o contrário: transmite segurança e valoriza o seu preço.\n\nÉ por isso que cada projeto da GNZ01 tem estética minimalista, tipografia cuidada e foco total na experiência do cliente.\n\n👉 Conheça nossas soluções: {whatsapp}",
+     "cta": "Conheça nossas soluções",
+     "hashtags": [
+      "#webdesign",
+      "#designpremium",
+      "#criacaodesites",
+      "#branding"
+     ],
+     "palavras_chave": [
+      "design de site profissional",
+      "site bonito",
+      "valorizar a marca"
+     ],
+     "direcao_visual": "Layout pergunta em versão clara, título centralizado grande, quase sem elementos. Elegância pelo vazio."
+    },
+    {
+     "tipo": "post",
+     "tema": "agenda",
+     "pilar": "conexao",
+     "layout": "pergunta",
+     "nicho": "Barbearias, salões e manicures",
+     "objetivo": "Gerar identificação com a rotina de segunda-feira.",
+     "publico_alvo": "Profissionais da beleza",
+     "tecnica": "Pergunta de identificação",
+     "titulo": "Segunda-feira e o WhatsApp já está lotado?",
+     "subtitulo": "Conta pra gente como foi sua manhã.",
+     "cta_imagem": "Comente aqui",
+     "legenda": "Segunda de manhã: café, abrir o salão e... 47 mensagens de \"tem horário essa semana?\" ☕📱\n\nSe isso é familiar, comenta aqui com um 🙋 que eu te mando como funciona a agenda online.\n\nCom ela, a semana já começa com horários preenchidos pelos próprios clientes, sem você precisar responder um por um.\n\n💬 Ou fale direto: {whatsapp}",
+     "cta": "Comente para receber",
+     "hashtags": [
+      "#agendaonline",
+      "#barbeiro",
+      "#cabeleireira",
+      "#rotinadesalao"
+     ],
+     "palavras_chave": [
+      "agenda para barbearia",
+      "marcar horário pelo WhatsApp",
+      "agenda online"
+     ],
+     "direcao_visual": "Layout pergunta escuro, título grande centralizado, grade de pontos."
+    },
+    {
+     "tipo": "post",
+     "tema": "sites",
+     "pilar": "educacao",
+     "layout": "padrao",
+     "nicho": "Geral",
+     "objetivo": "Educar sobre domínio próprio e credibilidade.",
+     "publico_alvo": "Negócios usando links genéricos ou gratuitos",
+     "tecnica": "Explicação simples + autoridade",
+     "titulo": "seunegocio.com.br passa outra imagem.",
+     "subtitulo": "Domínio próprio é o endereço oficial da sua empresa na internet.",
+     "itens": [
+      "Mais credibilidade",
+      "Fácil de lembrar e divulgar",
+      "E-mail profissional com o seu nome"
+     ],
+     "legenda": "Compare: \"meusite.plataformagratuita.com/loja123\" ou \"seunegocio.com.br\". Qual passa mais confiança? 🤔\n\nO domínio próprio é o endereço oficial da sua empresa na internet. Ele é fácil de lembrar, fica bonito no cartão, na fachada e no Instagram, e ainda permite ter e-mail profissional.\n\nNa GNZ01, ajudamos você a registrar e configurar tudo.\n\n👉 Quer o seu endereço oficial na internet? {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#dominio",
+      "#criacaodesites",
+      "#emailprofissional",
+      "#siteprofissional"
+     ],
+     "palavras_chave": [
+      "domínio próprio",
+      "registrar domínio .com.br",
+      "e-mail profissional"
+     ],
+     "direcao_visual": "Padrão escuro, título com o endereço em destaque, três benefícios."
+    }
+   ],
+   "stories": [
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "BASTIDORES",
+     "titulo": "Segunda: cada tela testada no celular.",
+     "texto": "Mais da metade dos acessos chega pelo celular. Por isso testamos ali primeiro.",
+     "claro": true,
+     "cta": "WhatsApp {whatsapp}"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "RESPONDA NO DIRECT",
+     "titulo": "Qual é o seu ramo?",
+     "texto": "Me diga no Direct e eu te mando um exemplo de site para o seu segmento.",
+     "cta": "Responda no Direct",
+     "claro": true
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "catalogo",
+     "pilar": "demonstracao",
+     "titulo": "Seus doces em um catálogo bonito.",
+     "subtitulo": "Veja como fica o catálogo digital de uma confeitaria.",
+     "sigla": "SC",
+     "nome": "Sua Confeitaria",
+     "chips": [
+      "Bolos",
+      "Doces",
+      "Kits"
+     ],
+     "produtos": [
+      [
+       "Bolo Red Velvet",
+       "R$ 129,90"
+      ],
+      [
+       "Caixa 12 Brigadeiros",
+       "R$ 39,90"
+      ],
+      [
+       "Torta de Limão",
+       "R$ 89,90"
+      ],
+      [
+       "Kit Festa",
+       "R$ 159,90"
+      ]
+     ],
+     "notif": [
+      "Novo pedido no WhatsApp",
+      "Bolo + brigadeiros · R$ 169,80"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "pilar": "vendas",
+     "rotulo": "ORÇAMENTO",
+     "titulo": "Profissional liberal também precisa de site.",
+     "texto": "Dentista, esteticista, advogado ou consultor: uma página que transmite confiança.",
+     "claro": true,
+     "cta": "WhatsApp {whatsapp}"
+    }
+   ]
+  },
+  {
+   "posts": [
+    {
+     "tipo": "post",
+     "tema": "agenda",
+     "pilar": "demonstracao",
+     "vitrine": {
+      "tipo": "agenda",
+      "titulo": "A agenda da barbearia, aberta 24h.",
+      "subtitulo": "Veja como fica a agenda online de uma barbearia.",
+      "sigla": "SB",
+      "nome": "Sua Barbearia",
+      "chips": [
+       "Corte",
+       "Corte + barba",
+       "Barba"
+      ],
+      "notif": [
+       "Novo agendamento",
+       "Corte + barba · Sex 14:30 · com Rafael"
+      ],
+      "botao": "Confirmar · Sex 14:30"
+     },
+     "nicho": "Barbearias",
+     "objetivo": "Mostrar a agenda funcionando para gerar desejo em barbeiros.",
+     "publico_alvo": "Donos de barbearia",
+     "tecnica": "Demonstração",
+     "titulo": "Veja como fica a agenda online de uma barbearia",
+     "legenda": "Cliente quer cortar sexta às 14h30 com o mesmo barbeiro de sempre. Ele abre o link, escolhe o serviço, o profissional e o horário. Pronto. 💈\n\nVocê recebe o aviso, ele recebe o lembrete, e ninguém precisou trocar mensagem.\n\nEsta é uma demonstração de como fica. A da sua barbearia sai com o seu nome, seus serviços, seus preços e sua equipe.\n\n👉 Solicite uma demonstração: {whatsapp}",
+     "cta": "Solicite uma demonstração",
+     "hashtags": [
+      "#barbearia",
+      "#barbershop",
+      "#agendaonline",
+      "#barbeiro"
+     ],
+     "palavras_chave": [
+      "agenda online barbearia",
+      "agendamento barbearia",
+      "sistema para barbearia"
+     ],
+     "direcao_visual": "Mockup de celular com a agenda, notificação de novo agendamento, nota de imagem ilustrativa."
+    },
+    {
+     "tipo": "carrossel",
+     "tema": "sites",
+     "pilar": "autoridade",
+     "nicho": "Geral",
+     "objetivo": "Mostrar o método da GNZ01 e diferenciar de sites genéricos.",
+     "publico_alvo": "Quem está comparando fornecedores de site",
+     "tecnica": "Gatilho de autoridade + processo",
+     "titulo": "Como pensamos um site que gera contato",
+     "subtitulo": "Bonito é o mínimo. Ele precisa funcionar.",
+     "slides": [
+      {
+       "titulo": "Objetivo primeiro",
+       "texto": "Antes do visual, definimos o que o site precisa gerar: orçamento, agendamento ou pedido."
+      },
+      {
+       "titulo": "Estrutura clara",
+       "texto": "O visitante entende em segundos o que você faz e para quem."
+      },
+      {
+       "titulo": "Texto que conversa",
+       "texto": "Escrevemos pensando nas dúvidas reais do seu cliente."
+      },
+      {
+       "titulo": "Celular em primeiro lugar",
+       "texto": "Tudo é desenhado para a tela pequena e depois adaptado."
+      },
+      {
+       "titulo": "Caminho até você",
+       "texto": "WhatsApp e contato sempre a um toque, em todas as páginas."
+      },
+      {
+       "titulo": "Pronto para ser encontrado",
+       "texto": "Estrutura otimizada para o Google e para a sua região."
+      }
+     ],
+     "cta_final": "Quer um site pensado assim?",
+     "legenda": "Um site bonito que não gera contato é só um cartão de visitas caro. 💼\n\nArrasta para o lado e veja como a GNZ01 pensa cada projeto: do objetivo à última linha de texto, tudo para levar o visitante até você.\n\n👉 Solicite um orçamento personalizado: {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#criacaodesites",
+      "#webdesigner",
+      "#estrategiadigital",
+      "#sitesparaempresas"
+     ],
+     "palavras_chave": [
+      "site que gera clientes",
+      "como fazer um site profissional",
+      "agência de sites"
+     ],
+     "direcao_visual": "Carrossel escuro, títulos fortes e frases curtas, numeração off-white."
+    },
+    {
+     "tipo": "post",
+     "tema": "cardapio",
+     "pilar": "demonstracao",
+     "layout": "padrao",
+     "claro": true,
+     "nicho": "Delivery e lanchonetes",
+     "objetivo": "Mostrar o benefício de ter um canal próprio de pedidos.",
+     "publico_alvo": "Deliveries que dependem de aplicativos",
+     "tecnica": "Comparação + benefício",
+     "titulo": "Pedido direto no seu WhatsApp. Sem intermediário.",
+     "subtitulo": "Um canal de pedidos que é seu.",
+     "itens": [
+      "O contato do cliente fica com você",
+      "Divulgue o link onde quiser",
+      "Use junto com os aplicativos"
+     ],
+     "legenda": "Os aplicativos de delivery ajudam a ser encontrado. Mas o cliente que já te conhece pode pedir direto com você. 🛵\n\nCom um cardápio digital próprio, o pedido chega no seu WhatsApp e o contato do cliente fica com você, para fidelizar e avisar de promoções.\n\nA estratégia que funciona: app para ser descoberto, canal próprio para fidelizar.\n\n👉 Veja como funciona: {whatsapp}",
+     "cta": "Veja como funciona",
+     "hashtags": [
+      "#cardapiodigital",
+      "#delivery",
+      "#pedidopelowhatsapp",
+      "#hamburgueria"
+     ],
+     "palavras_chave": [
+      "delivery próprio",
+      "pedido pelo WhatsApp",
+      "cardápio digital delivery"
+     ],
+     "direcao_visual": "Versão clara, título forte, três benefícios."
+    },
+    {
+     "tipo": "post",
+     "tema": "landing",
+     "pilar": "vendas",
+     "layout": "pergunta",
+     "nicho": "Profissionais que anunciam",
+     "objetivo": "Gerar pedidos de landing page de quem pensa em anunciar.",
+     "publico_alvo": "Quem investe ou vai investir em anúncios",
+     "tecnica": "Pergunta + oferta",
+     "titulo": "Vai anunciar? Antes, tenha onde receber o cliente.",
+     "subtitulo": "Uma landing page prepara o caminho entre o anúncio e o seu WhatsApp.",
+     "cta_imagem": "Fale com a GNZ01",
+     "legenda": "Anunciar levando o cliente para um perfil bagunçado ou para uma conversa sem contexto desperdiça parte do investimento. 💸\n\nA landing page recebe quem clicou no anúncio, explica a oferta, responde as objeções e leva para a ação certa.\n\nSe você vai anunciar nas próximas semanas, este é o momento de preparar a página.\n\n👉 Solicite um orçamento personalizado: {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#landingpage",
+      "#trafegopago",
+      "#anuncios",
+      "#captacaodeclientes"
+     ],
+     "palavras_chave": [
+      "landing page para anúncio",
+      "página para tráfego pago",
+      "landing page"
+     ],
+     "direcao_visual": "Layout pergunta escuro, título grande, grade de pontos."
+    },
+    {
+     "tipo": "post",
+     "tema": "marca",
+     "pilar": "conexao",
+     "layout": "pergunta",
+     "claro": true,
+     "nicho": "Geral",
+     "objetivo": "Gerar comentários e entender as dores do público.",
+     "publico_alvo": "Seguidores",
+     "tecnica": "Pergunta aberta",
+     "titulo": "Qual é o maior desafio do seu negócio hoje?",
+     "subtitulo": "Atender, vender, organizar ou ser encontrado?",
+     "cta_imagem": "Comente aqui",
+     "legenda": "Pergunta sincera: qual é o maior desafio do seu negócio hoje? 🤔\n\n1️⃣ Ser encontrado por novos clientes\n2️⃣ Dar conta das mensagens\n3️⃣ Organizar pedidos ou agenda\n4️⃣ Passar uma imagem mais profissional\n\nComenta o número. As respostas vão guiar os próximos conteúdos daqui. 👇",
+     "cta": "Comente",
+     "hashtags": [
+      "#empreendedorismo",
+      "#pequenosnegocios",
+      "#gnz01",
+      "#gestao"
+     ],
+     "palavras_chave": [
+      "desafios do pequeno negócio",
+      "empreender",
+      "soluções digitais"
+     ],
+     "direcao_visual": "Layout pergunta em versão clara, título centralizado."
+    }
+   ],
+   "stories": [
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "BOM DIA",
+     "titulo": "Simples para o cliente. Organizado para você.",
+     "texto": "É assim que pensamos cada site, cardápio e agenda que entregamos.",
+     "claro": false,
+     "cta": "WhatsApp {whatsapp}"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "RESPONDA NO DIRECT",
+     "titulo": "O que mais toma seu tempo no atendimento?",
+     "texto": "Responder dúvidas, anotar pedidos ou organizar horários?",
+     "cta": "Responda no Direct",
+     "claro": false
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "agenda",
+     "pilar": "demonstracao",
+     "titulo": "Consulta agendada a qualquer hora.",
+     "subtitulo": "Veja como fica a agenda online de uma clínica odontológica.",
+     "sigla": "SO",
+     "nome": "Sua Clínica Odontológica",
+     "chips": [
+      "Avaliação",
+      "Limpeza",
+      "Clareamento"
+     ],
+     "notif": [
+      "Novo agendamento",
+      "Avaliação · Sex 14:30 · lembrete enviado"
+     ],
+     "botao": "Confirmar · Sex 14:30"
+    },
+    {
+     "tipo": "texto",
+     "pilar": "vendas",
+     "rotulo": "ORÇAMENTO",
+     "titulo": "Pedidos organizados sem anotar à mão.",
+     "texto": "Cardápio digital com pedido direto no WhatsApp. Peça uma demonstração.",
+     "claro": true,
+     "cta": "WhatsApp {whatsapp}"
+    }
+   ]
+  },
+  {
+   "posts": [
+    {
+     "tipo": "post",
+     "tema": "sites",
+     "pilar": "educacao",
+     "layout": "pergunta",
+     "nicho": "Pequenos e médios comerciantes",
+     "objetivo": "Fazer o dono do negócio pensar no custo de oportunidade.",
+     "publico_alvo": "Quem acha site caro",
+     "tecnica": "Quebra de objeção",
+     "titulo": "Quanto custa NÃO ter um site?",
+     "subtitulo": "Pense em quantas pessoas procuram o seu serviço todo mês.",
+     "cta_imagem": "Fale com a GNZ01",
+     "legenda": "A pergunta costuma ser \"quanto custa um site?\". A pergunta certa talvez seja outra. 💭\n\nQuantas pessoas procuram o seu serviço na sua cidade todo mês? Quantas delas encontram o concorrente primeiro? Quanto vale um cliente novo para você?\n\nUm site é um investimento que trabalha todos os dias. Poucos clientes novos já fazem diferença no fim do ano.\n\n👉 Solicite um orçamento personalizado e compare: {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#criacaodesites",
+      "#investimento",
+      "#empreendedorismo",
+      "#sitesparaempresas"
+     ],
+     "palavras_chave": [
+      "quanto custa um site",
+      "vale a pena ter site",
+      "site para empresa"
+     ],
+     "direcao_visual": "Layout pergunta escuro, 'NÃO' em caixa alta no título."
+    },
+    {
+     "tipo": "carrossel",
+     "tema": "sites",
+     "pilar": "educacao",
+     "claro": true,
+     "nicho": "Geral",
+     "objetivo": "Ajudar o cliente a escolher o formato certo e reduzir dúvidas na venda.",
+     "publico_alvo": "Quem vai contratar e não sabe o que precisa",
+     "tecnica": "Educação + direcionamento",
+     "titulo": "Landing page, site ou catálogo: qual é o certo para você?",
+     "subtitulo": "Entenda antes de contratar.",
+     "slides": [
+      {
+       "titulo": "Landing page",
+       "texto": "Uma página, um objetivo. Ideal para anúncios, lançamentos e captação."
+      },
+      {
+       "titulo": "Site institucional",
+       "texto": "Várias páginas: sobre, serviços, portfólio e contato. Ideal para gerar autoridade."
+      },
+      {
+       "titulo": "Página profissional",
+       "texto": "Para autônomos e liberais: formação, serviços e agendamento em um só lugar."
+      },
+      {
+       "titulo": "Catálogo digital",
+       "texto": "Produtos com foto e preço, e pedido direto no WhatsApp."
+      },
+      {
+       "titulo": "Ainda em dúvida?",
+       "texto": "Conte sobre o seu negócio e a GNZ01 indica o formato ideal."
+      }
+     ],
+     "cta_final": "Vamos descobrir o formato ideal?",
+     "legenda": "Nem todo negócio precisa do mesmo tipo de página. Escolher certo economiza tempo e dinheiro. 🧭\n\nArrasta para o lado e veja a diferença entre landing page, site institucional, página profissional e catálogo digital.\n\n💾 Salve para consultar quando for contratar.\n👉 Não sabe qual é o seu? Conte sobre o seu negócio: {whatsapp}",
+     "cta": "Envie uma mensagem",
+     "hashtags": [
+      "#landingpage",
+      "#siteinstitucional",
+      "#catalogodigital",
+      "#criacaodesites"
+     ],
+     "palavras_chave": [
+      "diferença landing page e site",
+      "tipos de site",
+      "qual site escolher"
+     ],
+     "direcao_visual": "Carrossel claro, um formato por slide, títulos pretos fortes."
+    },
+    {
+     "tipo": "post",
+     "tema": "catalogo",
+     "pilar": "demonstracao",
+     "vitrine": {
+      "tipo": "catalogo",
+      "titulo": "A loja inteira em um link.",
+      "subtitulo": "Veja como fica o catálogo digital de uma loja de roupas.",
+      "sigla": "SL",
+      "nome": "Sua Loja",
+      "chips": [
+       "Novidades",
+       "Vestidos",
+       "Blusas"
+      ],
+      "notif": [
+       "Novo pedido no WhatsApp",
+       "2 itens · R$ 309,80"
+      ]
+     },
+     "nicho": "Lojas de roupas e comerciantes",
+     "objetivo": "Mostrar o catálogo funcionando para lojistas.",
+     "publico_alvo": "Lojistas que vendem pelo Instagram e WhatsApp",
+     "tecnica": "Demonstração",
+     "titulo": "Veja como fica o catálogo digital de uma loja de roupas",
+     "legenda": "Novidades, vestidos, blusas, cada peça com foto e preço. A cliente escolhe, monta o pedido e envia direto no seu WhatsApp. 🛍️\n\nNada de mandar foto por foto ou responder \"quanto custa?\" vinte vezes por dia.\n\nEsta é uma demonstração. O seu catálogo sai com as suas peças, suas fotos e a identidade da sua loja.\n\n👉 Solicite uma demonstração: {whatsapp}",
+     "cta": "Solicite uma demonstração",
+     "hashtags": [
+      "#catalogodigital",
+      "#lojadeRoupas",
+      "#modafeminina",
+      "#vendaspelowhatsapp"
+     ],
+     "palavras_chave": [
+      "catálogo digital loja de roupas",
+      "catálogo online",
+      "vender roupa pelo WhatsApp"
+     ],
+     "direcao_visual": "Mockup de celular com grade de produtos em tons neutros, notificação de pedido."
+    },
+    {
+     "tipo": "post",
+     "tema": "agenda",
+     "pilar": "autoridade",
+     "layout": "numero",
+     "numero": "24h",
+     "claro": true,
+     "nicho": "Clínicas de estética e odontológicas",
+     "objetivo": "Posicionar a agenda online como padrão de atendimento moderno.",
+     "publico_alvo": "Clínicas e consultórios",
+     "tecnica": "Benefício + autoridade",
+     "titulo": "Sua agenda aberta mesmo com a clínica fechada.",
+     "subtitulo": "O paciente agenda quando lembra, e a recepção ganha tempo.",
+     "legenda": "Muitos pacientes lembram de marcar consulta à noite ou no fim de semana, justamente quando a recepção não está atendendo. 🌙\n\nCom a agenda online, ele escolhe o profissional, o procedimento e o horário disponível na hora, e recebe lembrete antes da consulta.\n\nPara clínicas odontológicas, de estética e consultórios que querem um atendimento mais moderno.\n\n👉 Solicite uma demonstração: {whatsapp}",
+     "cta": "Solicite uma demonstração",
+     "hashtags": [
+      "#clinicadeestetica",
+      "#odontologia",
+      "#agendaonline",
+      "#consultorio"
+     ],
+     "palavras_chave": [
+      "agenda online clínica",
+      "agendamento de consultas",
+      "sistema para clínica"
+     ],
+     "direcao_visual": "Layout número em versão clara, '24h' gigante em preto, título abaixo."
+    },
+    {
+     "tipo": "post",
+     "tema": "cardapio",
+     "pilar": "conexao",
+     "layout": "pergunta",
+     "nicho": "Restaurantes e pizzarias",
+     "objetivo": "Gerar conversa com donos de restaurante.",
+     "publico_alvo": "Donos de restaurante",
+     "tecnica": "Pergunta de identificação",
+     "titulo": "Qual dia a sua cozinha mais sofre com pedidos?",
+     "subtitulo": "Sexta, sábado ou domingo?",
+     "cta_imagem": "Comente aqui",
+     "legenda": "Todo restaurante tem aquele dia em que o telefone não para, o WhatsApp lota e alguém anota um pedido errado. 🔥\n\nQual é o seu? Sexta, sábado ou domingo? Comenta aqui. 👇\n\nE se quiser que esse dia seja mais organizado, o cardápio digital ajuda: {whatsapp}",
+     "cta": "Comente",
+     "hashtags": [
+      "#restaurante",
+      "#donoderestaurante",
+      "#cardapiodigital",
+      "#cozinhaprofissional"
+     ],
+     "palavras_chave": [
+      "organizar pedidos restaurante",
+      "cardápio digital",
+      "delivery"
+     ],
+     "direcao_visual": "Layout pergunta escuro, título grande."
+    }
+   ],
+   "stories": [
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "BASTIDORES",
+     "titulo": "Hoje é dia de ajuste fino.",
+     "texto": "Fonte, espaço, cor e botão. O que parece detalhe é o que passa confiança.",
+     "claro": true,
+     "cta": "WhatsApp {whatsapp}"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "RESPONDA NO DIRECT",
+     "titulo": "Você já perdeu cliente por demora na resposta?",
+     "texto": "Uma página que informa sozinha ajuda a não perder mais.",
+     "cta": "Responda no Direct",
+     "claro": true
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "cardapio",
+     "pilar": "demonstracao",
+     "titulo": "O almoço pedido direto no WhatsApp.",
+     "subtitulo": "Veja como fica o cardápio digital de um restaurante.",
+     "sigla": "SR",
+     "nome": "Seu Restaurante",
+     "chips": [
+      "Pratos",
+      "Marmitas",
+      "Bebidas"
+     ],
+     "itens": [
+      [
+       "Executivo do Dia",
+       "Arroz, feijão, filé e salada",
+       "R$ 29,90"
+      ],
+      [
+       "Marmita Fit",
+       "Frango grelhado e legumes",
+       "R$ 26,90"
+      ],
+      [
+       "Suco Natural",
+       "Laranja ou limão 500ml",
+       "R$ 9,90"
+      ]
+     ],
+     "total": "R$ 66,70",
+     "notif": [
+      "Novo pedido no WhatsApp",
+      "3 itens · R$ 66,70 · retirada"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "pilar": "vendas",
+     "rotulo": "ORÇAMENTO",
+     "titulo": "Agenda aberta 24h para seus clientes.",
+     "texto": "Eles marcam sozinhos, você recebe tudo organizado.",
+     "claro": true,
+     "cta": "WhatsApp {whatsapp}"
+    }
+   ]
+  },
+  {
+   "posts": [
+    {
+     "tipo": "post",
+     "tema": "marca",
+     "pilar": "conexao",
+     "layout": "padrao",
+     "claro": true,
+     "nicho": "Geral",
+     "objetivo": "Mostrar o processo e gerar confiança com bastidores.",
+     "publico_alvo": "Potenciais clientes avaliando a GNZ01",
+     "tecnica": "Storytelling de bastidor",
+     "titulo": "Bastidores: como nasce um projeto na GNZ01",
+     "subtitulo": "Do primeiro contato ao projeto no ar.",
+     "itens": [
+      "Conversa para entender o negócio",
+      "Estrutura, textos e visual",
+      "Ajustes com você e entrega"
+     ],
+     "legenda": "Já se perguntou como um projeto sai do zero até estar no ar? 🛠️\n\n1️⃣ Começa com uma conversa: quem é seu cliente, o que você vende, o que precisa melhorar.\n2️⃣ Definimos a estrutura e os textos pensando nas dúvidas reais de quem compra de você.\n3️⃣ Criamos o visual com a identidade do seu negócio.\n4️⃣ Você revisa, ajustamos juntos e colocamos no ar.\n\nSimples para você, cuidadoso do nosso lado.\n\n💬 Tem um projeto em mente? Me conta no Direct ou no WhatsApp: {whatsapp}",
+     "cta": "Envie uma mensagem pelo Direct",
+     "hashtags": [
+      "#bastidores",
+      "#gnz01",
+      "#webdesign",
+      "#processocriativo"
+     ],
+     "palavras_chave": [
+      "como é feito um site",
+      "processo de criação de site",
+      "GNZ01"
+     ],
+     "direcao_visual": "Versão clara, título de bastidor, três etapas com check."
+    },
+    {
+     "tipo": "carrossel",
+     "tema": "paginas",
+     "pilar": "demonstracao",
+     "nicho": "Clínicas odontológicas",
+     "objetivo": "Conteúdo de nicho para dentistas, mostrando o que uma página deve ter.",
+     "publico_alvo": "Dentistas e clínicas odontológicas",
+     "tecnica": "Nicho + checklist",
+     "titulo": "O que a página do seu consultório odontológico precisa mostrar",
+     "subtitulo": "Para o paciente confiar antes da primeira consulta.",
+     "slides": [
+      {
+       "titulo": "Quem é você",
+       "texto": "Formação, CRO e especialidades. O paciente quer saber com quem vai tratar."
+      },
+      {
+       "titulo": "Tratamentos explicados",
+       "texto": "Clareamento, implantes, ortodontia. Linguagem simples, sem jargão."
+      },
+      {
+       "titulo": "O consultório",
+       "texto": "Fotos reais do espaço transmitem cuidado e segurança."
+      },
+      {
+       "titulo": "Como agendar",
+       "texto": "Agenda online ou botão de WhatsApp, sem o paciente precisar procurar."
+      },
+      {
+       "titulo": "Onde fica",
+       "texto": "Endereço, mapa, estacionamento e horários de atendimento."
+      }
+     ],
+     "cta_final": "Quer a página do seu consultório assim?",
+     "legenda": "Antes de marcar a primeira consulta, o paciente pesquisa. E decide se confia em você pelo que encontra. 🦷\n\nArrasta para o lado e veja o que a página do seu consultório precisa mostrar para transformar pesquisa em agendamento.\n\nPara dentistas e clínicas odontológicas que querem uma presença à altura do seu trabalho.\n\n👉 Solicite um orçamento personalizado: {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#dentista",
+      "#odontologia",
+      "#clinicaodontologica",
+      "#marketingodontologico"
+     ],
+     "palavras_chave": [
+      "site para dentista",
+      "página para consultório odontológico",
+      "marketing odontológico"
+     ],
+     "direcao_visual": "Carrossel escuro sóbrio, tom institucional, numeração off-white."
+    },
+    {
+     "tipo": "post",
+     "tema": "sites",
+     "pilar": "demonstracao",
+     "layout": "padrao",
+     "nicho": "Geral",
+     "objetivo": "Dar um teste prático que revela problemas no site atual.",
+     "publico_alvo": "Quem já tem site antigo",
+     "tecnica": "Teste prático + curiosidade",
+     "titulo": "Seu site passa no teste do celular?",
+     "subtitulo": "Abra agora no seu celular e confira.",
+     "itens": [
+      "Carregou rápido?",
+      "Dá para ler sem dar zoom?",
+      "Achou o WhatsApp em 1 toque?"
+     ],
+     "legenda": "Faça agora: abra o seu site no celular, como se fosse um cliente. 📱\n\n✔️ Carregou rápido?\n✔️ Dá para ler sem dar zoom?\n✔️ O botão de WhatsApp aparece fácil?\n\nSe alguma resposta foi \"não\", o seu site pode estar perdendo visitantes antes mesmo de eles conhecerem o seu trabalho.\n\n👉 Quer uma avaliação do seu site atual? Me manda o link no Direct ou no WhatsApp: {whatsapp}",
+     "cta": "Envie seu link pelo Direct",
+     "hashtags": [
+      "#siteresponsivo",
+      "#criacaodesites",
+      "#experienciadousuario",
+      "#webdesign"
+     ],
+     "palavras_chave": [
+      "site no celular",
+      "site responsivo",
+      "site lento"
+     ],
+     "direcao_visual": "Padrão escuro, três perguntas como itens de checklist."
+    },
+    {
+     "tipo": "post",
+     "tema": "solucoes",
+     "pilar": "autoridade",
+     "layout": "padrao",
+     "claro": true,
+     "nicho": "Empresas com processos específicos",
+     "objetivo": "Apresentar as soluções personalizadas.",
+     "publico_alvo": "Empresas que não encontram solução pronta",
+     "tecnica": "Autoridade + solução sob medida",
+     "titulo": "Quando o pronto não serve, a gente cria sob medida.",
+     "subtitulo": "Soluções digitais pensadas para o jeito que o seu negócio funciona.",
+     "itens": [
+      "Formulários e orçamentos online",
+      "Páginas de serviço por região",
+      "Integrações com o seu WhatsApp"
+     ],
+     "legenda": "Nem todo negócio cabe em uma ferramenta pronta. Às vezes você precisa de algo que funcione do seu jeito. 🧩\n\nA GNZ01 desenvolve soluções digitais personalizadas: formulários de orçamento, páginas específicas para cada serviço ou região, fluxos integrados ao WhatsApp e o que mais o seu processo pedir.\n\nVocê explica como trabalha, e nós desenhamos a solução.\n\n👉 Conte o seu desafio: {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#solucoesdigitais",
+      "#transformacaodigital",
+      "#automacao",
+      "#gnz01"
+     ],
+     "palavras_chave": [
+      "solução digital personalizada",
+      "sistema sob medida",
+      "automação para empresas"
+     ],
+     "direcao_visual": "Versão clara, título longo e elegante, três exemplos de solução."
+    },
+    {
+     "tipo": "post",
+     "tema": "sites",
+     "pilar": "vendas",
+     "layout": "numero",
+     "numero": "1º",
+     "nicho": "Geral",
+     "objetivo": "Fechar a semana com convite direto para orçamento.",
+     "publico_alvo": "Quem acompanhou a semana",
+     "tecnica": "Oferta + CTA direto",
+     "titulo": "O primeiro passo é uma conversa.",
+     "subtitulo": "Conte sobre o seu negócio e receba um orçamento sob medida.",
+     "legenda": "Esta semana falamos de sites, cardápios, agendas, catálogos e landing pages. 📌\n\nSe algum desses conteúdos fez você pensar no seu negócio, o próximo passo é simples: uma conversa.\n\nVocê conta como funciona o seu atendimento hoje e a GNZ01 mostra o que pode melhorar, com orçamento personalizado e sem compromisso.\n\n👉 Chame no WhatsApp: {whatsapp}",
+     "cta": "Solicite um orçamento personalizado",
+     "hashtags": [
+      "#criacaodesites",
+      "#orcamentodesite",
+      "#gnz01",
+      "#solucoesdigitais"
+     ],
+     "palavras_chave": [
+      "orçamento de site",
+      "GNZ01",
+      "contratar site"
+     ],
+     "direcao_visual": "Layout número escuro, '1º' gigante em off-white, título curto."
+    }
+   ],
+   "stories": [
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "BOM DIA",
+     "titulo": "Uma semana de conteúdo. Uma pergunta para você.",
+     "texto": "O que você quer ver mais por aqui? Responda esse story.",
+     "claro": false,
+     "cta": "Responda esse story"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "texto",
+     "pilar": "conexao",
+     "rotulo": "RESPONDA NO DIRECT",
+     "titulo": "Quer uma análise gratuita da sua presença digital?",
+     "texto": "Mande o @ ou o nome do seu negócio no Direct.",
+     "cta": "Responda no Direct",
+     "claro": false
+    },
+    {
+     "tipo": "faq"
+    },
+    {
+     "tipo": "agenda",
+     "pilar": "demonstracao",
+     "titulo": "O horário do corte marcado sozinho.",
+     "subtitulo": "Veja como fica a agenda online de um salão de beleza.",
+     "sigla": "SS",
+     "nome": "Seu Salão",
+     "chips": [
+      "Corte",
+      "Escova",
+      "Coloração"
+     ],
+     "notif": [
+      "Novo agendamento",
+      "Escova · Sex 14:30 · lembrete enviado"
+     ],
+     "botao": "Confirmar · Sex 14:30"
+    },
+    {
+     "tipo": "texto",
+     "pilar": "vendas",
+     "rotulo": "ORÇAMENTO",
+     "titulo": "Feche a semana com um plano para a sua presença digital.",
+     "texto": "Chame no WhatsApp e solicite seu orçamento personalizado.",
+     "claro": true,
+     "cta": "WhatsApp {whatsapp}"
+    }
+   ]
+  }
+ ],
+ "prefixo": "gnz01"
+}

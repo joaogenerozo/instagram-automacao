@@ -22,6 +22,9 @@ Temas: **criação de sites** (foco principal), **cardápio digital** e **agenda
 
 A semana 1 já está escrita em `conteudo/semana-01.json` e as imagens de exemplo estão em `midia/`.
 
+## Aprovação antes de publicar
+Cada semana nova entra na fila como `aguardando_aprovacao` e **não é publicada** até você aprovar. Para aprovar, troque o status desses itens para `pendente` em `fila.json` (ou peça ao Claude). Toda a semana fica organizada para revisão em `GNZ01-MARKETING/` (índice em `GNZ01-MARKETING/INDICE-SEMANA-01.md`). Para gerar as fichas de uma semana: `python tools/fichas.py conteudo/gnz01-semana-01.json`.
+
 ## Arquivos
 
 | Arquivo | Para que serve |
@@ -34,7 +37,9 @@ A semana 1 já está escrita em `conteudo/semana-01.json` e as imagens de exempl
 | `publicar.py` | Publica o que estiver no horário |
 | `conteudo/stories-faq.json` | 49 perguntas frequentes usadas nos stories (edite ou adicione) |
 | `videos/` | Coloque aqui os vídeos de depoimento (veja `videos/ROTEIROS-DEPOIMENTOS.md`) |
-| `fila.json` | Fila de posts com status: pendente, publicado, pulado ou erro |
+| `fila.json` | Fila de posts com status: aguardando_aprovacao, pendente, publicado, pulado ou erro |
+| `GNZ01-MARKETING/` | Calendário, fichas por publicação, legendas, criativos, Reels e relatórios |
+| `conteudo/diretrizes-gnz01.md` | Prompt Master da marca, usado pela IA ao escrever conteúdo |
 
 ## Instalação (uma vez só)
 
