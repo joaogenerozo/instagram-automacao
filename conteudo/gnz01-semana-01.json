@@ -98,7 +98,8 @@
       "presença digital"
      ],
      "direcao_visual": "Capa preta com título forte; slides numerados 01-07 em off-white, texto curto. Último slide com botão off-white do WhatsApp.",
-     "cenario": "comerciante-balcao"
+     "cenario": "comerciante-balcao",
+     "prompt_capa": "A Brazilian small shop owner in his 40s stands behind the wooden counter of his empty neighborhood store, one hand on his forehead, looking worried at his smartphone; no customers in the store."
     },
     {
      "tipo": "post",
@@ -501,7 +502,8 @@
       "sistema de agendamento"
      ],
      "direcao_visual": "Carrossel escuro, números grandes off-white, um passo por slide, frases curtas.",
-     "cenario": "salao-de-beleza"
+     "cenario": "salao-de-beleza",
+     "prompt_capa": "A Brazilian hairdresser in her 30s in a beauty salon holds two buzzing smartphones full of message notifications, overwhelmed, while a client waits in the chair blurred behind her."
     },
     {
      "tipo": "post",
@@ -776,7 +778,8 @@
       "contratar site"
      ],
      "direcao_visual": "Carrossel em versão clara (off-white), números pretos, para variar do carrossel escuro de sexta.",
-     "cenario": "notebook-mesa"
+     "cenario": "notebook-mesa",
+     "prompt_capa": "A Brazilian entrepreneur in his 30s sits at a desk at night in front of an open laptop, chin on his hand, thinking hard, with sticky notes and a coffee cup around."
     },
     {
      "tipo": "post",
@@ -1055,7 +1058,8 @@
       "pedido no WhatsApp"
      ],
      "direcao_visual": "Carrossel escuro, um passo por slide, números grandes. Último slide com botão off-white.",
-     "cenario": "restaurante"
+     "cenario": "restaurante",
+     "prompt_capa": "A Brazilian pizzeria owner in his 40s wearing an apron stands in a busy pizzeria kitchen, phone pressed to his ear and order tickets in his hand, stressed, wood-fired oven glowing behind him."
     },
     {
      "tipo": "post",
@@ -1343,7 +1347,8 @@
       "agência de sites"
      ],
      "direcao_visual": "Carrossel escuro, títulos fortes e frases curtas, numeração off-white.",
-     "cenario": "reuniao-escritorio"
+     "cenario": "reuniao-escritorio",
+     "prompt_capa": "A Brazilian small business owner in her 40s sits in a small office looking at a laptop with a confident, curious expression, as if finally finding the answer."
     },
     {
      "tipo": "post",
@@ -1608,7 +1613,8 @@
       "qual site escolher"
      ],
      "direcao_visual": "Carrossel claro, um formato por slide, títulos pretos fortes.",
-     "cenario": "loja"
+     "cenario": "loja",
+     "prompt_capa": "A Brazilian boutique owner in her 30s stands in her small clothing store holding a tablet, undecided, looking at three paths ahead of her, clothes racks blurred behind."
     },
     {
      "tipo": "post",
@@ -1897,7 +1903,8 @@
       "marketing odontológico"
      ],
      "direcao_visual": "Carrossel escuro sóbrio, tom institucional, numeração off-white.",
-     "cenario": "consultorio-odontologico"
+     "cenario": "consultorio-odontologico",
+     "prompt_capa": "A Brazilian dentist in her 40s in a modern dental office, white coat, looking at her smartphone with a thoughtful expression, dental chair and lamp blurred behind her."
     },
     {
      "tipo": "post",

@@ -230,7 +230,7 @@ def capa(p, cfg, destino, foto=None, credito=None):
     _selo(img, 0, H - 230 if cena is None else H - 140, cfg, centro=True)
     if credito:
         d = ImageDraw.Draw(img)
-        d.text((60, H - 46), credito if cena is not None else "Foto: " + credito, font=fonte("regular", 17), fill=SUAVE)
+        d.text((60, H - 46), credito if (cena is not None or "IA" in credito or credito.startswith("Foto")) else "Foto: " + credito, font=fonte("regular", 17), fill=SUAVE)
     return _salvar(img, destino)
 
 
@@ -299,6 +299,10 @@ def foto_capa(p):
     import json
     raiz = Path(__file__).resolve().parent.parent
     slug = p.get("cenario") or CENARIO_TEMA.get(p.get("tema", ""))
+    creds = json.load(open(raiz / "midia/fotos/creditos.json"))
+    ia = raiz / f"midia/fotos/ia/{slug}.jpg"
+    if slug and ia.exists() and creds.get(f"ia/{slug}"):
+        return str(ia), creds[f"ia/{slug}"]["credito"]
     f = raiz / f"midia/fotos/cenarios/{slug}.jpg" if slug else None
     if not f or not f.exists():
         return None, None
