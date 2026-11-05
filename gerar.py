@@ -14,6 +14,7 @@ from src.comum import RAIZ, carregar_config, carregar_fila, salvar_fila, montar_
 from src.render import Desenhista
 from src import vitrine as vt
 from src import showcase as sc
+from src import sistema as ss
 from src import editorial as ed
 
 
@@ -102,7 +103,7 @@ def main():
                 arte = json.loads(json.dumps(post).replace("{whatsapp}", cfg["whatsapp"]))
                 imgs = ed.render_editorial(arte, pasta)
             elif post["tipo"] == "carrossel":
-                imgs = des.carrossel(post, pasta)
+                imgs = ss.carrossel(post, pasta, cfg)  # design system GNZ01 Carrossel (src/sistema.py)
             else:
                 imgs = [des.post(post, pasta / "01.jpg")]
             adicionar(pid, quando=horario(data, cfg["horarios"][n % len(cfg["horarios"])], tz),

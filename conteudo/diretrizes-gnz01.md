@@ -113,3 +113,10 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 ## 19. Peças de restaurantes e pizzarias (layout balcão)
 - Cardápio digital usa o layout "balcão": marca GNZ01 no alto, título com a última linha em prata, 4 funcionalidades com ícone em quadrado e descrição curta, monitor + tablet + celular sobre balcão escuro, cartão off-white "Feito para restaurantes e pizzarias" com o WhatsApp.
 - Cores do perfil (grafite, off-white e prata), sem laranja. Só funcionalidades reais do cardápio (sem dashboard de vendas, caixa ou números). Sempre "Demonstração ilustrativa · nomes fictícios".
+
+## 20. Design system "GNZ01 Carrossel" (src/sistema.py)
+- Todos os carrosséis comuns usam este sistema. Os de personalidade seguem "Os ensinamentos de" (seção 17).
+- Fundo grafite #18191D com grade quadriculada sumindo do topo; texto off-white; destaque em Inter ExtraBold misturado com Inter Regular na mesma frase; rodapé "PAG | 01 02 03 ... | GNZ01" com a página atual em prata.
+- Capa: "© ano | #tag #tag", título gigante centralizado com trecho em negrito, subtítulo, aba lateral com seta e selo @gnz01_. Com foto licenciada, a foto fica abaixo do título, com crédito.
+- Lâminas em rodízio: abertura (frase grande + apoio), parágrafos, duas colunas (pergunta à esquerda, resposta à direita), centralizada. Última: CTA centralizado + pílula com Instagram, WhatsApp e monograma.
+- Ao escrever conteúdo, marque o destaque com **asteriscos** (ex.: "Seu cliente **agenda sozinho**"). Sem marcação, o sistema destaca o fim da frase. Campo opcional "layout" por slide força a lâmina.
