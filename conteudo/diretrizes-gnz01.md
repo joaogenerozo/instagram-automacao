@@ -77,6 +77,7 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 ## 13. Direção de arte editorial (pedido de 05/11/2026)
 
 - **2 publicações por dia** no padrão editorial (`"layout": "editorial"`): serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão sutil, marca pequena. Fundo papel off-white ou grafite, alternando.
+- **Foto da personalidade é OBRIGATÓRIA** (João Paulo, 05/11): post de Grandes Nomes só vai para a fila com foto real e licenciada da pessoa citada (campo `personalidade` + `foto`/`capa.foto` + `credito`). Sem foto, o post fica na `reserva` e outro conteúdo ocupa o horário. O gerar.py bloqueia automaticamente.
 - **Fotografia real e licenciada** (campo `foto` com caminho local + `credito`), com recorte 4:5, cor suave e degradê escuro embaixo. Nunca gerar rostos por IA, principalmente de pessoas famosas. Sem foto licenciada disponível, usar a versão tipográfica.
 - **Grandes nomes do empreendedorismo**: pelo menos 1 carrossel por mês (capa com citação, contexto, aplicação, exemplo prático, conexão com o mercado, reflexão e CTA).
 - **Citações só com autoria confirmada** em fonte primária (discurso, livro, entrevista, site oficial). Registrar `citacao_original`, tradução, `fonte_descricao` e `fonte_url`. Se não der para confirmar, não publicar como citação.

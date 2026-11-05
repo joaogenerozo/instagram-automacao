@@ -5,7 +5,7 @@ Status: **aguardando aprovação** (nada desta semana foi publicado ainda).
 | Data | Hora | Formato | Pilar | Título | Ficha |
 |---|---|---|---|---|---|
 | 06/11 (sexta) | 08:00 | post | Educação | Seu cliente procurou no Google. E achou o concorrente. | [POSTS/2026-11-06_08h00_post_sites.md](POSTS/2026-11-06_08h00_post_sites.md) |
-| 06/11 (sexta) | 12:00 | carrossel | Autoridade | Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa. | [CARROSSEIS/2026-11-06_12h00_carrossel_marca.md](CARROSSEIS/2026-11-06_12h00_carrossel_marca.md) |
+| 06/11 (sexta) | 12:00 | carrossel | Educação | 7 sinais de que seu negócio precisa de um site | [CARROSSEIS/2026-11-06_12h00_carrossel_sites.md](CARROSSEIS/2026-11-06_12h00_carrossel_sites.md) |
 | 06/11 (sexta) | 15:00 | post | Demonstração | Veja como fica o cardápio digital de uma pizzaria | [POSTS/2026-11-06_15h00_post_cardapio.md](POSTS/2026-11-06_15h00_post_cardapio.md) |
 | 06/11 (sexta) | 18:30 | post | Autoridade | Soluções digitais para negócios que querem atender melhor. | [POSTS/2026-11-06_18h30_post_marca.md](POSTS/2026-11-06_18h30_post_marca.md) |
 | 06/11 (sexta) | 21:00 | post | Conexão | Quantas mensagens você responde só para marcar horário? | [POSTS/2026-11-06_21h00_post_agenda.md](POSTS/2026-11-06_21h00_post_agenda.md) |

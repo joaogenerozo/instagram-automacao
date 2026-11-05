@@ -89,6 +89,9 @@ def main():
             if pid in ids:
                 continue
             pasta = pasta_dia / str(n + 1)
+            if post.get("personalidade") and not (post.get("foto") or post.get("capa", {}).get("foto")):
+                print(f"AVISO: {pid} cita {post['personalidade']} e está sem foto real licenciada; não entra na fila.")
+                continue
             if post.get("vitrine"):
                 story = desenhar_vitrine(cfg, post["vitrine"], pasta / "story.jpg")
                 imgs = [vt.para_feed(story, pasta / "01.jpg")]
