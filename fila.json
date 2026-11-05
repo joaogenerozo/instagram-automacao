@@ -1,7 +1,7 @@
 [
   {
     "id": "gnz01_2026-11-06_story1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-06T07:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -13,7 +13,7 @@
   },
   {
     "id": "gnz01_2026-11-06_1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-06T08:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -25,7 +25,7 @@
   },
   {
     "id": "gnz01_2026-11-06_story2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-06T09:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -37,7 +37,7 @@
   },
   {
     "id": "gnz01_2026-11-06_story3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-06T11:00:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -49,7 +49,7 @@
   },
   {
     "id": "gnz01_2026-11-06_2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-06T12:00:00-03:00",
     "tipo": "carrossel",
     "tema": "sites",
@@ -69,7 +69,7 @@
   },
   {
     "id": "gnz01_2026-11-06_story4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-06T13:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -81,7 +81,7 @@
   },
   {
     "id": "gnz01_2026-11-06_3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-06T15:00:00-03:00",
     "tipo": "post",
     "tema": "cardapio",
@@ -93,7 +93,7 @@
   },
   {
     "id": "gnz01_2026-11-06_story5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-06T16:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -105,7 +105,7 @@
   },
   {
     "id": "gnz01_2026-11-06_4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-06T18:30:00-03:00",
     "tipo": "post",
     "tema": "marca",
@@ -117,7 +117,7 @@
   },
   {
     "id": "gnz01_2026-11-06_story6",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-06T19:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -129,7 +129,7 @@
   },
   {
     "id": "gnz01_2026-11-06_5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-06T21:00:00-03:00",
     "tipo": "post",
     "tema": "agenda",
@@ -141,7 +141,7 @@
   },
   {
     "id": "gnz01_2026-11-06_story7",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-06T22:00:00-03:00",
     "tipo": "story",
     "tema": "vendas",
@@ -153,7 +153,7 @@
   },
   {
     "id": "gnz01_2026-11-07_story1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-07T07:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -165,7 +165,7 @@
   },
   {
     "id": "gnz01_2026-11-07_1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-07T08:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -177,7 +177,7 @@
   },
   {
     "id": "gnz01_2026-11-07_story2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-07T09:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -189,7 +189,7 @@
   },
   {
     "id": "gnz01_2026-11-07_story3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-07T11:00:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -201,7 +201,7 @@
   },
   {
     "id": "gnz01_2026-11-07_2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-07T12:00:00-03:00",
     "tipo": "carrossel",
     "tema": "agenda",
@@ -219,7 +219,7 @@
   },
   {
     "id": "gnz01_2026-11-07_story4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-07T13:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -231,7 +231,7 @@
   },
   {
     "id": "gnz01_2026-11-07_3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-07T15:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -243,7 +243,7 @@
   },
   {
     "id": "gnz01_2026-11-07_story5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-07T16:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -255,7 +255,7 @@
   },
   {
     "id": "gnz01_2026-11-07_4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-07T18:30:00-03:00",
     "tipo": "post",
     "tema": "cardapio",
@@ -267,7 +267,7 @@
   },
   {
     "id": "gnz01_2026-11-07_story6",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-07T19:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -279,7 +279,7 @@
   },
   {
     "id": "gnz01_2026-11-07_5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-07T21:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -291,7 +291,7 @@
   },
   {
     "id": "gnz01_2026-11-07_story7",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-07T22:00:00-03:00",
     "tipo": "story",
     "tema": "vendas",
@@ -303,7 +303,7 @@
   },
   {
     "id": "gnz01_2026-11-08_story1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-08T07:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -315,7 +315,7 @@
   },
   {
     "id": "gnz01_2026-11-08_1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-08T08:00:00-03:00",
     "tipo": "post",
     "tema": "landing",
@@ -327,7 +327,7 @@
   },
   {
     "id": "gnz01_2026-11-08_story2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-08T09:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -339,7 +339,7 @@
   },
   {
     "id": "gnz01_2026-11-08_story3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-08T11:00:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -351,7 +351,7 @@
   },
   {
     "id": "gnz01_2026-11-08_2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-08T12:00:00-03:00",
     "tipo": "carrossel",
     "tema": "sites",
@@ -370,7 +370,7 @@
   },
   {
     "id": "gnz01_2026-11-08_story4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-08T13:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -382,7 +382,7 @@
   },
   {
     "id": "gnz01_2026-11-08_3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-08T15:00:00-03:00",
     "tipo": "post",
     "tema": "marca",
@@ -394,7 +394,7 @@
   },
   {
     "id": "gnz01_2026-11-08_story5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-08T16:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -406,7 +406,7 @@
   },
   {
     "id": "gnz01_2026-11-08_4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-08T18:30:00-03:00",
     "tipo": "post",
     "tema": "agenda",
@@ -418,7 +418,7 @@
   },
   {
     "id": "gnz01_2026-11-08_story6",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-08T19:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -430,7 +430,7 @@
   },
   {
     "id": "gnz01_2026-11-08_5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-08T21:00:00-03:00",
     "tipo": "post",
     "tema": "catalogo",
@@ -442,7 +442,7 @@
   },
   {
     "id": "gnz01_2026-11-08_story7",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-08T22:00:00-03:00",
     "tipo": "story",
     "tema": "vendas",
@@ -468,7 +468,7 @@
   },
   {
     "id": "gnz01_2026-11-09_story1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-09T07:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -494,7 +494,7 @@
   },
   {
     "id": "gnz01_2026-11-09_1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-09T08:00:00-03:00",
     "tipo": "post",
     "tema": "paginas",
@@ -506,7 +506,7 @@
   },
   {
     "id": "gnz01_2026-11-09_story2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-09T09:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -518,7 +518,7 @@
   },
   {
     "id": "gnz01_2026-11-09_story3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-09T11:00:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -530,7 +530,7 @@
   },
   {
     "id": "gnz01_2026-11-09_2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-09T12:00:00-03:00",
     "tipo": "carrossel",
     "tema": "cardapio",
@@ -547,7 +547,7 @@
   },
   {
     "id": "gnz01_2026-11-09_story4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-09T13:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -559,7 +559,7 @@
   },
   {
     "id": "gnz01_2026-11-09_3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-09T15:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -571,7 +571,7 @@
   },
   {
     "id": "gnz01_2026-11-09_story5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-09T16:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -597,7 +597,7 @@
   },
   {
     "id": "gnz01_2026-11-09_4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-09T18:30:00-03:00",
     "tipo": "post",
     "tema": "agenda",
@@ -609,7 +609,7 @@
   },
   {
     "id": "gnz01_2026-11-09_story6",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-09T19:30:00-03:00",
     "tipo": "story",
     "tema": "catalogo",
@@ -621,7 +621,7 @@
   },
   {
     "id": "gnz01_2026-11-09_5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-09T21:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -633,7 +633,7 @@
   },
   {
     "id": "gnz01_2026-11-09_story7",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-09T22:00:00-03:00",
     "tipo": "story",
     "tema": "vendas",
@@ -645,7 +645,7 @@
   },
   {
     "id": "gnz01_2026-11-10_story1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-10T07:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -657,7 +657,7 @@
   },
   {
     "id": "gnz01_2026-11-10_1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-10T08:00:00-03:00",
     "tipo": "post",
     "tema": "agenda",
@@ -669,7 +669,7 @@
   },
   {
     "id": "gnz01_2026-11-10_story2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-10T09:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -681,7 +681,7 @@
   },
   {
     "id": "gnz01_2026-11-10_story3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-10T11:00:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -693,7 +693,7 @@
   },
   {
     "id": "gnz01_2026-11-10_2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-10T12:00:00-03:00",
     "tipo": "carrossel",
     "tema": "sites",
@@ -712,7 +712,7 @@
   },
   {
     "id": "gnz01_2026-11-10_story4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-10T13:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -724,7 +724,7 @@
   },
   {
     "id": "gnz01_2026-11-10_3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-10T15:00:00-03:00",
     "tipo": "post",
     "tema": "cardapio",
@@ -736,7 +736,7 @@
   },
   {
     "id": "gnz01_2026-11-10_story5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-10T16:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -748,7 +748,7 @@
   },
   {
     "id": "gnz01_2026-11-10_4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-10T18:30:00-03:00",
     "tipo": "post",
     "tema": "landing",
@@ -760,7 +760,7 @@
   },
   {
     "id": "gnz01_2026-11-10_story6",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-10T19:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -772,7 +772,7 @@
   },
   {
     "id": "gnz01_2026-11-10_5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-10T21:00:00-03:00",
     "tipo": "post",
     "tema": "marca",
@@ -784,7 +784,7 @@
   },
   {
     "id": "gnz01_2026-11-10_story7",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-10T22:00:00-03:00",
     "tipo": "story",
     "tema": "vendas",
@@ -796,7 +796,7 @@
   },
   {
     "id": "gnz01_2026-11-11_story1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-11T07:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -808,7 +808,7 @@
   },
   {
     "id": "gnz01_2026-11-11_1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-11T08:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -820,7 +820,7 @@
   },
   {
     "id": "gnz01_2026-11-11_story2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-11T09:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -832,7 +832,7 @@
   },
   {
     "id": "gnz01_2026-11-11_story3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-11T11:00:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -865,7 +865,7 @@
   },
   {
     "id": "gnz01_2026-11-11_2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-11T12:00:00-03:00",
     "tipo": "carrossel",
     "tema": "sites",
@@ -883,7 +883,7 @@
   },
   {
     "id": "gnz01_2026-11-11_story4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-11T13:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -895,7 +895,7 @@
   },
   {
     "id": "gnz01_2026-11-11_3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-11T15:00:00-03:00",
     "tipo": "post",
     "tema": "catalogo",
@@ -907,7 +907,7 @@
   },
   {
     "id": "gnz01_2026-11-11_story5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-11T16:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -919,7 +919,7 @@
   },
   {
     "id": "gnz01_2026-11-11_4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-11T18:30:00-03:00",
     "tipo": "post",
     "tema": "agenda",
@@ -931,7 +931,7 @@
   },
   {
     "id": "gnz01_2026-11-11_story6",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-11T19:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -943,7 +943,7 @@
   },
   {
     "id": "gnz01_2026-11-11_5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-11T21:00:00-03:00",
     "tipo": "post",
     "tema": "cardapio",
@@ -955,7 +955,7 @@
   },
   {
     "id": "gnz01_2026-11-11_story7",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-11T22:00:00-03:00",
     "tipo": "story",
     "tema": "vendas",
@@ -967,7 +967,7 @@
   },
   {
     "id": "gnz01_2026-11-12_story1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-12T07:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -979,7 +979,7 @@
   },
   {
     "id": "gnz01_2026-11-12_1",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-12T08:00:00-03:00",
     "tipo": "post",
     "tema": "marca",
@@ -991,7 +991,7 @@
   },
   {
     "id": "gnz01_2026-11-12_story2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-12T09:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -1003,7 +1003,7 @@
   },
   {
     "id": "gnz01_2026-11-12_story3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-12T11:00:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -1015,7 +1015,7 @@
   },
   {
     "id": "gnz01_2026-11-12_2",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-12T12:00:00-03:00",
     "tipo": "carrossel",
     "tema": "paginas",
@@ -1033,7 +1033,7 @@
   },
   {
     "id": "gnz01_2026-11-12_story4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-12T13:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -1045,7 +1045,7 @@
   },
   {
     "id": "gnz01_2026-11-12_3",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-12T15:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -1057,7 +1057,7 @@
   },
   {
     "id": "gnz01_2026-11-12_story5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-12T16:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -1069,7 +1069,7 @@
   },
   {
     "id": "gnz01_2026-11-12_4",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-12T18:30:00-03:00",
     "tipo": "post",
     "tema": "solucoes",
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "gnz01_2026-11-12_story6",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-12T19:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -1093,7 +1093,7 @@
   },
   {
     "id": "gnz01_2026-11-12_5",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-12T21:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -1105,7 +1105,7 @@
   },
   {
     "id": "gnz01_2026-11-12_story7",
-    "status": "aguardando_aprovacao",
+    "status": "pendente",
     "quando": "2026-11-12T22:00:00-03:00",
     "tipo": "story",
     "tema": "vendas",
