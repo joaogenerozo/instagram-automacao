@@ -1,0 +1,17 @@
+{
+  "_aviso": "Os sites de texto (Stanford, Gutenberg, Wikisource, Wikiquote) estão bloqueados no ambiente que montou este arquivo. As citações abaixo têm fonte primária conhecida, mas o texto NÃO foi conferido online aqui. Status 'conferir_na_fonte' = abrir a URL e confirmar antes de publicar.",
+  "steve-jobs": {
+    "original": "Your time is limited, so don't waste it living someone else's life.",
+    "traducao": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.",
+    "fonte": "Discurso de formatura em Stanford, 12 de junho de 2005 (texto preparado publicado pela Stanford)",
+    "url": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says",
+    "status": "conferir_na_fonte"
+  },
+  "henry-ford": {
+    "original": "Failure is only the opportunity more intelligently to begin again.",
+    "traducao": "O fracasso é apenas a oportunidade de recomeçar de forma mais inteligente.",
+    "fonte": "Henry Ford com Samuel Crowther, My Life and Work (1922)",
+    "url": "https://www.gutenberg.org/ebooks/7213",
+    "status": "conferir_na_fonte"
+  }
+}
