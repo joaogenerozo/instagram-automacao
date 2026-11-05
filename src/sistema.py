@@ -203,12 +203,23 @@ def capa(p, cfg, destino, foto=None, credito=None):
         else:
             ft = ImageOps.fit(Image.open(foto).convert("RGB"), (W, H - 360), Image.LANCZOS, centering=(0.5, 0.25))
             ft = Image.blend(ft, Image.new("RGB", ft.size, (10, 10, 12)), 0.25)
-        topo_f = 360 if cena is None else H - 640 - 110
+        # mede o bloco de título + subtítulo para a foto começar logo abaixo dele
+        dm = ImageDraw.Draw(Image.new("RGB", (W, 10)))
+        tt = p.get("titulo_capa") or p["titulo"]
+        aa = 0 if "**" in tt else 2
+        t0 = _cabe(dm, tt, W - 160, 112, 56, 300 if p.get("subtitulo") else 340, auto=aa, entre=1.0)
+        fim_txt = 220 + misto(dm, tt, 0, 0, W - 160, t0, auto=aa, entre=1.0, medir=True)
+        if p.get("subtitulo"):
+            fim_txt += 34 + misto(dm, p["subtitulo"], 0, 0, W - 160, 36, medir=True)
+        topo_f = max(360, int(fim_txt) - 40) if cena is None else max(H - 640 - 110, int(fim_txt) - 20)
+        if cena is None:
+            ft = ImageOps.fit(Image.open(foto).convert("RGB"), (W, H - topo_f), Image.LANCZOS, centering=(0.5, 0.35))
+            ft = Image.blend(ft, Image.new("RGB", ft.size, (10, 10, 12)), 0.25)
         img.paste(ft, (0, topo_f))
         fim = 1060 if cena is None else H - 250
         g = Image.new("L", (1, H))
         for y in range(H):
-            t = max(1 - (y - topo_f) / 200 if y >= topo_f else 1, (y - fim) / 200, 0)
+            t = max(1 - (y - topo_f) / 160 if y >= topo_f else 1, (y - fim) / 200, 0)
             g.putpixel((0, y), int(255 * min(1, t)))
         img = Image.composite(Image.new("RGB", (W, H), FUNDO), img, g.resize((W, H)))
     d = ImageDraw.Draw(img)
