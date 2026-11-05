@@ -190,13 +190,25 @@ def _salvar(img, destino):
 # ------------------------------------------------------------------ lâminas
 def capa(p, cfg, destino, foto=None, credito=None):
     img = _fundo()
-    if foto and Path(foto).exists():
-        ft = ImageOps.fit(Image.open(foto).convert("RGB"), (W, H - 360), Image.LANCZOS, centering=(0.5, 0.25))
-        ft = Image.blend(ft, Image.new("RGB", ft.size, (10, 10, 12)), 0.25)
-        img.paste(ft, (0, 360))
+    cena = None
+    if not (foto and Path(foto).exists()) and cfg.get("_cena_capa", True):
+        try:
+            cena = cena_capa(p, cfg)
+        except Exception:
+            cena = None
+    if (foto and Path(foto).exists()) or cena is not None:
+        if cena is not None:
+            ft = cena
+            credito = "Demonstração ilustrativa · nomes fictícios"
+        else:
+            ft = ImageOps.fit(Image.open(foto).convert("RGB"), (W, H - 360), Image.LANCZOS, centering=(0.5, 0.25))
+            ft = Image.blend(ft, Image.new("RGB", ft.size, (10, 10, 12)), 0.25)
+        topo_f = 360 if cena is None else H - 640 - 110
+        img.paste(ft, (0, topo_f))
+        fim = 1060 if cena is None else H - 250
         g = Image.new("L", (1, H))
         for y in range(H):
-            t = max(1 - (y - 360) / 260 if y >= 360 else 1, (y - 1060) / 290, 0)
+            t = max(1 - (y - topo_f) / 200 if y >= topo_f else 1, (y - fim) / 200, 0)
             g.putpixel((0, y), int(255 * min(1, t)))
         img = Image.composite(Image.new("RGB", (W, H), FUNDO), img, g.resize((W, H)))
     d = ImageDraw.Draw(img)
@@ -207,18 +219,18 @@ def capa(p, cfg, destino, foto=None, credito=None):
     titulo = p.get("titulo_capa") or p["titulo"]
     larg = W - 160
     a = 0 if "**" in titulo else 2
-    t = _cabe(d, titulo, larg, 112, 60, 460, auto=a, entre=1.0)
-    y0 = 230 if foto else max(230, (H - misto(d, titulo, 0, 0, larg, t, auto=a, entre=1.0, medir=True)) / 2 - 120)
+    t = _cabe(d, titulo, larg, 112, 56, 460 if not (foto or cena is not None) else (300 if p.get("subtitulo") else 340), auto=a, entre=1.0)
+    y0 = 220 if (foto or cena is not None) else max(230, (H - misto(d, titulo, 0, 0, larg, t, auto=a, entre=1.0, medir=True)) / 2 - 120)
     y = misto(d, titulo, 80, y0, larg, t, alinhar="centro", auto=a, entre=1.0)
     if p.get("subtitulo"):
         misto(d, p["subtitulo"], 80, y + 34, larg, 36, alinhar="centro", cor=(200, 203, 208))
     # aba lateral com seta (convite para arrastar)
     d.rounded_rectangle([W - 70, H / 2 - 90, W + 60, H / 2 + 90], radius=60, fill=(36, 38, 43), outline=(70, 74, 82), width=2)
     d.line([(W - 40, H / 2 - 16), (W - 24, H / 2), (W - 40, H / 2 + 16)], fill=TEXTO, width=5)
-    _selo(img, 0, H - 230, cfg, centro=True)
+    _selo(img, 0, H - 230 if cena is None else H - 140, cfg, centro=True)
     if credito:
         d = ImageDraw.Draw(img)
-        d.text((60, H - 56), "Foto: " + credito, font=fonte("regular", 17), fill=SUAVE)
+        d.text((60, H - 46), credito if cena is not None else "Foto: " + credito, font=fonte("regular", 17), fill=SUAVE)
     return _salvar(img, destino)
 
 
@@ -294,6 +306,29 @@ def foto_capa(p):
     if not cred:
         return None, None  # sem crédito registrado não publica
     return str(f), cred if isinstance(cred, str) else cred.get("credito") or cred.get("texto")
+
+
+TIPO_TEMA = {"cardapio": "cardapio", "agenda": "agenda", "catalogo": "catalogo"}
+NOME_TIPO = {"cardapio": "Seu Restaurante", "agenda": "Seu Salão", "catalogo": "Sua Loja", "site": "Sua Empresa"}
+
+
+def cena_capa(p, cfg, tam=(W, 640)):
+    """Capa sem foto: cena criada no código (balcão, monitor, celular e tablet com a demonstração do tema).
+    Sem pessoas e sem rostos gerados."""
+    from src import showcase as sc
+    w, h = tam
+    tipo = TIPO_TEMA.get(p.get("tema", ""), "site")
+    v = dict(p.get("vitrine_capa") or ({"tipo": tipo, "marca": NOME_TIPO[tipo]} if tipo == "site"
+                                       else {"tipo": tipo, "nome": NOME_TIPO[tipo]}))
+    yb = h - 150
+    img = sc._fundo_balcao(w, h, yb)
+    larg = 620
+    img = sc._monitor(img, (w - larg) // 2 + 40, yb - 100 - int(larg * 0.625), larg, sc.tela_desktop(v))
+    if tipo in ("cardapio", "catalogo"):
+        img = sc._aparelho(img, sc.tela_tablet(v), w - 290, yb - 250, 200, raio=26, borda=12)
+    cel = sc.tela_celular(cfg, v).convert("RGB")
+    img = sc._aparelho(img, cel, 110, yb - 190, 210, raio=36, borda=11)
+    return img
 
 
 def carrossel(p, pasta, cfg, foto=None, credito=None):

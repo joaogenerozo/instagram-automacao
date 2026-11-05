@@ -117,6 +117,6 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 ## 20. Design system "GNZ01 Carrossel" (src/sistema.py)
 - Todos os carrosséis comuns usam este sistema. Os de personalidade seguem "Os ensinamentos de" (seção 17).
 - Fundo grafite #18191D com grade quadriculada sumindo do topo; texto off-white; destaque em Inter ExtraBold misturado com Inter Regular na mesma frase; rodapé "PAG | 01 02 03 ... | GNZ01" com a página atual em prata.
-- Capa: "© ano | #tag #tag", título gigante centralizado com trecho em negrito, subtítulo, aba lateral com seta e selo @gnz01_. Com foto licenciada, a foto fica abaixo do título, com crédito.
+- Capa: "© ano | #tag #tag", título gigante centralizado com trecho em negrito, subtítulo, aba lateral com seta e selo @gnz01_. Sempre com imagem: foto profissional licenciada do campo "cenario" (com crédito) ou, se não houver, cena criada no código com monitor, celular e tablet mostrando o produto do tema (sem pessoas, "Demonstração ilustrativa").
 - Lâminas em rodízio: abertura (frase grande + apoio), parágrafos, duas colunas (pergunta à esquerda, resposta à direita), centralizada. Última: CTA centralizado + pílula com Instagram, WhatsApp e monograma.
 - Ao escrever conteúdo, marque o destaque com **asteriscos** (ex.: "Seu cliente **agenda sozinho**"). Sem marcação, o sistema destaca o fim da frase. Campo opcional "layout" por slide força a lâmina.
