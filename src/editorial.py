@@ -51,8 +51,9 @@ def _foto(caminho, gradiente=True):
     if gradiente:
         g = Image.new("L", (1, H))
         for y in range(H):
-            t = max(0, (y - H * 0.42) / (H * 0.58))
-            g.putpixel((0, y), int(235 * t ** 1.3))
+            t = max(0, (y - H * 0.36) / (H * 0.64))
+            topo = max(0, (260 - y) / 260)  # sombra no topo para o cabeçalho
+            g.putpixel((0, y), int(max(248 * t ** 1.1, 150 * topo)))
         g = g.resize((W, H))
         im = Image.composite(Image.new("RGB", (W, H), (14, 14, 16)), im, g)
     return im
@@ -98,7 +99,7 @@ def peca(p, destino, pagina=None):
     alt = int(len(linhas) * t * 1.12)
     apoio = p.get("apoio", [])
     if tem_foto:
-        y = H - 170 - alt - (90 if p.get("subtitulo") or p.get("autor") else 0)
+        y = H - 210 - alt - (90 if p.get("subtitulo") or p.get("autor") else 0)
     else:
         y = 230 if apoio else max(230, (H - alt) // 2 - 120)
         if citacao and not apoio:
@@ -128,7 +129,9 @@ def peca(p, destino, pagina=None):
                 draw.text((MARGEM + 100, ly), l, font=fi, fill=cor_t)
                 ly += 44
             y = ly + 22
-    esq = p.get("credito") or p.get("rodape", "@gnz01_ · Soluções digitais")
+    esq = p.get("rodape", "@gnz01_ · Soluções digitais")
+    if p.get("credito"):
+        draw.text((MARGEM, H - 156), p["credito"], font=fonte("regular", 20), fill=cor_s)
     _rodape(draw, esq, pagina or p.get("cta_imagem", "Salve e compartilhe"), cor_s, cor_l)
     img = Image.blend(img, Image.effect_noise((W, H), 18).convert("RGB"), 0.035)
     destino = Path(destino)

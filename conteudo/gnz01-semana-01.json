@@ -157,64 +157,175 @@
      "direcao_visual": "Mockup de celular off-white sobre fundo preto, notificação de pedido no canto superior. Nota discreta: imagem ilustrativa."
     },
     {
-     "tipo": "post",
+     "tipo": "carrossel",
      "tema": "marca",
      "pilar": "autoridade",
-     "layout": "padrao",
-     "claro": true,
-     "nicho": "Geral",
-     "objetivo": "Apresentar a GNZ01 e os serviços para quem chega ao perfil.",
-     "publico_alvo": "Novos visitantes do perfil",
-     "tecnica": "Posicionamento claro",
-     "titulo": "Soluções digitais para negócios que querem atender melhor.",
-     "subtitulo": "Sites, cardápios, agendas e catálogos feitos sob medida.",
-     "itens": [
-      "Sites e landing pages",
-      "Cardápios digitais",
-      "Agendamento online",
-      "Catálogos e páginas profissionais"
+     "layout": "editorial",
+     "nicho": "Empreendedores e donos de pequenos negócios",
+     "objetivo": "Gerar autoridade e salvamentos ligando um ensinamento verificado a posicionamento digital.",
+     "publico_alvo": "Empreendedores que copiam o concorrente em vez de se posicionar",
+     "tecnica": "Citação verificada + contexto + aplicação prática",
+     "titulo": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.",
+     "capa": {
+      "rotulo": "Grandes nomes · Steve Jobs",
+      "titulo": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.",
+      "autor": "Steve Jobs",
+      "fonte_citacao": "Discurso de formatura em Stanford, 2005",
+      "escuro": true,
+      "foto": "midia/fotos/steve-jobs.jpg",
+      "credito": "Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada)"
+     },
+     "citacao_original": "Your time is limited, so don't waste it living someone else's life.",
+     "fonte_url": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says",
+     "fonte_descricao": "Discurso de formatura de Steve Jobs em Stanford, 12/06/2005. Frase conferida na transcrição publicada pela NPR (npr.org/transcripts/141120359).",
+     "slides": [
+      {
+       "rotulo": "Contexto",
+       "titulo": "Em 2005, Jobs falava de carreira. No negócio, a lição é a mesma.",
+       "texto": "Copiar o concorrente é viver a estratégia de outra empresa: os preços dele, o discurso dele, o cliente dele."
+      },
+      {
+       "rotulo": "Aplicação",
+       "titulo": "Defina o que só você entrega.",
+       "texto": "Antes de investir em anúncio ou em um site novo, escreva em uma frase por que o cliente deveria escolher você.",
+       "escuro": true
+      },
+      {
+       "rotulo": "Exemplo prático (situação ilustrativa)",
+       "titulo": "Duas pizzarias na mesma rua.",
+       "texto": "Uma copia o cardápio da outra. A segunda mostra a massa de longa fermentação, o forno e o prazo real de entrega. Quem escolhe sabe por que escolheu."
+      },
+      {
+       "rotulo": "Conexão com o mercado",
+       "titulo": "Posicionamento também aparece no digital.",
+       "texto": "Site, cardápio e agenda online contam a sua história ou repetem a de todo mundo. O cliente percebe a diferença em segundos.",
+       "escuro": true
+      },
+      {
+       "rotulo": "Reflexão",
+       "titulo": "O que só a sua empresa faz?",
+       "texto": "Conte nos comentários. A resposta costuma ser o começo de um bom posicionamento."
+      },
+      {
+       "rotulo": "GNZ01",
+       "titulo": "Vamos mostrar o que só você entrega?",
+       "texto": "Salve este post, compartilhe com um empreendedor e fale com a GNZ01 no WhatsApp {whatsapp}.",
+       "escuro": true
+      }
      ],
-     "legenda": "Prazer, somos a GNZ01. 👋\n\nCriamos soluções digitais para empresas e profissionais que querem modernizar o atendimento e conquistar mais clientes:\n\n▪️ Sites profissionais e landing pages\n▪️ Cardápios digitais para restaurantes e pizzarias\n▪️ Agendamento online para quem atende com hora marcada\n▪️ Catálogos digitais e páginas profissionais\n▪️ Soluções personalizadas para o seu negócio\n\nTudo com visual limpo, rápido no celular e pensado para levar o cliente até você.\n\n👉 Conheça nossas soluções: {whatsapp}",
-     "cta": "Conheça nossas soluções",
+     "legenda": "\"Your time is limited, so don't waste it living someone else's life.\"\n\"Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.\"\nSteve Jobs, discurso de formatura em Stanford (2005).\n\nJobs falava de carreira, mas a lição serve para qualquer negócio: quem copia o concorrente vive a estratégia de outra empresa.\n\nArraste para ver como transformar isso em posicionamento, do contexto até a aplicação prática no seu negócio. 👉\n\n💬 Conte nos comentários: o que só a sua empresa faz?\n💾 Salve para reler quando for planejar sua marca.\n\nQuer que seu site, cardápio ou agenda contem a SUA história? Fale com a GNZ01: {whatsapp}\n\nFonte da citação: discurso de formatura em Stanford, 12/06/2005.\n📷 Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada) (creativecommons.org/licenses/by-sa/3.0)",
+     "cta": "Comente e salve",
      "hashtags": [
-      "#gnz01",
-      "#solucoesdigitais",
-      "#criacaodesites",
-      "#transformacaodigital"
+      "#empreendedorismo",
+      "#stevejobs",
+      "#posicionamentodemarca",
+      "#gestaodenegocios"
      ],
      "palavras_chave": [
-      "GNZ01",
-      "soluções digitais",
-      "agência de sites"
+      "posicionamento de marca",
+      "empreendedorismo",
+      "Steve Jobs Stanford"
      ],
-     "direcao_visual": "Versão clara: fundo off-white, título em preto, lista de serviços com check grafite. Serve como post fixado."
+     "direcao_visual": "Carrossel editorial de 7 lâminas. Capa com fotografia real licenciada de Steve Jobs (Matthew Yohe, CC BY-SA 3.0), citação em serifada itálica, autor, fonte e crédito. Lâminas alternam papel off-white e grafite.",
+     "personalidade": "Steve Jobs",
+     "foto": "midia/fotos/steve-jobs.jpg",
+     "fonte_url_conferida": "https://www.npr.org/transcripts/141120359",
+     "credito_foto": {
+      "nome": "Steve Jobs",
+      "arquivo": "midia/fotos/steve-jobs.jpg",
+      "autor": "Matthew Yohe",
+      "licenca": "CC BY-SA 3.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pagina_commons": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP_(cropped_2).jpg",
+      "descricao": "Steve Jobs mostra o iPhone 4 na WWDC, 7 de junho de 2010",
+      "alteracoes": "Redimensionada para 1440 px",
+      "credito": "Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada)"
+     }
     },
     {
-     "tipo": "post",
-     "tema": "agenda",
-     "pilar": "conexao",
-     "layout": "pergunta",
-     "nicho": "Barbearias, salões e manicures",
-     "objetivo": "Gerar comentários e identificação com a dor de quem marca horário pelo WhatsApp.",
-     "publico_alvo": "Profissionais que atendem com hora marcada",
-     "tecnica": "Pergunta de identificação",
-     "titulo": "Quantas mensagens você responde só para marcar horário?",
-     "subtitulo": "Comenta aqui o seu número de hoje.",
-     "cta_imagem": "Comente aqui",
-     "legenda": "\"Tem horário amanhã?\" \"E às 15h?\" \"Pode ser depois do almoço?\" 📱\n\nSe você é barbeiro, manicure, cabeleireira ou atende com hora marcada, sabe quanto tempo vai embora só nessa troca de mensagens.\n\nComenta aqui: quantas mensagens você respondeu hoje só para marcar horário? 👇\n\nAmanhã eu mostro como a agenda online resolve isso. Ou, se não quiser esperar: {whatsapp}",
-     "cta": "Comente e acompanhe",
+     "tipo": "carrossel",
+     "tema": "marca",
+     "pilar": "autoridade",
+     "layout": "editorial",
+     "nicho": "Empreendedores e donos de pequenos negócios",
+     "objetivo": "Gerar autoridade e salvamentos ligando um ensinamento verificado de Henry Ford a melhoria contínua no digital.",
+     "publico_alvo": "Empreendedores que desistiram do digital depois de uma tentativa que não deu certo",
+     "tecnica": "Citação verificada + contexto + aplicação prática",
+     "personalidade": "Henry Ford",
+     "titulo": "O fracasso é apenas a oportunidade de recomeçar de forma mais inteligente.",
+     "capa": {
+      "rotulo": "Grandes nomes · Henry Ford",
+      "titulo": "O fracasso é apenas a oportunidade de recomeçar de forma mais inteligente.",
+      "autor": "Henry Ford",
+      "fonte_citacao": "My Life and Work, 1922",
+      "escuro": true,
+      "foto": "midia/fotos/henry-ford.jpg",
+      "credito": "Foto: Fred Hartsook, c. 1919 / Library of Congress (domínio público)"
+     },
+     "foto": "midia/fotos/henry-ford.jpg",
+     "credito_foto": {
+      "nome": "Henry Ford",
+      "arquivo": "midia/fotos/henry-ford.jpg",
+      "autor": "Fred Hartsook",
+      "licenca": "Domínio público",
+      "licenca_url": null,
+      "pagina_commons": "https://commons.wikimedia.org/wiki/File:Henry_ford_1919.jpg",
+      "descricao": "Retrato de Henry Ford, c. 1919 (Library of Congress, cph.3c11278)",
+      "alteracoes": "Redimensionada para 1440 px",
+      "credito": "Foto: Fred Hartsook, c. 1919 / Library of Congress (domínio público)"
+     },
+     "citacao_original": "Failure is only the opportunity more intelligently to begin again.",
+     "fonte_descricao": "Henry Ford com Samuel Crowther, My Life and Work (1922), Introdução, pp. 19-20. Conferido via Quote Investigator, que cita a edição de 1922.",
+     "fonte_url": "https://quoteinvestigator.com/2016/01/20/begin-again/",
+     "slides": [
+      {
+       "rotulo": "Contexto",
+       "titulo": "Ford escreveu isso em 1922, depois de empresas que não deram certo.",
+       "texto": "Antes da Ford Motor Company, ele teve uma montadora que fechou. A frase está no livro em que explica os próprios princípios de trabalho."
+      },
+      {
+       "rotulo": "Aplicação",
+       "titulo": "Tentativa ruim não é sentença.",
+       "texto": "Um site que não trouxe clientes ou um perfil que não engajou mostram o que ajustar: mensagem, público, botão de contato.",
+       "escuro": true
+      },
+      {
+       "rotulo": "Exemplo prático (situação ilustrativa)",
+       "titulo": "O site que ninguém encontrava.",
+       "texto": "Uma clínica teve um site sem endereço, sem horários e sem botão de WhatsApp. Ao refazer, ela colocou o contato no topo e os serviços em destaque. A segunda versão nasce da primeira."
+      },
+      {
+       "rotulo": "Conexão com o mercado",
+       "titulo": "No digital, recomeçar é barato.",
+       "texto": "Uma página pode ser revisada, medida e melhorada sem fechar as portas. Quem testa e ajusta aprende mais rápido que quem desiste.",
+       "escuro": true
+      },
+      {
+       "rotulo": "Reflexão",
+       "titulo": "O que você já tentou e deixou de lado?",
+       "texto": "Conte nos comentários. Às vezes falta só um ajuste para funcionar."
+      },
+      {
+       "rotulo": "GNZ01",
+       "titulo": "Vamos recomeçar do jeito certo?",
+       "texto": "Salve este post, compartilhe com um empreendedor e fale com a GNZ01 no WhatsApp {whatsapp}.",
+       "escuro": true
+      }
+     ],
+     "legenda": "\"Failure is only the opportunity more intelligently to begin again.\"\n\"O fracasso é apenas a oportunidade de recomeçar de forma mais inteligente.\"\nHenry Ford, My Life and Work (1922).\n\nUm site que não trouxe clientes ou um perfil que não engajou não é o fim: é informação para a próxima versão.\n\nArraste para ver como aplicar isso no seu negócio. 👉\n\n💬 Conte nos comentários: o que você já tentou e deixou de lado?\n💾 Salve para lembrar quando for recomeçar.\n\nQuer refazer sua presença digital com mais estratégia? Fale com a GNZ01: {whatsapp}\n\nFonte da citação: Henry Ford e Samuel Crowther, My Life and Work (1922), Introdução.\n📷 Foto: Fred Hartsook, c. 1919 / Library of Congress (domínio público)",
+     "cta": "Comente e salve",
      "hashtags": [
-      "#agendaonline",
-      "#barbearia",
-      "#manicure",
-      "#saloesdebeleza"
+      "#empreendedorismo",
+      "#henryford",
+      "#melhoriacontinua",
+      "#gestaodenegocios"
      ],
      "palavras_chave": [
-      "agendamento online",
-      "marcar horário",
-      "agenda para salão"
+      "Henry Ford",
+      "recomeçar",
+      "presença digital"
      ],
-     "direcao_visual": "Layout pergunta: título enorme centralizado, grade de pontos discreta no canto, quase nenhum outro elemento."
+     "direcao_visual": "Carrossel editorial de 7 lâminas. Capa com retrato real de Henry Ford (Fred Hartsook, c. 1919, domínio público), citação em serifada itálica, autor, fonte e crédito. Lâminas alternam papel off-white e grafite."
     }
    ],
    "stories": [
@@ -1949,77 +2060,66 @@
  "prefixo": "gnz01",
  "reserva": [
   {
-   "tipo": "carrossel",
+   "tipo": "post",
    "tema": "marca",
    "pilar": "autoridade",
-   "layout": "editorial",
-   "nicho": "Empreendedores e donos de pequenos negócios",
-   "objetivo": "Gerar autoridade e salvamentos ligando um ensinamento verificado a posicionamento digital.",
-   "publico_alvo": "Empreendedores que copiam o concorrente em vez de se posicionar",
-   "tecnica": "Citação verificada + contexto + aplicação prática",
-   "titulo": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.",
-   "capa": {
-    "rotulo": "Grandes nomes · Steve Jobs",
-    "titulo": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.",
-    "autor": "Steve Jobs",
-    "fonte_citacao": "Discurso de formatura em Stanford, 2005",
-    "escuro": true
-   },
-   "citacao_original": "Your time is limited, so don't waste it living someone else's life.",
-   "fonte_url": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says",
-   "fonte_descricao": "Discurso de formatura de Steve Jobs na Universidade de Stanford, 12/06/2005 (transcrição oficial publicada pela Stanford News).",
-   "slides": [
-    {
-     "rotulo": "Contexto",
-     "titulo": "Em 2005, Jobs falava de carreira. No negócio, a lição é a mesma.",
-     "texto": "Copiar o concorrente é viver a estratégia de outra empresa: os preços dele, o discurso dele, o cliente dele."
-    },
-    {
-     "rotulo": "Aplicação",
-     "titulo": "Defina o que só você entrega.",
-     "texto": "Antes de investir em anúncio ou em um site novo, escreva em uma frase por que o cliente deveria escolher você.",
-     "escuro": true
-    },
-    {
-     "rotulo": "Exemplo prático (situação ilustrativa)",
-     "titulo": "Duas pizzarias na mesma rua.",
-     "texto": "Uma copia o cardápio da outra. A segunda mostra a massa de longa fermentação, o forno e o prazo real de entrega. Quem escolhe sabe por que escolheu."
-    },
-    {
-     "rotulo": "Conexão com o mercado",
-     "titulo": "Posicionamento também aparece no digital.",
-     "texto": "Site, cardápio e agenda online contam a sua história ou repetem a de todo mundo. O cliente percebe a diferença em segundos.",
-     "escuro": true
-    },
-    {
-     "rotulo": "Reflexão",
-     "titulo": "O que só a sua empresa faz?",
-     "texto": "Conte nos comentários. A resposta costuma ser o começo de um bom posicionamento."
-    },
-    {
-     "rotulo": "GNZ01",
-     "titulo": "Vamos mostrar o que só você entrega?",
-     "texto": "Salve este post, compartilhe com um empreendedor e fale com a GNZ01 no WhatsApp {whatsapp}.",
-     "escuro": true
-    }
+   "layout": "padrao",
+   "claro": true,
+   "nicho": "Geral",
+   "objetivo": "Apresentar a GNZ01 e os serviços para quem chega ao perfil.",
+   "publico_alvo": "Novos visitantes do perfil",
+   "tecnica": "Posicionamento claro",
+   "titulo": "Soluções digitais para negócios que querem atender melhor.",
+   "subtitulo": "Sites, cardápios, agendas e catálogos feitos sob medida.",
+   "itens": [
+    "Sites e landing pages",
+    "Cardápios digitais",
+    "Agendamento online",
+    "Catálogos e páginas profissionais"
    ],
-   "legenda": "\"Your time is limited, so don't waste it living someone else's life.\"\n\"Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.\"\nSteve Jobs, discurso de formatura em Stanford (2005).\n\nJobs falava de carreira, mas a lição serve para qualquer negócio: quem copia o concorrente vive a estratégia de outra empresa.\n\nArraste para ver como transformar isso em posicionamento, do contexto até a aplicação prática no seu negócio. 👉\n\n💬 Conte nos comentários: o que só a sua empresa faz?\n💾 Salve para reler quando for planejar sua marca.\n\nQuer que seu site, cardápio ou agenda contem a SUA história? Fale com a GNZ01: {whatsapp}\n\nFonte da citação: transcrição oficial do discurso, Stanford News (news.stanford.edu).",
-   "cta": "Comente e salve",
+   "legenda": "Prazer, somos a GNZ01. 👋\n\nCriamos soluções digitais para empresas e profissionais que querem modernizar o atendimento e conquistar mais clientes:\n\n▪️ Sites profissionais e landing pages\n▪️ Cardápios digitais para restaurantes e pizzarias\n▪️ Agendamento online para quem atende com hora marcada\n▪️ Catálogos digitais e páginas profissionais\n▪️ Soluções personalizadas para o seu negócio\n\nTudo com visual limpo, rápido no celular e pensado para levar o cliente até você.\n\n👉 Conheça nossas soluções: {whatsapp}",
+   "cta": "Conheça nossas soluções",
    "hashtags": [
-    "#empreendedorismo",
-    "#stevejobs",
-    "#posicionamentodemarca",
-    "#gestaodenegocios"
+    "#gnz01",
+    "#solucoesdigitais",
+    "#criacaodesites",
+    "#transformacaodigital"
    ],
    "palavras_chave": [
-    "posicionamento de marca",
-    "empreendedorismo",
-    "Steve Jobs Stanford"
+    "GNZ01",
+    "soluções digitais",
+    "agência de sites"
    ],
-   "direcao_visual": "Carrossel editorial de 7 lâminas. Capa grafite com a citação em serifada itálica, autor e fonte. Fotografia real licenciada de Steve Jobs entra na capa quando disponível (campo foto + crédito); sem foto, versão tipográfica. Lâminas alternam papel off-white e grafite.",
-   "personalidade": "Steve Jobs",
-   "status": "aguardando_foto",
-   "observacao": "Foto real e licenciada da personalidade é obrigatória (pedido do João Paulo, 05/11). Publicar só depois de adicionar capa.foto + capa.credito."
+   "direcao_visual": "Versão clara: fundo off-white, título em preto, lista de serviços com check grafite. Serve como post fixado.",
+   "observacao": "Saiu de 06/11 18:30 para dar lugar ao post de personagem."
+  },
+  {
+   "tipo": "post",
+   "tema": "agenda",
+   "pilar": "conexao",
+   "layout": "pergunta",
+   "nicho": "Barbearias, salões e manicures",
+   "objetivo": "Gerar comentários e identificação com a dor de quem marca horário pelo WhatsApp.",
+   "publico_alvo": "Profissionais que atendem com hora marcada",
+   "tecnica": "Pergunta de identificação",
+   "titulo": "Quantas mensagens você responde só para marcar horário?",
+   "subtitulo": "Comenta aqui o seu número de hoje.",
+   "cta_imagem": "Comente aqui",
+   "legenda": "\"Tem horário amanhã?\" \"E às 15h?\" \"Pode ser depois do almoço?\" 📱\n\nSe você é barbeiro, manicure, cabeleireira ou atende com hora marcada, sabe quanto tempo vai embora só nessa troca de mensagens.\n\nComenta aqui: quantas mensagens você respondeu hoje só para marcar horário? 👇\n\nAmanhã eu mostro como a agenda online resolve isso. Ou, se não quiser esperar: {whatsapp}",
+   "cta": "Comente e acompanhe",
+   "hashtags": [
+    "#agendaonline",
+    "#barbearia",
+    "#manicure",
+    "#saloesdebeleza"
+   ],
+   "palavras_chave": [
+    "agendamento online",
+    "marcar horário",
+    "agenda para salão"
+   ],
+   "direcao_visual": "Layout pergunta: título enorme centralizado, grade de pontos discreta no canto, quase nenhum outro elemento.",
+   "observacao": "Saiu de 06/11 21:00. Ajustar o 'Amanhã eu mostro' ao reagendar."
   }
  ]
 }
