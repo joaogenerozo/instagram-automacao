@@ -1,0 +1,35 @@
+{
+  "steve-jobs": {
+    "nome": "Steve Jobs",
+    "arquivo": "midia/fotos/steve-jobs.jpg",
+    "autor": "Matthew Yohe",
+    "licenca": "CC BY-SA 3.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP_(cropped_2).jpg",
+    "descricao": "Steve Jobs mostra o iPhone 4 na WWDC, 7 de junho de 2010",
+    "alteracoes": "Redimensionada para 1440 px",
+    "credito": "Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada)"
+  },
+  "henry-ford": {
+    "nome": "Henry Ford",
+    "arquivo": "midia/fotos/henry-ford.jpg",
+    "autor": "Fred Hartsook",
+    "licenca": "Domínio público",
+    "licenca_url": null,
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Henry_ford_1919.jpg",
+    "descricao": "Retrato de Henry Ford, c. 1919 (Library of Congress, cph.3c11278)",
+    "alteracoes": "Redimensionada para 1440 px",
+    "credito": "Foto: Fred Hartsook, c. 1919 / Library of Congress (domínio público)"
+  },
+  "walt-disney": {
+    "nome": "Walt Disney",
+    "arquivo": "midia/fotos/walt-disney.jpg",
+    "autor": "Boy Scouts of America",
+    "licenca": "Domínio público",
+    "licenca_url": null,
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946.JPG",
+    "descricao": "Foto de divulgação de Walt Disney, 1946",
+    "alteracoes": "Nenhuma (450x675 px, resolução baixa: usar pequena na arte)",
+    "credito": "Foto: Boy Scouts of America, 1946 (domínio público)"
+  }
+}
