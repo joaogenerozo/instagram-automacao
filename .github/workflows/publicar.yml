@@ -1,0 +1,37 @@
+name: Publicar no Instagram
+
+on:
+  schedule:
+    # a cada 30 minutos; o script publica só o que já chegou no horário
+    # (posts: 08:00, 12:00, 15:00, 18:30, 21:00 | stories: 07:30, 09:30, 11:00, 13:30, 16:30, 19:30, 22:00 | reels: 19:00)
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Publicar posts do horário
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python publicar.py
+      - name: Salvar situação da fila
+        if: always()
+        run: |
+          git config user.name "robo-instagram"
+          git config user.email "actions@users.noreply.github.com"
+          git add fila.json
+          git diff --cached --quiet || (git commit -m "Atualiza fila de posts" && git pull --rebase && git push)

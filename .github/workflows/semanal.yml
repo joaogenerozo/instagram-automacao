@@ -1,0 +1,33 @@
+name: Preparar semana
+
+on:
+  schedule:
+    - cron: "0 13 * * 6"   # sábado, 10:00 de Brasília
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Gerar conteúdo e imagens da próxima semana
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python semanal.py
+      - name: Enviar para o repositório
+        run: |
+          git config user.name "robo-instagram"
+          git config user.email "actions@users.noreply.github.com"
+          git add conteudo midia fila.json
+          git diff --cached --quiet || (git commit -m "Agenda posts da próxima semana" && git pull --rebase && git push)

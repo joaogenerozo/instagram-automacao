@@ -1,0 +1,363 @@
+{
+  "semana": 1,
+  "dias": [
+    {
+      "posts": [
+        {
+          "tipo": "post", "tema": "sites",
+          "titulo": "Seu cliente procurou você no Google. E achou o concorrente.",
+          "subtitulo": "Quem não tem site perde venda todos os dias sem perceber.",
+          "itens": ["Aparece nas buscas", "Passa confiança", "Vende 24 horas por dia"],
+          "legenda": "Hoje, antes de comprar, quase todo mundo pesquisa no Google. Se o seu negócio não aparece, o cliente simplesmente vai para quem aparece.\n\nUm site profissional coloca sua empresa no mapa, mostra seus serviços e leva o cliente direto para o seu WhatsApp.\n\n👉 Quer um site pronto para vender? Chama no WhatsApp {whatsapp} ou clique no {link}.",
+          "hashtags": ["#criacaodesites", "#sitesprofissionais", "#presencadigital", "#negociolocal"]
+        },
+        {
+          "tipo": "carrossel", "tema": "cardapio",
+          "titulo": "5 motivos para trocar o cardápio de papel pelo digital",
+          "subtitulo": "Seu restaurante mais rápido, mais bonito e vendendo mais.",
+          "slides": [
+            {"titulo": "Atualiza em segundos", "texto": "Mudou o preço ou acabou um prato? Você altera no celular e pronto. Nada de reimprimir."},
+            {"titulo": "Fotos que dão fome", "texto": "Prato com foto vende muito mais. No cardápio digital cada item pode ter imagem e descrição."},
+            {"titulo": "QR Code na mesa", "texto": "O cliente aponta a câmera e já vê tudo. Menos espera e garçom livre para atender melhor."},
+            {"titulo": "Pedido direto no WhatsApp", "texto": "O cliente monta o pedido e envia pronto para o seu WhatsApp, sem erro de anotação."},
+            {"titulo": "Mais higiene e menos custo", "texto": "Sem cardápio passando de mão em mão e sem gastar com gráfica toda vez que algo muda."}
+          ],
+          "cta_final": "Quer um cardápio digital para o seu negócio?",
+          "legenda": "Cardápio de papel dá trabalho, sai caro e fica desatualizado rapidinho. 📋➡️📱\n\nArrasta para o lado e veja 5 motivos para migrar para o cardápio digital.\n\nSalve este post e mande para aquele amigo que tem restaurante, lanchonete ou hamburgueria!\n\n💬 Orçamento sem compromisso: {whatsapp}",
+          "hashtags": ["#cardapiodigital", "#restaurante", "#delivery", "#hamburgueria", "#qrcode"]
+        },
+        {
+          "tipo": "post", "tema": "agenda",
+          "titulo": "Você ainda marca horário pelo WhatsApp, um por um?",
+          "subtitulo": "Com uma agenda online, o cliente escolhe o horário sozinho, a qualquer hora.",
+          "itens": ["Agendamento 24h", "Lembrete automático", "Menos faltas"],
+          "legenda": "Responder mensagem por mensagem para marcar horário toma o seu tempo e ainda gera confusão.\n\nCom a agenda online, seu cliente vê os horários livres e agenda sozinho, até de madrugada. Você só recebe o aviso. ✅\n\nIdeal para barbearias, salões, clínicas, personal trainers, psicólogos e todo profissional que atende com hora marcada.\n\n📲 Fale comigo: {whatsapp}",
+          "hashtags": ["#agendaonline", "#agendamentoonline", "#barbearia", "#saloesdebeleza", "#autonomos"]
+        },
+        {
+          "tipo": "post", "tema": "sites",
+          "titulo": "Instagram não é site.",
+          "subtitulo": "O perfil é a vitrine. O site é a sua loja. Você precisa dos dois.",
+          "itens": ["O Instagram pode cair ou bloquear", "No site você controla tudo", "O Google mostra o seu site"],
+          "legenda": "Muita gente acha que ter Instagram basta. Mas o perfil não é seu: é da plataforma.\n\nO site é o seu endereço próprio na internet. Aparece no Google, passa mais credibilidade e reúne tudo o que o cliente precisa saber em um só lugar.\n\nUse o Instagram para atrair e o site para converter. 🚀\n\n👉 {whatsapp}",
+          "hashtags": ["#criacaodesites", "#marketingdigital", "#siteprofissional"]
+        },
+        {
+          "tipo": "post", "tema": "cardapio",
+          "titulo": "O cliente decide o pedido em menos de 2 minutos.",
+          "subtitulo": "Se o cardápio é confuso, ele pede o mais barato ou desiste.",
+          "itens": ["Categorias organizadas", "Fotos de verdade", "Destaque para os mais vendidos"],
+          "legenda": "Um cardápio bem organizado faz o cliente gastar mais e decidir mais rápido. 🍔🍕\n\nNo cardápio digital você destaca os campeões de venda, sugere adicionais e combos e deixa tudo bonito no celular.\n\nQuer ver como ficaria o seu? Chama no WhatsApp {whatsapp}",
+          "hashtags": ["#cardapiodigital", "#restaurantes", "#pizzaria", "#lanchonete"]
+        }
+      ]
+    },
+    {
+      "posts": [
+        {
+          "tipo": "post", "tema": "agenda",
+          "titulo": "Cliente que falta custa caro.",
+          "subtitulo": "Cada horário vazio é dinheiro que não volta.",
+          "itens": ["Lembrete automático antes do horário", "Confirmação com um toque", "Lista de espera para encaixes"],
+          "legenda": "Sabe aquele cliente que marca e não aparece? Com lembrete automático, as faltas caem muito.\n\nA agenda online avisa o cliente antes do horário e deixa ele confirmar ou remarcar com um toque. Você para de perder dinheiro com cadeira vazia. 💸\n\n📲 Monte a sua agenda: {whatsapp}",
+          "hashtags": ["#agendaonline", "#barbeiro", "#manicure", "#esteticista", "#clinica"]
+        },
+        {
+          "tipo": "carrossel", "tema": "agenda",
+          "titulo": "Como a agenda online organiza a rotina de quem atende com hora marcada",
+          "subtitulo": "Passo a passo do agendamento automático.",
+          "slides": [
+            {"titulo": "O cliente acessa o seu link", "texto": "Pela bio do Instagram, pelo WhatsApp ou pelo Google. Um link só, fácil de lembrar."},
+            {"titulo": "Escolhe o serviço", "texto": "Corte, consulta, aula ou sessão. Cada serviço com duração e preço já definidos."},
+            {"titulo": "Vê só os horários livres", "texto": "Nada de choque de horário. A agenda mostra apenas o que está disponível de verdade."},
+            {"titulo": "Recebe a confirmação", "texto": "Na hora, com data, horário e endereço. E um lembrete automático antes do atendimento."},
+            {"titulo": "Você só atende", "texto": "Toda a agenda organizada no celular, com histórico de cada cliente. Mais tempo para trabalhar e menos para responder mensagem."}
+          ],
+          "cta_final": "Quer sua agenda online funcionando ainda esta semana?",
+          "legenda": "Imagine acordar com a agenda do dia já cheia, sem ter respondido nenhuma mensagem. 😴📅\n\nArrasta para o lado e veja como funciona o agendamento online na prática.\n\nPerfeito para barbeiros, cabeleireiras, dentistas, psicólogos, nutricionistas, personal trainers e muito mais.\n\n💬 {whatsapp}",
+          "hashtags": ["#agendaonline", "#agendamento", "#profissionaisautonomos", "#produtividade", "#empreendedora"]
+        },
+        {
+          "tipo": "post", "tema": "sites",
+          "titulo": "Site bonito que não vende é só enfeite.",
+          "subtitulo": "Um bom site tem um objetivo: levar o cliente até você.",
+          "itens": ["Botão de WhatsApp sempre visível", "Rápido no celular", "Texto que explica o que você faz"],
+          "legenda": "Design é importante, mas o que importa mesmo é resultado. 🎯\n\nTodo site que eu crio é pensado para gerar contato: carrega rápido, funciona perfeito no celular e tem o caminho certo até o seu WhatsApp.\n\nQuer um site que trabalha por você? {whatsapp}",
+          "hashtags": ["#criacaodesites", "#webdesign", "#landingpage", "#vendasonline"]
+        },
+        {
+          "tipo": "post", "tema": "cardapio",
+          "titulo": "Delivery sem taxa de aplicativo? Dá sim.",
+          "subtitulo": "Com cardápio digital próprio, o pedido chega direto no seu WhatsApp.",
+          "itens": ["Sem comissão por pedido", "O cliente é seu, não do app", "Divulgue o link onde quiser"],
+          "legenda": "Os aplicativos de delivery cobram uma fatia grande de cada pedido. 😬\n\nCom um cardápio digital próprio, você recebe pedidos direto no WhatsApp, sem comissão, e ainda cria uma lista de clientes fiéis.\n\nUse os apps para ser encontrado e o seu cardápio para fidelizar. 💡\n\n📲 {whatsapp}",
+          "hashtags": ["#cardapiodigital", "#delivery", "#ifood", "#pedidoonline", "#marmitaria"]
+        },
+        {
+          "tipo": "post", "tema": "agenda",
+          "titulo": "Pare de dizer \"vou ver minha agenda e te retorno\".",
+          "subtitulo": "Enquanto você vê a agenda, o cliente marca com outro.",
+          "itens": ["Seu cliente agenda na hora", "Sem troca de mensagens", "Sem esquecer ninguém"],
+          "legenda": "Cliente quer resposta rápida. Se demora, ele procura outro profissional. ⏱️\n\nCom a agenda online, ele marca na hora, do jeito dele, e você recebe tudo organizado.\n\nResponda \"AGENDA\" no direct ou chama no WhatsApp {whatsapp}",
+          "hashtags": ["#agendaonline", "#atendimento", "#salaodebeleza", "#personaltrainer"]
+        }
+      ]
+    },
+    {
+      "posts": [
+        {
+          "tipo": "post", "tema": "cardapio",
+          "titulo": "Seu cardápio cabe no bolso do cliente.",
+          "subtitulo": "Um link para mandar no WhatsApp, colocar na bio e imprimir no QR Code.",
+          "itens": ["Funciona em qualquer celular", "Não precisa baixar app", "Sempre atualizado"],
+          "legenda": "O cliente não precisa instalar nada: é só abrir o link e escolher. 📱\n\nVocê coloca o mesmo link na bio, no status do WhatsApp, no Google e no QR Code da mesa. Mudou algo? Muda em todo lugar ao mesmo tempo.\n\n💬 Quer o seu? {whatsapp}",
+          "hashtags": ["#cardapiodigital", "#cardapioonline", "#cafeteria", "#doceria"]
+        },
+        {
+          "tipo": "carrossel", "tema": "sites",
+          "titulo": "O que todo site profissional precisa ter",
+          "subtitulo": "Checklist para não jogar dinheiro fora.",
+          "slides": [
+            {"titulo": "Domínio próprio", "texto": "suaempresa.com.br passa muito mais confiança do que um endereço gratuito e genérico."},
+            {"titulo": "Funcionar bem no celular", "texto": "A maioria das visitas vem do celular. Se o site quebra na tela pequena, o cliente vai embora."},
+            {"titulo": "Carregar rápido", "texto": "Cada segundo a mais de espera faz visitantes desistirem. Velocidade também ajuda no Google."},
+            {"titulo": "Contato fácil", "texto": "Botão de WhatsApp, telefone, endereço e mapa. O cliente não pode ter que procurar."},
+            {"titulo": "Prova social", "texto": "Depoimentos, fotos de trabalhos e avaliações. Quem vê outros clientes satisfeitos confia mais."},
+            {"titulo": "Estar no Google", "texto": "Site otimizado e cadastrado no Google para aparecer quando procuram pelo seu serviço na sua cidade."}
+          ],
+          "cta_final": "Quer um site com tudo isso pronto para você?",
+          "legenda": "Antes de contratar um site, confira este checklist. ✅\n\nArrasta para o lado e salve para consultar depois.\n\nTodos os sites que eu entrego já vêm com esses itens. Bora tirar o seu do papel?\n\n👉 {whatsapp}",
+          "hashtags": ["#criacaodesites", "#siteprofissional", "#seo", "#dicasdemarketing", "#pequenasempresas"]
+        },
+        {
+          "tipo": "post", "tema": "agenda",
+          "titulo": "Sua agenda trabalhando enquanto você dorme.",
+          "subtitulo": "Muitos clientes decidem agendar à noite, depois do expediente.",
+          "itens": ["Agendamentos de madrugada", "Fim de semana incluso", "Zero mensagens para responder"],
+          "legenda": "Quantas mensagens de \"tem horário amanhã?\" você recebe depois que já fechou? 🌙\n\nCom agenda online, esse cliente agenda na hora, mesmo com você descansando. De manhã, é só conferir a agenda.\n\n📲 {whatsapp}",
+          "hashtags": ["#agendaonline", "#automacao", "#barbearia", "#studiodebeleza"]
+        },
+        {
+          "tipo": "post", "tema": "sites",
+          "titulo": "Quanto custa NÃO ter um site?",
+          "subtitulo": "Faça a conta: quantos clientes procuram seu serviço por mês na sua cidade?",
+          "itens": ["Clientes que não te encontram", "Clientes que desconfiam", "Clientes que vão para o concorrente"],
+          "legenda": "Um site parece custo, mas é investimento que se paga com poucos clientes novos. 📈\n\nPense: se só 2 ou 3 pessoas por mês te encontrarem pelo Google, quanto isso representa no fim do ano?\n\nVamos colocar o seu negócio na internet? {whatsapp}",
+          "hashtags": ["#criacaodesites", "#investimento", "#empreender", "#marketinglocal"]
+        },
+        {
+          "tipo": "post", "tema": "cardapio",
+          "titulo": "Combo, adicional e sobremesa: o cardápio digital sugere por você.",
+          "subtitulo": "Venda mais em cada pedido sem ser chato.",
+          "itens": ["Sugestão de adicionais", "Combos em destaque", "Aumento do ticket médio"],
+          "legenda": "Sabe quando o atendente pergunta \"vai querer batata junto?\" O cardápio digital faz isso automaticamente. 🍟\n\nAdicionais, combos e sobremesas aparecem na hora certa, e o valor de cada pedido sobe.\n\n💬 Quer aumentar seu ticket médio? {whatsapp}",
+          "hashtags": ["#cardapiodigital", "#ticketmedio", "#restaurante", "#gestaoderestaurante"]
+        }
+      ]
+    },
+    {
+      "posts": [
+        {
+          "tipo": "post", "tema": "sites",
+          "titulo": "Seu site em poucos dias. Sem dor de cabeça.",
+          "subtitulo": "Você me conta sobre o seu negócio e eu cuido do resto.",
+          "itens": ["Conversa rápida sobre o seu negócio", "Criação e ajustes", "Site no ar e pronto para vender"],
+          "legenda": "Criar site não precisa ser complicado nem demorado. ⚡\n\nVocê me envia as informações, eu cuido do design, dos textos, do domínio e de colocar tudo no ar. Você só aprova.\n\n👉 Chama no WhatsApp {whatsapp} e peça seu orçamento.",
+          "hashtags": ["#criacaodesites", "#sitesrapidos", "#webdesigner", "#empreendedores"]
+        },
+        {
+          "tipo": "carrossel", "tema": "cardapio",
+          "titulo": "Erros que fazem seu cardápio perder vendas",
+          "subtitulo": "Você comete algum deles?",
+          "slides": [
+            {"titulo": "Itens demais", "texto": "Muitas opções confundem. Organize por categorias e destaque o que mais vende."},
+            {"titulo": "Sem fotos", "texto": "O cliente come com os olhos. Item sem foto é item ignorado."},
+            {"titulo": "Preço desatualizado", "texto": "Nada pior do que o cliente descobrir outro preço na hora de pagar. No digital você atualiza na hora."},
+            {"titulo": "Descrição sem graça", "texto": "\"X-burguer\" não vende. \"Pão brioche, blend de 180g e cheddar cremoso\" vende."},
+            {"titulo": "Difícil de pedir", "texto": "Se o cliente precisa digitar tudo no WhatsApp, ele desiste. Pedido tem que ser em poucos toques."}
+          ],
+          "cta_final": "Vamos montar um cardápio que vende de verdade?",
+          "legenda": "Seu cardápio pode estar espantando clientes sem você perceber. 😱\n\nArrasta para o lado e confira os 5 erros mais comuns.\n\nMarque aqui alguém que tem restaurante ou lanchonete! 👇\n\n💬 {whatsapp}",
+          "hashtags": ["#cardapiodigital", "#restaurante", "#foodservice", "#acaiteria", "#pastelaria"]
+        },
+        {
+          "tipo": "post", "tema": "agenda",
+          "titulo": "Agenda organizada = cliente que volta.",
+          "subtitulo": "Histórico de atendimentos e lembrete de retorno no automático.",
+          "itens": ["Histórico de cada cliente", "Lembrete de retorno", "Atendimento mais profissional"],
+          "legenda": "Fidelizar é mais barato do que conquistar cliente novo. 🔁\n\nCom a agenda online você sabe quando cada cliente veio pela última vez e pode lembrar ele de voltar na hora certa.\n\n📲 {whatsapp}",
+          "hashtags": ["#agendaonline", "#fidelizacao", "#estetica", "#podologia", "#fisioterapia"]
+        },
+        {
+          "tipo": "post", "tema": "cardapio",
+          "titulo": "QR Code na mesa: o garçom agradece.",
+          "subtitulo": "O cliente já chega no pedido sabendo o que quer.",
+          "itens": ["Menos espera", "Mais giro de mesa", "Equipe focada no atendimento"],
+          "legenda": "Com o QR Code na mesa, o cliente abre o cardápio no celular enquanto o garçom atende outras mesas. 🍽️\n\nResultado: atendimento mais rápido, mais mesas atendidas e clientes mais satisfeitos.\n\n💬 Monte o seu: {whatsapp}",
+          "hashtags": ["#cardapiodigital", "#qrcode", "#bar", "#restaurantes"]
+        },
+        {
+          "tipo": "post", "tema": "sites",
+          "titulo": "Profissional liberal também precisa de site.",
+          "subtitulo": "Advogados, dentistas, psicólogos, arquitetos, contadores...",
+          "itens": ["Mostra sua especialidade", "Transmite autoridade", "Facilita o primeiro contato"],
+          "legenda": "Quando alguém recebe sua indicação, a primeira coisa que faz é pesquisar seu nome. 🔎\n\nUm site profissional mostra sua formação, seus serviços e como te contratar, e transforma indicação em cliente.\n\n👉 {whatsapp}",
+          "hashtags": ["#criacaodesites", "#advogados", "#psicologos", "#dentistas", "#arquitetura"]
+        }
+      ]
+    },
+    {
+      "posts": [
+        {
+          "tipo": "post", "tema": "agenda",
+          "titulo": "Barbeiro: sua cadeira cheia sem você parar para responder.",
+          "subtitulo": "Agenda online feita para barbearia.",
+          "itens": ["Cada barbeiro com sua agenda", "Cliente escolhe o profissional", "Lembrete automático"],
+          "legenda": "Barbearia boa é barbearia com a agenda cheia e o barbeiro focado no corte, não no celular. ✂️💈\n\nCom a agenda online, cada profissional tem seus horários e o cliente escolhe com quem quer cortar.\n\n📲 {whatsapp}",
+          "hashtags": ["#barbearia", "#barbeiro", "#agendaonline", "#barbershop"]
+        },
+        {
+          "tipo": "carrossel", "tema": "agenda",
+          "titulo": "Mitos e verdades sobre agenda online",
+          "subtitulo": "Será que funciona para o seu negócio?",
+          "slides": [
+            {"titulo": "\"Meus clientes não vão saber usar\"", "texto": "MITO. É tão simples quanto mandar mensagem: escolhe o serviço, o dia e o horário. Pronto."},
+            {"titulo": "\"Vou perder o contato pessoal\"", "texto": "MITO. Você continua atendendo com carinho. Só deixa de gastar tempo marcando horário."},
+            {"titulo": "\"Diminui as faltas\"", "texto": "VERDADE. Lembretes automáticos fazem o cliente lembrar e confirmar o horário."},
+            {"titulo": "\"É caro\"", "texto": "MITO. Um único horário vazio por semana já custa mais do que ter uma agenda online."},
+            {"titulo": "\"Serve só para salão\"", "texto": "MITO. Serve para clínicas, consultórios, personal, aulas, estúdios, pet shops e qualquer atendimento com hora marcada."}
+          ],
+          "cta_final": "Pronto para ter sua agenda online?",
+          "legenda": "Ainda tem dúvida se agenda online é para você? 🤔\n\nArrasta para o lado e veja os mitos e verdades.\n\nComenta aqui qual é a sua profissão que eu te digo como a agenda ajudaria você! 👇\n\n💬 {whatsapp}",
+          "hashtags": ["#agendaonline", "#mitoseverdades", "#autonomos", "#petshop", "#studiodepilates"]
+        },
+        {
+          "tipo": "post", "tema": "cardapio",
+          "titulo": "Hamburgueria, pizzaria, açaí, marmita...",
+          "subtitulo": "Todo negócio de comida vende mais com cardápio digital.",
+          "itens": ["Montagem de pedido personalizada", "Taxa de entrega por bairro", "Horário de funcionamento automático"],
+          "legenda": "Não importa o tamanho do seu negócio: se vende comida, o cardápio digital ajuda. 🍕🍔🥗\n\nO cliente monta o pedido do jeito dele, vê a taxa de entrega e envia tudo pronto no seu WhatsApp.\n\n💬 {whatsapp}",
+          "hashtags": ["#cardapiodigital", "#acai", "#marmitex", "#pizzaria", "#hamburgueriaartesanal"]
+        },
+        {
+          "tipo": "post", "tema": "sites",
+          "titulo": "Aparecer no Google quando procuram \"perto de mim\".",
+          "subtitulo": "Site + perfil no Google = cliente da sua região chegando até você.",
+          "itens": ["Site otimizado para a sua cidade", "Perfil da empresa no Google", "Mapa e rota até você"],
+          "legenda": "Quando alguém pesquisa \"barbearia perto de mim\" ou \"pizzaria em [sua cidade]\", quem aparece leva o cliente. 📍\n\nEu crio sites pensados para aparecer nas buscas da sua região.\n\n👉 {whatsapp}",
+          "hashtags": ["#criacaodesites", "#seolocal", "#googlemeunegocio", "#negociolocal"]
+        },
+        {
+          "tipo": "post", "tema": "agenda",
+          "titulo": "Psicólogo, nutricionista, dentista: menos secretaria, mais atendimento.",
+          "subtitulo": "Agenda online para consultórios e clínicas.",
+          "itens": ["Agendamento por profissional", "Confirmação automática", "Organização de retornos"],
+          "legenda": "Consultório organizado transmite confiança desde o primeiro contato. 🩺\n\nCom agenda online, o paciente marca, recebe lembrete e confirma. Você ganha tempo e reduz faltas.\n\n📲 {whatsapp}",
+          "hashtags": ["#agendaonline", "#consultorio", "#psicologia", "#nutricionista", "#odontologia"]
+        }
+      ]
+    },
+    {
+      "posts": [
+        {
+          "tipo": "post", "tema": "cardapio",
+          "titulo": "Final de semana chegando. Seu cardápio está pronto?",
+          "subtitulo": "É quando mais chegam pedidos. Não deixe o cliente esperando.",
+          "itens": ["Pedidos organizados", "Sem erro de anotação", "Atendimento mais rápido"],
+          "legenda": "Sexta e sábado são os dias de mais movimento. É aí que um cardápio digital faz diferença. 🔥\n\nPedido chega organizado, sem áudio confuso e sem item esquecido.\n\n💬 Prepare-se para o próximo fim de semana: {whatsapp}",
+          "hashtags": ["#cardapiodigital", "#sextou", "#delivery", "#restaurante"]
+        },
+        {
+          "tipo": "carrossel", "tema": "sites",
+          "titulo": "Landing page, site institucional ou loja virtual: qual é o certo para você?",
+          "subtitulo": "Entenda as diferenças antes de contratar.",
+          "slides": [
+            {"titulo": "Landing page", "texto": "Uma página só, focada em um objetivo: vender um serviço ou capturar contatos. Ideal para campanhas e anúncios."},
+            {"titulo": "Site institucional", "texto": "Várias páginas: sobre, serviços, portfólio, contato. Ideal para empresas e profissionais que querem autoridade."},
+            {"titulo": "Loja virtual", "texto": "Catálogo com carrinho e pagamento online. Ideal para quem vende produtos físicos ou digitais."},
+            {"titulo": "Cardápio digital", "texto": "Feito para restaurantes e delivery: pedido pronto no WhatsApp e atualização em segundos."},
+            {"titulo": "Não sabe qual escolher?", "texto": "Me conta sobre o seu negócio que eu indico o melhor formato, sem enrolação."}
+          ],
+          "cta_final": "Vamos descobrir o site ideal para o seu negócio?",
+          "legenda": "Nem todo negócio precisa do mesmo tipo de site. 🧐\n\nArrasta para o lado e descubra qual é o ideal para você.\n\nSalve para consultar quando for contratar!\n\n👉 {whatsapp}",
+          "hashtags": ["#criacaodesites", "#landingpage", "#lojavirtual", "#siteinstitucional", "#webdesign"]
+        },
+        {
+          "tipo": "post", "tema": "agenda",
+          "titulo": "Personal trainer: seus alunos agendam sozinhos.",
+          "subtitulo": "Horários de treino organizados sem planilha.",
+          "itens": ["Aulas avulsas ou pacotes", "Remarcação fácil", "Agenda no celular"],
+          "legenda": "Personal que vive remarcando treino pelo WhatsApp sabe o caos que é. 🏋️\n\nCom a agenda online, o aluno vê seus horários livres e marca ou remarca sozinho.\n\n📲 {whatsapp}",
+          "hashtags": ["#personaltrainer", "#agendaonline", "#educacaofisica", "#treino"]
+        },
+        {
+          "tipo": "post", "tema": "sites",
+          "titulo": "Seu concorrente já tem site. E você?",
+          "subtitulo": "Não precisa ser grande para parecer profissional.",
+          "itens": ["Visual moderno", "Preço que cabe no bolso", "Suporte depois da entrega"],
+          "legenda": "Hoje, pequenos negócios competem de igual para igual na internet. O que faz diferença é aparecer e passar confiança. 💪\n\nVamos colocar o seu negócio à frente? Chama no WhatsApp {whatsapp}",
+          "hashtags": ["#criacaodesites", "#pequenosnegocios", "#mei", "#empreendedorismo"]
+        },
+        {
+          "tipo": "post", "tema": "cardapio",
+          "titulo": "Cardápio digital com a cara da sua marca.",
+          "subtitulo": "Suas cores, seu logo e suas fotos.",
+          "itens": ["Visual personalizado", "Link com o nome do seu negócio", "QR Code para imprimir"],
+          "legenda": "Seu cardápio é parte da experiência do cliente. Ele precisa ter a identidade do seu negócio. 🎨\n\nCrio cardápios digitais personalizados, prontos para receber pedidos.\n\n💬 {whatsapp}",
+          "hashtags": ["#cardapiodigital", "#identidadevisual", "#branding", "#gastronomia"]
+        }
+      ]
+    },
+    {
+      "posts": [
+        {
+          "tipo": "post", "tema": "agenda",
+          "titulo": "Domingo é dia de descansar. Sua agenda não.",
+          "subtitulo": "Comece a semana com horários já preenchidos.",
+          "itens": ["Clientes agendando no domingo", "Semana planejada", "Você descansando"],
+          "legenda": "Enquanto você aproveita o domingo, seus clientes já estão agendando a semana. 🛋️📅\n\nIsso é ter uma agenda online trabalhando por você.\n\n📲 {whatsapp}",
+          "hashtags": ["#agendaonline", "#qualidadedevida", "#autonomos", "#empreendedora"]
+        },
+        {
+          "tipo": "carrossel", "tema": "agenda",
+          "titulo": "Quanto dinheiro você perde com faltas por mês?",
+          "subtitulo": "Faça a conta com a gente.",
+          "slides": [
+            {"titulo": "Conte as faltas", "texto": "Quantos clientes marcaram e não vieram na última semana? Anote esse número."},
+            {"titulo": "Multiplique pelo valor", "texto": "Exemplo: 3 faltas por semana em um serviço de R$ 50 dá R$ 150 perdidos."},
+            {"titulo": "Agora faça por mês", "texto": "R$ 150 por semana viram cerca de R$ 600 por mês. Mais de R$ 7 mil por ano."},
+            {"titulo": "O lembrete resolve", "texto": "Com aviso automático antes do horário, a maioria dos clientes confirma ou remarca com antecedência."},
+            {"titulo": "E o horário não fica vazio", "texto": "Quando alguém desmarca, o horário volta a aparecer livre e outro cliente pode agendar."}
+          ],
+          "cta_final": "Pare de perder dinheiro com horário vazio",
+          "legenda": "Faltas parecem pequenas, mas somadas viram muito dinheiro. 💸\n\nArrasta para o lado e faça a conta com o seu negócio.\n\nComenta aqui quanto deu! 👇\n\n💬 Quer resolver isso? {whatsapp}",
+          "hashtags": ["#agendaonline", "#gestao", "#financas", "#salaodebeleza", "#clinicadeestetica"]
+        },
+        {
+          "tipo": "post", "tema": "cardapio",
+          "titulo": "Seu cliente quer ver o cardápio antes de sair de casa.",
+          "subtitulo": "Coloque o link na bio, no Google e no WhatsApp.",
+          "itens": ["Mais visitas", "Cliente já chega decidido", "Mais pedidos para retirada"],
+          "legenda": "Antes de escolher onde comer, as pessoas procuram o cardápio no celular. Se não acham, escolhem outro lugar. 📲\n\nCom o cardápio digital, seu restaurante aparece pronto para ser escolhido.\n\n💬 {whatsapp}",
+          "hashtags": ["#cardapiodigital", "#restaurante", "#gastronomia", "#comidaboa"]
+        },
+        {
+          "tipo": "post", "tema": "sites",
+          "titulo": "Comece a semana com o seu negócio na internet.",
+          "subtitulo": "Site, cardápio digital ou agenda online: o que está faltando para você?",
+          "itens": ["Criação de sites", "Cardápio digital", "Agenda online"],
+          "legenda": "Nova semana, nova chance de tirar aquele projeto do papel. 🚀\n\nEu ajudo negócios e profissionais a venderem mais com:\n✅ Sites profissionais\n✅ Cardápios digitais\n✅ Agendas online\n\nMe chama e vamos conversar: {whatsapp}",
+          "hashtags": ["#criacaodesites", "#cardapiodigital", "#agendaonline", "#transformacaodigital"]
+        },
+        {
+          "tipo": "post", "tema": "agenda",
+          "titulo": "Salão de beleza com agenda online fatura mais.",
+          "subtitulo": "Cada profissional com sua agenda e nenhum horário perdido.",
+          "itens": ["Agenda por profissional", "Serviços com duração certa", "Cliente agenda pelo Instagram"],
+          "legenda": "Cabelo, unha, sobrancelha, maquiagem: cada serviço tem um tempo e cada profissional tem sua agenda. 💇‍♀️💅\n\nA agenda online organiza tudo isso e o cliente agenda direto pelo link da bio.\n\n📲 {whatsapp}",
+          "hashtags": ["#salaodebeleza", "#cabeleireira", "#manicure", "#designdesobrancelhas", "#agendaonline"]
+        }
+      ]
+    }
+  ]
+}

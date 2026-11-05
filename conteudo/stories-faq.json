@@ -1,0 +1,59 @@
+{
+  "perguntas": [
+    {"tema": "sites", "pergunta": "Quanto custa um site?", "resposta": "Depende do tipo: landing page, site institucional ou loja virtual. Me conta o que você precisa que eu mando um orçamento sem compromisso."},
+    {"tema": "sites", "pergunta": "Em quanto tempo meu site fica pronto?", "resposta": "Sites simples ficam prontos em poucos dias. Assim que eu recebo seus textos, fotos e logo, começo na hora."},
+    {"tema": "cardapio", "pergunta": "O cliente precisa baixar aplicativo para ver o cardápio?", "resposta": "Não! É só abrir um link ou apontar a câmera para o QR Code. Funciona em qualquer celular."},
+    {"tema": "agenda", "pergunta": "Meu cliente consegue agendar sozinho?", "resposta": "Sim. Ele abre seu link, escolhe o serviço, o dia e o horário livre. Você só recebe o aviso."},
+    {"tema": "sites", "pergunta": "Preciso entender de tecnologia para ter um site?", "resposta": "Nada! Eu cuido de tudo: design, textos, domínio e publicação. Você só aprova."},
+    {"tema": "sites", "pergunta": "Meu site vai aparecer no Google?", "resposta": "Sim. Todo site já sai otimizado e cadastrado no Google para ser encontrado por quem procura seu serviço."},
+    {"tema": "cardapio", "pergunta": "Consigo mudar os preços do cardápio sozinho?", "resposta": "Consegue, pelo celular, em segundos. Acabou um prato? Você pausa o item na hora."},
+
+    {"tema": "sites", "pergunta": "Já tenho Instagram. Preciso de site?", "resposta": "O Instagram é a vitrine, o site é sua loja. Ele passa mais confiança, aparece no Google e é 100% seu."},
+    {"tema": "agenda", "pergunta": "A agenda manda lembrete para o cliente?", "resposta": "Manda! O cliente recebe um lembrete antes do horário e pode confirmar ou remarcar. Bem menos faltas."},
+    {"tema": "sites", "pergunta": "O site funciona bem no celular?", "resposta": "Funciona perfeito. Eu crio pensando primeiro no celular, que é de onde vem a maioria das visitas."},
+    {"tema": "cardapio", "pergunta": "O pedido chega como para mim?", "resposta": "Direto no seu WhatsApp, já organizado com itens, observações, endereço e forma de pagamento."},
+    {"tema": "sites", "pergunta": "Posso ter um botão de WhatsApp no site?", "resposta": "Pode e deve! Todo site que eu faço tem botão de WhatsApp sempre à vista para o cliente te chamar."},
+    {"tema": "agenda", "pergunta": "Funciona para quem tem mais de um profissional?", "resposta": "Sim. Cada profissional tem sua própria agenda e o cliente escolhe com quem quer ser atendido."},
+    {"tema": "sites", "pergunta": "Eu ganho o domínio com o meu nome?", "resposta": "Eu te ajudo a registrar seu domínio (ex.: seunegocio.com.br) e deixo tudo configurado."},
+
+    {"tema": "sites", "pergunta": "E se eu quiser mudar algo depois?", "resposta": "Sem problema. Você conta comigo para ajustes e atualizações depois que o site estiver no ar."},
+    {"tema": "cardapio", "pergunta": "Pago comissão por pedido?", "resposta": "Não! Diferente dos aplicativos de delivery, no seu cardápio digital os pedidos são seus, sem taxa por venda."},
+    {"tema": "sites", "pergunta": "Qual a diferença entre landing page e site?", "resposta": "Landing page tem uma página focada em vender uma coisa. Site institucional tem várias páginas e apresenta a empresa toda."},
+    {"tema": "agenda", "pergunta": "Posso bloquear dias e horários?", "resposta": "Pode. Folga, feriado ou almoço: você bloqueia e esses horários somem para o cliente."},
+    {"tema": "sites", "pergunta": "Vocês escrevem os textos do site?", "resposta": "Sim! Escrevo textos pensados para vender, a partir de uma conversa rápida sobre o seu negócio."},
+    {"tema": "cardapio", "pergunta": "Dá para colocar foto em cada prato?", "resposta": "Dá sim, e é o que mais vende. Cada item pode ter foto, descrição e adicionais."},
+    {"tema": "sites", "pergunta": "Site serve para profissional autônomo?", "resposta": "Serve muito! Advogados, psicólogos, dentistas, fotógrafos, arquitetos... o site transforma indicação em cliente."},
+
+    {"tema": "agenda", "pergunta": "O cliente precisa criar conta para agendar?", "resposta": "Não. Ele informa nome e telefone e pronto. Rápido e sem complicação."},
+    {"tema": "sites", "pergunta": "Meu site vai ser igual a um modelo pronto?", "resposta": "Não. Ele é feito com as cores, a logo e o jeito do seu negócio. Exclusivo para você."},
+    {"tema": "cardapio", "pergunta": "Funciona para delivery e para mesa?", "resposta": "Funciona para os dois: QR Code na mesa e link para pedidos de entrega ou retirada."},
+    {"tema": "sites", "pergunta": "Posso vender produtos pelo site?", "resposta": "Pode! Dá para fazer catálogo com pedido no WhatsApp ou loja virtual com pagamento online."},
+    {"tema": "agenda", "pergunta": "Onde coloco o link da agenda?", "resposta": "Na bio do Instagram, no WhatsApp, no Google e no seu site. Um link só, em todo lugar."},
+    {"tema": "sites", "pergunta": "Como é o processo para fazer meu site?", "resposta": "1. Conversa rápida  2. Envio do material  3. Eu crio e você aprova  4. Site no ar!"},
+    {"tema": "cardapio", "pergunta": "Consigo colocar taxa de entrega por bairro?", "resposta": "Consegue. O cliente escolhe o bairro e a taxa já entra no total do pedido."},
+
+    {"tema": "sites", "pergunta": "Por que meu negócio precisa de site em 2026?", "resposta": "Porque o cliente pesquisa antes de comprar. Quem não aparece, perde a venda para quem aparece."},
+    {"tema": "agenda", "pergunta": "Para quais profissões serve a agenda online?", "resposta": "Barbearia, salão, estética, clínicas, psicólogos, nutricionistas, personal, aulas, pet shop e muito mais."},
+    {"tema": "sites", "pergunta": "O site fica rápido?", "resposta": "Fica. Site lento perde cliente, por isso eu otimizo tudo para carregar rapidinho."},
+    {"tema": "cardapio", "pergunta": "Dá para oferecer adicionais e combos?", "resposta": "Dá sim! Adicionais, combos e sugestões aparecem na hora do pedido e aumentam o valor de cada venda."},
+    {"tema": "sites", "pergunta": "Posso mostrar meus trabalhos e depoimentos?", "resposta": "Deve! Portfólio e avaliações de clientes reais são o que mais geram confiança no site."},
+    {"tema": "agenda", "pergunta": "Consigo ver minha agenda pelo celular?", "resposta": "Sim. Toda a sua agenda do dia e da semana na palma da mão, com o histórico de cada cliente."},
+    {"tema": "sites", "pergunta": "Atende negócios de outras cidades?", "resposta": "Atendo! Todo o processo é online, pelo WhatsApp. Você recebe tudo pronto, de onde estiver."},
+
+    {"tema": "sites", "pergunta": "Site é gasto ou investimento?", "resposta": "Investimento. Poucos clientes novos por mês já pagam o site, e ele continua trabalhando por anos."},
+    {"tema": "cardapio", "pergunta": "Meu cardápio pode ter a cara da minha marca?", "resposta": "Pode. Suas cores, sua logo e suas fotos. Fica com a identidade do seu restaurante."},
+    {"tema": "agenda", "pergunta": "E se o cliente quiser remarcar?", "resposta": "Ele mesmo remarca pelo link, e o horário antigo volta a ficar livre para outra pessoa."},
+    {"tema": "sites", "pergunta": "Posso colocar formulário de contato?", "resposta": "Pode. Formulário, WhatsApp, telefone, e-mail e mapa com rota até você."},
+    {"tema": "cardapio", "pergunta": "Funciona para lanchonete pequena?", "resposta": "Funciona para qualquer tamanho: lanchonete, açaí, marmita, pizzaria, doceria, bar..."},
+    {"tema": "sites", "pergunta": "Já tenho site, mas ele está feio e antigo. Dá para refazer?", "resposta": "Dá sim! Eu renovo o visual, deixo rápido, bom no celular e focado em trazer clientes."},
+    {"tema": "agenda", "pergunta": "A agenda online substitui a secretária?", "resposta": "Ela tira o trabalho repetitivo de marcar horário. Sua equipe fica livre para atender melhor."},
+
+    {"tema": "sites", "pergunta": "Como recebo os contatos do site?", "resposta": "Direto no seu WhatsApp ou e-mail. O cliente clica e já cai na conversa com você."},
+    {"tema": "cardapio", "pergunta": "Posso definir horário de funcionamento?", "resposta": "Pode. Fora do horário, o cardápio avisa que a loja está fechada e quando abre."},
+    {"tema": "sites", "pergunta": "O site aparece no Google Maps?", "resposta": "Eu ligo seu site ao perfil da empresa no Google, para você aparecer no mapa da sua região."},
+    {"tema": "agenda", "pergunta": "Consigo cobrar sinal no agendamento?", "resposta": "Dá para combinar a forma de pagamento no agendamento. Me chama que eu te mostro as opções."},
+    {"tema": "sites", "pergunta": "Que informações eu preciso para começar?", "resposta": "Sua logo, fotos, serviços e contatos. Não tem tudo? Sem problema, eu te ajudo a montar."},
+    {"tema": "cardapio", "pergunta": "Quanto tempo leva para o cardápio ficar pronto?", "resposta": "Com a lista de itens e preços em mãos, fica pronto rapidinho. Me chama para combinar."},
+    {"tema": "sites", "pergunta": "Como faço para pedir meu orçamento?", "resposta": "Me chama no WhatsApp ou manda \"SITE\" no direct. Te respondo ainda hoje!"}
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "marca": "@gnz01_",
+  "instagram": "Sites · Cardápios digitais · Agendas",
+  "whatsapp": "(19) 97829-9585",
+  "link": "link na bio",
+  "cores": {
+    "fundo": "#18191D",
+    "fundo2": "#1C1F24",
+    "destaque": "#F4F3EE",
+    "texto": "#FFFFFF",
+    "texto_suave": "#B2B7BD"
+  },
+  "temas": {
+    "sites": {
+      "rotulo": "CRIAÇÃO DE SITES",
+      "cor": "#30343B"
+    },
+    "cardapio": {
+      "rotulo": "CARDÁPIO DIGITAL",
+      "cor": "#30343B"
+    },
+    "agenda": {
+      "rotulo": "AGENDA ONLINE",
+      "cor": "#30343B"
+    }
+  },
+  "horarios": [
+    "08:00",
+    "12:00",
+    "15:00",
+    "18:30",
+    "21:00"
+  ],
+  "fuso": "America/Sao_Paulo",
+  "url_base_imagens": "https://joaogenerozo.github.io/instagram-automacao/",
+  "hashtags_fixas": [
+    "#criacaodesites",
+    "#siteprofissional",
+    "#sitesparaempresas",
+    "#marketingdigital",
+    "#empreendedorismo"
+  ],
+  "graph_api_versao": "v21.0",
+  "graph_api_host": "https://graph.facebook.com",
+  "horarios_stories": [
+    "07:30",
+    "09:30",
+    "11:00",
+    "13:30",
+    "16:30",
+    "19:30",
+    "22:00"
+  ],
+  "horario_reels": "19:00",
+  "hashtags_tema": {
+    "sites": [
+      "#sitesparapequenasempresas",
+      "#facaseusite",
+      "#siteresponsivo",
+      "#webdesignerbrasil",
+      "#orcamentodesite"
+    ],
+    "cardapio": [
+      "#cardapiodigital",
+      "#cardapioonline",
+      "#pedidopelowhatsapp",
+      "#donoderestaurante"
+    ],
+    "agenda": [
+      "#agendaonline",
+      "#agendamentoonline",
+      "#sistemadeagendamento",
+      "#profissionaldabeleza"
+    ],
+    "depoimento": [
+      "#criacaodesites",
+      "#cardapiodigital",
+      "#agendaonline"
+    ]
+  },
+  "assinatura_cross_sell": "💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: {whatsapp}"
+}
