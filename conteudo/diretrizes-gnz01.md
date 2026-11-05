@@ -101,3 +101,8 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 - Posts editoriais (2 por dia) e posts/stories de personalidade usam a capa central: foto real licenciada, degradê azul-marinho, título em serifada caixa alta centralizado, GNZ01 centralizado (referência: post estilo G4 enviado pelo João).
 - Cada post editorial tem o campo "cenario" (midia/fotos/cenarios/<slug>.jpg, crédito em creditos.json com chave "cenarios/<slug>"). Sem foto, sai no layout tipográfico. Para refazer pendentes: python tools/rerender_editorial.py <semana.json>.
 - Demonstrações de produto seguem no padrão Product Showcase (seção 15).
+
+## 17. Carrossel "Os ensinamentos de" (referência G4 enviada pelo João, 05/11)
+- Carrosséis de personalidade: uma foto real licenciada DIFERENTE da pessoa em cada lâmina (midia/fotos/<slug>/NN.jpg, crédito em creditos.json["<slug>/NN"]). Com 4+ fotos o gerar usa src/ensinamentos.py; com menos, capa central.
+- Estrutura: capa "OS ENSINAMENTOS DE" + nome gigante + papel (campo "papel"); lâmina da citação conferida; lições alternando layouts (foto + título dourado; painel bordô com título em caixa alta; foto + cartão bege; título duas cores alinhado à direita); CTA final. Paleta marinho, bordô, dourado, bege.
+- Exemplos inventados aparecem como "Situação ilustrativa". Crédito da foto em cada lâmina.

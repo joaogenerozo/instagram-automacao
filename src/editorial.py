@@ -325,7 +325,12 @@ def render_editorial(arte, pasta):
     (foto + degradê marinho + serifada caixa alta); sem foto, o layout tipográfico."""
     pasta = Path(pasta)
     raiz = Path(__file__).resolve().parent.parent
-    cen = arte.get("cenario")
+    if arte.get("personalidade") and arte["tipo"] == "carrossel":
+        from src import ensinamentos as en
+        slug = arte.get("slug_foto") or arte["personalidade"].lower().replace(" ", "-")
+        fotos = en.fotos_de(slug, raiz)
+        if len(fotos) >= 4:  # uma foto diferente por lâmina (pedido do João); com menos, capa central
+            return en.carrossel(arte, fotos, pasta)
     foto = raiz / f"midia/fotos/cenarios/{cen}.jpg" if cen else None
     if foto and foto.exists() and not arte.get("capa", {}).get("foto"):
         cred = json.load(open(raiz / "midia/fotos/creditos.json")).get(f"cenarios/{cen}", {}).get("credito")

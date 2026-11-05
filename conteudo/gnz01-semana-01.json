@@ -241,7 +241,8 @@
       "descricao": "Steve Jobs mostra o iPhone 4 na WWDC, 7 de junho de 2010",
       "alteracoes": "Redimensionada para 1440 px",
       "credito": "Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada)"
-     }
+     },
+     "papel": "Cofundador da Apple"
     },
     {
      "tipo": "carrossel",
@@ -326,7 +327,8 @@
       "recomeçar",
       "presença digital"
      ],
-     "direcao_visual": "Carrossel editorial de 7 lâminas. Capa com retrato real de Henry Ford (Fred Hartsook, c. 1919, domínio público), citação em serifada itálica, autor, fonte e crédito. Lâminas alternam papel off-white e grafite."
+     "direcao_visual": "Carrossel editorial de 7 lâminas. Capa com retrato real de Henry Ford (Fred Hartsook, c. 1919, domínio público), citação em serifada itálica, autor, fonte e crédito. Lâminas alternam papel off-white e grafite.",
+     "papel": "Fundador da Ford Motor Company"
     }
    ],
    "stories": [
