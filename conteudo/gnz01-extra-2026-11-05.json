@@ -1,0 +1,43 @@
+{
+ "data": "2026-11-05",
+ "posts": [
+  {"hora": "15:00", "tipo": "post", "tema": "sites", "pilar": "educacao", "layout": "padrao",
+   "nicho": "Comerciantes e prestadores de serviço", "objetivo": "Ensinar o que um site precisa deixar claro logo de cara e gerar salvamentos.",
+   "publico_alvo": "Donos de negócio que estão pensando em ter um site", "tecnica": "Lista prática + regra simples",
+   "titulo": "Os 5 primeiros segundos do seu site",
+   "subtitulo": "É o tempo que o visitante leva para decidir se fica.",
+   "itens": ["O que você faz, em uma frase", "Para quem é o seu serviço", "Como falar com você agora"],
+   "legenda": "Quem chega no seu site decide muito rápido se continua ou volta para a busca. ⏱️\n\nNesses primeiros segundos, três respostas precisam estar claras na tela:\n\n1. O que você faz, em uma frase simples\n2. Para quem é o seu serviço\n3. Como falar com você agora, com um botão visível\n\nSe o visitante precisa procurar essas respostas, ele vai embora.\n\n💾 Salve para revisar o seu site (ou para quando for criar o seu).\n👉 Quer um site que deixe isso claro desde o primeiro segundo? Solicite um orçamento personalizado: {whatsapp}",
+   "cta": "Solicite um orçamento personalizado", "cta_imagem": "Salve este post",
+   "hashtags": ["#criacaodesites", "#siteprofissional", "#webdesign", "#dicasdemarketing"],
+   "palavras_chave": ["site profissional", "como fazer um bom site", "criação de sites"],
+   "direcao_visual": "Fundo escuro, título grande, três checks off-white. Peça salvável e direta."},
+  {"hora": "18:30", "tipo": "post", "tema": "agenda", "pilar": "demonstracao",
+   "vitrine": {"tipo": "agenda", "titulo": "Banho e tosa marcados pelo link.", "subtitulo": "Veja como fica a agenda online de um pet shop.", "sigla": "SP", "nome": "Seu Pet Shop", "chips": ["Banho", "Banho + tosa", "Tosa"], "notif": ["Novo agendamento", "Banho + tosa · Sex 14:30 · lembrete enviado"], "botao": "Confirmar · Sex 14:30"},
+   "nicho": "Pet shops e serviços com hora marcada", "objetivo": "Mostrar a agenda online funcionando em um nicho novo.",
+   "publico_alvo": "Donos de pet shop, banho e tosa e prestadores com horário marcado", "tecnica": "Demonstração",
+   "titulo": "Banho e tosa marcados pelo link.",
+   "legenda": "\"Tem horário para banho amanhã?\" 🐶\n\nCom uma agenda online, o tutor abre o link, escolhe o serviço, o dia e o horário livre. Você recebe o agendamento organizado e o lembrete sai automaticamente.\n\nFunciona para pet shop, banho e tosa, salão, barbearia, clínica e qualquer negócio que trabalha com hora marcada.\n\n*Imagem ilustrativa para demonstração.\n\n👉 Quer ver como fica no seu negócio? Peça uma demonstração: {whatsapp}",
+   "cta": "Peça uma demonstração",
+   "hashtags": ["#agendaonline", "#petshop", "#banhoetosa", "#agendamentoonline"],
+   "palavras_chave": ["agenda online", "agendamento pet shop", "sistema de agendamento"],
+   "direcao_visual": "Mockup de celular com a agenda, notificação de novo agendamento e aviso de imagem ilustrativa."},
+  {"hora": "21:00", "tipo": "post", "tema": "sites", "pilar": "autoridade", "layout": "numero", "claro": true, "numero": "3",
+   "nicho": "Pequenos e médios negócios", "objetivo": "Mostrar o método da GNZ01 e gerar confiança antes do contato.",
+   "publico_alvo": "Quem está avaliando contratar um site", "tecnica": "Bastidor do método",
+   "titulo": "perguntas que fazemos antes de criar qualquer site.",
+   "subtitulo": "Quem é seu cliente? O que ele precisa saber antes de comprar? Qual o próximo passo que ele deve dar?",
+   "legenda": "Antes de pensar em cor, fonte ou layout, a GNZ01 começa com três perguntas:\n\n1️⃣ Quem é o seu cliente?\n2️⃣ O que ele precisa saber antes de comprar de você?\n3️⃣ Qual é o próximo passo que ele deve dar: chamar no WhatsApp, agendar ou pedir orçamento?\n\nAs respostas definem a estrutura, os textos e onde fica cada botão. Por isso nenhum site sai igual ao outro.\n\n💬 Quer responder essas perguntas sobre o seu negócio com a gente? Chame no WhatsApp: {whatsapp}",
+   "cta": "Chame no WhatsApp", "cta_imagem": "Fale com a GNZ01",
+   "hashtags": ["#criacaodesites", "#sitesobmedida", "#webdesignerbrasil", "#presencadigital"],
+   "palavras_chave": ["site sob medida", "criação de sites", "como é feito um site"],
+   "direcao_visual": "Layout número em fundo off-white, número 3 gigante em preto, texto curto. Contraste com o post das 15h."}
+ ],
+ "stories": [
+  {"hora": "13:30", "tipo": "texto", "pilar": "conexao", "rotulo": "NOVIDADE", "titulo": "A partir de agora, conteúdo novo todo dia por aqui.", "texto": "Dicas, demonstrações e respostas para quem quer um negócio mais fácil de encontrar e de atender.", "cta": "Ative as notificações"},
+  {"hora": "16:30", "tipo": "faq", "indice": 26},
+  {"hora": "19:30", "tipo": "cardapio", "pilar": "demonstracao", "titulo": "O açaí montado do jeito do cliente.", "subtitulo": "Veja como fica o cardápio digital de uma açaiteria.", "sigla": "SA", "nome": "Sua Açaiteria", "chips": ["Açaí", "Adicionais", "Bebidas"], "itens": [["Açaí 500ml", "Com granola e banana", "R$ 22,90"], ["Açaí 700ml", "Com leite em pó e morango", "R$ 28,90"], ["Adicional Nutella", "Porção extra", "R$ 6,00"]], "total": "R$ 57,80", "notif": ["Novo pedido no WhatsApp", "3 itens · R$ 57,80 · entrega"]},
+  {"hora": "21:00", "tipo": "texto", "pilar": "conexao", "rotulo": "RESPONDA NO DIRECT", "titulo": "Qual serviço você quer ver funcionando aqui?", "texto": "Site, cardápio, agenda ou catálogo? Responda e eu mostro um exemplo para o seu ramo.", "cta": "Responda no Direct", "claro": true},
+  {"hora": "22:00", "tipo": "texto", "pilar": "vendas", "rotulo": "ORÇAMENTO", "titulo": "Seu negócio pronto para ser encontrado.", "texto": "Conte como funciona o seu atendimento e receba um orçamento personalizado, sem compromisso.", "cta": "WhatsApp {whatsapp}"}
+ ]
+}

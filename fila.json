@@ -1,5 +1,101 @@
 [
   {
+    "id": "gnz01_2026-11-05_extrastory1",
+    "status": "pendente",
+    "quando": "2026-11-05T13:30:00-03:00",
+    "tipo": "story",
+    "tema": "conexao",
+    "titulo": "A partir de agora, conteúdo novo todo dia por aqui.",
+    "imagens": [
+      "midia/gnz01/2026-11-05/stories/extra1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-05_extra1",
+    "status": "pendente",
+    "quando": "2026-11-05T15:00:00-03:00",
+    "tipo": "post",
+    "tema": "sites",
+    "titulo": "Os 5 primeiros segundos do seu site",
+    "imagens": [
+      "midia/gnz01/2026-11-05/extra1/01.jpg"
+    ],
+    "legenda": "Quem chega no seu site decide muito rápido se continua ou volta para a busca. ⏱️\n\nNesses primeiros segundos, três respostas precisam estar claras na tela:\n\n1. O que você faz, em uma frase simples\n2. Para quem é o seu serviço\n3. Como falar com você agora, com um botão visível\n\nSe o visitante precisa procurar essas respostas, ele vai embora.\n\n💾 Salve para revisar o seu site (ou para quando for criar o seu).\n👉 Quer um site que deixe isso claro desde o primeiro segundo? Solicite um orçamento personalizado: (19) 97829-9585\n.\n.\n#criacaodesites #siteprofissional #webdesign #dicasdemarketing #sitesparapequenasempresas #facaseusite #siteresponsivo #webdesignerbrasil #orcamentodesite #sitesparaempresas #marketingdigital #empreendedorismo"
+  },
+  {
+    "id": "gnz01_2026-11-05_extrastory2",
+    "status": "pendente",
+    "quando": "2026-11-05T16:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Como é o processo para fazer meu site?",
+    "imagens": [
+      "midia/gnz01/2026-11-05/stories/extra2.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-05_extra2",
+    "status": "pendente",
+    "quando": "2026-11-05T18:30:00-03:00",
+    "tipo": "post",
+    "tema": "agenda",
+    "titulo": "Banho e tosa marcados pelo link.",
+    "imagens": [
+      "midia/gnz01/2026-11-05/extra2/01.jpg"
+    ],
+    "legenda": "\"Tem horário para banho amanhã?\" 🐶\n\nCom uma agenda online, o tutor abre o link, escolhe o serviço, o dia e o horário livre. Você recebe o agendamento organizado e o lembrete sai automaticamente.\n\nFunciona para pet shop, banho e tosa, salão, barbearia, clínica e qualquer negócio que trabalha com hora marcada.\n\n*Imagem ilustrativa para demonstração.\n\n👉 Quer ver como fica no seu negócio? Peça uma demonstração: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#agendaonline #petshop #banhoetosa #agendamentoonline #sistemadeagendamento #profissionaldabeleza #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
+  },
+  {
+    "id": "gnz01_2026-11-05_extrastory3",
+    "status": "pendente",
+    "quando": "2026-11-05T19:30:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "O açaí montado do jeito do cliente.",
+    "imagens": [
+      "midia/gnz01/2026-11-05/stories/extra3.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-05_extra3",
+    "status": "pendente",
+    "quando": "2026-11-05T21:00:00-03:00",
+    "tipo": "post",
+    "tema": "sites",
+    "titulo": "perguntas que fazemos antes de criar qualquer site.",
+    "imagens": [
+      "midia/gnz01/2026-11-05/extra3/01.jpg"
+    ],
+    "legenda": "Antes de pensar em cor, fonte ou layout, a GNZ01 começa com três perguntas:\n\n1️⃣ Quem é o seu cliente?\n2️⃣ O que ele precisa saber antes de comprar de você?\n3️⃣ Qual é o próximo passo que ele deve dar: chamar no WhatsApp, agendar ou pedir orçamento?\n\nAs respostas definem a estrutura, os textos e onde fica cada botão. Por isso nenhum site sai igual ao outro.\n\n💬 Quer responder essas perguntas sobre o seu negócio com a gente? Chame no WhatsApp: (19) 97829-9585\n.\n.\n#criacaodesites #sitesobmedida #webdesignerbrasil #presencadigital #sitesparapequenasempresas #facaseusite #siteresponsivo #orcamentodesite #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
+  },
+  {
+    "id": "gnz01_2026-11-05_extrastory4",
+    "status": "pendente",
+    "quando": "2026-11-05T21:00:00-03:00",
+    "tipo": "story",
+    "tema": "conexao",
+    "titulo": "Qual serviço você quer ver funcionando aqui?",
+    "imagens": [
+      "midia/gnz01/2026-11-05/stories/extra4.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-05_extrastory5",
+    "status": "pendente",
+    "quando": "2026-11-05T22:00:00-03:00",
+    "tipo": "story",
+    "tema": "vendas",
+    "titulo": "Seu negócio pronto para ser encontrado.",
+    "imagens": [
+      "midia/gnz01/2026-11-05/stories/extra5.jpg"
+    ],
+    "legenda": ""
+  },
+  {
     "id": "gnz01_2026-11-06_story1",
     "status": "pendente",
     "quando": "2026-11-06T07:30:00-03:00",
