@@ -270,5 +270,101 @@
     "altura": 2393,
     "alteracoes": "Nenhuma",
     "credito": "Foto: DFID (UK Department for International Development) / Wikimedia Commons, CC BY 2.0"
+  },
+  "cenarios/comerciante-balcao": {
+    "nome": null,
+    "arquivo": "midia/fotos/cenarios/comerciante-balcao.jpg",
+    "autor": "Steffen Mokosch",
+    "licenca": "CC BY-SA 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Sabor_Espana_shop_interior_Cala_Millor.jpg",
+    "descricao": "Interior view of a shop of the Spanish delicatessen chain Sabor España in Cala Millor, Mallorca (Balearic Islands). The ",
+    "largura": 1920,
+    "altura": 1440,
+    "alteracoes": "Redimensionada para 1920 px de largura",
+    "credito": "Foto: Steffen Mokosch / Wikimedia Commons, CC BY-SA 4.0 (redimensionada)"
+  },
+  "cenarios/salao-de-beleza": {
+    "nome": null,
+    "arquivo": "midia/fotos/cenarios/salao-de-beleza.jpg",
+    "autor": "Rwebogora",
+    "licenca": "CC BY-SA 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Hairdresser_at_work.jpg",
+    "descricao": "A salon stylist creating a beauty look for her client at Kawe, Dar es salaam Tanzania.",
+    "largura": 1920,
+    "altura": 2880,
+    "alteracoes": "Redimensionada para 1920 px de largura",
+    "credito": "Foto: Rwebogora / Wikimedia Commons, CC BY-SA 4.0 (redimensionada)"
+  },
+  "cenarios/notebook-mesa": {
+    "nome": null,
+    "arquivo": "midia/fotos/cenarios/notebook-mesa.jpg",
+    "autor": "Damian Patkowski (Unsplash)",
+    "licenca": "CC0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Workspace_(Unsplash).jpg",
+    "descricao": "Damian Patkowski 2017",
+    "largura": 1920,
+    "altura": 1280,
+    "alteracoes": "Redimensionada para 1920 px de largura",
+    "credito": "Foto: Damian Patkowski / Unsplash via Wikimedia Commons, CC0"
+  },
+  "cenarios/restaurante": {
+    "nome": null,
+    "arquivo": "midia/fotos/cenarios/restaurante.jpg",
+    "autor": "Shixart1985",
+    "licenca": "CC BY 2.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Restaurant_interior_with_empty_tables_prepared_for_guests.jpg",
+    "descricao": "Tables are set with utensils and napkins, ready for diners in a restaurant. The space is open and features various seati",
+    "largura": 1920,
+    "altura": 2886,
+    "alteracoes": "Redimensionada para 1920 px de largura",
+    "credito": "Foto: Shixart1985 / Wikimedia Commons, CC BY 2.0 (redimensionada)"
+  },
+  "cenarios/pizzaria": {
+    "nome": null,
+    "arquivo": "midia/fotos/cenarios/pizzaria.jpg",
+    "autor": "Sarah Stierch",
+    "licenca": "CC0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Brozinni_Pizzeria_-_October_2023_-_Sarah_Stierch_03.jpg",
+    "descricao": "Brozinni Pizzeria, Indianapolis, Indiana",
+    "largura": 1920,
+    "altura": 1440,
+    "alteracoes": "Redimensionada para 1920 px de largura",
+    "credito": "Foto: Sarah Stierch / Wikimedia Commons, CC0"
+  },
+  "cenarios/reuniao-escritorio": {
+    "nome": null,
+    "arquivo": "midia/fotos/cenarios/reuniao-escritorio.jpg",
+    "autor": "Shixart1985",
+    "licenca": "CC BY 2.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Business_professional_engages_in_note-taking_during_a_meeting_at_a_modern_office_desk.jpg",
+    "descricao": "A business professional is seated at a sleek desk, actively taking notes with a pen while focused on a laptop screen. Na",
+    "largura": 1920,
+    "altura": 1282,
+    "alteracoes": "Redimensionada para 1920 px de largura",
+    "credito": "Foto: Shixart1985 / Wikimedia Commons, CC BY 2.0 (redimensionada)"
+  },
+  "cenarios/loja": {
+    "nome": null,
+    "arquivo": "midia/fotos/cenarios/loja.jpg",
+    "autor": "Tyler A. McNeil",
+    "licenca": "CC BY-SA 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Broad_Street_storefronts_in_Waterford,_New_York.jpg",
+    "descricao": "A small business district in the Southern Saratoga County village of Waterford, New York, dated May 5, 2021.",
+    "largura": 1920,
+    "altura": 1280,
+    "alteracoes": "Redimensionada para 1920 px de largura",
+    "credito": "Foto: Tyler A. McNeil / Wikimedia Commons, CC BY-SA 4.0 (redimensionada)"
+  },
+  "cenarios/consultorio-odontologico": {
+    "nome": null,
+    "arquivo": "midia/fotos/cenarios/consultorio-odontologico.jpg",
+    "autor": "Harrison Keely",
+    "licenca": "CC BY 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:A_dental_chair_in_a_dentist_clinic_in_North_Carolina,_United_States.jpg",
+    "descricao": "A dental chair in a dentist office in North Carolina, United States",
+    "largura": 1920,
+    "altura": 1440,
+    "alteracoes": "Redimensionada para 1920 px de largura",
+    "credito": "Foto: Harrison Keely / Wikimedia Commons, CC BY 4.0 (redimensionada)"
   }
 }
