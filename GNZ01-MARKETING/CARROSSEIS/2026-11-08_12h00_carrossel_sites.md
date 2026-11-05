@@ -10,7 +10,8 @@
 - **Técnica de copy:** Checklist + gatilho de autoridade
 - **Palavras-chave (SEO):** checklist site profissional, o que um site precisa ter, contratar site
 - **CTA:** Solicite um orçamento personalizado
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 

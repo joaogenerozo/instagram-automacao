@@ -10,7 +10,8 @@
 - **Técnica de copy:** Nicho + checklist
 - **Palavras-chave (SEO):** site para dentista, página para consultório odontológico, marketing odontológico
 - **CTA:** Solicite um orçamento personalizado
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 

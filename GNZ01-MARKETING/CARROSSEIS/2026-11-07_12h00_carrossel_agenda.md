@@ -10,7 +10,8 @@
 - **Técnica de copy:** Antecipação cumprida + passo a passo
 - **Palavras-chave (SEO):** agenda online para salão, agendamento automático, sistema de agendamento
 - **CTA:** Solicite uma demonstração
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 

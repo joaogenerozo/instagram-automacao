@@ -10,7 +10,8 @@
 - **Técnica de copy:** PAS
 - **Palavras-chave (SEO):** cardápio que vende, cardápio digital, erros no cardápio
 - **CTA:** Solicite um orçamento personalizado
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 
@@ -22,8 +23,8 @@ O cliente decide rápido. O cardápio precisa ajudar.
 
 ## Direção de arte
 
-Padrão escuro, título forte, três erros listados com marcador off-white.
-Layout: padrao, fundo escuro (preto/grafite).
+Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo grafite. Pronto para receber fotografia real licenciada (campo foto) quando disponível.
+Layout: editorial, fundo escuro (preto/grafite).
 
 ## Legenda completa
 

@@ -10,7 +10,8 @@
 - **Técnica de copy:** Passo a passo + demonstração
 - **Palavras-chave (SEO):** cardápio QR Code, como funciona cardápio digital, pedido no WhatsApp
 - **CTA:** Solicite uma demonstração
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 

@@ -50,9 +50,13 @@ for d, dia in enumerate(semana["dias"]):
              f"- **Técnica de copy:** {p.get('tecnica', '')}",
              f"- **Palavras-chave (SEO):** {', '.join(p.get('palavras_chave', []))}",
              f"- **CTA:** {p.get('cta', '')}",
-             f"- **Status:** aguardando aprovação", "",
+             f"- **Status:** agendado", ""] + ([f"- **Citação original:** {p['citacao_original']}", f"- **Fonte verificada:** {p.get('fonte_descricao', '')} {p['fonte_url']}", ""] if p.get("fonte_url") else []) + ["",
              "## Texto da arte", ""]
-        if p["tipo"] == "carrossel":
+        if p["tipo"] == "carrossel" and p.get("capa"):
+            L.append(f"1. **Capa:** “{p['capa']['titulo']}” / {p['capa'].get('autor', '')}, {p['capa'].get('fonte_citacao', '')}")
+            for i, s in enumerate(p["slides"], 2):
+                L.append(f"{i}. **{s['titulo']}**: {s.get('texto', '')}")
+        elif p["tipo"] == "carrossel":
             L.append(f"1. **Capa:** {p['titulo']}" + (f" / {p['subtitulo']}" if p.get("subtitulo") else ""))
             for i, s in enumerate(p["slides"], 1):
                 L.append(f"{i + 1}. **{s['titulo']}**: {s['texto']}")

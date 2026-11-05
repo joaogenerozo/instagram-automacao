@@ -10,7 +10,8 @@
 - **Técnica de copy:** Comparação + benefício
 - **Palavras-chave (SEO):** delivery próprio, pedido pelo WhatsApp, cardápio digital delivery
 - **CTA:** Veja como funciona
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 
@@ -22,8 +23,8 @@ Um canal de pedidos que é seu.
 
 ## Direção de arte
 
-Versão clara, título forte, três benefícios.
-Layout: padrao, fundo claro (off-white).
+Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo papel off-white. Pronto para receber fotografia real licenciada (campo foto) quando disponível.
+Layout: editorial, fundo claro (off-white).
 
 ## Legenda completa
 

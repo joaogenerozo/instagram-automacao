@@ -73,3 +73,11 @@ Alcance, impressões, visualizações de Reels, retenção, compartilhamentos, s
 
 ## 11. Regras importantes
 Pensar como diretor de marketing de agência. Nada genérico. Não copiar concorrentes. Sem hashtags aleatórias. Não publicar só para preencher calendário. Priorizar quem pode comprar. Identidade consistente. Tendências só quando fizerem sentido. Não inventar depoimentos, clientes ou resultados.
+
+## 13. Direção de arte editorial (pedido de 05/11/2026)
+
+- **2 publicações por dia** no padrão editorial (`"layout": "editorial"`): serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão sutil, marca pequena. Fundo papel off-white ou grafite, alternando.
+- **Fotografia real e licenciada** (campo `foto` com caminho local + `credito`), com recorte 4:5, cor suave e degradê escuro embaixo. Nunca gerar rostos por IA, principalmente de pessoas famosas. Sem foto licenciada disponível, usar a versão tipográfica.
+- **Grandes nomes do empreendedorismo**: pelo menos 1 carrossel por mês (capa com citação, contexto, aplicação, exemplo prático, conexão com o mercado, reflexão e CTA).
+- **Citações só com autoria confirmada** em fonte primária (discurso, livro, entrevista, site oficial). Registrar `citacao_original`, tradução, `fonte_descricao` e `fonte_url`. Se não der para confirmar, não publicar como citação.
+- Exemplos práticos que não são casos reais devem ser marcados como "situação ilustrativa".

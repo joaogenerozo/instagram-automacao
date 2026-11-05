@@ -10,7 +10,8 @@
 - **Técnica de copy:** Pergunta de identificação
 - **Palavras-chave (SEO):** organizar pedidos restaurante, cardápio digital, delivery
 - **CTA:** Comente
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 

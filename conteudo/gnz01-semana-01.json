@@ -8,7 +8,7 @@
      "tipo": "post",
      "tema": "sites",
      "pilar": "educacao",
-     "layout": "padrao",
+     "layout": "editorial",
      "nicho": "Pequenos e médios comerciantes",
      "objetivo": "Fazer o dono de negócio perceber que está perdendo clientes por não aparecer no Google.",
      "publico_alvo": "Comerciantes e prestadores de serviço sem site",
@@ -33,63 +33,84 @@
       "site para empresa",
       "aparecer no Google"
      ],
-     "direcao_visual": "Fundo preto com degradê grafite, título grande em branco, três benefícios com check off-white. Muito respiro e um círculo grafite discreto no canto."
+     "direcao_visual": "Editorial de revista: serifada para a frase de impacto, Inter para apoio, fundo papel off-white, grão sutil.",
+     "rotulo": "Ensaio · Presença digital",
+     "apoio": [
+      "Aparecer quando procuram por você",
+      "Passar confiança antes do primeiro contato",
+      "Levar o cliente direto ao WhatsApp"
+     ],
+     "escuro": false
     },
     {
      "tipo": "carrossel",
-     "tema": "sites",
-     "pilar": "educacao",
-     "nicho": "Profissionais autônomos e comerciantes",
-     "objetivo": "Gerar salvamentos e autoridade com um checklist de diagnóstico.",
-     "publico_alvo": "Donos de negócio que ainda acham que não precisam de site",
-     "tecnica": "Curiosidade + lista de diagnóstico",
-     "titulo": "7 sinais de que seu negócio precisa de um site",
-     "subtitulo": "Quantos você marcaria hoje?",
+     "tema": "marca",
+     "pilar": "autoridade",
+     "layout": "editorial",
+     "nicho": "Empreendedores e donos de pequenos negócios",
+     "objetivo": "Gerar autoridade e salvamentos ligando um ensinamento verificado a posicionamento digital.",
+     "publico_alvo": "Empreendedores que copiam o concorrente em vez de se posicionar",
+     "tecnica": "Citação verificada + contexto + aplicação prática",
+     "titulo": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.",
+     "capa": {
+      "rotulo": "Grandes nomes · Steve Jobs",
+      "titulo": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.",
+      "autor": "Steve Jobs",
+      "fonte_citacao": "Discurso de formatura em Stanford, 2005",
+      "escuro": true
+     },
+     "citacao_original": "Your time is limited, so don't waste it living someone else's life.",
+     "fonte_url": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says",
+     "fonte_descricao": "Discurso de formatura de Steve Jobs na Universidade de Stanford, 12/06/2005 (transcrição oficial publicada pela Stanford News).",
      "slides": [
       {
-       "titulo": "Só te acham por indicação",
-       "texto": "Indicação é ótima, mas quem não te conhece não tem onde te encontrar."
+       "rotulo": "Contexto",
+       "titulo": "Em 2005, Jobs falava de carreira. No negócio, a lição é a mesma.",
+       "texto": "Copiar o concorrente é viver a estratégia de outra empresa: os preços dele, o discurso dele, o cliente dele."
       },
       {
-       "titulo": "Você repete as mesmas respostas",
-       "texto": "Preço, endereço, horário. Um site responde isso antes do cliente perguntar."
+       "rotulo": "Aplicação",
+       "titulo": "Defina o que só você entrega.",
+       "texto": "Antes de investir em anúncio ou em um site novo, escreva em uma frase por que o cliente deveria escolher você.",
+       "escuro": true
       },
       {
-       "titulo": "Seu concorrente aparece no Google",
-       "texto": "Quando pesquisam seu serviço na sua cidade, quem aparece leva o cliente."
+       "rotulo": "Exemplo prático (situação ilustrativa)",
+       "titulo": "Duas pizzarias na mesma rua.",
+       "texto": "Uma copia o cardápio da outra. A segunda mostra a massa de longa fermentação, o forno e o prazo real de entrega. Quem escolhe sabe por que escolheu."
       },
       {
-       "titulo": "Seu Instagram faz tudo sozinho",
-       "texto": "O perfil atrai, mas não é seu. Se a conta tiver problema, sua vitrine some."
+       "rotulo": "Conexão com o mercado",
+       "titulo": "Posicionamento também aparece no digital.",
+       "texto": "Site, cardápio e agenda online contam a sua história ou repetem a de todo mundo. O cliente percebe a diferença em segundos.",
+       "escuro": true
       },
       {
-       "titulo": "Você quer cobrar mais",
-       "texto": "Presença profissional muda a percepção de valor do seu serviço."
+       "rotulo": "Reflexão",
+       "titulo": "O que só a sua empresa faz?",
+       "texto": "Conte nos comentários. A resposta costuma ser o começo de um bom posicionamento."
       },
       {
-       "titulo": "Seu atendimento não para",
-       "texto": "Mensagens chegando o dia todo pedem uma página que informe por você."
-      },
-      {
-       "titulo": "Você pensa em anunciar",
-       "texto": "Anúncio sem uma página preparada é dinheiro levando o cliente a lugar nenhum."
+       "rotulo": "GNZ01",
+       "titulo": "Vamos mostrar o que só você entrega?",
+       "texto": "Salve este post, compartilhe com um empreendedor e fale com a GNZ01 no WhatsApp {whatsapp}.",
+       "escuro": true
       }
      ],
-     "cta_final": "Marcou 2 ou mais? Vamos conversar.",
-     "legenda": "Muita gente diz que ainda não precisa de site. Mas os sinais costumam aparecer antes da decisão. 👀\n\nArrasta para o lado e conte quantos desses você vive hoje.\n\nSe marcou dois ou mais, o seu negócio já está pedindo uma presença digital profissional.\n\n💾 Salve para revisar depois\n💬 Me diga no Direct quantos você marcou, ou fale direto no WhatsApp: {whatsapp}",
-     "cta": "Envie uma mensagem pelo Direct",
+     "legenda": "\"Your time is limited, so don't waste it living someone else's life.\"\n\"Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.\"\nSteve Jobs, discurso de formatura em Stanford (2005).\n\nJobs falava de carreira, mas a lição serve para qualquer negócio: quem copia o concorrente vive a estratégia de outra empresa.\n\nArraste para ver como transformar isso em posicionamento, do contexto até a aplicação prática no seu negócio. 👉\n\n💬 Conte nos comentários: o que só a sua empresa faz?\n💾 Salve para reler quando for planejar sua marca.\n\nQuer que seu site, cardápio ou agenda contem a SUA história? Fale com a GNZ01: {whatsapp}\n\nFonte da citação: transcrição oficial do discurso, Stanford News (news.stanford.edu).",
+     "cta": "Comente e salve",
      "hashtags": [
-      "#criacaodesites",
-      "#siteprofissional",
-      "#pequenasempresas",
-      "#profissionalautonomo"
+      "#empreendedorismo",
+      "#stevejobs",
+      "#posicionamentodemarca",
+      "#gestaodenegocios"
      ],
      "palavras_chave": [
-      "preciso de um site",
-      "site profissional",
-      "presença digital"
+      "posicionamento de marca",
+      "empreendedorismo",
+      "Steve Jobs Stanford"
      ],
-     "direcao_visual": "Capa preta com título forte; slides numerados 01-07 em off-white, texto curto. Último slide com botão off-white do WhatsApp."
+     "direcao_visual": "Carrossel editorial de 7 lâminas. Capa grafite com a citação em serifada itálica, autor e fonte. Fotografia real licenciada de Steve Jobs entra na capa quando disponível (campo foto + crédito); sem foto, versão tipográfica. Lâminas alternam papel off-white e grafite."
     },
     {
      "tipo": "post",
@@ -295,7 +316,7 @@
      "tipo": "post",
      "tema": "sites",
      "pilar": "educacao",
-     "layout": "padrao",
+     "layout": "editorial",
      "claro": true,
      "nicho": "Comerciantes e autônomos",
      "objetivo": "Quebrar a objeção 'já tenho Instagram, não preciso de site'.",
@@ -321,7 +342,15 @@
       "site para negócio",
       "presença digital"
      ],
-     "direcao_visual": "Versão clara com título curto e forte. Três itens. Contraste preto sobre off-white."
+     "direcao_visual": "Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo papel off-white. Pronto para receber fotografia real licenciada (campo foto) quando disponível.",
+     "layout_anterior": "padrao",
+     "rotulo": "Ensaio · Presença digital",
+     "apoio": [
+      "O perfil é da plataforma, o site é seu",
+      "O Google mostra sites, não stories",
+      "No site, você controla a experiência"
+     ],
+     "escuro": false
     },
     {
      "tipo": "carrossel",
@@ -402,7 +431,7 @@
      "tipo": "post",
      "tema": "cardapio",
      "pilar": "educacao",
-     "layout": "padrao",
+     "layout": "editorial",
      "nicho": "Restaurantes, lanchonetes e pizzarias",
      "objetivo": "Educar sobre erros de cardápio e posicionar a GNZ01 como especialista.",
      "publico_alvo": "Donos de restaurante e delivery",
@@ -427,7 +456,15 @@
       "cardápio digital",
       "erros no cardápio"
      ],
-     "direcao_visual": "Padrão escuro, título forte, três erros listados com marcador off-white."
+     "direcao_visual": "Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo grafite. Pronto para receber fotografia real licenciada (campo foto) quando disponível.",
+     "layout_anterior": "padrao",
+     "rotulo": "Ensaio · Restaurantes",
+     "apoio": [
+      "Itens demais e sem categorias",
+      "Prato sem foto e sem descrição",
+      "Preço desatualizado"
+     ],
+     "escuro": true
     },
     {
      "tipo": "post",
@@ -640,7 +677,7 @@
      "tipo": "post",
      "tema": "marca",
      "pilar": "conexao",
-     "layout": "padrao",
+     "layout": "editorial",
      "nicho": "Geral",
      "objetivo": "Criar conexão contando o propósito da GNZ01.",
      "publico_alvo": "Seguidores e visitantes do perfil",
@@ -665,13 +702,21 @@
       "história da marca",
       "soluções digitais"
      ],
-     "direcao_visual": "Padrão escuro, título curto, três valores da marca em lista."
+     "direcao_visual": "Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo papel off-white. Pronto para receber fotografia real licenciada (campo foto) quando disponível.",
+     "layout_anterior": "padrao",
+     "rotulo": "Bastidores · GNZ01",
+     "apoio": [
+      "Tecnologia simples de usar",
+      "Visual que valoriza a marca",
+      "Atendimento próximo"
+     ],
+     "escuro": false
     },
     {
      "tipo": "post",
      "tema": "agenda",
      "pilar": "educacao",
-     "layout": "padrao",
+     "layout": "editorial",
      "nicho": "Clínicas de estética, salões e manicures",
      "objetivo": "Fazer o profissional calcular o custo das faltas.",
      "publico_alvo": "Quem sofre com clientes que faltam",
@@ -696,7 +741,15 @@
       "lembrete de agendamento",
       "agenda online"
      ],
-     "direcao_visual": "Padrão escuro, fórmula da conta no subtítulo, três soluções com check."
+     "direcao_visual": "Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo grafite. Pronto para receber fotografia real licenciada (campo foto) quando disponível.",
+     "layout_anterior": "padrao",
+     "rotulo": "Ensaio · Atendimento",
+     "apoio": [
+      "Lembrete automático antes do horário",
+      "Confirmação com um toque",
+      "Horário liberado se o cliente desmarcar"
+     ],
+     "escuro": true
     },
     {
      "tipo": "post",
@@ -816,7 +869,7 @@
      "tipo": "post",
      "tema": "paginas",
      "pilar": "educacao",
-     "layout": "padrao",
+     "layout": "editorial",
      "nicho": "Profissionais autônomos e liberais",
      "objetivo": "Mostrar que a indicação se perde sem presença digital.",
      "publico_alvo": "Advogados, psicólogos, dentistas, arquitetos, consultores",
@@ -841,7 +894,15 @@
       "página profissional",
       "site para psicólogo"
      ],
-     "direcao_visual": "Padrão escuro, sóbrio, título forte. Tom mais institucional."
+     "direcao_visual": "Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo papel off-white. Pronto para receber fotografia real licenciada (campo foto) quando disponível.",
+     "layout_anterior": "padrao",
+     "rotulo": "Ensaio · Profissionais",
+     "apoio": [
+      "Sua formação e especialidade",
+      "Seus serviços explicados",
+      "Contato fácil e direto"
+     ],
+     "escuro": false
     },
     {
      "tipo": "carrossel",
@@ -946,7 +1007,7 @@
      "tipo": "post",
      "tema": "sites",
      "pilar": "educacao",
-     "layout": "padrao",
+     "layout": "editorial",
      "nicho": "Geral",
      "objetivo": "Educar sobre domínio próprio e credibilidade.",
      "publico_alvo": "Negócios usando links genéricos ou gratuitos",
@@ -971,7 +1032,15 @@
       "registrar domínio .com.br",
       "e-mail profissional"
      ],
-     "direcao_visual": "Padrão escuro, título com o endereço em destaque, três benefícios."
+     "direcao_visual": "Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo grafite. Pronto para receber fotografia real licenciada (campo foto) quando disponível.",
+     "layout_anterior": "padrao",
+     "rotulo": "Ensaio · Presença digital",
+     "apoio": [
+      "Mais credibilidade",
+      "Fácil de lembrar e divulgar",
+      "E-mail profissional com o seu nome"
+     ],
+     "escuro": true
     }
    ],
    "stories": [
@@ -1169,7 +1238,7 @@
      "tipo": "post",
      "tema": "cardapio",
      "pilar": "demonstracao",
-     "layout": "padrao",
+     "layout": "editorial",
      "claro": true,
      "nicho": "Delivery e lanchonetes",
      "objetivo": "Mostrar o benefício de ter um canal próprio de pedidos.",
@@ -1195,13 +1264,21 @@
       "pedido pelo WhatsApp",
       "cardápio digital delivery"
      ],
-     "direcao_visual": "Versão clara, título forte, três benefícios."
+     "direcao_visual": "Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo papel off-white. Pronto para receber fotografia real licenciada (campo foto) quando disponível.",
+     "layout_anterior": "padrao",
+     "rotulo": "Ensaio · Restaurantes",
+     "apoio": [
+      "O contato do cliente fica com você",
+      "Divulgue o link onde quiser",
+      "Use junto com os aplicativos"
+     ],
+     "escuro": false
     },
     {
      "tipo": "post",
      "tema": "landing",
      "pilar": "vendas",
-     "layout": "pergunta",
+     "layout": "editorial",
      "nicho": "Profissionais que anunciam",
      "objetivo": "Gerar pedidos de landing page de quem pensa em anunciar.",
      "publico_alvo": "Quem investe ou vai investir em anúncios",
@@ -1222,7 +1299,11 @@
       "página para tráfego pago",
       "landing page"
      ],
-     "direcao_visual": "Layout pergunta escuro, título grande, grade de pontos."
+     "direcao_visual": "Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo grafite. Pronto para receber fotografia real licenciada (campo foto) quando disponível.",
+     "layout_anterior": "pergunta",
+     "rotulo": "Ensaio · Vendas",
+     "apoio": [],
+     "escuro": true
     },
     {
      "tipo": "post",
@@ -1338,7 +1419,7 @@
      "tipo": "post",
      "tema": "sites",
      "pilar": "educacao",
-     "layout": "pergunta",
+     "layout": "editorial",
      "nicho": "Pequenos e médios comerciantes",
      "objetivo": "Fazer o dono do negócio pensar no custo de oportunidade.",
      "publico_alvo": "Quem acha site caro",
@@ -1359,7 +1440,11 @@
       "vale a pena ter site",
       "site para empresa"
      ],
-     "direcao_visual": "Layout pergunta escuro, 'NÃO' em caixa alta no título."
+     "direcao_visual": "Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo papel off-white. Pronto para receber fotografia real licenciada (campo foto) quando disponível.",
+     "layout_anterior": "pergunta",
+     "rotulo": "Ensaio · Presença digital",
+     "apoio": [],
+     "escuro": false
     },
     {
      "tipo": "carrossel",
@@ -1454,7 +1539,7 @@
      "tipo": "post",
      "tema": "agenda",
      "pilar": "autoridade",
-     "layout": "numero",
+     "layout": "editorial",
      "numero": "24h",
      "claro": true,
      "nicho": "Clínicas de estética e odontológicas",
@@ -1476,7 +1561,11 @@
       "agendamento de consultas",
       "sistema para clínica"
      ],
-     "direcao_visual": "Layout número em versão clara, '24h' gigante em preto, título abaixo."
+     "direcao_visual": "Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo grafite. Pronto para receber fotografia real licenciada (campo foto) quando disponível.",
+     "layout_anterior": "numero",
+     "rotulo": "Ensaio · Atendimento",
+     "apoio": [],
+     "escuro": true
     },
     {
      "tipo": "post",
@@ -1608,7 +1697,7 @@
      "tipo": "post",
      "tema": "marca",
      "pilar": "conexao",
-     "layout": "padrao",
+     "layout": "editorial",
      "claro": true,
      "nicho": "Geral",
      "objetivo": "Mostrar o processo e gerar confiança com bastidores.",
@@ -1634,7 +1723,15 @@
       "processo de criação de site",
       "GNZ01"
      ],
-     "direcao_visual": "Versão clara, título de bastidor, três etapas com check."
+     "direcao_visual": "Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo papel off-white. Pronto para receber fotografia real licenciada (campo foto) quando disponível.",
+     "layout_anterior": "padrao",
+     "rotulo": "Bastidores · GNZ01",
+     "apoio": [
+      "Conversa para entender o negócio",
+      "Estrutura, textos e visual",
+      "Ajustes com você e entrega"
+     ],
+     "escuro": false
     },
     {
      "tipo": "carrossel",
@@ -1688,7 +1785,7 @@
      "tipo": "post",
      "tema": "sites",
      "pilar": "demonstracao",
-     "layout": "padrao",
+     "layout": "editorial",
      "nicho": "Geral",
      "objetivo": "Dar um teste prático que revela problemas no site atual.",
      "publico_alvo": "Quem já tem site antigo",
@@ -1713,7 +1810,15 @@
       "site responsivo",
       "site lento"
      ],
-     "direcao_visual": "Padrão escuro, três perguntas como itens de checklist."
+     "direcao_visual": "Editorial de revista: serifada Caladea para a frase de impacto, Inter para apoio, fios finos, numeração em itálico, grão fotográfico sutil. Fundo grafite. Pronto para receber fotografia real licenciada (campo foto) quando disponível.",
+     "layout_anterior": "padrao",
+     "rotulo": "Ensaio · Presença digital",
+     "apoio": [
+      "Carregou rápido?",
+      "Dá para ler sem dar zoom?",
+      "Achou o WhatsApp em 1 toque?"
+     ],
+     "escuro": true
     },
     {
      "tipo": "post",

@@ -10,7 +10,8 @@
 - **Técnica de copy:** Educação + direcionamento
 - **Palavras-chave (SEO):** diferença landing page e site, tipos de site, qual site escolher
 - **CTA:** Envie uma mensagem
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 

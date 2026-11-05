@@ -10,7 +10,8 @@
 - **Técnica de copy:** Autoridade + solução sob medida
 - **Palavras-chave (SEO):** solução digital personalizada, sistema sob medida, automação para empresas
 - **CTA:** Solicite um orçamento personalizado
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 

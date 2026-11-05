@@ -10,7 +10,8 @@
 - **Técnica de copy:** Problema + solução
 - **Palavras-chave (SEO):** catálogo digital, catálogo online WhatsApp, vender pelo WhatsApp
 - **CTA:** Conheça nossas soluções
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 

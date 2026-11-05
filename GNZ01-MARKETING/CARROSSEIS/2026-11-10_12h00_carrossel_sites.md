@@ -10,7 +10,8 @@
 - **Técnica de copy:** Gatilho de autoridade + processo
 - **Palavras-chave (SEO):** site que gera clientes, como fazer um site profissional, agência de sites
 - **CTA:** Solicite um orçamento personalizado
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 

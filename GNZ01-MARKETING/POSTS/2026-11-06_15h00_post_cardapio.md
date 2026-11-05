@@ -10,7 +10,8 @@
 - **Técnica de copy:** Demonstração + antecipação
 - **Palavras-chave (SEO):** cardápio digital pizzaria, pedido pelo WhatsApp, cardápio online
 - **CTA:** Solicite uma demonstração
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 

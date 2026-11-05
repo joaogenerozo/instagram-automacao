@@ -10,7 +10,8 @@
 - **Técnica de copy:** Demonstração
 - **Palavras-chave (SEO):** catálogo digital loja de roupas, catálogo online, vender roupa pelo WhatsApp
 - **CTA:** Solicite uma demonstração
-- **Status:** aguardando aprovação
+- **Status:** agendado
+
 
 ## Texto da arte
 

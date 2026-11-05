@@ -13,6 +13,7 @@ from zoneinfo import ZoneInfo
 from src.comum import RAIZ, carregar_config, carregar_fila, salvar_fila, montar_legenda
 from src.render import Desenhista
 from src import vitrine as vt
+from src import editorial as ed
 
 
 def desenhar_vitrine(cfg, v, destino):
@@ -91,6 +92,11 @@ def main():
             if post.get("vitrine"):
                 story = desenhar_vitrine(cfg, post["vitrine"], pasta / "story.jpg")
                 imgs = [vt.para_feed(story, pasta / "01.jpg")]
+            elif post.get("layout") == "editorial":
+                for velho in pasta.glob("*.jpg"):
+                    velho.unlink()
+                arte = json.loads(json.dumps(post).replace("{whatsapp}", cfg["whatsapp"]))
+                imgs = ed.carrossel(arte, pasta) if arte["tipo"] == "carrossel" else [ed.peca(arte, pasta / "01.jpg")]
             elif post["tipo"] == "carrossel":
                 imgs = des.carrossel(post, pasta)
             else:
