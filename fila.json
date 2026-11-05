@@ -29,7 +29,7 @@
   },
   {
     "id": "gnz01_2026-11-05_extrastory2",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-05T16:30:00-03:00",
     "tipo": "story",
     "tema": "site",
@@ -37,7 +37,9 @@
     "imagens": [
       "midia/gnz01/2026-11-05/stories/extra2.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18122614957978965",
+    "publicado_em": "2026-11-05T16:36:13.104452-03:00"
   },
   {
     "id": "gnz01_2026-11-05_extra2",
