@@ -24,7 +24,13 @@ class Slide(BaseModel):
 
 class Post(BaseModel):
     tipo: Literal["post", "carrossel"]
-    tema: Literal["sites", "cardapio", "agenda"]
+    tema: Literal["sites", "cardapio", "agenda", "paginas", "catalogo", "landing", "solucoes", "marca"]
+    pilar: Literal["educacao", "demonstracao", "autoridade", "conexao", "vendas"]
+    objetivo: str = Field(description="Objetivo estratégico da publicação, 1 frase")
+    publico_alvo: str = Field(description="Quem é o público dessa publicação")
+    tecnica: str = Field(description="Técnica de copy usada: AIDA, PAS, storytelling, quebra de objeção etc.")
+    palavras_chave: List[str] = Field(description="3 a 5 palavras-chave para SEO do Instagram")
+    direcao_visual: str = Field(description="Direção visual em 1 ou 2 frases, dentro da identidade preto/grafite/off-white")
     titulo: str = Field(description="Frase de impacto para a imagem, até 70 caracteres")
     subtitulo: str = Field(description="Complemento da imagem, até 110 caracteres")
     itens: List[str] = Field(default_factory=list, description="Só em post: 3 benefícios curtos (até 40 caracteres cada)")
@@ -57,26 +63,22 @@ def titulos_usados():
 def main():
     cfg = carregar_config()
     usados = titulos_usados()
-    prompt = f"""Você é o social media de "{cfg['marca']}" ({cfg['instagram']}), que vende três serviços
-para pequenos negócios e profissionais autônomos no Brasil:
-1. Criação de sites (tema "sites")
-2. Cardápio digital para restaurantes, lanchonetes e delivery (tema "cardapio")
-3. Agenda online para profissionais que atendem com hora marcada: barbeiros, salões, clínicas,
-   psicólogos, personal trainers etc. (tema "agenda")
+    diretrizes = (PASTA / "diretrizes-gnz01.md").read_text(encoding="utf-8")
+    prompt = f"""Siga estas diretrizes da marca à risca:
 
-Crie o conteúdo de UMA SEMANA para o Instagram: 7 dias, 5 posts por dia.
-- Em cada dia, o post de índice 1 é um carrossel (5 ou 6 slides) e os outros 4 são posts de imagem única.
-- O objetivo principal é VENDER SITES: cerca de metade dos posts deve ser do tema "sites"
-  (inclusive pelo menos 3 dos 7 carrosséis). Os outros temas aparecem todo dia, mas nunca os 5 posts do mesmo tema.
-- Cada post deve atrair o dono de negócio que pode virar cliente: fale da dor dele e mostre o resultado.
-- Varie os formatos: dor do cliente, dica prática, mito x verdade, checklist, conta de quanto ele perde,
-  nicho específico (ex.: barbearia, pizzaria, dentista), bastidores e oferta direta.
-- Linguagem simples, direta, em português do Brasil, falando com o dono do negócio.
-- Toda legenda termina com uma chamada para ação usando o marcador {{whatsapp}} (ele será trocado
-  pelo número real). Pode usar também {{link}}.
-- Hashtags: use as que o CLIENTE em potencial segue ou pesquisa (nicho do negócio + serviço),
-  por exemplo #barbearia, #donoderestaurante, #sitesparaempresas. Evite hashtags genéricas demais.
-- Não invente números de pesquisas ou estatísticas; use exemplos e contas simples.
+{diretrizes}
+
+TAREFA: crie o conteúdo de UMA SEMANA para o Instagram {cfg['instagram']}: 7 dias, 5 publicações por dia.
+- Em cada dia, a publicação de índice 1 é um carrossel (5 ou 6 slides); as outras 4 são posts de imagem única.
+- Respeite a distribuição de pilares na semana (35 publicações): ~10 educação, ~9 demonstração,
+  ~7 autoridade, ~5 conexão e ~4 vendas.
+- Cerca de metade das publicações deve levar à venda de SITES (temas sites, paginas ou landing).
+  Os demais serviços (cardapio, agenda, catalogo, solucoes) aparecem ao longo da semana.
+- Linguagem do Brasil, profissional e objetiva, falando com o dono do negócio ou o profissional liberal.
+- Toda legenda termina com uma chamada para ação usando o marcador {{whatsapp}} (ou convite para o Direct).
+- Hashtags que o cliente em potencial segue ou pesquisa (nicho + serviço), nada genérico demais.
+- Não invente números de pesquisas, clientes ou depoimentos. Demonstrações devem ser apresentadas
+  como exemplos ("veja como fica"), nunca como cliente real.
 - Não repita estes títulos já usados: {json.dumps(usados[-140:], ensure_ascii=False)}
 """
     client = anthropic.Anthropic()

@@ -1,6 +1,6 @@
 {
-  "marca": "@gnz01_",
-  "instagram": "Sites · Cardápios digitais · Agendas",
+  "marca": "GNZ01",
+  "instagram": "@gnz01_ · Soluções digitais",
   "whatsapp": "(19) 97829-9585",
   "link": "link na bio",
   "cores": {
@@ -21,6 +21,26 @@
     },
     "agenda": {
       "rotulo": "AGENDA ONLINE",
+      "cor": "#30343B"
+    },
+    "paginas": {
+      "rotulo": "PÁGINA PROFISSIONAL",
+      "cor": "#30343B"
+    },
+    "catalogo": {
+      "rotulo": "CATÁLOGO DIGITAL",
+      "cor": "#30343B"
+    },
+    "landing": {
+      "rotulo": "LANDING PAGE",
+      "cor": "#30343B"
+    },
+    "solucoes": {
+      "rotulo": "SOLUÇÕES DIGITAIS",
+      "cor": "#30343B"
+    },
+    "marca": {
+      "rotulo": "GNZ01",
       "cor": "#30343B"
     }
   },
@@ -76,6 +96,30 @@
       "#criacaodesites",
       "#cardapiodigital",
       "#agendaonline"
+    ],
+    "paginas": [
+      "#paginaprofissional",
+      "#profissionalliberal",
+      "#presencadigital"
+    ],
+    "catalogo": [
+      "#catalogodigital",
+      "#catalogoonline",
+      "#vendaspelowhatsapp"
+    ],
+    "landing": [
+      "#landingpage",
+      "#captacaodeclientes",
+      "#paginadevendas"
+    ],
+    "solucoes": [
+      "#solucoesdigitais",
+      "#transformacaodigital",
+      "#automacao"
+    ],
+    "marca": [
+      "#gnz01",
+      "#solucoesdigitais"
     ]
   },
   "assinatura_cross_sell": "💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: {whatsapp}"
