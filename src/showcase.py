@@ -342,4 +342,178 @@ def vitrine_showcase(cfg, v, destino, formato="feed"):
     caminho = RAIZ / f"midia/fotos/cenarios/{cen}.jpg" if cen else None
     s = {**p, "subtitulo": p.get("subtitulo") or v.get("subtitulo", ""), "cta": p.get("cta", "Peça o seu: WhatsApp {whatsapp}"),
          "cenario": str(caminho.relative_to(RAIZ)) if caminho and caminho.exists() else None, "vitrine": v}
+    if v["tipo"] in BALCAO_ITENS:
+        s.setdefault("itens_balcao", BALCAO_ITENS[v["tipo"]])
+        return peca_balcao(cfg, s, destino, formato)
     return peca(cfg, s, destino, formato)
+
+
+# ------------------------------------------------------------------ layout "balcão" (restaurantes e pizzarias)
+# Coluna de texto à esquerda (marca, título com destaque, funcionalidades com ícone em quadrado) e
+# monitor + tablet + celular sobre um balcão à direita. Cores do perfil: grafite, off-white e prata.
+BALCAO_ITENS = {
+    "cardapio": [["menu", "Cardápio completo", "Fotos, opções e preços organizados por categoria."],
+                 ["whatsapp", "Pedido no WhatsApp", "O pedido chega montado na sua conversa."],
+                 ["link", "Um link só", "Para a bio, o Google e o status."],
+                 ["celular", "Celular e computador", "Abre em qualquer aparelho pelo navegador."]],
+}
+
+
+def tela_tablet(v, w=760, h=1000):
+    im = Image.new("RGB", (w, h), (250, 250, 248))
+    d = ImageDraw.Draw(im)
+    nome = v.get("nome") or "Seu Restaurante"
+    d.rectangle([0, 0, w, 110], fill=ESC)
+    d.ellipse([30, 28, 84, 82], fill=PRATA)
+    sig = v.get("sigla", nome[:2].upper())
+    fs = fonte("bold", 22)
+    d.text((57 - d.textlength(sig, font=fs) / 2, 42), sig, font=fs, fill=ESC)
+    d.text((104, 38), nome, font=fonte("bold", 32), fill=(255, 255, 255))
+    d.rounded_rectangle([30, 136, w - 30, 192], radius=28, fill=CHIP)
+    _icone(d, "busca", 64, 164, 14, SUAVE)
+    d.text((92, 150), "Buscar no cardápio", font=fonte("regular", 24), fill=SUAVE)
+    x = 30
+    for i, c in enumerate(list(v.get("chips") or ["Destaques", "Pratos", "Bebidas"])[:3]):
+        fc = fonte("semi", 22)
+        lw = d.textlength(c, font=fc) + 44
+        d.rounded_rectangle([x, 214, x + lw, 262], radius=24, fill=ESC if i == 0 else CHIP)
+        d.text((x + 22, 225), c, font=fc, fill=(255, 255, 255) if i == 0 else ESC)
+        x += lw + 14
+    itens = [tuple(i) for i in (v.get("itens") or [])] or [("Prato da Casa", "", "R$ 39,90")]
+    while len(itens) < 6:
+        itens += itens[:6 - len(itens)]
+    tons = [(214, 168, 108), (201, 190, 172), (176, 181, 186), (150, 140, 128)]
+    cw, chh = (w - 60 - 24) / 2, 220
+    for i, it in enumerate(itens[:6]):
+        cx, cy = 30 + (i % 2) * (cw + 24), 290 + (i // 2) * (chh + 20)
+        d.rounded_rectangle([cx, cy, cx + cw, cy + chh], radius=18, fill=(255, 255, 255), outline=(226, 226, 222))
+        d.rounded_rectangle([cx + 12, cy + 12, cx + cw - 12, cy + 120], radius=12, fill=tons[i % 4])
+        d.text((cx + 16, cy + 132), it[0], font=fonte("bold", 24), fill=ESC)
+        d.text((cx + 16, cy + 172), it[-1], font=fonte("semi", 22), fill=SUAVE)
+    d.rectangle([0, h - 90, w, h], fill=ESC)
+    d.text((40, h - 64), "Ver pedido", font=fonte("bold", 28), fill=(255, 255, 255))
+    d.text((w - 210, h - 64), "Enviar ›", font=fonte("bold", 28), fill=PRATA)
+    return im
+
+
+def _aparelho(base, tela, x, y, larg, raio=34, borda=16):
+    alt = int(larg * tela.height / tela.width)
+    base = _sombra(base, (x, y, x + larg + 2 * borda, y + alt + 2 * borda), raio=raio, blur=30, opac=190)
+    d = ImageDraw.Draw(base)
+    d.rounded_rectangle([x, y, x + larg + 2 * borda, y + alt + 2 * borda], radius=raio, fill=(10, 10, 12),
+                        outline=(70, 72, 78), width=2)
+    t = tela.convert("RGB").resize((larg, alt), Image.LANCZOS)
+    m = Image.new("L", t.size, 0)
+    ImageDraw.Draw(m).rounded_rectangle([0, 0, larg - 1, alt - 1], radius=max(8, raio - borda), fill=255)
+    base.paste(t, (x + borda, y + borda), m)
+    return base
+
+
+def _fundo_balcao(w, h, y_balcao):
+    im = Image.new("RGB", (w, h), (24, 25, 29))
+    luz = Image.new("L", (w, h), 0)
+    dl = ImageDraw.Draw(luz)
+    for cx, cy, r, a in [(0.78, 0.08, 120, 110), (0.95, 0.22, 70, 90), (0.62, 0.02, 60, 80), (0.88, 0.42, 50, 60)]:
+        dl.ellipse([w * cx - r, h * cy - r, w * cx + r, h * cy + r], fill=a)
+    dl.ellipse([w * 0.35, -h * 0.2, w * 1.3, h * 0.7], fill=40)
+    luz = luz.filter(ImageFilter.GaussianBlur(60))
+    im = Image.composite(Image.new("RGB", (w, h), (120, 118, 112)), im, luz)
+    # balcão: madeira escura em tons de grafite
+    d = ImageDraw.Draw(im)
+    for y in range(y_balcao, h):
+        t = (y - y_balcao) / max(1, h - y_balcao)
+        c = int(58 - 26 * t)
+        d.line([(0, y), (w, y)], fill=(c + 4, c, c - 4))
+    for k in range(18):
+        yy = y_balcao + 10 + k * (h - y_balcao) / 18
+        d.line([(0, yy), (w, yy + 6)], fill=(46, 43, 40), width=1)
+    d.line([(0, y_balcao), (w, y_balcao)], fill=(92, 88, 82), width=3)
+    return im
+
+
+def _coluna_texto(d, s, x, y, larg, formato):
+    fb = fonte("bold", 64 if formato == "feed" else 76)
+    d.text((x, y), "GNZ01", font=fb, fill=OFF)
+    y += int(fb.size * 1.25)
+    # título: última linha em prata (destaque)
+    tam = 46 if formato == "feed" else 72
+    for t in range(tam, 34, -2):
+        ft = fonte("bold", t)
+        linhas = quebrar(d, s["titulo"], ft, larg)
+        if len(linhas) <= 4:
+            break
+    for i, l in enumerate(linhas):
+        d.text((x, y), l, font=ft, fill=PRATA if i == len(linhas) - 1 else (255, 255, 255))
+        y += int(t * 1.12)
+    y += 18
+    fs = fonte("regular", 25 if formato == "feed" else 32)
+    for l in quebrar(d, s["subtitulo"], fs, larg):
+        d.text((x, y), l, font=fs, fill=(190, 194, 200))
+        y += int(fs.size * 1.4)
+    y += 34 if formato == "feed" else 50
+    q = 66 if formato == "feed" else 84
+    f1, f2 = fonte("bold", 25 if formato == "feed" else 32), fonte("regular", 21 if formato == "feed" else 27)
+    for icone, tit, desc in s["itens_balcao"]:
+        d.rounded_rectangle([x, y, x + q, y + q], radius=14, fill=GRAFITE, outline=(80, 84, 92), width=2)
+        _icone(d, icone, x + q / 2, y + q / 2, q * 0.36, OFF)
+        d.text((x + q + 22, y + 2), tit, font=f1, fill=(255, 255, 255))
+        yy = y + f1.size + 10
+        for l in quebrar(d, desc, f2, larg - q - 22):
+            d.text((x + q + 22, yy), l, font=f2, fill=(170, 174, 180))
+            yy += int(f2.size * 1.3)
+        y = max(y + q, yy) + (26 if formato == "feed" else 40)
+    return y
+
+
+def peca_balcao(cfg, s, destino, formato="feed"):
+    w, h = (1080, 1350) if formato == "feed" else (1080, 1920)
+    m = 64
+    desk = tela_desktop(s["vitrine"])
+    tab = tela_tablet(s["vitrine"])
+    cel = tela_celular(cfg, s["vitrine"])
+    if formato == "feed":
+        yb = 1090
+        img = _fundo_balcao(w, h, yb)
+        # escurece a coluna da esquerda para leitura
+        g = Image.new("L", (w, 1))
+        for x in range(w):
+            g.putpixel((x, 0), int(235 * max(0.0, min(1.0, (520 - x) / 200))))
+        img = Image.composite(Image.new("RGB", (w, h), (20, 21, 25)), img, g.resize((w, h)))
+        img = _monitor(img, 470, yb - 100 - 369, 590, desk)
+        img = _aparelho(img, tab, 862, yb - 230, 190, raio=26, borda=12)
+        img = _aparelho(img, cel.convert("RGB"), 600, yb - 170, 185, raio=34, borda=10)
+        d = ImageDraw.Draw(img)
+        _coluna_texto(d, s, m, 70, 380, formato)
+        cy = 1180
+    else:
+        yb = 1520
+        img = _fundo_balcao(w, h, yb)
+        g = Image.new("L", (1, h))
+        for y in range(h):
+            g.putpixel((0, y), int(235 * max(0.0, min(1.0, (1060 - y) / 260))))
+        img = Image.composite(Image.new("RGB", (w, h), (20, 21, 25)), img, g.resize((w, h)))
+        d = ImageDraw.Draw(img)
+        fim = _coluna_texto(d, s, m + 8, 150, w - 2 * m - 16, formato)
+        topo = max(fim + 20, 1060)
+        img = _monitor(img, 150, topo, 640, desk)
+        img = _aparelho(img, tab, 760, topo + 230, 230, raio=28, borda=12)
+        img = _aparelho(img, cel.convert("RGB"), 70, topo + 300, 200, raio=34, borda=10)
+        cy = h - 200
+    d = ImageDraw.Draw(img)
+    # cartão "feito para"
+    fc1, fc2 = fonte("bold", 24 if formato == "feed" else 30), fonte("regular", 20 if formato == "feed" else 25)
+    seg = s.get("segmento", "Feito para restaurantes e pizzarias")
+    cta = s["cta"].replace("{whatsapp}", cfg["whatsapp"])
+    cl = max(d.textlength(seg, font=fc1), d.textlength(cta, font=fc2)) + 120
+    d.rounded_rectangle([m, cy, m + cl, cy + (96 if formato == "feed" else 116)], radius=18, fill=OFF)
+    _icone(d, "check", m + 42, cy + (48 if formato == "feed" else 58), 20, ESC)
+    d.text((m + 80, cy + 18), seg, font=fc1, fill=ESC)
+    d.text((m + 80, cy + 18 + fc1.size + 10), cta, font=fc2, fill=SUAVE)
+    nota = "Demonstração ilustrativa · nomes fictícios"
+    d.text((m, h - (44 if formato == "feed" else 70)), ("@gnz01_ · " if formato == "story" else "") + nota,
+           font=fonte("regular", 19 if formato == "feed" else 22), fill=(150, 154, 160))
+    img = Image.blend(img, Image.effect_noise((w, h), 16).convert("RGB"), 0.02)
+    destino = Path(destino)
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    img.save(destino, "JPEG", quality=93)
+    return destino

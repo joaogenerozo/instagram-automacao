@@ -109,3 +109,7 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 
 ## 18. Fotos (autorização do João, 05/11)
 - Buscar fotos na internet sempre que preciso, sem pedir permissão. Usar só fotos com licença de uso livre (CC0, CC BY, CC BY-SA ou domínio público, ex.: Wikimedia Commons), sempre com crédito. Não usar fotos protegidas de terceiros (perfis, sites de notícia, bancos pagos).
+
+## 19. Peças de restaurantes e pizzarias (layout balcão)
+- Cardápio digital usa o layout "balcão": marca GNZ01 no alto, título com a última linha em prata, 4 funcionalidades com ícone em quadrado e descrição curta, monitor + tablet + celular sobre balcão escuro, cartão off-white "Feito para restaurantes e pizzarias" com o WhatsApp.
+- Cores do perfil (grafite, off-white e prata), sem laranja. Só funcionalidades reais do cardápio (sem dashboard de vendas, caixa ou números). Sempre "Demonstração ilustrativa · nomes fictícios".

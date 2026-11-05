@@ -330,6 +330,18 @@
     "legenda": ""
   },
   {
+    "id": "gnz01_2026-11-07_quote1",
+    "status": "pendente",
+    "quando": "2026-11-07T07:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Luiza Helena Trajano: Aprendi a escutar o que não quero ouvir.",
+    "imagens": [
+      "midia/gnz01/2026-11-07/stories/quote-01.jpg"
+    ],
+    "legenda": ""
+  },
+  {
     "id": "gnz01_2026-11-07_story1",
     "status": "pendente",
     "quando": "2026-11-07T07:30:00-03:00",
@@ -396,6 +408,18 @@
     "legenda": "Ontem perguntei quantas mensagens você responde só para marcar horário. Hoje, a solução. ✂️💅\n\nArrasta para o lado e veja como o cliente agenda sozinho, em 5 passos, sem precisar falar com você.\n\nVocê ganha tempo para atender, e o cliente marca na hora em que lembra, até de madrugada.\n\n👉 Solicite uma demonstração da agenda online: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#agendaonline #salaodebeleza #barbearia #sistemadeagendamento #agendamentoonline #profissionaldabeleza #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
   },
   {
+    "id": "gnz01_2026-11-07_quote2",
+    "status": "pendente",
+    "quando": "2026-11-07T13:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Jeff Bezos: Uma coisa que eu adoro nos clientes é que eles são divinamente insatisfeitos.",
+    "imagens": [
+      "midia/gnz01/2026-11-07/stories/quote-02.jpg"
+    ],
+    "legenda": ""
+  },
+  {
     "id": "gnz01_2026-11-07_story4",
     "status": "pendente",
     "quando": "2026-11-07T13:30:00-03:00",
@@ -433,7 +457,7 @@
   },
   {
     "id": "gnz01_2026-11-07_4",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-07T18:30:00-03:00",
     "tipo": "post",
     "tema": "cardapio",
@@ -441,7 +465,27 @@
     "imagens": [
       "midia/gnz01/2026-11-07/4/01.jpg"
     ],
-    "legenda": "O cliente abre o cardápio com fome e pouca paciência. 🍔\n\nSe ele precisa procurar demais, não entende o prato ou descobre outro preço na hora de pagar, a venda fica menor, ou nem acontece.\n\nNo cardápio digital, você organiza por categorias, coloca foto e descrição em cada item e atualiza preços em segundos.\n\n👉 Quer revisar o seu cardápio com a gente? (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#cardapiodigital #restaurante #gestaoderestaurante #lanchonete #cardapioonline #pedidopelowhatsapp #donoderestaurante #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
+    "legenda": "O cliente abre o cardápio com fome e pouca paciência. 🍔\n\nSe ele precisa procurar demais, não entende o prato ou descobre outro preço na hora de pagar, a venda fica menor, ou nem acontece.\n\nNo cardápio digital, você organiza por categorias, coloca foto e descrição em cada item e atualiza preços em segundos.\n\n👉 Quer revisar o seu cardápio com a gente? (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#cardapiodigital #restaurante #gestaoderestaurante #lanchonete #cardapioonline #pedidopelowhatsapp #donoderestaurante #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo",
+    "observacao": "Substituído pelo carrossel de Luiza Helena Trajano (pedido do João, 05/11)."
+  },
+  {
+    "id": "gnz01_2026-11-07_p3",
+    "status": "pendente",
+    "quando": "2026-11-07T18:30:00-03:00",
+    "tipo": "carrossel",
+    "tema": "marca",
+    "titulo": "Os ensinamentos de Luiza Helena Trajano",
+    "imagens": [
+      "midia/gnz01/2026-11-07/p3/01.jpg",
+      "midia/gnz01/2026-11-07/p3/02.jpg",
+      "midia/gnz01/2026-11-07/p3/03.jpg",
+      "midia/gnz01/2026-11-07/p3/04.jpg",
+      "midia/gnz01/2026-11-07/p3/05.jpg",
+      "midia/gnz01/2026-11-07/p3/06.jpg",
+      "midia/gnz01/2026-11-07/p3/07.jpg"
+    ],
+    "legenda": "\"Aprendi a escutar o que não quero ouvir.\"\nLuiza Helena Trajano, em entrevista à Forbes Brasil (2023).\n\nCrítica de cliente é um mapa do que melhorar. Arraste para ver como aplicar no seu negócio. 👉\n\n💬 Qual reclamação mais te ensinou?\n💾 Salve para reler.\n\nQuer facilitar o contato com seus clientes? Fale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #luizatrajano #atendimentoaocliente #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: Web Summit Rio / Wikimedia Commons, CC BY 2.0 (redimensionada)",
+    "fotos_por_lamina": false
   },
   {
     "id": "gnz01_2026-11-07_story6",
@@ -457,7 +501,7 @@
   },
   {
     "id": "gnz01_2026-11-07_5",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-07T21:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -465,7 +509,27 @@
     "imagens": [
       "midia/gnz01/2026-11-07/5/01.jpg"
     ],
-    "legenda": "Muita gente adia o site por achar que vai dar trabalho. Não precisa. ✅\n\nFunciona assim:\n1️⃣ Uma conversa rápida sobre o seu negócio\n2️⃣ Você envia logo, fotos e informações\n3️⃣ A GNZ01 cria o site e você aprova\n4️⃣ Seu site no ar, pronto para receber clientes\n\nO orçamento é sem compromisso e feito sob medida para o que você precisa.\n\n👉 Solicite o seu: (19) 97829-9585\n.\n.\n#criacaodesites #orcamentodesite #sitesparapequenasempresas #gnz01 #facaseusite #siteresponsivo #webdesignerbrasil #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
+    "legenda": "Muita gente adia o site por achar que vai dar trabalho. Não precisa. ✅\n\nFunciona assim:\n1️⃣ Uma conversa rápida sobre o seu negócio\n2️⃣ Você envia logo, fotos e informações\n3️⃣ A GNZ01 cria o site e você aprova\n4️⃣ Seu site no ar, pronto para receber clientes\n\nO orçamento é sem compromisso e feito sob medida para o que você precisa.\n\n👉 Solicite o seu: (19) 97829-9585\n.\n.\n#criacaodesites #orcamentodesite #sitesparapequenasempresas #gnz01 #facaseusite #siteresponsivo #webdesignerbrasil #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo",
+    "observacao": "Substituído pelo carrossel de Jeff Bezos (pedido do João, 05/11)."
+  },
+  {
+    "id": "gnz01_2026-11-07_p4",
+    "status": "pendente",
+    "quando": "2026-11-07T21:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "marca",
+    "titulo": "Os ensinamentos de Jeff Bezos",
+    "imagens": [
+      "midia/gnz01/2026-11-07/p4/01.jpg",
+      "midia/gnz01/2026-11-07/p4/02.jpg",
+      "midia/gnz01/2026-11-07/p4/03.jpg",
+      "midia/gnz01/2026-11-07/p4/04.jpg",
+      "midia/gnz01/2026-11-07/p4/05.jpg",
+      "midia/gnz01/2026-11-07/p4/06.jpg",
+      "midia/gnz01/2026-11-07/p4/07.jpg"
+    ],
+    "legenda": "\"One thing I love about customers is that they are divinely discontent.\"\n\"Uma coisa que eu adoro nos clientes é que eles são divinamente insatisfeitos.\"\nJeff Bezos, carta aos acionistas da Amazon (2017).\n\nA expectativa do cliente sobe o tempo todo. Arraste para ver como acompanhar. 👉\n\n💬 O que seu cliente já espera de você?\n💾 Salve para reler.\n\nFale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #jeffbezos #experienciadocliente #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: Steve Jurvetson / Wikimedia Commons, CC BY 2.0 (redimensionada)",
+    "fotos_por_lamina": false
   },
   {
     "id": "gnz01_2026-11-07_story7",
@@ -476,6 +540,18 @@
     "titulo": "Seu negócio merece uma vitrine profissional.",
     "imagens": [
       "midia/gnz01/2026-11-07/stories/7.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-08_quote1",
+    "status": "pendente",
+    "quando": "2026-11-08T07:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Sara Blakely: Fracasso, para mim, passou a ser não tentar, e não o resultado.",
+    "imagens": [
+      "midia/gnz01/2026-11-08/stories/quote-01.jpg"
     ],
     "legenda": ""
   },
@@ -584,7 +660,7 @@
   },
   {
     "id": "gnz01_2026-11-08_4",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-08T18:30:00-03:00",
     "tipo": "post",
     "tema": "agenda",
@@ -592,7 +668,27 @@
     "imagens": [
       "midia/gnz01/2026-11-08/4/01.jpg"
     ],
-    "legenda": "Faça a conta comigo: quantos clientes faltaram na sua última semana? Multiplique pelo valor do serviço e por 4. 🧮\n\nEsse é o valor aproximado que fica parado na sua agenda todo mês.\n\nA agenda online envia lembrete antes do horário, permite confirmar ou remarcar com um toque e libera o horário para outra pessoa quando alguém desmarca.\n\nComenta o resultado da sua conta 👇 ou fale comigo: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#agendaonline #clinicadeestetica #manicure #gestaodeagenda #agendamentoonline #sistemadeagendamento #profissionaldabeleza #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
+    "legenda": "Faça a conta comigo: quantos clientes faltaram na sua última semana? Multiplique pelo valor do serviço e por 4. 🧮\n\nEsse é o valor aproximado que fica parado na sua agenda todo mês.\n\nA agenda online envia lembrete antes do horário, permite confirmar ou remarcar com um toque e libera o horário para outra pessoa quando alguém desmarca.\n\nComenta o resultado da sua conta 👇 ou fale comigo: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#agendaonline #clinicadeestetica #manicure #gestaodeagenda #agendamentoonline #sistemadeagendamento #profissionaldabeleza #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo",
+    "observacao": "Substituído pelo carrossel de Sara Blakely (pedido do João, 05/11)."
+  },
+  {
+    "id": "gnz01_2026-11-08_p3",
+    "status": "pendente",
+    "quando": "2026-11-08T18:30:00-03:00",
+    "tipo": "carrossel",
+    "tema": "marca",
+    "titulo": "Os ensinamentos de Sara Blakely",
+    "imagens": [
+      "midia/gnz01/2026-11-08/p3/01.jpg",
+      "midia/gnz01/2026-11-08/p3/02.jpg",
+      "midia/gnz01/2026-11-08/p3/03.jpg",
+      "midia/gnz01/2026-11-08/p3/04.jpg",
+      "midia/gnz01/2026-11-08/p3/05.jpg",
+      "midia/gnz01/2026-11-08/p3/06.jpg",
+      "midia/gnz01/2026-11-08/p3/07.jpg"
+    ],
+    "legenda": "\"Failure for me became not trying, versus the outcome.\"\n\"Fracasso, para mim, passou a ser não tentar, e não o resultado.\"\nSara Blakely, fundadora da Spanx, ao Business Insider (2016).\n\nArraste para ver como aplicar no seu negócio. 👉\n\n💬 O que você está adiando?\n💾 Salve para reler.\n\nFale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #sarablakely #mulheresempreendedoras #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: David Shankbone / Wikimedia Commons, CC BY 3.0",
+    "fotos_por_lamina": false
   },
   {
     "id": "gnz01_2026-11-08_story6",
@@ -818,6 +914,18 @@
     "titulo": "Profissional liberal também precisa de site.",
     "imagens": [
       "midia/gnz01/2026-11-09/stories/7.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-10_quote1",
+    "status": "pendente",
+    "quando": "2026-11-10T07:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Bill Gates: Seus clientes mais insatisfeitos são sua maior fonte de aprendizado.",
+    "imagens": [
+      "midia/gnz01/2026-11-10/stories/quote-01.jpg"
     ],
     "legenda": ""
   },

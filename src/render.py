@@ -74,8 +74,9 @@ class Desenhista:
         camada = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         d = ImageDraw.Draw(camada)
         claro = sum(self.fundo) > 600
-        d.ellipse([W - 380, -220, W + 220, 380], fill=cor_tema + ((35,) if claro else (110,)))
-        d.ellipse([-260, H - 330, 260, H + 190], fill=self.destaque + (28,))
+        if not getattr(self, "limpo", True):
+            d.ellipse([W - 380, -220, W + 220, 380], fill=cor_tema + ((35,) if claro else (110,)))
+            d.ellipse([-260, H - 330, 260, H + 190], fill=self.destaque + (28,))
         img = Image.alpha_composite(img.convert("RGBA"), camada)
         draw = ImageDraw.Draw(img)
         # selo do tema
@@ -99,8 +100,8 @@ class Desenhista:
         img, draw, cor_tema = self._base(p["tema"])
         larg = W - 2 * MARGEM
         y = 230
-        f, linhas, tam, alt = bloco(draw, p["titulo"], "bold", 96, 56, larg, 520)
-        y = escrever(draw, MARGEM, y, linhas, f, tam, self.texto) + 30
+        f, linhas, tam, alt = bloco(draw, p["titulo"], "semi", 100, 56, larg, 520, 1.08)
+        y = escrever(draw, MARGEM, y, linhas, f, tam, self.texto, 1.08) + 30
         draw.rectangle([MARGEM, y, MARGEM + 120, y + 10], fill=self.destaque)
         y += 50
         if p.get("subtitulo"):
@@ -113,6 +114,7 @@ class Desenhista:
             draw.line([(MARGEM + 10, y + 27), (MARGEM + 18, y + 35), (MARGEM + 31, y + 17)], fill=self.fundo, width=5)
             f, linhas, tam, alt = bloco(draw, item, "semi", 42, 30, larg - 70, 110)
             y = escrever(draw, MARGEM + 64, y, linhas, f, tam, self.texto) + 22
+        grafico_livre(self, draw, y, p["titulo"])
         self._rodape(draw, p.get("cta_imagem", "Chame no WhatsApp"))
         return self._salvar(img, destino)
 
@@ -125,22 +127,23 @@ class Desenhista:
 
         # capa
         img, draw, cor_tema = self._base(p["tema"])
-        f, linhas, tam, alt = bloco(draw, p["titulo"], "bold", 104, 60, larg, 640)
-        y = escrever(draw, MARGEM, 260, linhas, f, tam, self.texto) + 40
+        f, linhas, tam, alt = bloco(draw, p["titulo"], "semi", 108, 60, larg, 640, 1.06)
+        y = escrever(draw, MARGEM, 260, linhas, f, tam, self.texto, 1.06) + 40
         if p.get("subtitulo"):
             f, linhas, tam, alt = bloco(draw, p["subtitulo"], "regular", 44, 32, larg, 240, 1.3)
-            escrever(draw, MARGEM, y, linhas, f, tam, self.suave, 1.3)
+            y = escrever(draw, MARGEM, y, linhas, f, tam, self.suave, 1.3)
+        grafico_livre(self, draw, y + 20, p["titulo"])
         self._rodape(draw, "Arraste  →")
         caminhos.append(self._salvar(img, pasta / "01.jpg"))
 
         # slides de conteúdo
         for i, s in enumerate(slides, start=1):
             img, draw, cor_tema = self._base(p["tema"])
-            draw.text((MARGEM, 210), f"{i:02d}", font=fonte("bold", 150), fill=self.destaque)
-            f, linhas, tam, alt = bloco(draw, s["titulo"], "bold", 84, 50, larg, 360)
-            y = escrever(draw, MARGEM, 420, linhas, f, tam, self.texto) + 36
-            f, linhas, tam, alt = bloco(draw, s["texto"], "regular", 54, 32, larg, H - 220 - y, 1.35)
-            escrever(draw, MARGEM, y, linhas, f, tam, self.suave, 1.35)
+            f, linhas, tam, alt = bloco(draw, s["titulo"], "semi", 84, 50, larg, 330, 1.08)
+            y = escrever(draw, MARGEM, 220, linhas, f, tam, self.texto, 1.08) + 30
+            f, linhas, tam, alt = bloco(draw, s["texto"], "regular", 46, 32, larg, 330, 1.35)
+            y = escrever(draw, MARGEM, y, linhas, f, tam, self.suave, 1.35)
+            numero_gigante(self, draw, f"{i:02d}", y)
             self._rodape(draw, f"{i + 1}/{total}")
             caminhos.append(self._salvar(img, pasta / f"{i + 1:02d}.jpg"))
 
@@ -258,13 +261,14 @@ def _grade_pontos(self, draw, x0, y0, colunas=6, linhas=6, passo=34):
 def _post_pergunta(self, p, destino):
     img, draw, _ = self._base(p["tema"])
     larg = W - 2 * MARGEM
-    _grade_pontos(self, draw, W - MARGEM - 170, 230)
+    grafico(self, draw, "linha", W - MARGEM - 300, 200, W - MARGEM, 380)
     f, linhas, tam, alt = bloco(draw, p["titulo"], "bold", 110, 60, larg, 640)
     y = (H - alt) // 2 - 60
     y = escrever(draw, MARGEM, y, linhas, f, tam, self.texto) + 40
     if p.get("subtitulo"):
         f, linhas, tam, _ = bloco(draw, p["subtitulo"], "regular", 42, 30, larg, 200, 1.3)
-        escrever(draw, MARGEM, y, linhas, f, tam, self.suave, 1.3)
+        y = escrever(draw, MARGEM, y, linhas, f, tam, self.suave, 1.3)
+    grafico_livre(self, draw, y + 10, p["titulo"][::-1], minimo=200)
     self._rodape(draw, p.get("cta_imagem", "Responda no Direct"))
     return self._salvar(img, destino)
 
@@ -272,7 +276,7 @@ def _post_pergunta(self, p, destino):
 def _post_numero(self, p, destino):
     img, draw, _ = self._base(p["tema"])
     larg = W - 2 * MARGEM
-    _grade_pontos(self, draw, W - MARGEM - 170, 230, 6, 4)
+    grafico(self, draw, "rosca", W - MARGEM - 220, 210, W - MARGEM, 430)
     f = fonte("bold", 260)
     draw.text((MARGEM - 8, 200), p["numero"], font=f, fill=self.destaque)
     y = 520
@@ -343,3 +347,65 @@ def story_texto(self, item, destino):
 
 
 Desenhista.story_texto = story_texto
+
+
+
+# ---------- elementos gráficos (referência enviada pelo João, 05/11) ----------
+# Puramente ilustrativos: sem rótulos, eixos ou valores, para não sugerir dados que não existem.
+TIPOS_GRAFICO = ["barras", "rosca", "linha", "degraus"]
+
+
+def grafico(self, draw, tipo, x0, y0, x1, y1):
+    w, h = x1 - x0, y1 - y0
+    claro = sum(self.fundo) > 600
+    c1 = (205, 210, 212) if not claro else (200, 203, 205)
+    c2 = (70, 72, 78) if not claro else (40, 42, 46)
+    if tipo == "barras":
+        n, gap = 4, w * 0.04
+        bw = (w - gap * (n - 1)) / n
+        for i, f in enumerate([0.22, 0.5, 0.72, 1.0]):
+            bx = x0 + i * (bw + gap)
+            draw.rounded_rectangle([bx, y1 - h * f, bx + bw, y1], radius=int(bw * 0.12), fill=c1 if i % 2 else c2)
+    elif tipo == "rosca":
+        r = min(w, h) / 2
+        cx, cy = x0 + w - r, y0 + r
+        draw.ellipse([cx - r, cy - r, cx + r, cy + r], fill=c1)
+        draw.pieslice([cx - r, cy - r, cx + r, cy + r], -90, -50, fill=c2)
+        ri = r * 0.42
+        draw.ellipse([cx - ri, cy - ri, cx + ri, cy + ri], fill=self.fundo2)
+    elif tipo == "linha":
+        pts = [(x0 + w * t, y1 - h * v) for t, v in [(0, 0.15), (0.2, 0.35), (0.38, 0.25), (0.58, 0.6), (0.76, 0.5), (1, 0.95)]]
+        draw.line(pts, fill=c1, width=6, joint="curve")
+        pts2 = [(x0 + w * t, y1 - h * v) for t, v in [(0, 0.05), (0.25, 0.2), (0.5, 0.12), (0.75, 0.42), (1, 0.55)]]
+        draw.line(pts2, fill=c2, width=4, joint="curve")
+        ex, ey = pts[-1]
+        draw.ellipse([ex - 12, ey - 12, ex + 12, ey + 12], fill=c1)
+    else:  # degraus
+        n = 4
+        sw_ = w / n
+        for i in range(n):
+            draw.rectangle([x0 + i * sw_, y1 - h * (i + 1) / n, x0 + (i + 1) * sw_ - 6, y1], fill=c2 if i < n - 1 else c1)
+
+
+def grafico_livre(self, draw, y, semente, minimo=240):
+    """Desenha um gráfico ilustrativo no espaço livre entre o conteúdo e o rodapé, alinhado à direita."""
+    livre = (H - 180) - (y + 20)
+    if livre < minimo:
+        return
+    alt = min(livre, 420)
+    larg = min(int(alt * 1.25), W - 2 * MARGEM)
+    tipo = TIPOS_GRAFICO[sum(map(ord, semente)) % len(TIPOS_GRAFICO)]
+    grafico(self, draw, tipo, W - MARGEM - larg, H - 180 - alt, W - MARGEM, H - 180)
+
+
+
+def numero_gigante(self, draw, txt, y_conteudo):
+    """Número enorme e claro no canto inferior direito (estilo '04' da referência)."""
+    claro = sum(self.fundo) > 600
+    cor = (200, 203, 205) if not claro else (40, 42, 46)
+    for tam in range(460, 160, -20):
+        f = fonte("regular", tam)
+        x0, y0, x1, y1 = draw.textbbox((0, 0), txt, font=f)
+        if (H - 165) - (y1 - y0) > y_conteudo + 20:
+            draw.text((W - MARGEM - x1 + 12, H - 165 - y1), txt, font=f, fill=cor)
+            return
