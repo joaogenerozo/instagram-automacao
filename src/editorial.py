@@ -144,7 +144,13 @@ def carrossel(p, pasta):
     """Carrossel editorial: capa (citação) + slides de texto + CTA. slides: [{rotulo, titulo, texto}]."""
     pasta = Path(pasta)
     total = len(p["slides"]) + 1
-    caminhos = [peca({**p["capa"], "citacao": True}, pasta / "01.jpg", pagina=f"1/{total}  Arraste →")]
+    capa = p["capa"]
+    if capa.get("foto"):
+        caminhos = [capa_central(capa["foto"], capa["titulo"], pasta / "01.jpg", autor=capa.get("autor"),
+                                 fonte_citacao=capa.get("fonte_citacao"), credito=capa.get("credito"),
+                                 pagina=f"1/{total}  Arraste →")]
+    else:
+        caminhos = [peca({**capa, "citacao": True}, pasta / "01.jpg", pagina=f"1/{total}  Arraste →")]
     for i, s in enumerate(p["slides"], 2):
         caminhos.append(peca({"rotulo": s.get("rotulo", ""), "titulo": s["titulo"], "subtitulo": s.get("texto"),
                               "apoio": s.get("apoio", []), "escuro": s.get("escuro", False),
@@ -168,6 +174,12 @@ def _gradiente(img, ini, cor, forca=250, topo=0):
 
 
 def story_citacao(p, destino):
+    return capa_central(p["foto"], p["citacao"], destino, tam=(SW, SH), autor=p["autor"],
+                        fonte_citacao=p["fonte_citacao"], credito=p["credito"],
+                        reflexao=p.get("reflexao") or p.get("interacao"))
+
+
+def story_citacao_antigo(p, destino):
     """Story de citação. Campos: foto, credito, citacao (PT), autor, fonte_citacao, reflexao (GNZ01, opcional),
     interacao (opcional), variante "a" (foto em tela cheia, texto embaixo) ou "b" (foto no alto, painel marinho)."""
     var = p.get("variante", "a")
@@ -230,5 +242,77 @@ def story_citacao(p, destino):
     _escrever(d, m, y - alt, linhas, fq, t, cor_t, 1.15)
     img = Image.blend(img, Image.effect_noise((SW, SH), 18).convert("RGB"), 0.03)
     destino = Path(destino); destino.parent.mkdir(parents=True, exist_ok=True)
+    img.save(destino, "JPEG", quality=93)
+    return destino
+
+
+# ---------------------------------------------------------------- estilo "capa central" (foto cheia + degradê marinho + serifada centralizada)
+MARINHO_PROF = (10, 22, 48)
+
+
+def capa_central(foto, titulo, destino, tam=(1080, 1350), autor=None, fonte_citacao=None, credito=None,
+                 pagina=None, citacao=True, reflexao=None):
+    """Foto real em tela cheia, degradê azul-marinho embaixo, frase em serifada caixa alta centralizada,
+    assinatura GNZ01 centralizada. Serve para capa de carrossel (1080x1350) e story (1080x1920)."""
+    w, h = tam
+    if h > 1350:  # story: foto ocupa ~70% de cima, o resto é marinho
+        hf = int(h * 0.70)
+        img = Image.new("RGB", (w, h), MARINHO_PROF)
+        img.paste(ImageOps.fit(Image.open(foto).convert("RGB"), (w, hf), Image.LANCZOS, centering=(0.5, 0.2)), (0, 0))
+        ini, fim = 0.40, 0.70
+    else:
+        img = ImageOps.fit(Image.open(foto).convert("RGB"), (w, h), Image.LANCZOS, centering=(0.5, 0.2))
+        ini, fim = 0.38, 1.0
+    g = Image.new("L", (1, h))
+    for y in range(h):
+        t = max(0.0, (y - h * ini) / (h * (fim - ini) / 1.25 if h > 1350 else h * 0.62))
+        g.putpixel((0, y), int(255 * min(1, t * 1.25) ** 1.2))
+    img = Image.composite(Image.new("RGB", (w, h), MARINHO_PROF), img, g.resize((w, h)))
+    d = ImageDraw.Draw(img)
+    m = 70
+    larg = w - 2 * m
+    texto = (f"“{titulo}”" if citacao else titulo).upper()
+    area = 430 if h <= 1350 else 520
+    f, linhas, t = _bloco_serif(d, texto, "bold", 72 if h <= 1350 else 78, 40, larg, area, 1.08)
+    alt = int(len(linhas) * t * 1.08)
+    base = h - (230 if h <= 1350 else 300)
+    extra = (100 if autor else 0) + (len(quebrar(d, reflexao, fonte("regular", 30), larg)) * 42 + 40 if reflexao else 0)
+    y = base - extra - alt
+    for l in linhas:
+        d.text(((w - d.textlength(l, font=f)) / 2, y), l, font=f, fill=(255, 255, 255))
+        y += int(t * 1.08)
+    if autor:
+        y += 22
+        fa = fonte("semi", 30)
+        a = autor.upper()
+        d.text(((w - d.textlength(a, font=fa)) / 2, y), a, font=fa, fill=(255, 255, 255))
+        if fonte_citacao:
+            fs = fonte("regular", 24)
+            d.text(((w - d.textlength(fonte_citacao, font=fs)) / 2, y + 42), fonte_citacao, font=fs, fill=(186, 196, 214))
+        y += 90
+    if reflexao:
+        y += 16
+        d.line([(w / 2 - 40, y), (w / 2 + 40, y)], fill=(186, 196, 214), width=2)
+        y += 22
+        fr = fonte("regular", 30)
+        for l in quebrar(d, reflexao, fr, larg):
+            d.text(((w - d.textlength(l, font=fr)) / 2, y), l, font=fr, fill=(226, 230, 238))
+            y += 42
+    # assinatura GNZ01 centralizada
+    fm = fonte("bold", 40)
+    yl = h - (150 if h <= 1350 else 210)
+    d.text(((w - d.textlength("GNZ01", font=fm)) / 2, yl), "GNZ01", font=fm, fill=(255, 255, 255))
+    rod = []
+    if credito:
+        rod.append(credito)
+    if pagina:
+        rod.append(pagina)
+    if rod:
+        fc = fonte("regular", 19)
+        tx = "  ·  ".join(rod)
+        d.text(((w - d.textlength(tx, font=fc)) / 2, h - 60), tx, font=fc, fill=(150, 162, 186))
+    img = Image.blend(img, Image.effect_noise((w, h), 16).convert("RGB"), 0.025)
+    destino = Path(destino)
+    destino.parent.mkdir(parents=True, exist_ok=True)
     img.save(destino, "JPEG", quality=93)
     return destino

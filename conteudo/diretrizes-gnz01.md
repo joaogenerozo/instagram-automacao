@@ -87,7 +87,7 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 - 2 stories por dia, às 07:00 e às 13:00, com personalidades diferentes e sem repetir nome nem frase em 30 dias (inclui posts de feed).
 - Citação só entra se conferida em fonte confiável (livro, discurso, carta, entrevista em veículo sério ou site oficial). Registrar original, tradução, fonte e link em conteudo/gnz01-citacoes.json. Sem confirmação: descartar a frase.
 - Foto real licenciada obrigatória (midia/fotos/<slug>.jpg + crédito em midia/fotos/creditos.json). Sem foto: não publica. Nunca gerar rosto.
-- Arte: src/editorial.py story_citacao, 1080x1920, variantes "a" (foto em tela cheia) e "b" (foto no alto + painel marinho), alternadas. Reflexão GNZ01 opcional, separada e sem atribuir à personalidade. Interação em texto quando fizer sentido (a API não adiciona figurinhas nativas).
+- Arte: src/editorial.py story_citacao, 1080x1920, estilo "capa central" (foto real no alto, degradê azul-marinho, frase em serifada caixa alta centralizada, GNZ01 centralizado) — referência enviada pelo João em 05/11; o mesmo estilo vale para capas de carrossel de personalidade no feed. Reflexão GNZ01 opcional, separada e sem atribuir à personalidade. Interação em texto quando fizer sentido (a API não adiciona figurinhas nativas).
 - Gerar com python tools/citacoes.py (idempotente). Entregáveis em GNZ01-MARKETING/STORIES/<data>/story-01.jpg|md.
 
 ## 15. GNZ01 Product Showcase (peças de produto) — desde 05/11
