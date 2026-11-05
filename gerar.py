@@ -19,12 +19,15 @@ def desenhar_vitrine(cfg, v, destino):
     """Desenha uma demonstração de produto (cardápio, agenda ou catálogo) no formato story."""
     destino.parent.mkdir(parents=True, exist_ok=True)
     campos = {k: v[k] for k in ("titulo", "subtitulo", "sigla", "nome", "chips", "notif", "botao",
-                                "itens", "total", "produtos") if k in v}
+                                "itens", "total", "produtos", "dominio", "marca", "chamada", "apoio", "servicos", "tom") if k in v}
     for k in ("itens", "produtos", "notif"):
         if k in campos:
             campos[k] = [tuple(x) for x in campos[k]] if k != "notif" else tuple(campos[k])
-    fn = {"cardapio": vt.story_cardapio, "agenda": vt.story_agenda_manicure, "catalogo": vt.story_catalogo}[v["tipo"]]
-    if v["tipo"] != "agenda":
+    if "tom" in campos:
+        campos["tom"] = tuple(campos["tom"])
+    fn = {"cardapio": vt.story_cardapio, "agenda": vt.story_agenda_manicure, "catalogo": vt.story_catalogo,
+          "site": vt.story_site}[v["tipo"]]
+    if v["tipo"] not in ("agenda", "site"):
         campos.pop("botao", None)
     return fn(cfg, destino, **campos)
 
@@ -107,7 +110,7 @@ def main():
                 item = faq[n_stories % len(faq)]
                 n_stories += 1
                 img, tema, titulo = des.story(item, destino, numero=None), item["tema"], item["pergunta"]
-            elif st["tipo"] in ("cardapio", "agenda", "catalogo"):
+            elif st["tipo"] in ("cardapio", "agenda", "catalogo", "site"):
                 img, tema, titulo = desenhar_vitrine(cfg, st, destino), st["tipo"], st["titulo"]
             else:
                 item = {**st, "cta": st.get("cta", "").replace("{whatsapp}", cfg["whatsapp"]) or None}

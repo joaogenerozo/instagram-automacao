@@ -85,7 +85,7 @@ for d, dia in enumerate(semana["dias"]):
         q, dtxt, hora = quando(pid)
         img = fila[pid]["imagens"][0]
         shutil.copy(RAIZ / img, cri / f"{s}_{hora.replace(':', 'h')}.jpg")
-        tipo = {"faq": "Pergunta frequente", "cardapio": "Demonstração: cardápio digital",
+        tipo = {"faq": "Pergunta frequente", "site": "Demonstração: prévia de site", "cardapio": "Demonstração: cardápio digital",
                 "agenda": "Demonstração: agenda online", "catalogo": "Demonstração: catálogo digital"}.get(st["tipo"], "Texto")
         S += [f"## {hora} · {tipo}", "", f"**{fila[pid]['titulo']}**"]
         if st.get("texto"):

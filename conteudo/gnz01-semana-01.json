@@ -224,7 +224,29 @@
      "tipo": "faq"
     },
     {
-     "tipo": "faq"
+     "tipo": "site",
+     "pilar": "demonstracao",
+     "titulo": "Um site que passa confiança antes da consulta.",
+     "subtitulo": "Veja como fica o site de um escritório de advocacia.",
+     "dominio": "seuescritorio.adv.br",
+     "marca": "Seu Escritório",
+     "chamada": "Orientação jurídica clara e próxima.",
+     "apoio": "Direito de família, trabalhista e consumidor.",
+     "botao": "Falar pelo WhatsApp",
+     "servicos": [
+      "Família",
+      "Trabalhista",
+      "Consumidor"
+     ],
+     "tom": [
+      150,
+      140,
+      128
+     ],
+     "notif": [
+      "Nova mensagem pelo site",
+      "Gostaria de agendar uma consulta"
+     ]
     },
     {
      "tipo": "texto",
@@ -450,7 +472,29 @@
      "tipo": "faq"
     },
     {
-     "tipo": "faq"
+     "tipo": "site",
+     "pilar": "demonstracao",
+     "titulo": "A barbearia aberta no Google, 24h.",
+     "subtitulo": "Veja como fica o site de uma barbearia.",
+     "dominio": "suabarbearia.com.br",
+     "marca": "Sua Barbearia",
+     "chamada": "Corte e barba com hora marcada.",
+     "apoio": "Corte, barba, sobrancelha e pacotes.",
+     "botao": "Agendar pelo WhatsApp",
+     "servicos": [
+      "Corte",
+      "Barba",
+      "Pacotes"
+     ],
+     "tom": [
+      120,
+      110,
+      100
+     ],
+     "notif": [
+      "Nova mensagem pelo site",
+      "Tem horário sábado de manhã?"
+     ]
     },
     {
      "tipo": "texto",
@@ -701,7 +745,29 @@
      "tipo": "faq"
     },
     {
-     "tipo": "faq"
+     "tipo": "site",
+     "pilar": "demonstracao",
+     "titulo": "Seus tratamentos explicados antes do primeiro contato.",
+     "subtitulo": "Veja como fica o site de uma clínica de estética.",
+     "dominio": "suaclinicaestetica.com.br",
+     "marca": "Sua Estética",
+     "chamada": "Cuidado que se vê no espelho.",
+     "apoio": "Faciais, corporais e avaliação personalizada.",
+     "botao": "Agendar avaliação",
+     "servicos": [
+      "Facial",
+      "Corporal",
+      "Avaliação"
+     ],
+     "tom": [
+      214,
+      196,
+      180
+     ],
+     "notif": [
+      "Nova mensagem pelo site",
+      "Quero saber sobre limpeza de pele"
+     ]
     },
     {
      "tipo": "texto",
@@ -922,7 +988,29 @@
      "tipo": "faq"
     },
     {
-     "tipo": "faq"
+     "tipo": "site",
+     "pilar": "demonstracao",
+     "titulo": "Contabilidade que o cliente encontra e entende.",
+     "subtitulo": "Veja como fica o site de um escritório de contabilidade.",
+     "dominio": "suacontabilidade.com.br",
+     "marca": "Sua Contabilidade",
+     "chamada": "Sua empresa em dia, sem dor de cabeça.",
+     "apoio": "Abertura de empresa, MEI e folha de pagamento.",
+     "botao": "Pedir orçamento",
+     "servicos": [
+      "Abertura",
+      "MEI",
+      "Folha"
+     ],
+     "tom": [
+      176,
+      181,
+      186
+     ],
+     "notif": [
+      "Nova mensagem pelo site",
+      "Preciso abrir um CNPJ"
+     ]
     },
     {
      "tipo": "texto",
@@ -1179,7 +1267,29 @@
      "tipo": "faq"
     },
     {
-     "tipo": "faq"
+     "tipo": "site",
+     "pilar": "demonstracao",
+     "titulo": "O personal que aparece quando procuram treino.",
+     "subtitulo": "Veja como fica o site de um personal trainer.",
+     "dominio": "seupersonal.com.br",
+     "marca": "Seu Personal",
+     "chamada": "Treino planejado para o seu objetivo.",
+     "apoio": "Presencial, online e avaliação física.",
+     "botao": "Falar pelo WhatsApp",
+     "servicos": [
+      "Presencial",
+      "Online",
+      "Avaliação"
+     ],
+     "tom": [
+      140,
+      150,
+      146
+     ],
+     "notif": [
+      "Nova mensagem pelo site",
+      "Quero começar a treinar"
+     ]
     },
     {
      "tipo": "texto",
@@ -1410,7 +1520,29 @@
      "tipo": "faq"
     },
     {
-     "tipo": "faq"
+     "tipo": "site",
+     "pilar": "demonstracao",
+     "titulo": "A pizzaria com site próprio, além do app.",
+     "subtitulo": "Veja como fica o site de uma pizzaria.",
+     "dominio": "suapizzaria.com.br",
+     "marca": "Sua Pizzaria",
+     "chamada": "Pizza artesanal direto do forno.",
+     "apoio": "Cardápio, horários, entrega e retirada.",
+     "botao": "Pedir pelo WhatsApp",
+     "servicos": [
+      "Cardápio",
+      "Entrega",
+      "Retirada"
+     ],
+     "tom": [
+      201,
+      170,
+      140
+     ],
+     "notif": [
+      "Nova mensagem pelo site",
+      "Vocês entregam no centro?"
+     ]
     },
     {
      "tipo": "texto",
@@ -1657,7 +1789,29 @@
      "tipo": "faq"
     },
     {
-     "tipo": "faq"
+     "tipo": "site",
+     "pilar": "demonstracao",
+     "titulo": "Um portfólio que vende o seu trabalho.",
+     "subtitulo": "Veja como fica o site de um escritório de arquitetura.",
+     "dominio": "seuescritoriodearquitetura.com.br",
+     "marca": "Seu Studio",
+     "chamada": "Projetos pensados para o seu jeito de viver.",
+     "apoio": "Residencial, comercial e interiores.",
+     "botao": "Solicitar orçamento",
+     "servicos": [
+      "Residencial",
+      "Comercial",
+      "Interiores"
+     ],
+     "tom": [
+      201,
+      190,
+      172
+     ],
+     "notif": [
+      "Nova mensagem pelo site",
+      "Quero orçar um projeto de interiores"
+     ]
     },
     {
      "tipo": "texto",

@@ -1,4 +1,5 @@
 """Stories de vitrine: mostram um serviço funcionando dentro de um celular (demonstração)."""
+from pathlib import Path
 from PIL import Image, ImageDraw
 
 from src.render import fonte, hex_rgb, bloco, escrever, MARGEM
@@ -190,4 +191,62 @@ def para_feed(caminho_story, destino):
     im = Image.open(caminho_story)
     feed = im.crop((0, 215, 1080, 1590)).resize((1080, 1350))
     feed.save(destino, "JPEG", quality=92)
+    return destino
+
+
+def story_site(cfg, destino, titulo="Seu site, do jeito que o cliente procura.",
+               subtitulo="Veja como fica o site de uma clínica odontológica.",
+               dominio="suaclinica.com.br", marca="Sua Clínica", chamada="Seu sorriso em boas mãos.",
+               apoio="Avaliação, limpeza, clareamento e implantes.", botao="Agendar pelo WhatsApp",
+               servicos=("Avaliação", "Limpeza", "Clareamento"), tom=(176, 181, 186),
+               notif=("Nova mensagem pelo site", "Quero agendar uma avaliação")):
+    """Prévia de um site institucional (demonstração com nome fictício)."""
+    img, draw = _fundo(cfg)
+    _topo(draw, cfg, "CRIAÇÃO DE SITES", titulo, subtitulo)
+    x, y, larg = _celular(draw, 170, 700, 740, 860)
+    x0, larg0 = x - 12, larg + 24  # o site ocupa quase toda a tela
+    # barra do navegador
+    draw.rounded_rectangle([x0, y - 20, x0 + larg0, y + 44], radius=32, fill=CINZA_CHIP)
+    fd = fonte("regular", 26)
+    draw.text((x0 + larg0 / 2 - draw.textlength("🔒 " + dominio, font=fd) / 2 + 10, y - 4), dominio, font=fd, fill=SUAVE_ESC)
+    # menu
+    yy = y + 66
+    draw.text((x0 + 10, yy), marca, font=fonte("bold", 32), fill=ESCURO)
+    for i in range(3):
+        draw.rounded_rectangle([x0 + larg0 - 54, yy + 8 + i * 12, x0 + larg0 - 14, yy + 14 + i * 12], radius=3, fill=ESCURO)
+    # destaque (hero)
+    yy += 58
+    draw.rounded_rectangle([x0, yy, x0 + larg0, yy + 300], radius=30, fill=ESCURO)
+    draw.rounded_rectangle([x0 + larg0 - 200, yy + 28, x0 + larg0 - 28, yy + 170], radius=22, fill=tom)
+    mx, my = x0 + larg0 - 200, yy + 28
+    draw.ellipse([mx + 110, my + 22, mx + 146, my + 58], fill=(255, 255, 255))
+    draw.polygon([(mx + 18, my + 126), (mx + 70, my + 60), (mx + 112, my + 110), (mx + 134, my + 86), (mx + 158, my + 126)], fill=ESCURO)
+    fh, lh, th, ah = bloco(draw, chamada, "bold", 40, 28, larg0 - 270, 140)
+    escrever(draw, x0 + 28, yy + 30, lh, fh, th, (255, 255, 255))
+    fa, la, ta, aa = bloco(draw, apoio, "regular", 24, 20, larg0 - 56, 34, 1.3)
+    escrever(draw, x0 + 28, yy + 186, la, fa, ta, (190, 194, 200), 1.3)
+    fb = fonte("bold", 26)
+    lb = draw.textlength(botao, font=fb)
+    draw.rounded_rectangle([x0 + 28, yy + 228, x0 + 28 + lb + 60, yy + 280], radius=27, fill=(37, 211, 102))
+    draw.text((x0 + 58, yy + 239), botao, font=fb, fill=(255, 255, 255))
+    # serviços
+    yy += 322
+    draw.text((x0 + 10, yy), "Serviços", font=fonte("bold", 30), fill=ESCURO)
+    yy += 46
+    cw = (larg0 - 2 * 16) / 3
+    for i, s in enumerate(servicos[:3]):
+        cx = x0 + i * (cw + 16)
+        draw.rounded_rectangle([cx, yy, cx + cw, yy + 124], radius=22, fill=CINZA_CHIP)
+        draw.ellipse([cx + 20, yy + 18, cx + 62, yy + 60], fill=tom)
+        fs = fonte("semi", 24)
+        while draw.textlength(s, font=fs) > cw - 30 and fs.size > 16:
+            fs = fonte("semi", fs.size - 2)
+        draw.text((cx + 20, yy + 80), s, font=fs, fill=ESCURO)
+    # rodapé do site
+    yy += 146
+    draw.text((x0 + 10, yy), "Endereço  ·  Horários  ·  Contato", font=fonte("regular", 24), fill=SUAVE_ESC)
+    _notificacao(draw, 0, 625, *notif)
+    _rodape(draw, cfg, "Imagem ilustrativa para demonstração.")
+    Path(destino).parent.mkdir(parents=True, exist_ok=True)
+    img.save(destino, "JPEG", quality=92)
     return destino

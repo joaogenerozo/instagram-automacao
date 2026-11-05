@@ -28,8 +28,8 @@
     "status": "pendente",
     "quando": "2026-11-05T16:30:00-03:00",
     "tipo": "story",
-    "tema": "sites",
-    "titulo": "Como é o processo para fazer meu site?",
+    "tema": "site",
+    "titulo": "Seu site, do jeito que o cliente procura.",
     "imagens": [
       "midia/gnz01/2026-11-05/stories/extra2.jpg"
     ],
@@ -136,8 +136,8 @@
     "status": "pendente",
     "quando": "2026-11-06T11:00:00-03:00",
     "tipo": "story",
-    "tema": "cardapio",
-    "titulo": "O cliente precisa baixar aplicativo para ver o cardápio?",
+    "tema": "site",
+    "titulo": "Um site que passa confiança antes da consulta.",
     "imagens": [
       "midia/gnz01/2026-11-06/stories/3.jpg"
     ],
@@ -288,8 +288,8 @@
     "status": "pendente",
     "quando": "2026-11-07T11:00:00-03:00",
     "tipo": "story",
-    "tema": "sites",
-    "titulo": "Meu site vai aparecer no Google?",
+    "tema": "site",
+    "titulo": "A barbearia aberta no Google, 24h.",
     "imagens": [
       "midia/gnz01/2026-11-07/stories/3.jpg"
     ],
@@ -438,8 +438,8 @@
     "status": "pendente",
     "quando": "2026-11-08T11:00:00-03:00",
     "tipo": "story",
-    "tema": "agenda",
-    "titulo": "A agenda manda lembrete para o cliente?",
+    "tema": "site",
+    "titulo": "Seus tratamentos explicados antes do primeiro contato.",
     "imagens": [
       "midia/gnz01/2026-11-08/stories/3.jpg"
     ],
@@ -617,8 +617,8 @@
     "status": "pendente",
     "quando": "2026-11-09T11:00:00-03:00",
     "tipo": "story",
-    "tema": "sites",
-    "titulo": "Posso ter um botão de WhatsApp no site?",
+    "tema": "site",
+    "titulo": "Contabilidade que o cliente encontra e entende.",
     "imagens": [
       "midia/gnz01/2026-11-09/stories/3.jpg"
     ],
@@ -780,8 +780,8 @@
     "status": "pendente",
     "quando": "2026-11-10T11:00:00-03:00",
     "tipo": "story",
-    "tema": "sites",
-    "titulo": "E se eu quiser mudar algo depois?",
+    "tema": "site",
+    "titulo": "O personal que aparece quando procuram treino.",
     "imagens": [
       "midia/gnz01/2026-11-10/stories/3.jpg"
     ],
@@ -931,8 +931,8 @@
     "status": "pendente",
     "quando": "2026-11-11T11:00:00-03:00",
     "tipo": "story",
-    "tema": "agenda",
-    "titulo": "Posso bloquear dias e horários?",
+    "tema": "site",
+    "titulo": "A pizzaria com site próprio, além do app.",
     "imagens": [
       "midia/gnz01/2026-11-11/stories/3.jpg"
     ],
@@ -1102,8 +1102,8 @@
     "status": "pendente",
     "quando": "2026-11-12T11:00:00-03:00",
     "tipo": "story",
-    "tema": "sites",
-    "titulo": "Site serve para profissional autônomo?",
+    "tema": "site",
+    "titulo": "Um portfólio que vende o seu trabalho.",
     "imagens": [
       "midia/gnz01/2026-11-12/stories/3.jpg"
     ],
