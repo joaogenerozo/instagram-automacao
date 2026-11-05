@@ -106,3 +106,6 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 - Carrosséis de personalidade: uma foto real licenciada DIFERENTE da pessoa em cada lâmina (midia/fotos/<slug>/NN.jpg, crédito em creditos.json["<slug>/NN"]). Com 4+ fotos o gerar usa src/ensinamentos.py; com menos, capa central.
 - Estrutura: capa "OS ENSINAMENTOS DE" + nome gigante + papel (campo "papel"); lâmina da citação conferida; lições alternando layouts (foto + título dourado; painel bordô com título em caixa alta; foto + cartão bege; título duas cores alinhado à direita); CTA final. Paleta marinho, bordô, dourado, bege.
 - Exemplos inventados aparecem como "Situação ilustrativa". Crédito da foto em cada lâmina.
+
+## 18. Fotos (autorização do João, 05/11)
+- Buscar fotos na internet sempre que preciso, sem pedir permissão. Usar só fotos com licença de uso livre (CC0, CC BY, CC BY-SA ou domínio público, ex.: Wikimedia Commons), sempre com crédito. Não usar fotos protegidas de terceiros (perfis, sites de notícia, bancos pagos).
