@@ -70,6 +70,18 @@
     "publicado_em": "2026-11-05T22:36:33.241845+00:00"
   },
   {
+    "id": "gnz01_2026-11-05_quotejobs",
+    "status": "pendente",
+    "quando": "2026-11-05T19:55:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Steve Jobs: Seu tempo é limitado...",
+    "imagens": [
+      "midia/gnz01/2026-11-05/stories/quote-jobs.jpg"
+    ],
+    "legenda": ""
+  },
+  {
     "id": "gnz01_2026-11-05_extra3",
     "status": "pendente",
     "quando": "2026-11-05T21:00:00-03:00",
@@ -92,6 +104,25 @@
       "midia/gnz01/2026-11-05/stories/extra4.jpg"
     ],
     "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-06_4",
+    "status": "pendente",
+    "quando": "2026-11-05T21:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "marca",
+    "titulo": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.",
+    "imagens": [
+      "midia/gnz01/2026-11-06/4/01.jpg",
+      "midia/gnz01/2026-11-06/4/02.jpg",
+      "midia/gnz01/2026-11-06/4/03.jpg",
+      "midia/gnz01/2026-11-06/4/04.jpg",
+      "midia/gnz01/2026-11-06/4/05.jpg",
+      "midia/gnz01/2026-11-06/4/06.jpg",
+      "midia/gnz01/2026-11-06/4/07.jpg"
+    ],
+    "legenda": "\"Your time is limited, so don't waste it living someone else's life.\"\n\"Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.\"\nSteve Jobs, discurso de formatura em Stanford (2005).\n\nJobs falava de carreira, mas a lição serve para qualquer negócio: quem copia o concorrente vive a estratégia de outra empresa.\n\nArraste para ver como transformar isso em posicionamento, do contexto até a aplicação prática no seu negócio. 👉\n\n💬 Conte nos comentários: o que só a sua empresa faz?\n💾 Salve para reler quando for planejar sua marca.\n\nQuer que seu site, cardápio ou agenda contem a SUA história? Fale com a GNZ01: (19) 97829-9585\n\nFonte da citação: discurso de formatura em Stanford, 12/06/2005.\n📷 Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada) (creativecommons.org/licenses/by-sa/3.0)\n.\n.\n#empreendedorismo #stevejobs #posicionamentodemarca #gestaodenegocios #gnz01 #solucoesdigitais #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital",
+    "observacao": "Antecipado para 05/11 21:00 a pedido do João."
   },
   {
     "id": "gnz01_2026-11-05_extrastory5",
@@ -208,24 +239,6 @@
       "midia/gnz01/2026-11-06/stories/5.jpg"
     ],
     "legenda": ""
-  },
-  {
-    "id": "gnz01_2026-11-06_4",
-    "status": "pendente",
-    "quando": "2026-11-06T18:30:00-03:00",
-    "tipo": "carrossel",
-    "tema": "marca",
-    "titulo": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.",
-    "imagens": [
-      "midia/gnz01/2026-11-06/4/01.jpg",
-      "midia/gnz01/2026-11-06/4/02.jpg",
-      "midia/gnz01/2026-11-06/4/03.jpg",
-      "midia/gnz01/2026-11-06/4/04.jpg",
-      "midia/gnz01/2026-11-06/4/05.jpg",
-      "midia/gnz01/2026-11-06/4/06.jpg",
-      "midia/gnz01/2026-11-06/4/07.jpg"
-    ],
-    "legenda": "\"Your time is limited, so don't waste it living someone else's life.\"\n\"Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.\"\nSteve Jobs, discurso de formatura em Stanford (2005).\n\nJobs falava de carreira, mas a lição serve para qualquer negócio: quem copia o concorrente vive a estratégia de outra empresa.\n\nArraste para ver como transformar isso em posicionamento, do contexto até a aplicação prática no seu negócio. 👉\n\n💬 Conte nos comentários: o que só a sua empresa faz?\n💾 Salve para reler quando for planejar sua marca.\n\nQuer que seu site, cardápio ou agenda contem a SUA história? Fale com a GNZ01: (19) 97829-9585\n\nFonte da citação: discurso de formatura em Stanford, 12/06/2005.\n📷 Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada) (creativecommons.org/licenses/by-sa/3.0)\n.\n.\n#empreendedorismo #stevejobs #posicionamentodemarca #gestaodenegocios #gnz01 #solucoesdigitais #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital"
   },
   {
     "id": "gnz01_2026-11-06_story6",
