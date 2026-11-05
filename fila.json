@@ -71,7 +71,7 @@
   },
   {
     "id": "gnz01_2026-11-05_quotejobs",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-05T19:55:00-03:00",
     "tipo": "story",
     "tema": "citacao",
@@ -79,7 +79,9 @@
     "imagens": [
       "midia/gnz01/2026-11-05/stories/quote-jobs.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18348739303271321",
+    "publicado_em": "2026-11-05T22:55:04.123592+00:00"
   },
   {
     "id": "gnz01_2026-11-05_extra3",
@@ -119,7 +121,8 @@
       "midia/gnz01/2026-11-06/4/04.jpg",
       "midia/gnz01/2026-11-06/4/05.jpg",
       "midia/gnz01/2026-11-06/4/06.jpg",
-      "midia/gnz01/2026-11-06/4/07.jpg"
+      "midia/gnz01/2026-11-06/4/07.jpg",
+      "midia/gnz01/2026-11-06/4/08.jpg"
     ],
     "legenda": "\"Your time is limited, so don't waste it living someone else's life.\"\n\"Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.\"\nSteve Jobs, discurso de formatura em Stanford (2005).\n\nJobs falava de carreira, mas a lição serve para qualquer negócio: quem copia o concorrente vive a estratégia de outra empresa.\n\nArraste para ver como transformar isso em posicionamento, do contexto até a aplicação prática no seu negócio. 👉\n\n💬 Conte nos comentários: o que só a sua empresa faz?\n💾 Salve para reler quando for planejar sua marca.\n\nQuer que seu site, cardápio ou agenda contem a SUA história? Fale com a GNZ01: (19) 97829-9585\n\nFonte da citação: discurso de formatura em Stanford, 12/06/2005.\n📷 Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada) (creativecommons.org/licenses/by-sa/3.0)\n.\n.\n#empreendedorismo #stevejobs #posicionamentodemarca #gestaodenegocios #gnz01 #solucoesdigitais #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital",
     "observacao": "Antecipado para 05/11 21:00 a pedido do João."
@@ -133,6 +136,18 @@
     "titulo": "Seu negócio pronto para ser encontrado.",
     "imagens": [
       "midia/gnz01/2026-11-05/stories/extra5.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-06_quote1",
+    "status": "pendente",
+    "quando": "2026-11-06T07:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Oprah Winfrey: Não existe fracasso. O fracasso é só a vida tentando nos mover em outra direção.",
+    "imagens": [
+      "midia/gnz01/2026-11-06/stories/quote-01.jpg"
     ],
     "legenda": ""
   },
@@ -205,6 +220,18 @@
     "legenda": "Muita gente diz que ainda não precisa de site. Mas os sinais costumam aparecer antes da decisão. 👀\n\nArrasta para o lado e conte quantos desses você vive hoje.\n\nSe marcou dois ou mais, o seu negócio já está pedindo uma presença digital profissional.\n\n💾 Salve para revisar depois\n💬 Me diga no Direct quantos você marcou, ou fale direto no WhatsApp: (19) 97829-9585\n.\n.\n#criacaodesites #siteprofissional #pequenasempresas #profissionalautonomo #sitesparapequenasempresas #facaseusite #siteresponsivo #webdesignerbrasil #orcamentodesite #sitesparaempresas #marketingdigital #empreendedorismo"
   },
   {
+    "id": "gnz01_2026-11-06_quote2",
+    "status": "pendente",
+    "quando": "2026-11-06T13:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Warren Buffett: Preço é o que você paga; valor é o que você leva.",
+    "imagens": [
+      "midia/gnz01/2026-11-06/stories/quote-02.jpg"
+    ],
+    "legenda": ""
+  },
+  {
     "id": "gnz01_2026-11-06_story4",
     "status": "pendente",
     "quando": "2026-11-06T13:30:00-03:00",
@@ -241,6 +268,25 @@
     "legenda": ""
   },
   {
+    "id": "gnz01_2026-11-06_p3",
+    "status": "pendente",
+    "quando": "2026-11-06T18:30:00-03:00",
+    "tipo": "carrossel",
+    "tema": "marca",
+    "titulo": "Os ensinamentos de Oprah Winfrey",
+    "imagens": [
+      "midia/gnz01/2026-11-06/p3/01.jpg",
+      "midia/gnz01/2026-11-06/p3/02.jpg",
+      "midia/gnz01/2026-11-06/p3/03.jpg",
+      "midia/gnz01/2026-11-06/p3/04.jpg",
+      "midia/gnz01/2026-11-06/p3/05.jpg",
+      "midia/gnz01/2026-11-06/p3/06.jpg",
+      "midia/gnz01/2026-11-06/p3/07.jpg"
+    ],
+    "legenda": "\"There is no such thing as failure. Failure is just life trying to move us in another direction.\"\n\"Não existe fracasso. O fracasso é só a vida tentando nos mover em outra direção.\"\nOprah Winfrey, discurso de formatura em Harvard (2013).\n\nNo negócio, uma tentativa que não deu certo mostra o próximo ajuste. Arraste para ver como aplicar. 👉\n\n💬 Qual tentativa te ensinou mais?\n💾 Salve para reler.\n\nQuer ajustar a presença digital do seu negócio? Fale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #oprahwinfrey #mentalidadeempreendedora #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: aphrodite-in-nyc from new york city / Wikimedia Commons, CC BY 2.0 (redimensionada)",
+    "fotos_por_lamina": false
+  },
+  {
     "id": "gnz01_2026-11-06_story6",
     "status": "pendente",
     "quando": "2026-11-06T19:30:00-03:00",
@@ -266,7 +312,8 @@
       "midia/gnz01/2026-11-06/5/04.jpg",
       "midia/gnz01/2026-11-06/5/05.jpg",
       "midia/gnz01/2026-11-06/5/06.jpg",
-      "midia/gnz01/2026-11-06/5/07.jpg"
+      "midia/gnz01/2026-11-06/5/07.jpg",
+      "midia/gnz01/2026-11-06/5/08.jpg"
     ],
     "legenda": "\"Failure is only the opportunity more intelligently to begin again.\"\n\"O fracasso é apenas a oportunidade de recomeçar de forma mais inteligente.\"\nHenry Ford, My Life and Work (1922).\n\nUm site que não trouxe clientes ou um perfil que não engajou não é o fim: é informação para a próxima versão.\n\nArraste para ver como aplicar isso no seu negócio. 👉\n\n💬 Conte nos comentários: o que você já tentou e deixou de lado?\n💾 Salve para lembrar quando for recomeçar.\n\nQuer refazer sua presença digital com mais estratégia? Fale com a GNZ01: (19) 97829-9585\n\nFonte da citação: Henry Ford e Samuel Crowther, My Life and Work (1922), Introdução.\n📷 Foto: Fred Hartsook, c. 1919 / Library of Congress (domínio público)\n.\n.\n#empreendedorismo #henryford #melhoriacontinua #gestaodenegocios #gnz01 #solucoesdigitais #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital"
   },

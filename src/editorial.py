@@ -331,6 +331,7 @@ def render_editorial(arte, pasta):
         fotos = en.fotos_de(slug, raiz)
         if len(fotos) >= 4:  # uma foto diferente por lâmina (pedido do João); com menos, capa central
             return en.carrossel(arte, fotos, pasta)
+    cen = arte.get("cenario")
     foto = raiz / f"midia/fotos/cenarios/{cen}.jpg" if cen else None
     if foto and foto.exists() and not arte.get("capa", {}).get("foto"):
         cred = json.load(open(raiz / "midia/fotos/creditos.json")).get(f"cenarios/{cen}", {}).get("credito")
