@@ -28,6 +28,6 @@ if not arquivo:
     arquivo = str(arquivos[semanas_agendadas % len(arquivos)].relative_to(RAIZ))
     print("Reaproveitando", arquivo)
 
-# cada semana nova entra como "aguardando_aprovacao"; defina AUTO_APROVAR=1 para publicar direto
-extra = [] if os.environ.get("AUTO_APROVAR") == "1" else ["--aprovacao"]
+# o dono autorizou publicar sem aprovação prévia; defina PEDIR_APROVACAO=1 para voltar a exigir
+extra = ["--aprovacao"] if os.environ.get("PEDIR_APROVACAO") == "1" else []
 subprocess.run([sys.executable, "gerar.py", arquivo, "--inicio", inicio.isoformat(), *extra], check=True, cwd=RAIZ)

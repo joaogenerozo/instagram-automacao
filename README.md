@@ -23,7 +23,7 @@ Temas: **criação de sites** (foco principal), **cardápio digital** e **agenda
 A semana 1 já está escrita em `conteudo/semana-01.json` e as imagens de exemplo estão em `midia/`.
 
 ## Aprovação antes de publicar
-Cada semana nova entra na fila como `aguardando_aprovacao` e **não é publicada** até você aprovar. Para aprovar, troque o status desses itens para `pendente` em `fila.json` (ou peça ao Claude). Toda a semana fica organizada para revisão em `GNZ01-MARKETING/` (índice em `GNZ01-MARKETING/INDICE-SEMANA-01.md`). Para gerar as fichas de uma semana: `python tools/fichas.py conteudo/gnz01-semana-01.json`.
+Por decisão do dono da conta, cada semana nova entra na fila já como `pendente` e é publicada sem aprovação prévia. Para voltar a exigir aprovação, defina a variável `PEDIR_APROVACAO=1` no workflow semanal; aí as semanas entram como `aguardando_aprovacao` até o status ser trocado para `pendente`. Toda a semana fica organizada para revisão em `GNZ01-MARKETING/` (índice em `GNZ01-MARKETING/INDICE-SEMANA-01.md`). Para gerar as fichas de uma semana: `python tools/fichas.py conteudo/gnz01-semana-01.json`.
 
 ## Arquivos
 
