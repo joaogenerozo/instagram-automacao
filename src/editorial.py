@@ -150,3 +150,85 @@ def carrossel(p, pasta):
                               "apoio": s.get("apoio", []), "escuro": s.get("escuro", False),
                               "rodape": p["capa"].get("autor", "")}, pasta / f"{i:02d}.jpg", pagina=f"{i}/{total}"))
     return caminhos
+
+
+# ---------------------------------------------------------------- stories de citação (1080x1920)
+SW, SH = 1080, 1920
+MARINHO = (16, 22, 36)
+
+
+def _gradiente(img, ini, cor, forca=250, topo=0):
+    w, h = img.size
+    g = Image.new("L", (1, h))
+    for y in range(h):
+        t = max(0, (y - h * ini) / (h * (1 - ini)))
+        tp = max(0, (topo - y) / topo) if topo else 0
+        g.putpixel((0, y), int(max(forca * t ** 1.15, 160 * tp)))
+    return Image.composite(Image.new("RGB", (w, h), cor), img, g.resize((w, h)))
+
+
+def story_citacao(p, destino):
+    """Story de citação. Campos: foto, credito, citacao (PT), autor, fonte_citacao, reflexao (GNZ01, opcional),
+    interacao (opcional), variante "a" (foto em tela cheia, texto embaixo) ou "b" (foto no alto, painel marinho)."""
+    var = p.get("variante", "a")
+    foto = Image.open(p["foto"]).convert("RGB")
+    m = 84
+    larg = SW - 2 * m
+    if var == "a":
+        img = ImageOps.fit(foto, (SW, SH), Image.LANCZOS, centering=(0.5, 0.25))
+        img = Image.blend(img, Image.new("RGB", (SW, SH), (20, 20, 22)), 0.06)
+        img = _gradiente(img, 0.40, (10, 11, 13), topo=300)
+        y_base, cor_t, cor_s = SH - 200, (250, 249, 245), (205, 207, 210)
+    else:
+        img = Image.new("RGB", (SW, SH), MARINHO)
+        alt_foto = int(SH * 0.66)
+        ft = ImageOps.fit(foto, (SW, alt_foto), Image.LANCZOS, centering=(0.5, 0.22))
+        ft = _gradiente(ft, 0.62, MARINHO, forca=255, topo=260)
+        img.paste(ft, (0, 0))
+        y_base, cor_t, cor_s = SH - 200, (246, 244, 238), (186, 194, 208)
+    d = ImageDraw.Draw(img)
+    # cabeçalho
+    f = fonte("semi", 26)
+    d.text((m, 110), "GNZ01 · DAILY QUOTES", font=f, fill=cor_s)
+    d.line([(m, 156), (SW - m, 156)], fill=(150, 152, 158), width=2)
+    # blocos de baixo para cima
+    blocos = []
+    fr = fonte("regular", 22)
+    rodape_y = SH - 120
+    d.text((m, rodape_y), p["credito"], font=fr, fill=(160, 163, 170))
+    d.text((m, rodape_y + 34), "@gnz01_ · Soluções digitais", font=fr, fill=(160, 163, 170))
+    y = rodape_y - 40
+    if p.get("interacao"):
+        fi = fonte("semi", 30)
+        linhas = quebrar(d, p["interacao"], fi, larg - 60)
+        alt = 30 + len(linhas) * 40 + 24
+        y -= alt
+        d.rounded_rectangle([(m, y), (SW - m, y + alt)], radius=28, outline=(200, 202, 208), width=2)
+        yy = y + 28
+        for l in linhas:
+            d.text((m + 30, yy), l, font=fi, fill=cor_t); yy += 40
+        y -= 40
+    if p.get("reflexao"):
+        fl = fonte("regular", 30)
+        linhas = quebrar(d, p["reflexao"], fl, larg)
+        y -= len(linhas) * 42 + 46
+        d.text((m, y), "REFLEXÃO GNZ01", font=fonte("semi", 22), fill=cor_s)
+        yy = y + 40
+        for l in linhas:
+            d.text((m, yy), l, font=fl, fill=cor_t); yy += 42
+        y -= 50
+        d.line([(m, y + 20), (SW - m, y + 20)], fill=(120, 124, 132), width=1)
+    # autor
+    y -= 90
+    d.line([(m, y + 20), (m + 60, y + 20)], fill=cor_t, width=3)
+    d.text((m + 80, y), p["autor"].upper(), font=fonte("semi", 34), fill=cor_t)
+    d.text((m + 80, y + 46), p["fonte_citacao"], font=fonte("regular", 26), fill=cor_s)
+    y -= 40
+    # citação
+    fq, linhas, t = _bloco_serif(d, f"“{p['citacao']}”", "italic", 80, 50, larg, 520, 1.15)
+    alt = int(len(linhas) * t * 1.15)
+    _escrever(d, m, y - alt, linhas, fq, t, cor_t, 1.15)
+    img = Image.blend(img, Image.effect_noise((SW, SH), 18).convert("RGB"), 0.03)
+    destino = Path(destino); destino.parent.mkdir(parents=True, exist_ok=True)
+    img.save(destino, "JPEG", quality=93)
+    return destino

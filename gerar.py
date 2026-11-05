@@ -13,6 +13,7 @@ from zoneinfo import ZoneInfo
 from src.comum import RAIZ, carregar_config, carregar_fila, salvar_fila, montar_legenda
 from src.render import Desenhista
 from src import vitrine as vt
+from src import showcase as sc
 from src import editorial as ed
 
 
@@ -93,8 +94,8 @@ def main():
                 print(f"AVISO: {pid} cita {post['personalidade']} e está sem foto real licenciada; não entra na fila.")
                 continue
             if post.get("vitrine"):
-                story = desenhar_vitrine(cfg, post["vitrine"], pasta / "story.jpg")
-                imgs = [vt.para_feed(story, pasta / "01.jpg")]
+                pasta.mkdir(parents=True, exist_ok=True)
+                imgs = [sc.vitrine_showcase(cfg, post["vitrine"], pasta / "01.jpg", "feed")]
             elif post.get("layout") == "editorial":
                 for velho in pasta.glob("*.jpg"):
                     velho.unlink()
@@ -120,7 +121,8 @@ def main():
                 n_stories += 1
                 img, tema, titulo = des.story(item, destino, numero=None), item["tema"], item["pergunta"]
             elif st["tipo"] in ("cardapio", "agenda", "catalogo", "site"):
-                img, tema, titulo = desenhar_vitrine(cfg, st, destino), st["tipo"], st["titulo"]
+                destino.parent.mkdir(parents=True, exist_ok=True)
+                img, tema, titulo = sc.vitrine_showcase(cfg, st, destino, "story"), st["tipo"], st["titulo"]
             else:
                 item = {**st, "cta": st.get("cta", "").replace("{whatsapp}", cfg["whatsapp"]) or None}
                 if not item["cta"]:

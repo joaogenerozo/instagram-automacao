@@ -82,3 +82,17 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 - **Grandes nomes do empreendedorismo**: pelo menos 1 carrossel por mês (capa com citação, contexto, aplicação, exemplo prático, conexão com o mercado, reflexão e CTA).
 - **Citações só com autoria confirmada** em fonte primária (discurso, livro, entrevista, site oficial). Registrar `citacao_original`, tradução, `fonte_descricao` e `fonte_url`. Se não der para confirmar, não publicar como citação.
 - Exemplos práticos que não são casos reais devem ser marcados como "situação ilustrativa".
+
+## 14. GNZ01 Daily Quotes (stories de citação) — desde 06/11
+- 2 stories por dia, às 07:00 e às 13:00, com personalidades diferentes e sem repetir nome nem frase em 30 dias (inclui posts de feed).
+- Citação só entra se conferida em fonte confiável (livro, discurso, carta, entrevista em veículo sério ou site oficial). Registrar original, tradução, fonte e link em conteudo/gnz01-citacoes.json. Sem confirmação: descartar a frase.
+- Foto real licenciada obrigatória (midia/fotos/<slug>.jpg + crédito em midia/fotos/creditos.json). Sem foto: não publica. Nunca gerar rosto.
+- Arte: src/editorial.py story_citacao, 1080x1920, variantes "a" (foto em tela cheia) e "b" (foto no alto + painel marinho), alternadas. Reflexão GNZ01 opcional, separada e sem atribuir à personalidade. Interação em texto quando fizer sentido (a API não adiciona figurinhas nativas).
+- Gerar com python tools/citacoes.py (idempotente). Entregáveis em GNZ01-MARKETING/STORIES/<data>/story-01.jpg|md.
+
+## 15. GNZ01 Product Showcase (peças de produto) — desde 05/11
+- Toda peça que apresenta site, cardápio, agenda, catálogo ou landing page usa src/showcase.py: título forte em caixa alta com benefício, pílula com o nome do produto, subtítulo, 3 a 5 funcionalidades com ícones, celular + monitor com a tela, faixa off-white com benefício e CTA.
+- Referência de estilo: anúncio de sistema de cardápio enviado pelo João (só o estilo; nunca copiar marca de terceiros).
+- Telas: enquanto o João não enviar prints reais dos produtos, as telas são demonstrações com nomes fictícios e a peça diz "Demonstração ilustrativa · nomes fictícios". Não inventar funcionalidades, integrações, números, clientes ou avaliações.
+- Fotografia de cenário licenciada opcional em midia/fotos/cenarios/<slug>.jpg (cozinha-profissional, barbearia, loja, escritorio...).
+- Varie os títulos por segmento; não repita a mesma composição em sequência.
