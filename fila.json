@@ -327,7 +327,7 @@
   },
   {
     "id": "gnz01_2026-11-06_reel1",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T19:00:00-03:00",
     "tipo": "reel",
     "tema": "sites",
@@ -336,11 +336,12 @@
       "midia/gnz01/videos/apresentacao-gnz01.mp4",
       "midia/gnz01/videos/apresentacao-gnz01.jpg"
     ],
-    "legenda": "Seu negócio merece uma presença digital à altura da qualidade dos seus serviços. ✨\n\nUm site moderno, elegante e feito para transmitir confiança desde o primeiro acesso. Seus clientes encontram seus serviços, conhecem seus produtos, agendam e falam direto com você.\n\nMais do que um site: uma ferramenta para fortalecer sua marca, melhorar o atendimento e criar novas oportunidades.\n\nChegou a hora de levar seu negócio para outro nível. 🚀\nFale com a GNZ01: WhatsApp (19) 97829-9585 ou aqui no direct.\n\nGNZ01 · Tecnologia, design e experiências digitais. Seu próximo passo começa aqui.\n\nDemonstração ilustrativa, nomes fictícios.\n.\n.\n#criacaodesites #siteprofissional #presencadigital #pequenosnegocios #gnz01 #solucoesdigitais"
+    "legenda": "Seu negócio merece uma presença digital à altura da qualidade dos seus serviços. ✨\n\nUm site moderno, elegante e feito para transmitir confiança desde o primeiro acesso. Seus clientes encontram seus serviços, conhecem seus produtos, agendam e falam direto com você.\n\nMais do que um site: uma ferramenta para fortalecer sua marca, melhorar o atendimento e criar novas oportunidades.\n\nChegou a hora de levar seu negócio para outro nível. 🚀\nFale com a GNZ01: WhatsApp (19) 97829-9585 ou aqui no direct.\n\nGNZ01 · Tecnologia, design e experiências digitais. Seu próximo passo começa aqui.\n\nDemonstração ilustrativa, nomes fictícios.\n.\n.\n#criacaodesites #siteprofissional #presencadigital #pequenosnegocios #gnz01 #solucoesdigitais",
+    "media_id": "17988759258102094"
   },
   {
     "id": "gnz01_2026-11-06_story6",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T19:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -348,7 +349,8 @@
     "imagens": [
       "midia/gnz01/2026-11-06/stories/6.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18141771802546082"
   },
   {
     "id": "gnz01_2026-11-06_5",
