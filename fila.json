@@ -161,7 +161,7 @@
   },
   {
     "id": "gnz01_2026-11-06_story1",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T07:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -169,7 +169,8 @@
     "imagens": [
       "midia/gnz01/2026-11-06/stories/1.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "17933547390163460"
   },
   {
     "id": "gnz01_2026-11-06_quote1hd",
@@ -372,18 +373,6 @@
     "legenda": ""
   },
   {
-    "id": "gnz01_2026-11-07_quote1",
-    "status": "pendente",
-    "quando": "2026-11-07T07:00:00-03:00",
-    "tipo": "story",
-    "tema": "citacao",
-    "titulo": "Luiza Helena Trajano: Aprendi a escutar o que não quero ouvir.",
-    "imagens": [
-      "midia/gnz01/2026-11-07/stories/quote-01.jpg"
-    ],
-    "legenda": ""
-  },
-  {
     "id": "gnz01_2026-11-07_story1",
     "status": "pendente",
     "quando": "2026-11-07T07:30:00-03:00",
@@ -392,6 +381,18 @@
     "titulo": "Antes do design, vem a conversa.",
     "imagens": [
       "midia/gnz01/2026-11-07/stories/1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-07_quote1",
+    "status": "pendente",
+    "quando": "2026-11-07T07:40:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Luiza Helena Trajano: Aprendi a escutar o que não quero ouvir.",
+    "imagens": [
+      "midia/gnz01/2026-11-07/stories/quote-01.jpg"
     ],
     "legenda": ""
   },
@@ -599,18 +600,6 @@
     "legenda": ""
   },
   {
-    "id": "gnz01_2026-11-08_quote1",
-    "status": "pendente",
-    "quando": "2026-11-08T07:00:00-03:00",
-    "tipo": "story",
-    "tema": "citacao",
-    "titulo": "Sara Blakely: Fracasso, para mim, passou a ser não tentar, e não o resultado.",
-    "imagens": [
-      "midia/gnz01/2026-11-08/stories/quote-01.jpg"
-    ],
-    "legenda": ""
-  },
-  {
     "id": "gnz01_2026-11-08_story1",
     "status": "pendente",
     "quando": "2026-11-08T07:30:00-03:00",
@@ -619,6 +608,18 @@
     "titulo": "Domingo também é dia de pensar no negócio.",
     "imagens": [
       "midia/gnz01/2026-11-08/stories/1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-08_quote1",
+    "status": "pendente",
+    "quando": "2026-11-08T07:40:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Sara Blakely: Fracasso, para mim, passou a ser não tentar, e não o resultado.",
+    "imagens": [
+      "midia/gnz01/2026-11-08/stories/quote-01.jpg"
     ],
     "legenda": ""
   },
@@ -1006,18 +1007,6 @@
     "legenda": ""
   },
   {
-    "id": "gnz01_2026-11-10_quote1",
-    "status": "pendente",
-    "quando": "2026-11-10T07:00:00-03:00",
-    "tipo": "story",
-    "tema": "citacao",
-    "titulo": "Bill Gates: Seus clientes mais insatisfeitos são sua maior fonte de aprendizado.",
-    "imagens": [
-      "midia/gnz01/2026-11-10/stories/quote-01.jpg"
-    ],
-    "legenda": ""
-  },
-  {
     "id": "gnz01_2026-11-10_story1",
     "status": "pendente",
     "quando": "2026-11-10T07:30:00-03:00",
@@ -1026,6 +1015,18 @@
     "titulo": "Simples para o cliente. Organizado para você.",
     "imagens": [
       "midia/gnz01/2026-11-10/stories/1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-10_quote1",
+    "status": "pendente",
+    "quando": "2026-11-10T07:40:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Bill Gates: Seus clientes mais insatisfeitos são sua maior fonte de aprendizado.",
+    "imagens": [
+      "midia/gnz01/2026-11-10/stories/quote-01.jpg"
     ],
     "legenda": ""
   },

@@ -84,7 +84,7 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 - Exemplos práticos que não são casos reais devem ser marcados como "situação ilustrativa".
 
 ## 14. GNZ01 Daily Quotes (stories de citação) — desde 06/11
-- 2 stories por dia, às 07:00 e às 13:00, com personalidades diferentes e sem repetir nome nem frase em 30 dias (inclui posts de feed).
+- 2 stories por dia, às 07:40 e às 13:00 (horário da manhã mudado de 07:00 para 07:40 a pedido do João em 06/11), com personalidades diferentes e sem repetir nome nem frase em 30 dias (inclui posts de feed).
 - Citação só entra se conferida em fonte confiável (livro, discurso, carta, entrevista em veículo sério ou site oficial). Registrar original, tradução, fonte e link em conteudo/gnz01-citacoes.json. Sem confirmação: descartar a frase.
 - Foto real licenciada obrigatória (midia/fotos/<slug>.jpg + crédito em midia/fotos/creditos.json). Sem foto: não publica. Nunca gerar rosto.
 - Arte: src/editorial.py story_citacao, 1080x1920, estilo "capa central" (foto real no alto, degradê azul-marinho, frase em serifada caixa alta centralizada, GNZ01 centralizado) — referência enviada pelo João em 05/11; o mesmo estilo vale para capas de carrossel de personalidade no feed. Reflexão GNZ01 opcional, separada e sem atribuir à personalidade. Interação em texto quando fizer sentido (a API não adiciona figurinhas nativas).
