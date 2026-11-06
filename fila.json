@@ -85,7 +85,7 @@
   },
   {
     "id": "gnz01_2026-11-05_extra3",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-05T21:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -93,11 +93,13 @@
     "imagens": [
       "midia/gnz01/2026-11-05/extra3/01.jpg"
     ],
-    "legenda": "Antes de pensar em cor, fonte ou layout, a GNZ01 começa com três perguntas:\n\n1️⃣ Quem é o seu cliente?\n2️⃣ O que ele precisa saber antes de comprar de você?\n3️⃣ Qual é o próximo passo que ele deve dar: chamar no WhatsApp, agendar ou pedir orçamento?\n\nAs respostas definem a estrutura, os textos e onde fica cada botão. Por isso nenhum site sai igual ao outro.\n\n💬 Quer responder essas perguntas sobre o seu negócio com a gente? Chame no WhatsApp: (19) 97829-9585\n.\n.\n#criacaodesites #sitesobmedida #webdesignerbrasil #presencadigital #sitesparapequenasempresas #facaseusite #siteresponsivo #orcamentodesite #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
+    "legenda": "Antes de pensar em cor, fonte ou layout, a GNZ01 começa com três perguntas:\n\n1️⃣ Quem é o seu cliente?\n2️⃣ O que ele precisa saber antes de comprar de você?\n3️⃣ Qual é o próximo passo que ele deve dar: chamar no WhatsApp, agendar ou pedir orçamento?\n\nAs respostas definem a estrutura, os textos e onde fica cada botão. Por isso nenhum site sai igual ao outro.\n\n💬 Quer responder essas perguntas sobre o seu negócio com a gente? Chame no WhatsApp: (19) 97829-9585\n.\n.\n#criacaodesites #sitesobmedida #webdesignerbrasil #presencadigital #sitesparapequenasempresas #facaseusite #siteresponsivo #orcamentodesite #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo",
+    "media_id": "18201697120386730",
+    "publicado_em": "2026-11-06T00:04:20Z"
   },
   {
     "id": "gnz01_2026-11-05_extrastory4",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-05T21:00:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -105,11 +107,13 @@
     "imagens": [
       "midia/gnz01/2026-11-05/stories/extra4.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18353560285267775",
+    "publicado_em": "2026-11-06T00:04:20Z"
   },
   {
     "id": "gnz01_2026-11-06_4",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-05T21:00:00-03:00",
     "tipo": "carrossel",
     "tema": "marca",
@@ -125,7 +129,9 @@
       "midia/gnz01/2026-11-06/4/08.jpg"
     ],
     "legenda": "\"Your time is limited, so don't waste it living someone else's life.\"\n\"Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.\"\nSteve Jobs, discurso de formatura em Stanford (2005).\n\nJobs falava de carreira, mas a lição serve para qualquer negócio: quem copia o concorrente vive a estratégia de outra empresa.\n\nArraste para ver como transformar isso em posicionamento, do contexto até a aplicação prática no seu negócio. 👉\n\n💬 Conte nos comentários: o que só a sua empresa faz?\n💾 Salve para reler quando for planejar sua marca.\n\nQuer que seu site, cardápio ou agenda contem a SUA história? Fale com a GNZ01: (19) 97829-9585\n\nFonte da citação: discurso de formatura em Stanford, 12/06/2005.\n📷 Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada) (creativecommons.org/licenses/by-sa/3.0)\n.\n.\n#empreendedorismo #stevejobs #posicionamentodemarca #gestaodenegocios #gnz01 #solucoesdigitais #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital",
-    "observacao": "Antecipado para 05/11 21:00 a pedido do João."
+    "observacao": "Antecipado para 05/11 21:00 a pedido do João.",
+    "media_id": "17882400543548938",
+    "publicado_em": "2026-11-06T00:04:20Z"
   },
   {
     "id": "gnz01_2026-11-05_extrastory5",
