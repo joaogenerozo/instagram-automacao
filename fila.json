@@ -247,7 +247,7 @@
   },
   {
     "id": "gnz01_2026-11-06_quote2",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T13:00:00-03:00",
     "tipo": "story",
     "tema": "citacao",
@@ -255,7 +255,8 @@
     "imagens": [
       "midia/gnz01/2026-11-06/stories/quote-02.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "17907194688599271"
   },
   {
     "id": "gnz01_2026-11-06_story4",
