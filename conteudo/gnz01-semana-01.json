@@ -40,7 +40,8 @@
       "Passar confiança antes do primeiro contato",
       "Levar o cliente direto ao WhatsApp"
      ],
-     "escuro": false
+     "escuro": false,
+     "cenario": "comercio-rua"
     },
     {
      "tipo": "carrossel",
@@ -96,7 +97,9 @@
       "site profissional",
       "presença digital"
      ],
-     "direcao_visual": "Capa preta com título forte; slides numerados 01-07 em off-white, texto curto. Último slide com botão off-white do WhatsApp."
+     "direcao_visual": "Capa preta com título forte; slides numerados 01-07 em off-white, texto curto. Último slide com botão off-white do WhatsApp.",
+     "cenario": "comerciante-balcao",
+     "prompt_capa": "A Brazilian small shop owner in his 40s stands behind the wooden counter of his empty neighborhood store, one hand on his forehead, looking worried at his smartphone; no customers in the store."
     },
     {
      "tipo": "post",
@@ -240,7 +243,8 @@
       "descricao": "Steve Jobs mostra o iPhone 4 na WWDC, 7 de junho de 2010",
       "alteracoes": "Redimensionada para 1440 px",
       "credito": "Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada)"
-     }
+     },
+     "papel": "Cofundador da Apple"
     },
     {
      "tipo": "carrossel",
@@ -325,7 +329,8 @@
       "recomeçar",
       "presença digital"
      ],
-     "direcao_visual": "Carrossel editorial de 7 lâminas. Capa com retrato real de Henry Ford (Fred Hartsook, c. 1919, domínio público), citação em serifada itálica, autor, fonte e crédito. Lâminas alternam papel off-white e grafite."
+     "direcao_visual": "Carrossel editorial de 7 lâminas. Capa com retrato real de Henry Ford (Fred Hartsook, c. 1919, domínio público), citação em serifada itálica, autor, fonte e crédito. Lâminas alternam papel off-white e grafite.",
+     "papel": "Fundador da Ford Motor Company"
     }
    ],
    "stories": [
@@ -447,7 +452,8 @@
       "O Google mostra sites, não stories",
       "No site, você controla a experiência"
      ],
-     "escuro": false
+     "escuro": false,
+     "cenario": "celular-mao"
     },
     {
      "tipo": "carrossel",
@@ -495,7 +501,9 @@
       "agendamento automático",
       "sistema de agendamento"
      ],
-     "direcao_visual": "Carrossel escuro, números grandes off-white, um passo por slide, frases curtas."
+     "direcao_visual": "Carrossel escuro, números grandes off-white, um passo por slide, frases curtas.",
+     "cenario": "salao-de-beleza",
+     "prompt_capa": "A Brazilian hairdresser in her 30s in a beauty salon holds two buzzing smartphones full of message notifications, overwhelmed, while a client waits in the chair blurred behind her."
     },
     {
      "tipo": "post",
@@ -561,7 +569,8 @@
       "Prato sem foto e sem descrição",
       "Preço desatualizado"
      ],
-     "escuro": true
+     "escuro": true,
+     "cenario": "pizzaria"
     },
     {
      "tipo": "post",
@@ -768,7 +777,9 @@
       "o que um site precisa ter",
       "contratar site"
      ],
-     "direcao_visual": "Carrossel em versão clara (off-white), números pretos, para variar do carrossel escuro de sexta."
+     "direcao_visual": "Carrossel em versão clara (off-white), números pretos, para variar do carrossel escuro de sexta.",
+     "cenario": "notebook-mesa",
+     "prompt_capa": "A Brazilian entrepreneur in his 30s sits at a desk at night in front of an open laptop, chin on his hand, thinking hard, with sticky notes and a coffee cup around."
     },
     {
      "tipo": "post",
@@ -807,7 +818,8 @@
       "Visual que valoriza a marca",
       "Atendimento próximo"
      ],
-     "escuro": false
+     "escuro": false,
+     "cenario": "escritorio"
     },
     {
      "tipo": "post",
@@ -846,7 +858,8 @@
       "Confirmação com um toque",
       "Horário liberado se o cliente desmarcar"
      ],
-     "escuro": true
+     "escuro": true,
+     "cenario": "salao-beleza"
     },
     {
      "tipo": "post",
@@ -999,7 +1012,8 @@
       "Seus serviços explicados",
       "Contato fácil e direto"
      ],
-     "escuro": false
+     "escuro": false,
+     "cenario": "notebook"
     },
     {
      "tipo": "carrossel",
@@ -1043,7 +1057,9 @@
       "como funciona cardápio digital",
       "pedido no WhatsApp"
      ],
-     "direcao_visual": "Carrossel escuro, um passo por slide, números grandes. Último slide com botão off-white."
+     "direcao_visual": "Carrossel escuro, um passo por slide, números grandes. Último slide com botão off-white.",
+     "cenario": "restaurante",
+     "prompt_capa": "A Brazilian pizzeria owner in his 40s wearing an apron stands in a busy pizzeria kitchen, phone pressed to his ear and order tickets in his hand, stressed, wood-fired oven glowing behind him."
     },
     {
      "tipo": "post",
@@ -1137,7 +1153,8 @@
       "Fácil de lembrar e divulgar",
       "E-mail profissional com o seu nome"
      ],
-     "escuro": true
+     "escuro": true,
+     "cenario": "loja"
     }
    ],
    "stories": [
@@ -1329,7 +1346,9 @@
       "como fazer um site profissional",
       "agência de sites"
      ],
-     "direcao_visual": "Carrossel escuro, títulos fortes e frases curtas, numeração off-white."
+     "direcao_visual": "Carrossel escuro, títulos fortes e frases curtas, numeração off-white.",
+     "cenario": "reuniao-escritorio",
+     "prompt_capa": "A Brazilian small business owner in her 40s sits in a small office looking at a laptop with a confident, curious expression, as if finally finding the answer."
     },
     {
      "tipo": "post",
@@ -1369,7 +1388,8 @@
       "Divulgue o link onde quiser",
       "Use junto com os aplicativos"
      ],
-     "escuro": false
+     "escuro": false,
+     "cenario": "delivery"
     },
     {
      "tipo": "post",
@@ -1400,7 +1420,8 @@
      "layout_anterior": "pergunta",
      "rotulo": "Ensaio · Vendas",
      "apoio": [],
-     "escuro": true
+     "escuro": true,
+     "cenario": "notebook"
     },
     {
      "tipo": "post",
@@ -1541,7 +1562,8 @@
      "layout_anterior": "pergunta",
      "rotulo": "Ensaio · Presença digital",
      "apoio": [],
-     "escuro": false
+     "escuro": false,
+     "cenario": "comercio-rua"
     },
     {
      "tipo": "carrossel",
@@ -1590,7 +1612,9 @@
       "tipos de site",
       "qual site escolher"
      ],
-     "direcao_visual": "Carrossel claro, um formato por slide, títulos pretos fortes."
+     "direcao_visual": "Carrossel claro, um formato por slide, títulos pretos fortes.",
+     "cenario": "loja",
+     "prompt_capa": "A Brazilian boutique owner in her 30s stands in her small clothing store holding a tablet, undecided, looking at three paths ahead of her, clothes racks blurred behind."
     },
     {
      "tipo": "post",
@@ -1662,7 +1686,8 @@
      "layout_anterior": "numero",
      "rotulo": "Ensaio · Atendimento",
      "apoio": [],
-     "escuro": true
+     "escuro": true,
+     "cenario": "clinica"
     },
     {
      "tipo": "post",
@@ -1828,7 +1853,8 @@
       "Estrutura, textos e visual",
       "Ajustes com você e entrega"
      ],
-     "escuro": false
+     "escuro": false,
+     "cenario": "escritorio"
     },
     {
      "tipo": "carrossel",
@@ -1876,7 +1902,9 @@
       "página para consultório odontológico",
       "marketing odontológico"
      ],
-     "direcao_visual": "Carrossel escuro sóbrio, tom institucional, numeração off-white."
+     "direcao_visual": "Carrossel escuro sóbrio, tom institucional, numeração off-white.",
+     "cenario": "consultorio-odontologico",
+     "prompt_capa": "A Brazilian dentist in her 40s in a modern dental office, white coat, looking at her smartphone with a thoughtful expression, dental chair and lamp blurred behind her."
     },
     {
      "tipo": "post",
@@ -1915,7 +1943,8 @@
       "Dá para ler sem dar zoom?",
       "Achou o WhatsApp em 1 toque?"
      ],
-     "escuro": true
+     "escuro": true,
+     "cenario": "celular-mao"
     },
     {
      "tipo": "post",

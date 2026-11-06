@@ -57,7 +57,7 @@
   },
   {
     "id": "gnz01_2026-11-05_extrastory3",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-05T19:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -65,11 +65,27 @@
     "imagens": [
       "midia/gnz01/2026-11-05/stories/extra3.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18108979004194278",
+    "publicado_em": "2026-11-05T22:36:33.241845+00:00"
+  },
+  {
+    "id": "gnz01_2026-11-05_quotejobs",
+    "status": "publicado",
+    "quando": "2026-11-05T19:55:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Steve Jobs: Seu tempo é limitado...",
+    "imagens": [
+      "midia/gnz01/2026-11-05/stories/quote-jobs.jpg"
+    ],
+    "legenda": "",
+    "media_id": "18348739303271321",
+    "publicado_em": "2026-11-05T22:55:04.123592+00:00"
   },
   {
     "id": "gnz01_2026-11-05_extra3",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-05T21:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -77,11 +93,13 @@
     "imagens": [
       "midia/gnz01/2026-11-05/extra3/01.jpg"
     ],
-    "legenda": "Antes de pensar em cor, fonte ou layout, a GNZ01 começa com três perguntas:\n\n1️⃣ Quem é o seu cliente?\n2️⃣ O que ele precisa saber antes de comprar de você?\n3️⃣ Qual é o próximo passo que ele deve dar: chamar no WhatsApp, agendar ou pedir orçamento?\n\nAs respostas definem a estrutura, os textos e onde fica cada botão. Por isso nenhum site sai igual ao outro.\n\n💬 Quer responder essas perguntas sobre o seu negócio com a gente? Chame no WhatsApp: (19) 97829-9585\n.\n.\n#criacaodesites #sitesobmedida #webdesignerbrasil #presencadigital #sitesparapequenasempresas #facaseusite #siteresponsivo #orcamentodesite #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
+    "legenda": "Antes de pensar em cor, fonte ou layout, a GNZ01 começa com três perguntas:\n\n1️⃣ Quem é o seu cliente?\n2️⃣ O que ele precisa saber antes de comprar de você?\n3️⃣ Qual é o próximo passo que ele deve dar: chamar no WhatsApp, agendar ou pedir orçamento?\n\nAs respostas definem a estrutura, os textos e onde fica cada botão. Por isso nenhum site sai igual ao outro.\n\n💬 Quer responder essas perguntas sobre o seu negócio com a gente? Chame no WhatsApp: (19) 97829-9585\n.\n.\n#criacaodesites #sitesobmedida #webdesignerbrasil #presencadigital #sitesparapequenasempresas #facaseusite #siteresponsivo #orcamentodesite #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo",
+    "media_id": "18201697120386730",
+    "publicado_em": "2026-11-06T00:04:20Z"
   },
   {
     "id": "gnz01_2026-11-05_extrastory4",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-05T21:00:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -89,11 +107,35 @@
     "imagens": [
       "midia/gnz01/2026-11-05/stories/extra4.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18353560285267775",
+    "publicado_em": "2026-11-06T00:04:20Z"
+  },
+  {
+    "id": "gnz01_2026-11-06_4",
+    "status": "publicado",
+    "quando": "2026-11-05T21:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "marca",
+    "titulo": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.",
+    "imagens": [
+      "midia/gnz01/2026-11-06/4/01.jpg",
+      "midia/gnz01/2026-11-06/4/02.jpg",
+      "midia/gnz01/2026-11-06/4/03.jpg",
+      "midia/gnz01/2026-11-06/4/04.jpg",
+      "midia/gnz01/2026-11-06/4/05.jpg",
+      "midia/gnz01/2026-11-06/4/06.jpg",
+      "midia/gnz01/2026-11-06/4/07.jpg",
+      "midia/gnz01/2026-11-06/4/08.jpg"
+    ],
+    "legenda": "\"Your time is limited, so don't waste it living someone else's life.\"\n\"Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.\"\nSteve Jobs, discurso de formatura em Stanford (2005).\n\nJobs falava de carreira, mas a lição serve para qualquer negócio: quem copia o concorrente vive a estratégia de outra empresa.\n\nArraste para ver como transformar isso em posicionamento, do contexto até a aplicação prática no seu negócio. 👉\n\n💬 Conte nos comentários: o que só a sua empresa faz?\n💾 Salve para reler quando for planejar sua marca.\n\nQuer que seu site, cardápio ou agenda contem a SUA história? Fale com a GNZ01: (19) 97829-9585\n\nFonte da citação: discurso de formatura em Stanford, 12/06/2005.\n📷 Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada) (creativecommons.org/licenses/by-sa/3.0)\n.\n.\n#empreendedorismo #stevejobs #posicionamentodemarca #gestaodenegocios #gnz01 #solucoesdigitais #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital",
+    "observacao": "Antecipado para 05/11 21:00 a pedido do João.",
+    "media_id": "17882400543548938",
+    "publicado_em": "2026-11-06T00:04:20Z"
   },
   {
     "id": "gnz01_2026-11-05_extrastory5",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-05T22:00:00-03:00",
     "tipo": "story",
     "tema": "vendas",
@@ -101,7 +143,21 @@
     "imagens": [
       "midia/gnz01/2026-11-05/stories/extra5.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18131027218892768"
+  },
+  {
+    "id": "gnz01_2026-11-06_quote1",
+    "status": "publicado",
+    "quando": "2026-11-06T07:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Oprah Winfrey: Não existe fracasso. O fracasso é só a vida tentando nos mover em outra direção.",
+    "imagens": [
+      "midia/gnz01/2026-11-06/stories/quote-01.jpg"
+    ],
+    "legenda": "",
+    "media_id": "18114076217464034"
   },
   {
     "id": "gnz01_2026-11-06_story1",
@@ -172,6 +228,18 @@
     "legenda": "Muita gente diz que ainda não precisa de site. Mas os sinais costumam aparecer antes da decisão. 👀\n\nArrasta para o lado e conte quantos desses você vive hoje.\n\nSe marcou dois ou mais, o seu negócio já está pedindo uma presença digital profissional.\n\n💾 Salve para revisar depois\n💬 Me diga no Direct quantos você marcou, ou fale direto no WhatsApp: (19) 97829-9585\n.\n.\n#criacaodesites #siteprofissional #pequenasempresas #profissionalautonomo #sitesparapequenasempresas #facaseusite #siteresponsivo #webdesignerbrasil #orcamentodesite #sitesparaempresas #marketingdigital #empreendedorismo"
   },
   {
+    "id": "gnz01_2026-11-06_quote2",
+    "status": "pendente",
+    "quando": "2026-11-06T13:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Warren Buffett: Preço é o que você paga; valor é o que você leva.",
+    "imagens": [
+      "midia/gnz01/2026-11-06/stories/quote-02.jpg"
+    ],
+    "legenda": ""
+  },
+  {
     "id": "gnz01_2026-11-06_story4",
     "status": "pendente",
     "quando": "2026-11-06T13:30:00-03:00",
@@ -187,13 +255,20 @@
     "id": "gnz01_2026-11-06_3",
     "status": "pendente",
     "quando": "2026-11-06T15:00:00-03:00",
-    "tipo": "post",
+    "tipo": "carrossel",
     "tema": "cardapio",
     "titulo": "Veja como fica o cardápio digital de uma pizzaria",
     "imagens": [
-      "midia/gnz01/2026-11-06/3/01.jpg"
+      "midia/gnz01/2026-11-06/3/01.jpg",
+      "midia/gnz01/2026-11-06/3/02.jpg",
+      "midia/gnz01/2026-11-06/3/03.jpg",
+      "midia/gnz01/2026-11-06/3/04.jpg",
+      "midia/gnz01/2026-11-06/3/05.jpg",
+      "midia/gnz01/2026-11-06/3/06.jpg"
     ],
-    "legenda": "Sexta à noite, pedidos chegando por áudio, foto do cardápio antigo, cliente perguntando o preço da borda... 🍕\n\nNo cardápio digital, o cliente escolhe sabores, bordas e bebidas, vê o total e envia o pedido pronto no seu WhatsApp. Você recebe tudo organizado e só confirma.\n\nEsta é uma demonstração de como fica. O seu sai com o nome, as cores e os sabores da sua pizzaria.\n\n👉 Quer ver como ficaria o seu? Solicite uma demonstração: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#cardapiodigital #pizzaria #donoderestaurante #deliverydepizza #cardapioonline #pedidopelowhatsapp #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
+    "legenda": "Sexta à noite, pedidos chegando por áudio, foto do cardápio antigo, cliente perguntando o preço da borda... 🍕\n\nNo cardápio digital, o cliente escolhe sabores, bordas e bebidas, vê o total e envia o pedido pronto no seu WhatsApp. Você recebe tudo organizado e só confirma.\n\nEsta é uma demonstração de como fica. O seu sai com o nome, as cores e os sabores da sua pizzaria.\n\n👉 Quer ver como ficaria o seu? Solicite uma demonstração: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#cardapiodigital #pizzaria #donoderestaurante #deliverydepizza #cardapioonline #pedidopelowhatsapp #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo",
+    "capa_canva_design_id": "DAHaGuk9O3w",
+    "capa_credito": "Imagem ilustrativa gerada por IA (Canva)"
   },
   {
     "id": "gnz01_2026-11-06_story5",
@@ -208,22 +283,37 @@
     "legenda": ""
   },
   {
-    "id": "gnz01_2026-11-06_4",
-    "status": "pendente",
+    "id": "gnz01_2026-11-06_p3",
+    "status": "pulado",
     "quando": "2026-11-06T18:30:00-03:00",
     "tipo": "carrossel",
     "tema": "marca",
-    "titulo": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.",
+    "titulo": "Os ensinamentos de Oprah Winfrey",
     "imagens": [
-      "midia/gnz01/2026-11-06/4/01.jpg",
-      "midia/gnz01/2026-11-06/4/02.jpg",
-      "midia/gnz01/2026-11-06/4/03.jpg",
-      "midia/gnz01/2026-11-06/4/04.jpg",
-      "midia/gnz01/2026-11-06/4/05.jpg",
-      "midia/gnz01/2026-11-06/4/06.jpg",
-      "midia/gnz01/2026-11-06/4/07.jpg"
+      "midia/gnz01/2026-11-06/p3/01.jpg",
+      "midia/gnz01/2026-11-06/p3/02.jpg",
+      "midia/gnz01/2026-11-06/p3/03.jpg",
+      "midia/gnz01/2026-11-06/p3/04.jpg",
+      "midia/gnz01/2026-11-06/p3/05.jpg",
+      "midia/gnz01/2026-11-06/p3/06.jpg",
+      "midia/gnz01/2026-11-06/p3/07.jpg"
     ],
-    "legenda": "\"Your time is limited, so don't waste it living someone else's life.\"\n\"Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.\"\nSteve Jobs, discurso de formatura em Stanford (2005).\n\nJobs falava de carreira, mas a lição serve para qualquer negócio: quem copia o concorrente vive a estratégia de outra empresa.\n\nArraste para ver como transformar isso em posicionamento, do contexto até a aplicação prática no seu negócio. 👉\n\n💬 Conte nos comentários: o que só a sua empresa faz?\n💾 Salve para reler quando for planejar sua marca.\n\nQuer que seu site, cardápio ou agenda contem a SUA história? Fale com a GNZ01: (19) 97829-9585\n\nFonte da citação: discurso de formatura em Stanford, 12/06/2005.\n📷 Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada) (creativecommons.org/licenses/by-sa/3.0)\n.\n.\n#empreendedorismo #stevejobs #posicionamentodemarca #gestaodenegocios #gnz01 #solucoesdigitais #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital"
+    "legenda": "\"There is no such thing as failure. Failure is just life trying to move us in another direction.\"\n\"Não existe fracasso. O fracasso é só a vida tentando nos mover em outra direção.\"\nOprah Winfrey, discurso de formatura em Harvard (2013).\n\nNo negócio, uma tentativa que não deu certo mostra o próximo ajuste. Arraste para ver como aplicar. 👉\n\n💬 Qual tentativa te ensinou mais?\n💾 Salve para reler.\n\nQuer ajustar a presença digital do seu negócio? Fale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #oprahwinfrey #mentalidadeempreendedora #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: aphrodite-in-nyc from new york city / Wikimedia Commons, CC BY 2.0 (redimensionada)",
+    "fotos_por_lamina": false,
+    "motivo": "fotos sem nitidez suficiente"
+  },
+  {
+    "id": "gnz01_2026-11-06_reel1",
+    "status": "pendente",
+    "quando": "2026-11-06T19:00:00-03:00",
+    "tipo": "reel",
+    "tema": "sites",
+    "titulo": "Como fica o site do seu negócio (vídeo)",
+    "imagens": [
+      "midia/gnz01/videos/como-fica-seu-site.mp4",
+      "midia/gnz01/videos/como-fica-seu-site.jpg"
+    ],
+    "legenda": "Como fica o site do seu negócio? 👇\n\nMostrei aqui, parte por parte, o que o seu cliente vê quando abre o seu site no celular:\n1. Capa com a sua chamada e o botão do WhatsApp\n2. Seus serviços, fáceis de achar\n3. Fotos do seu trabalho\n4. Endereço, mapa e horários\n5. Botão para o cliente falar com você\n\nE tudo fica com a cara do seu negócio: clínica, pizzaria, barbearia, loja...\n\nQuer um site assim? Me chama no WhatsApp (19) 97829-9585 ou aqui no direct.\n\nDemonstração ilustrativa, nomes fictícios.\n.\n.\n#criacaodesites #siteprofissional #presencadigital #pequenosnegocios #gnz01 #solucoesdigitais"
   },
   {
     "id": "gnz01_2026-11-06_story6",
@@ -251,7 +341,8 @@
       "midia/gnz01/2026-11-06/5/04.jpg",
       "midia/gnz01/2026-11-06/5/05.jpg",
       "midia/gnz01/2026-11-06/5/06.jpg",
-      "midia/gnz01/2026-11-06/5/07.jpg"
+      "midia/gnz01/2026-11-06/5/07.jpg",
+      "midia/gnz01/2026-11-06/5/08.jpg"
     ],
     "legenda": "\"Failure is only the opportunity more intelligently to begin again.\"\n\"O fracasso é apenas a oportunidade de recomeçar de forma mais inteligente.\"\nHenry Ford, My Life and Work (1922).\n\nUm site que não trouxe clientes ou um perfil que não engajou não é o fim: é informação para a próxima versão.\n\nArraste para ver como aplicar isso no seu negócio. 👉\n\n💬 Conte nos comentários: o que você já tentou e deixou de lado?\n💾 Salve para lembrar quando for recomeçar.\n\nQuer refazer sua presença digital com mais estratégia? Fale com a GNZ01: (19) 97829-9585\n\nFonte da citação: Henry Ford e Samuel Crowther, My Life and Work (1922), Introdução.\n📷 Foto: Fred Hartsook, c. 1919 / Library of Congress (domínio público)\n.\n.\n#empreendedorismo #henryford #melhoriacontinua #gestaodenegocios #gnz01 #solucoesdigitais #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital"
   },
@@ -264,6 +355,18 @@
     "titulo": "Seu site pode começar na próxima semana.",
     "imagens": [
       "midia/gnz01/2026-11-06/stories/7.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-07_quote1",
+    "status": "pendente",
+    "quando": "2026-11-07T07:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Luiza Helena Trajano: Aprendi a escutar o que não quero ouvir.",
+    "imagens": [
+      "midia/gnz01/2026-11-07/stories/quote-01.jpg"
     ],
     "legenda": ""
   },
@@ -334,6 +437,18 @@
     "legenda": "Ontem perguntei quantas mensagens você responde só para marcar horário. Hoje, a solução. ✂️💅\n\nArrasta para o lado e veja como o cliente agenda sozinho, em 5 passos, sem precisar falar com você.\n\nVocê ganha tempo para atender, e o cliente marca na hora em que lembra, até de madrugada.\n\n👉 Solicite uma demonstração da agenda online: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#agendaonline #salaodebeleza #barbearia #sistemadeagendamento #agendamentoonline #profissionaldabeleza #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
   },
   {
+    "id": "gnz01_2026-11-07_quote2",
+    "status": "pendente",
+    "quando": "2026-11-07T13:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Jeff Bezos: Uma coisa que eu adoro nos clientes é que eles são divinamente insatisfeitos.",
+    "imagens": [
+      "midia/gnz01/2026-11-07/stories/quote-02.jpg"
+    ],
+    "legenda": ""
+  },
+  {
     "id": "gnz01_2026-11-07_story4",
     "status": "pendente",
     "quando": "2026-11-07T13:30:00-03:00",
@@ -371,7 +486,7 @@
   },
   {
     "id": "gnz01_2026-11-07_4",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-07T18:30:00-03:00",
     "tipo": "post",
     "tema": "cardapio",
@@ -379,7 +494,27 @@
     "imagens": [
       "midia/gnz01/2026-11-07/4/01.jpg"
     ],
-    "legenda": "O cliente abre o cardápio com fome e pouca paciência. 🍔\n\nSe ele precisa procurar demais, não entende o prato ou descobre outro preço na hora de pagar, a venda fica menor, ou nem acontece.\n\nNo cardápio digital, você organiza por categorias, coloca foto e descrição em cada item e atualiza preços em segundos.\n\n👉 Quer revisar o seu cardápio com a gente? (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#cardapiodigital #restaurante #gestaoderestaurante #lanchonete #cardapioonline #pedidopelowhatsapp #donoderestaurante #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
+    "legenda": "O cliente abre o cardápio com fome e pouca paciência. 🍔\n\nSe ele precisa procurar demais, não entende o prato ou descobre outro preço na hora de pagar, a venda fica menor, ou nem acontece.\n\nNo cardápio digital, você organiza por categorias, coloca foto e descrição em cada item e atualiza preços em segundos.\n\n👉 Quer revisar o seu cardápio com a gente? (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#cardapiodigital #restaurante #gestaoderestaurante #lanchonete #cardapioonline #pedidopelowhatsapp #donoderestaurante #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo",
+    "observacao": "Substituído pelo carrossel de Luiza Helena Trajano (pedido do João, 05/11)."
+  },
+  {
+    "id": "gnz01_2026-11-07_p3",
+    "status": "pendente",
+    "quando": "2026-11-07T18:30:00-03:00",
+    "tipo": "carrossel",
+    "tema": "marca",
+    "titulo": "Os ensinamentos de Luiza Helena Trajano",
+    "imagens": [
+      "midia/gnz01/2026-11-07/p3/01.jpg",
+      "midia/gnz01/2026-11-07/p3/02.jpg",
+      "midia/gnz01/2026-11-07/p3/03.jpg",
+      "midia/gnz01/2026-11-07/p3/04.jpg",
+      "midia/gnz01/2026-11-07/p3/05.jpg",
+      "midia/gnz01/2026-11-07/p3/06.jpg",
+      "midia/gnz01/2026-11-07/p3/07.jpg"
+    ],
+    "legenda": "\"Aprendi a escutar o que não quero ouvir.\"\nLuiza Helena Trajano, em entrevista à Forbes Brasil (2023).\n\nCrítica de cliente é um mapa do que melhorar. Arraste para ver como aplicar no seu negócio. 👉\n\n💬 Qual reclamação mais te ensinou?\n💾 Salve para reler.\n\nQuer facilitar o contato com seus clientes? Fale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #luizatrajano #atendimentoaocliente #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: Web Summit Rio / Wikimedia Commons, CC BY 2.0 (redimensionada)",
+    "fotos_por_lamina": false
   },
   {
     "id": "gnz01_2026-11-07_story6",
@@ -395,7 +530,7 @@
   },
   {
     "id": "gnz01_2026-11-07_5",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-07T21:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -403,7 +538,27 @@
     "imagens": [
       "midia/gnz01/2026-11-07/5/01.jpg"
     ],
-    "legenda": "Muita gente adia o site por achar que vai dar trabalho. Não precisa. ✅\n\nFunciona assim:\n1️⃣ Uma conversa rápida sobre o seu negócio\n2️⃣ Você envia logo, fotos e informações\n3️⃣ A GNZ01 cria o site e você aprova\n4️⃣ Seu site no ar, pronto para receber clientes\n\nO orçamento é sem compromisso e feito sob medida para o que você precisa.\n\n👉 Solicite o seu: (19) 97829-9585\n.\n.\n#criacaodesites #orcamentodesite #sitesparapequenasempresas #gnz01 #facaseusite #siteresponsivo #webdesignerbrasil #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
+    "legenda": "Muita gente adia o site por achar que vai dar trabalho. Não precisa. ✅\n\nFunciona assim:\n1️⃣ Uma conversa rápida sobre o seu negócio\n2️⃣ Você envia logo, fotos e informações\n3️⃣ A GNZ01 cria o site e você aprova\n4️⃣ Seu site no ar, pronto para receber clientes\n\nO orçamento é sem compromisso e feito sob medida para o que você precisa.\n\n👉 Solicite o seu: (19) 97829-9585\n.\n.\n#criacaodesites #orcamentodesite #sitesparapequenasempresas #gnz01 #facaseusite #siteresponsivo #webdesignerbrasil #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo",
+    "observacao": "Substituído pelo carrossel de Jeff Bezos (pedido do João, 05/11)."
+  },
+  {
+    "id": "gnz01_2026-11-07_p4",
+    "status": "pendente",
+    "quando": "2026-11-07T21:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "marca",
+    "titulo": "Os ensinamentos de Jeff Bezos",
+    "imagens": [
+      "midia/gnz01/2026-11-07/p4/01.jpg",
+      "midia/gnz01/2026-11-07/p4/02.jpg",
+      "midia/gnz01/2026-11-07/p4/03.jpg",
+      "midia/gnz01/2026-11-07/p4/04.jpg",
+      "midia/gnz01/2026-11-07/p4/05.jpg",
+      "midia/gnz01/2026-11-07/p4/06.jpg",
+      "midia/gnz01/2026-11-07/p4/07.jpg"
+    ],
+    "legenda": "\"One thing I love about customers is that they are divinely discontent.\"\n\"Uma coisa que eu adoro nos clientes é que eles são divinamente insatisfeitos.\"\nJeff Bezos, carta aos acionistas da Amazon (2017).\n\nA expectativa do cliente sobe o tempo todo. Arraste para ver como acompanhar. 👉\n\n💬 O que seu cliente já espera de você?\n💾 Salve para reler.\n\nFale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #jeffbezos #experienciadocliente #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: Steve Jurvetson / Wikimedia Commons, CC BY 2.0 (redimensionada)",
+    "fotos_por_lamina": false
   },
   {
     "id": "gnz01_2026-11-07_story7",
@@ -414,6 +569,18 @@
     "titulo": "Seu negócio merece uma vitrine profissional.",
     "imagens": [
       "midia/gnz01/2026-11-07/stories/7.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-08_quote1",
+    "status": "pendente",
+    "quando": "2026-11-08T07:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Sara Blakely: Fracasso, para mim, passou a ser não tentar, e não o resultado.",
+    "imagens": [
+      "midia/gnz01/2026-11-08/stories/quote-01.jpg"
     ],
     "legenda": ""
   },
@@ -522,7 +689,7 @@
   },
   {
     "id": "gnz01_2026-11-08_4",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-08T18:30:00-03:00",
     "tipo": "post",
     "tema": "agenda",
@@ -530,7 +697,27 @@
     "imagens": [
       "midia/gnz01/2026-11-08/4/01.jpg"
     ],
-    "legenda": "Faça a conta comigo: quantos clientes faltaram na sua última semana? Multiplique pelo valor do serviço e por 4. 🧮\n\nEsse é o valor aproximado que fica parado na sua agenda todo mês.\n\nA agenda online envia lembrete antes do horário, permite confirmar ou remarcar com um toque e libera o horário para outra pessoa quando alguém desmarca.\n\nComenta o resultado da sua conta 👇 ou fale comigo: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#agendaonline #clinicadeestetica #manicure #gestaodeagenda #agendamentoonline #sistemadeagendamento #profissionaldabeleza #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
+    "legenda": "Faça a conta comigo: quantos clientes faltaram na sua última semana? Multiplique pelo valor do serviço e por 4. 🧮\n\nEsse é o valor aproximado que fica parado na sua agenda todo mês.\n\nA agenda online envia lembrete antes do horário, permite confirmar ou remarcar com um toque e libera o horário para outra pessoa quando alguém desmarca.\n\nComenta o resultado da sua conta 👇 ou fale comigo: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#agendaonline #clinicadeestetica #manicure #gestaodeagenda #agendamentoonline #sistemadeagendamento #profissionaldabeleza #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo",
+    "observacao": "Substituído pelo carrossel de Sara Blakely (pedido do João, 05/11)."
+  },
+  {
+    "id": "gnz01_2026-11-08_p3",
+    "status": "pendente",
+    "quando": "2026-11-08T18:30:00-03:00",
+    "tipo": "carrossel",
+    "tema": "marca",
+    "titulo": "Os ensinamentos de Sara Blakely",
+    "imagens": [
+      "midia/gnz01/2026-11-08/p3/01.jpg",
+      "midia/gnz01/2026-11-08/p3/02.jpg",
+      "midia/gnz01/2026-11-08/p3/03.jpg",
+      "midia/gnz01/2026-11-08/p3/04.jpg",
+      "midia/gnz01/2026-11-08/p3/05.jpg",
+      "midia/gnz01/2026-11-08/p3/06.jpg",
+      "midia/gnz01/2026-11-08/p3/07.jpg"
+    ],
+    "legenda": "\"Failure for me became not trying, versus the outcome.\"\n\"Fracasso, para mim, passou a ser não tentar, e não o resultado.\"\nSara Blakely, fundadora da Spanx, ao Business Insider (2016).\n\nArraste para ver como aplicar no seu negócio. 👉\n\n💬 O que você está adiando?\n💾 Salve para reler.\n\nFale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #sarablakely #mulheresempreendedoras #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: David Shankbone / Wikimedia Commons, CC BY 3.0",
+    "fotos_por_lamina": false
   },
   {
     "id": "gnz01_2026-11-08_story6",
@@ -662,6 +849,19 @@
     "legenda": "Como funciona um cardápio digital na prática? Arrasta para o lado. 👉\n\nDo QR Code na mesa até o pedido chegando pronto no seu WhatsApp, em 4 passos simples para o cliente e muito mais organização para a sua cozinha.\n\nFunciona para atendimento na mesa, retirada e delivery.\n\n👉 Solicite uma demonstração com o seu cardápio: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#cardapiodigital #qrcode #restaurantes #bar #cardapioonline #pedidopelowhatsapp #donoderestaurante #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
   },
   {
+    "id": "gnz01_2026-11-09_quote2",
+    "status": "pulado",
+    "quando": "2026-11-09T13:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Sam Walton: Supere as expectativas dos seus clientes. Dê a eles o que querem e um pouco mais.",
+    "imagens": [
+      "midia/gnz01/2026-11-09/stories/quote-02.jpg"
+    ],
+    "legenda": "",
+    "motivo": "foto sem nitidez suficiente"
+  },
+  {
     "id": "gnz01_2026-11-09_story4",
     "status": "pendente",
     "quando": "2026-11-09T13:30:00-03:00",
@@ -748,6 +948,26 @@
     "legenda": "Compare: \"meusite.plataformagratuita.com/loja123\" ou \"seunegocio.com.br\". Qual passa mais confiança? 🤔\n\nO domínio próprio é o endereço oficial da sua empresa na internet. Ele é fácil de lembrar, fica bonito no cartão, na fachada e no Instagram, e ainda permite ter e-mail profissional.\n\nNa GNZ01, ajudamos você a registrar e configurar tudo.\n\n👉 Quer o seu endereço oficial na internet? (19) 97829-9585\n.\n.\n#dominio #criacaodesites #emailprofissional #siteprofissional #sitesparapequenasempresas #facaseusite #siteresponsivo #webdesignerbrasil #orcamentodesite #sitesparaempresas #marketingdigital #empreendedorismo"
   },
   {
+    "id": "gnz01_2026-11-09_p4",
+    "status": "pulado",
+    "quando": "2026-11-09T21:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "marca",
+    "titulo": "Os ensinamentos de Sam Walton",
+    "imagens": [
+      "midia/gnz01/2026-11-09/p4/01.jpg",
+      "midia/gnz01/2026-11-09/p4/02.jpg",
+      "midia/gnz01/2026-11-09/p4/03.jpg",
+      "midia/gnz01/2026-11-09/p4/04.jpg",
+      "midia/gnz01/2026-11-09/p4/05.jpg",
+      "midia/gnz01/2026-11-09/p4/06.jpg",
+      "midia/gnz01/2026-11-09/p4/07.jpg"
+    ],
+    "legenda": "\"Exceed your customers' expectations. Give them what they want — and a little more.\"\n\"Supere as expectativas dos seus clientes. Dê a eles o que querem e um pouco mais.\"\nSam Walton, regra 8 das 10 regras publicadas pelo Walmart.\n\nArraste para ver como aplicar no seu negócio. 👉\n\n💬 Qual é o seu \"um pouco mais\"?\n💾 Salve para reler.\n\nFale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #samwalton #atendimentoaocliente #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: George Bush Presidential Library and Museum, 1992 (domínio público)",
+    "fotos_por_lamina": false,
+    "motivo": "fotos sem nitidez suficiente"
+  },
+  {
     "id": "gnz01_2026-11-09_story7",
     "status": "pendente",
     "quando": "2026-11-09T22:00:00-03:00",
@@ -756,6 +976,18 @@
     "titulo": "Profissional liberal também precisa de site.",
     "imagens": [
       "midia/gnz01/2026-11-09/stories/7.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-10_quote1",
+    "status": "pendente",
+    "quando": "2026-11-10T07:00:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Bill Gates: Seus clientes mais insatisfeitos são sua maior fonte de aprendizado.",
+    "imagens": [
+      "midia/gnz01/2026-11-10/stories/quote-01.jpg"
     ],
     "legenda": ""
   },
@@ -775,11 +1007,16 @@
     "id": "gnz01_2026-11-10_1",
     "status": "pendente",
     "quando": "2026-11-10T08:00:00-03:00",
-    "tipo": "post",
+    "tipo": "carrossel",
     "tema": "agenda",
     "titulo": "Veja como fica a agenda online de uma barbearia",
     "imagens": [
-      "midia/gnz01/2026-11-10/1/01.jpg"
+      "midia/gnz01/2026-11-10/1/01.jpg",
+      "midia/gnz01/2026-11-10/1/02.jpg",
+      "midia/gnz01/2026-11-10/1/03.jpg",
+      "midia/gnz01/2026-11-10/1/04.jpg",
+      "midia/gnz01/2026-11-10/1/05.jpg",
+      "midia/gnz01/2026-11-10/1/06.jpg"
     ],
     "legenda": "Cliente quer cortar sexta às 14h30 com o mesmo barbeiro de sempre. Ele abre o link, escolhe o serviço, o profissional e o horário. Pronto. 💈\n\nVocê recebe o aviso, ele recebe o lembrete, e ninguém precisou trocar mensagem.\n\nEsta é uma demonstração de como fica. A da sua barbearia sai com o seu nome, seus serviços, seus preços e sua equipe.\n\n👉 Solicite uma demonstração: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#barbearia #barbershop #agendaonline #barbeiro #agendamentoonline #sistemadeagendamento #profissionaldabeleza #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
   },
@@ -1013,11 +1250,16 @@
     "id": "gnz01_2026-11-11_3",
     "status": "pendente",
     "quando": "2026-11-11T15:00:00-03:00",
-    "tipo": "post",
+    "tipo": "carrossel",
     "tema": "catalogo",
     "titulo": "Veja como fica o catálogo digital de uma loja de roupas",
     "imagens": [
-      "midia/gnz01/2026-11-11/3/01.jpg"
+      "midia/gnz01/2026-11-11/3/01.jpg",
+      "midia/gnz01/2026-11-11/3/02.jpg",
+      "midia/gnz01/2026-11-11/3/03.jpg",
+      "midia/gnz01/2026-11-11/3/04.jpg",
+      "midia/gnz01/2026-11-11/3/05.jpg",
+      "midia/gnz01/2026-11-11/3/06.jpg"
     ],
     "legenda": "Novidades, vestidos, blusas, cada peça com foto e preço. A cliente escolhe, monta o pedido e envia direto no seu WhatsApp. 🛍️\n\nNada de mandar foto por foto ou responder \"quanto custa?\" vinte vezes por dia.\n\nEsta é uma demonstração. O seu catálogo sai com as suas peças, suas fotos e a identidade da sua loja.\n\n👉 Solicite uma demonstração: (19) 97829-9585\n.\n.\n#catalogodigital #lojadeRoupas #modafeminina #vendaspelowhatsapp #catalogoonline #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
   },

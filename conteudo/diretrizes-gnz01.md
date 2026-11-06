@@ -82,3 +82,56 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 - **Grandes nomes do empreendedorismo**: pelo menos 1 carrossel por mês (capa com citação, contexto, aplicação, exemplo prático, conexão com o mercado, reflexão e CTA).
 - **Citações só com autoria confirmada** em fonte primária (discurso, livro, entrevista, site oficial). Registrar `citacao_original`, tradução, `fonte_descricao` e `fonte_url`. Se não der para confirmar, não publicar como citação.
 - Exemplos práticos que não são casos reais devem ser marcados como "situação ilustrativa".
+
+## 14. GNZ01 Daily Quotes (stories de citação) — desde 06/11
+- 2 stories por dia, às 07:00 e às 13:00, com personalidades diferentes e sem repetir nome nem frase em 30 dias (inclui posts de feed).
+- Citação só entra se conferida em fonte confiável (livro, discurso, carta, entrevista em veículo sério ou site oficial). Registrar original, tradução, fonte e link em conteudo/gnz01-citacoes.json. Sem confirmação: descartar a frase.
+- Foto real licenciada obrigatória (midia/fotos/<slug>.jpg + crédito em midia/fotos/creditos.json). Sem foto: não publica. Nunca gerar rosto.
+- Arte: src/editorial.py story_citacao, 1080x1920, estilo "capa central" (foto real no alto, degradê azul-marinho, frase em serifada caixa alta centralizada, GNZ01 centralizado) — referência enviada pelo João em 05/11; o mesmo estilo vale para capas de carrossel de personalidade no feed. Reflexão GNZ01 opcional, separada e sem atribuir à personalidade. Interação em texto quando fizer sentido (a API não adiciona figurinhas nativas).
+- Gerar com python tools/citacoes.py (idempotente). Entregáveis em GNZ01-MARKETING/STORIES/<data>/story-01.jpg|md.
+
+## 15. GNZ01 Product Showcase (peças de produto) — desde 05/11
+- Toda peça que apresenta site, cardápio, agenda, catálogo ou landing page usa src/showcase.py: título forte em caixa alta com benefício, pílula com o nome do produto, subtítulo, 3 a 5 funcionalidades com ícones, celular + monitor com a tela, faixa off-white com benefício e CTA.
+- Referência de estilo: anúncio de sistema de cardápio enviado pelo João (só o estilo; nunca copiar marca de terceiros).
+- Telas: enquanto o João não enviar prints reais dos produtos, as telas são demonstrações com nomes fictícios e a peça diz "Demonstração ilustrativa · nomes fictícios". Não inventar funcionalidades, integrações, números, clientes ou avaliações.
+- Fotografia de cenário licenciada opcional em midia/fotos/cenarios/<slug>.jpg (cozinha-profissional, barbearia, loja, escritorio...).
+- Varie os títulos por segmento; não repita a mesma composição em sequência.
+
+## 16. Estilo revista nos posts editoriais (escolha do João, 05/11)
+- Posts editoriais (2 por dia) e posts/stories de personalidade usam a capa central: foto real licenciada, degradê azul-marinho, título em serifada caixa alta centralizado, GNZ01 centralizado (referência: post estilo G4 enviado pelo João).
+- Cada post editorial tem o campo "cenario" (midia/fotos/cenarios/<slug>.jpg, crédito em creditos.json com chave "cenarios/<slug>"). Sem foto, sai no layout tipográfico. Para refazer pendentes: python tools/rerender_editorial.py <semana.json>.
+- Demonstrações de produto seguem no padrão Product Showcase (seção 15).
+
+## 17. Carrossel "Os ensinamentos de" (referência G4 enviada pelo João, 05/11)
+- Carrosséis de personalidade: uma foto real licenciada DIFERENTE da pessoa em cada lâmina (midia/fotos/<slug>/NN.jpg, crédito em creditos.json["<slug>/NN"]). Com 4+ fotos o gerar usa src/ensinamentos.py; com menos, capa central.
+- Estrutura: capa "OS ENSINAMENTOS DE" + nome gigante + papel (campo "papel"); lâmina da citação conferida; lições alternando layouts (foto + título dourado; painel bordô com título em caixa alta; foto + cartão bege; título duas cores alinhado à direita); CTA final. Paleta marinho, bordô, dourado, bege.
+- Exemplos inventados aparecem como "Situação ilustrativa". Crédito da foto em cada lâmina.
+
+## 18. Fotos (autorização do João, 05/11)
+- Buscar fotos na internet sempre que preciso, sem pedir permissão. Usar só fotos com licença de uso livre (CC0, CC BY, CC BY-SA ou domínio público, ex.: Wikimedia Commons), sempre com crédito. Não usar fotos protegidas de terceiros (perfis, sites de notícia, bancos pagos).
+
+## 19. Peças de restaurantes e pizzarias (layout balcão)
+- Cardápio digital usa o layout "balcão": marca GNZ01 no alto, título com a última linha em prata, 4 funcionalidades com ícone em quadrado e descrição curta, monitor + tablet + celular sobre balcão escuro, cartão off-white "Feito para restaurantes e pizzarias" com o WhatsApp.
+- Cores do perfil (grafite, off-white e prata), sem laranja. Só funcionalidades reais do cardápio (sem dashboard de vendas, caixa ou números). Sempre "Demonstração ilustrativa · nomes fictícios".
+
+## 20. Design system "GNZ01 Carrossel" (src/sistema.py)
+- Todos os carrosséis comuns usam este sistema. Os de personalidade seguem "Os ensinamentos de" (seção 17).
+- Fundo grafite #18191D com grade quadriculada sumindo do topo; texto off-white; destaque em Inter ExtraBold misturado com Inter Regular na mesma frase; rodapé "PAG | 01 02 03 ... | GNZ01" com a página atual em prata.
+- Capa: "© ano | #tag #tag", título gigante centralizado com trecho em negrito, subtítulo, aba lateral com seta e selo @gnz01_. Sempre com imagem: foto profissional licenciada do campo "cenario" (com crédito) ou, se não houver, cena criada no código com monitor, celular e tablet mostrando o produto do tema (sem pessoas, "Demonstração ilustrativa").
+- Lâminas em rodízio: abertura (frase grande + apoio), parágrafos, duas colunas (pergunta à esquerda, resposta à direita), centralizada. Última: CTA centralizado + pílula com Instagram, WhatsApp e monograma.
+- Ao escrever conteúdo, marque o destaque com **asteriscos** (ex.: "Seu cliente **agenda sozinho**"). Sem marcação, o sistema destaca o fim da frase. Campo opcional "layout" por slide força a lâmina.
+- Capas com IA (pedido do João, 05/11): cada carrossel comum tem "prompt_capa" (cena com pessoa fictícia, estilo cinematográfico, espaço escuro no topo). tools/capas_ia.py gera com o Gemini (GEMINI_API_KEY) em midia/fotos/ia/<cenario>.jpg; a capa usa, nesta ordem: imagem de IA, foto licenciada, cena criada no código. Nunca retratar pessoas reais ou famosas com IA; crédito "Imagem ilustrativa gerada por IA (Gemini)".
+- Posts de apresentação de serviço (pedido do João, 06/11): no feed, saem como carrossel do design system (src/servicos.py: capa com foto, 4 lâminas com funcionalidades reais, CTA). A peça vitrine com celular e monitor fica só nos stories de demonstração.
+
+## 21. Onde pode usar imagem gerada por IA (regra do João, 06/11/2026)
+- Capa com IA **somente** nos carrosséis de apresentação de produtos/serviços (posts com "vitrine": cardápio, agenda, catálogo, site).
+- **Nunca** usar IA nos carrosséis de especialistas/personalidades (sempre foto real licenciada e creditada) nem nos carrosséis de dicas.
+- Travado no código: `foto_capa(p, permitir_ia=False)`; só `servicos.carrossel_servico` passa `permitir_ia=True`; `tools/capas_ia.py` ignora posts sem "vitrine".
+- Capas com IA feitas no Canva: o item da fila leva "capa_canva_design_id". Na hora de publicar, exporte esse design (Canva export-design, jpg, 1080x1350) e use a URL exportada como 1ª imagem do carrossel no lugar de imagens[0]. Se a exportação falhar, publique com imagens[0] do GitHub.
+- Tom das capas com IA (pedido do João, 06/11): **animadas e aspiracionais**, pessoa fictícia feliz e confiante mostrando o produto funcionando (cardápio, agenda, catálogo, site), para gerar desejo de contratar. Nada de cena de estresse. Sem números de resultado inventados na tela (ex.: "+32%"). Ao fundo, desfocado, um computador mostrando o site do negócio (além do produto no celular). Pensar como designer gráfico especialista em capas de carrossel. Gerar 2 variações e escolher a melhor.
+
+## 22. Qualidade das fotos de personagens (pedido do João, 06/11/2026)
+- Nenhuma foto desfocada ou ampliada demais. `src/qualidade.py` mede a nitidez do rosto no tamanho final e a ampliação; reprovada não vai ao ar.
+- Toda foto recebe realce de nitidez leve (unsharp mask) ao ser recortada.
+- citacoes.py e personagens.py reverificam os itens pendentes; reprovados ficam "pulado" com motivo e voltam sozinhos quando chegar foto melhor.
+- Ao pedir fotos à thread de fotos: preferir retratos nítidos em alta resolução (rosto com pelo menos ~800 px de largura), nada de foto de show/palco de longe.

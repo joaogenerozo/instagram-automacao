@@ -13,6 +13,9 @@ from zoneinfo import ZoneInfo
 from src.comum import RAIZ, carregar_config, carregar_fila, salvar_fila, montar_legenda
 from src.render import Desenhista
 from src import vitrine as vt
+from src import showcase as sc
+from src import sistema as ss
+from src import servicos as sv
 from src import editorial as ed
 
 
@@ -93,15 +96,16 @@ def main():
                 print(f"AVISO: {pid} cita {post['personalidade']} e está sem foto real licenciada; não entra na fila.")
                 continue
             if post.get("vitrine"):
-                story = desenhar_vitrine(cfg, post["vitrine"], pasta / "story.jpg")
-                imgs = [vt.para_feed(story, pasta / "01.jpg")]
+                pasta.mkdir(parents=True, exist_ok=True)
+                imgs = sv.carrossel_servico(post, pasta, cfg)  # serviços no formato carrossel (pedido do João, 06/11)
+                post = {**post, "tipo": "carrossel"}
             elif post.get("layout") == "editorial":
                 for velho in pasta.glob("*.jpg"):
                     velho.unlink()
                 arte = json.loads(json.dumps(post).replace("{whatsapp}", cfg["whatsapp"]))
-                imgs = ed.carrossel(arte, pasta) if arte["tipo"] == "carrossel" else [ed.peca(arte, pasta / "01.jpg")]
+                imgs = ed.render_editorial(arte, pasta)
             elif post["tipo"] == "carrossel":
-                imgs = des.carrossel(post, pasta)
+                imgs = ss.carrossel(post, pasta, cfg)  # design system GNZ01 Carrossel (src/sistema.py)
             else:
                 imgs = [des.post(post, pasta / "01.jpg")]
             adicionar(pid, quando=horario(data, cfg["horarios"][n % len(cfg["horarios"])], tz),
@@ -120,7 +124,8 @@ def main():
                 n_stories += 1
                 img, tema, titulo = des.story(item, destino, numero=None), item["tema"], item["pergunta"]
             elif st["tipo"] in ("cardapio", "agenda", "catalogo", "site"):
-                img, tema, titulo = desenhar_vitrine(cfg, st, destino), st["tipo"], st["titulo"]
+                destino.parent.mkdir(parents=True, exist_ok=True)
+                img, tema, titulo = sc.vitrine_showcase(cfg, st, destino, "story"), st["tipo"], st["titulo"]
             else:
                 item = {**st, "cta": st.get("cta", "").replace("{whatsapp}", cfg["whatsapp"]) or None}
                 if not item["cta"]:

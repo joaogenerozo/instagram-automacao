@@ -41,3 +41,8 @@ Esta é uma demonstração. O seu catálogo sai com as suas peças, suas fotos e
 ## Criativos
 
 ![](../CRIATIVOS/2026-11-11_15h00_post_catalogo/01.jpg)
+![](../CRIATIVOS/2026-11-11_15h00_post_catalogo/02.jpg)
+![](../CRIATIVOS/2026-11-11_15h00_post_catalogo/03.jpg)
+![](../CRIATIVOS/2026-11-11_15h00_post_catalogo/04.jpg)
+![](../CRIATIVOS/2026-11-11_15h00_post_catalogo/05.jpg)
+![](../CRIATIVOS/2026-11-11_15h00_post_catalogo/06.jpg)
