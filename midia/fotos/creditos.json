@@ -35,14 +35,14 @@
   "oprah-winfrey": {
     "nome": "Oprah Winfrey",
     "arquivo": "midia/fotos/oprah-winfrey.jpg",
-    "autor": "aphrodite-in-nyc from new york city",
+    "autor": "aphrodite-in-nyc (Flickr)",
     "licenca": "CC BY 2.0",
-    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_October_2014.jpg",
-    "descricao": "Winfrey at \"Life you Want\" Miami.",
-    "largura": 1730,
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_in_2014.jpg",
+    "descricao": "Oprah em Miami na turnê \"The Life You Want\", outubro de 2014",
+    "largura": 1809,
     "altura": 2400,
     "alteracoes": "Redimensionada",
-    "credito": "Foto: aphrodite-in-nyc from new york city / Wikimedia Commons, CC BY 2.0 (redimensionada)"
+    "credito": "Foto: aphrodite-in-nyc (Flickr) / Wikimedia Commons, CC BY 2.0 (redimensionada)"
   },
   "warren-buffett": {
     "nome": "Warren Buffett",
@@ -414,5 +414,77 @@
     "altura": 1280,
     "alteracoes": "Redimensionada para 1920 px de largura",
     "credito": "Foto: Kristin Hardwick / Wikimedia Commons, CC0"
+  },
+  "oprah-winfrey/01": {
+    "nome": "Oprah Winfrey",
+    "arquivo": "midia/fotos/oprah-winfrey/01.jpg",
+    "autor": "aphrodite-in-nyc (Flickr)",
+    "licenca": "CC BY 2.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_in_2014.jpg",
+    "descricao": "Oprah em Miami na turnê \"The Life You Want\", outubro de 2014",
+    "largura": 1809,
+    "altura": 2400,
+    "alteracoes": "Redimensionada",
+    "credito": "Foto: aphrodite-in-nyc (Flickr) / Wikimedia Commons, CC BY 2.0 (redimensionada)"
+  },
+  "oprah-winfrey/02": {
+    "nome": "Oprah Winfrey",
+    "arquivo": "midia/fotos/oprah-winfrey/02.jpg",
+    "autor": "Maryland GovPics (Joe Andrucyk, Patrick Siebert)",
+    "licenca": "CC BY 2.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_Pre_Inaugural_Reception_(52639507800)_(cropped).jpg",
+    "descricao": "Oprah na recepção pré-posse do governador Wes Moore, Maryland, janeiro de 2023",
+    "largura": 1425,
+    "altura": 1900,
+    "alteracoes": "Nenhuma",
+    "credito": "Foto: Maryland GovPics (Joe Andrucyk, Patrick Siebert) / Wikimedia Commons, CC BY 2.0"
+  },
+  "oprah-winfrey/03": {
+    "nome": "Oprah Winfrey",
+    "arquivo": "midia/fotos/oprah-winfrey/03.jpg",
+    "autor": "Greg Hernandez",
+    "licenca": "CC BY 2.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_at_2011_TCA.jpg",
+    "descricao": "Oprah no TCA 2011",
+    "largura": 1800,
+    "altura": 2400,
+    "alteracoes": "Redimensionada",
+    "credito": "Foto: Greg Hernandez / Wikimedia Commons, CC BY 2.0 (redimensionada)"
+  },
+  "oprah-winfrey/04": {
+    "nome": "Oprah Winfrey",
+    "arquivo": "midia/fotos/oprah-winfrey/04.jpg",
+    "autor": "Bill Ebbesen",
+    "licenca": "CC BY 3.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_in_Strøget,_Denmark_on_30_September_2009_(cropped).jpg",
+    "descricao": "Oprah em Copenhague, 30 de setembro de 2009",
+    "largura": 1919,
+    "altura": 2400,
+    "alteracoes": "Redimensionada",
+    "credito": "Foto: Bill Ebbesen / Wikimedia Commons, CC BY 3.0 (redimensionada)"
+  },
+  "oprah-winfrey/05": {
+    "nome": "Oprah Winfrey",
+    "arquivo": "midia/fotos/oprah-winfrey/05.jpg",
+    "autor": "Jarc12030",
+    "licenca": "CC BY-SA 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_presents_Sidney_Poitier_with_the_Gold_Medal_of_the_Academy_of_Achievement_in_Los_Angeles_in_2014.jpg",
+    "descricao": "Oprah na premiação da Academy of Achievement, Los Angeles, 2014",
+    "largura": 1020,
+    "altura": 1275,
+    "alteracoes": "Recortada no rosto de Oprah",
+    "credito": "Foto: Jarc12030 / Wikimedia Commons, CC BY-SA 4.0 (recortada)"
+  },
+  "oprah-winfrey/06": {
+    "nome": "Oprah Winfrey",
+    "arquivo": "midia/fotos/oprah-winfrey/06.jpg",
+    "autor": "Gedalia Vera",
+    "licenca": "CC BY-SA 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_and_Nancy_Pelosi_in_DC_Photo_By_Gedalia_Vera.jpg",
+    "descricao": "Oprah em Washington, D.C. (de perfil, sorrindo)",
+    "largura": 1984,
+    "altura": 2480,
+    "alteracoes": "Recortada no rosto de Oprah",
+    "credito": "Foto: Gedalia Vera / Wikimedia Commons, CC BY-SA 4.0 (recortada)"
   }
 }
