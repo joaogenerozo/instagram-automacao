@@ -135,3 +135,9 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 - Toda foto recebe realce de nitidez leve (unsharp mask) ao ser recortada.
 - citacoes.py e personagens.py reverificam os itens pendentes; reprovados ficam "pulado" com motivo e voltam sozinhos quando chegar foto melhor.
 - Ao pedir fotos à thread de fotos: preferir retratos nítidos em alta resolução (rosto com pelo menos ~800 px de largura), nada de foto de show/palco de longe.
+
+## 23. Impulsionamento (verba do João, 06/11)
+- R$ 50 por quinzena, pagos pelo João no botão "Turbinar" do app (a automação não gasta dinheiro).
+- Semana 1: R$ 25 no Reel da semana (R$ 5/dia, 5 dias). Semana 2: R$ 25 no post com mais salvamentos/compartilhamentos, de preferência um carrossel vitrine.
+- Objetivo: mensagens no WhatsApp. Público: Andradas (MG) + raio de ~40 km, 25 a 55 anos, interesses empreendedorismo e pequenos negócios.
+- Ao fim de cada quinzena: comparar conversas geradas por cada R$ 25 e repetir o que funcionou. Nunca prometer números.
