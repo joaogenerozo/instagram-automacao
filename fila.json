@@ -172,6 +172,19 @@
     "legenda": ""
   },
   {
+    "id": "gnz01_2026-11-06_quote1hd",
+    "status": "publicado",
+    "quando": "2026-11-06T07:31:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Oprah Winfrey (repostado em alta resolução)",
+    "imagens": [
+      "midia/gnz01/2026-11-06/stories/quote-01-hd.jpg"
+    ],
+    "legenda": "",
+    "media_id": "18105065108376116"
+  },
+  {
     "id": "gnz01_2026-11-06_1",
     "status": "pendente",
     "quando": "2026-11-06T08:00:00-03:00",
