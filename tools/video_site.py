@@ -303,16 +303,21 @@ def legenda_roteiro(fr, tg):
             a = ease((tg - ini) / 0.3) * ease((fim - tg) / 0.3)
             camada = Image.new("RGBA", (W, H), (0, 0, 0, 0))
             d = ImageDraw.Draw(camada)
-            f = fonte("bold", 44)
+            f = fonte("bold", 48)
             linhas = quebrar(d, txt, f, 900)
             alt = len(linhas) * 56 + 50
             y0 = H - 190 - alt
-            d.rounded_rectangle([60, y0, W - 60, y0 + alt], radius=30, fill=(244, 243, 238, int(235 * a)))
+            # só letras brancas, sem caixa; degradê escuro suave no rodapé para ler sobre o celular
+            for yy in range(y0 - 140, H):
+                k = min(1.0, (yy - (y0 - 140)) / 160)
+                d.line([(0, yy), (W, yy)], fill=(10, 10, 12, int(215 * k * a)))
             y = y0 + 25 + int(12 * (1 - a))
             for l in linhas:
-                d.text(((W - d.textlength(l, font=f)) / 2, y), l, font=f, fill=(*ESC, int(255 * a)))
+                d.text(((W - d.textlength(l, font=f)) / 2, y), l, font=f, fill=(255, 255, 255, int(255 * a)),
+                       stroke_width=4, stroke_fill=(0, 0, 0, int(200 * a)))
                 y += 56
             fr.paste(camada, (0, 0), camada)
+            aviso(ImageDraw.Draw(fr))  # aviso de demonstração sempre visível
 
 
 def main():
