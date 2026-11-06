@@ -18,14 +18,26 @@ fixas = ["#gnz01", "#solucoesdigitais"]
 novos = 0
 for n, it in enumerate(dados["itens"], 1):
     pid = f"gnz01_{it['data']}_p{it['slot']}"
-    if pid in ids:
+    existente = ids.get(pid)
+    if existente and existente.get("motivo") == "fotos sem nitidez suficiente":
+        existente["status"] = "pendente"  # tenta de novo: pode ter chegado foto nova
+    if existente and existente["status"] != "pendente":
         continue
     fotos = en.fotos_de(it["slug"], RAIZ)
     unica = RAIZ / f"midia/fotos/{it['slug']}.jpg"
     if not fotos and unica.exists() and it["slug"] in cred:
         fotos = [(str(unica), cred[it["slug"]]["credito"])]
+    from src import qualidade as q
+    fotos = [f for f in fotos if q.aprovada(f[0], (1080, 1350))[0]]  # só fotos nítidas (pedido do João, 06/11)
     if not fotos:
-        print(f"AVISO: {pid} ({it['personalidade']}) sem foto licenciada; horário mantém o post original.")
+        print(f"AVISO: {pid} ({it['personalidade']}) sem foto licenciada e nítida; horário mantém o post original.")
+        if existente:  # já estava na fila: tira e devolve o post original do horário
+            existente["status"] = "pulado"
+            existente["motivo"] = "fotos sem nitidez suficiente"
+            orig = ids.get(f"gnz01_{it['data']}_{it['slot'] + 1}")
+            if orig and orig["status"] == "pulado" and "Substituído" in orig.get("observacao", ""):
+                orig["status"] = "pendente"
+                orig.pop("observacao", None)
         continue
     w = cfg["whatsapp"]
     p = json.loads(json.dumps({
@@ -40,6 +52,11 @@ for n, it in enumerate(dados["itens"], 1):
         legenda += "\n\n📷 " + fotos[0][1]
     else:
         legenda += "\n\n📷 Fotos: " + "; ".join(sorted({c for _, c in fotos}))
+    if existente:  # pendente: re-renderizado só com fotos nítidas e realce
+        existente["imagens"] = [str(Path(i).relative_to(RAIZ)) for i in imgs]
+        existente["legenda"] = legenda
+        existente["fotos_por_lamina"] = len(fotos) >= 4
+        continue
     orig = ids.get(f"gnz01_{it['data']}_{it['slot'] + 1}")
     if orig and orig["status"] == "pendente" and orig["quando"].startswith(it["data"]):
         orig["status"] = "pulado"

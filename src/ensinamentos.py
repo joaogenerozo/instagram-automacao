@@ -6,6 +6,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageOps
 
 from src.render import fonte, quebrar
 from src.editorial import serif
+from src import qualidade
 
 W, H = 1080, 1350
 M = 72
@@ -18,7 +19,7 @@ SUAVE = (200, 204, 214)
 
 
 def _foto(caminho, tam, centro=(0.5, 0.3)):
-    return ImageOps.fit(Image.open(caminho).convert("RGB"), tam, Image.LANCZOS, centering=centro)
+    return qualidade.preparar(caminho, tam, centro)
 
 
 def _degrade(img, ini, cor, forca=255, topo=0):

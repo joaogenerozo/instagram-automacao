@@ -5,24 +5,36 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
 from src import editorial as ed
+from src import qualidade as q
 
 dados = json.load(open(RAIZ / "conteudo/gnz01-citacoes.json"))
 creditos = json.load(open(RAIZ / "midia/fotos/creditos.json"))
 fila = json.load(open(RAIZ / "fila.json"))
-ids = {i["id"] for i in fila}
+ids = {i["id"]: i for i in fila}
 cont = {}
 novos = 0
 for it in dados["itens"]:
     n = cont[it["data"]] = cont.get(it["data"], 0) + 1
     pid = f"gnz01_{it['data']}_quote{n}"
-    if pid in ids:
+    if pid in ids and ids[pid].get("motivo") == "foto sem nitidez suficiente":
+        ids[pid]["status"] = "pendente"  # tenta de novo: pode ter chegado foto nova
+    if pid in ids and ids[pid]["status"] != "pendente":
         continue
     foto = RAIZ / f"midia/fotos/{it['slug']}.jpg"
     if not foto.exists() or it["slug"] not in creditos:
         print(f"AVISO: {pid} ({it['autor']}) sem foto licenciada; não entra na fila.")
         continue
+    ok, nit, amp = q.aprovada(foto, (1080, 1344))
+    if not ok:  # foto desfocada ou pequena demais para tela cheia: não publica (pedido do João, 06/11)
+        print(f"AVISO: {pid} ({it['autor']}) foto reprovada no controle de qualidade (nitidez {nit}, ampliação {amp}); peça outra foto.")
+        if pid in ids:
+            ids[pid]["status"] = "pulado"
+            ids[pid]["motivo"] = "foto sem nitidez suficiente"
+        continue
     rel = f"midia/gnz01/{it['data']}/stories/quote-{n:02d}.jpg"
     ed.story_citacao({**it, "foto": str(foto), "credito": creditos[it["slug"]]["credito"]}, RAIZ / rel)
+    if pid in ids:  # pendente: só re-renderiza com o realce de nitidez
+        continue
     entrega = RAIZ / f"GNZ01-MARKETING/STORIES/{it['data']}"
     entrega.mkdir(parents=True, exist_ok=True)
     shutil.copy(RAIZ / rel, entrega / f"story-{n:02d}.jpg")

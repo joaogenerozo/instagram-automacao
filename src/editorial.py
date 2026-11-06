@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
+from src import qualidade
 from src.render import W, H, MARGEM, fonte, quebrar, hex_rgb
 
 FONTES = Path(__file__).resolve().parent.parent / "fonts"
@@ -260,10 +261,10 @@ def capa_central(foto, titulo, destino, tam=(1080, 1350), autor=None, fonte_cita
     if h > 1350:  # story: foto ocupa ~70% de cima, o resto é marinho
         hf = int(h * 0.70)
         img = Image.new("RGB", (w, h), MARINHO_PROF)
-        img.paste(ImageOps.fit(Image.open(foto).convert("RGB"), (w, hf), Image.LANCZOS, centering=(0.5, 0.2)), (0, 0))
+        img.paste(qualidade.preparar(foto, (w, hf)), (0, 0))
         ini, fim = 0.40, 0.70
     else:
-        img = ImageOps.fit(Image.open(foto).convert("RGB"), (w, h), Image.LANCZOS, centering=(0.5, 0.2))
+        img = qualidade.preparar(foto, (w, h))
         ini, fim = 0.38, 1.0
     g = Image.new("L", (1, h))
     for y in range(h):

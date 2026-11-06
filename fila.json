@@ -284,7 +284,7 @@
   },
   {
     "id": "gnz01_2026-11-06_p3",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-06T18:30:00-03:00",
     "tipo": "carrossel",
     "tema": "marca",
@@ -299,7 +299,8 @@
       "midia/gnz01/2026-11-06/p3/07.jpg"
     ],
     "legenda": "\"There is no such thing as failure. Failure is just life trying to move us in another direction.\"\n\"Não existe fracasso. O fracasso é só a vida tentando nos mover em outra direção.\"\nOprah Winfrey, discurso de formatura em Harvard (2013).\n\nNo negócio, uma tentativa que não deu certo mostra o próximo ajuste. Arraste para ver como aplicar. 👉\n\n💬 Qual tentativa te ensinou mais?\n💾 Salve para reler.\n\nQuer ajustar a presença digital do seu negócio? Fale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #oprahwinfrey #mentalidadeempreendedora #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: aphrodite-in-nyc from new york city / Wikimedia Commons, CC BY 2.0 (redimensionada)",
-    "fotos_por_lamina": false
+    "fotos_por_lamina": false,
+    "motivo": "fotos sem nitidez suficiente"
   },
   {
     "id": "gnz01_2026-11-06_story6",
@@ -836,7 +837,7 @@
   },
   {
     "id": "gnz01_2026-11-09_quote2",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-09T13:00:00-03:00",
     "tipo": "story",
     "tema": "citacao",
@@ -844,7 +845,8 @@
     "imagens": [
       "midia/gnz01/2026-11-09/stories/quote-02.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "motivo": "foto sem nitidez suficiente"
   },
   {
     "id": "gnz01_2026-11-09_story4",
@@ -922,7 +924,7 @@
   },
   {
     "id": "gnz01_2026-11-09_5",
-    "status": "pulado",
+    "status": "pendente",
     "quando": "2026-11-09T21:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -930,12 +932,11 @@
     "imagens": [
       "midia/gnz01/2026-11-09/5/01.jpg"
     ],
-    "legenda": "Compare: \"meusite.plataformagratuita.com/loja123\" ou \"seunegocio.com.br\". Qual passa mais confiança? 🤔\n\nO domínio próprio é o endereço oficial da sua empresa na internet. Ele é fácil de lembrar, fica bonito no cartão, na fachada e no Instagram, e ainda permite ter e-mail profissional.\n\nNa GNZ01, ajudamos você a registrar e configurar tudo.\n\n👉 Quer o seu endereço oficial na internet? (19) 97829-9585\n.\n.\n#dominio #criacaodesites #emailprofissional #siteprofissional #sitesparapequenasempresas #facaseusite #siteresponsivo #webdesignerbrasil #orcamentodesite #sitesparaempresas #marketingdigital #empreendedorismo",
-    "observacao": "Substituído pelo carrossel de Sam Walton (pedido do João, 05/11)."
+    "legenda": "Compare: \"meusite.plataformagratuita.com/loja123\" ou \"seunegocio.com.br\". Qual passa mais confiança? 🤔\n\nO domínio próprio é o endereço oficial da sua empresa na internet. Ele é fácil de lembrar, fica bonito no cartão, na fachada e no Instagram, e ainda permite ter e-mail profissional.\n\nNa GNZ01, ajudamos você a registrar e configurar tudo.\n\n👉 Quer o seu endereço oficial na internet? (19) 97829-9585\n.\n.\n#dominio #criacaodesites #emailprofissional #siteprofissional #sitesparapequenasempresas #facaseusite #siteresponsivo #webdesignerbrasil #orcamentodesite #sitesparaempresas #marketingdigital #empreendedorismo"
   },
   {
     "id": "gnz01_2026-11-09_p4",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-09T21:00:00-03:00",
     "tipo": "carrossel",
     "tema": "marca",
@@ -950,7 +951,8 @@
       "midia/gnz01/2026-11-09/p4/07.jpg"
     ],
     "legenda": "\"Exceed your customers' expectations. Give them what they want — and a little more.\"\n\"Supere as expectativas dos seus clientes. Dê a eles o que querem e um pouco mais.\"\nSam Walton, regra 8 das 10 regras publicadas pelo Walmart.\n\nArraste para ver como aplicar no seu negócio. 👉\n\n💬 Qual é o seu \"um pouco mais\"?\n💾 Salve para reler.\n\nFale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #samwalton #atendimentoaocliente #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: George Bush Presidential Library and Museum, 1992 (domínio público)",
-    "fotos_por_lamina": false
+    "fotos_por_lamina": false,
+    "motivo": "fotos sem nitidez suficiente"
   },
   {
     "id": "gnz01_2026-11-09_story7",

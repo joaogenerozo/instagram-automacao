@@ -129,3 +129,9 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 - Travado no código: `foto_capa(p, permitir_ia=False)`; só `servicos.carrossel_servico` passa `permitir_ia=True`; `tools/capas_ia.py` ignora posts sem "vitrine".
 - Capas com IA feitas no Canva: o item da fila leva "capa_canva_design_id". Na hora de publicar, exporte esse design (Canva export-design, jpg, 1080x1350) e use a URL exportada como 1ª imagem do carrossel no lugar de imagens[0]. Se a exportação falhar, publique com imagens[0] do GitHub.
 - Tom das capas com IA (pedido do João, 06/11): **animadas e aspiracionais**, pessoa fictícia feliz e confiante mostrando o produto funcionando (cardápio, agenda, catálogo, site), para gerar desejo de contratar. Nada de cena de estresse. Sem números de resultado inventados na tela (ex.: "+32%"). Ao fundo, desfocado, um computador mostrando o site do negócio (além do produto no celular). Pensar como designer gráfico especialista em capas de carrossel. Gerar 2 variações e escolher a melhor.
+
+## 22. Qualidade das fotos de personagens (pedido do João, 06/11/2026)
+- Nenhuma foto desfocada ou ampliada demais. `src/qualidade.py` mede a nitidez do rosto no tamanho final e a ampliação; reprovada não vai ao ar.
+- Toda foto recebe realce de nitidez leve (unsharp mask) ao ser recortada.
+- citacoes.py e personagens.py reverificam os itens pendentes; reprovados ficam "pulado" com motivo e voltam sozinhos quando chegar foto melhor.
+- Ao pedir fotos à thread de fotos: preferir retratos nítidos em alta resolução (rosto com pelo menos ~800 px de largura), nada de foto de show/palco de longe.
