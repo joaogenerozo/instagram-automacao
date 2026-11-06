@@ -36,9 +36,9 @@ def gerar(prompt, destino, chave):
 
 
 PADRAO = {
-    "cardapio": "a fictional pizzeria owner smiling radiantly, pointing at a phone showing a beautiful digital menu, happy customers and wood oven behind, warm lively light",
-    "agenda": "a fictional barber smiling confidently, showing a phone with a clean online booking calendar, busy happy barbershop behind, warm lively light",
-    "catalogo": "a fictional clothing store owner smiling excitedly, showing a phone with an elegant digital product catalog, bright modern store behind",
+    "cardapio": "a fictional pizzeria owner smiling radiantly, pointing at a phone showing a beautiful digital menu, happy customers and wood oven and a blurred computer monitor showing the pizzeria website behind, warm lively light",
+    "agenda": "a fictional barber smiling confidently, showing a phone with a clean online booking calendar, busy happy barbershop and a blurred computer monitor showing the barbershop website behind",
+    "catalogo": "a fictional clothing store owner smiling excitedly, showing a phone with an elegant digital product catalog, bright modern store and a blurred computer monitor showing the store website behind",
     "site": "a fictional small business owner celebrating at a laptop showing a modern professional website, bright office, energetic and proud",
 }
 
