@@ -15,6 +15,7 @@ from src.render import Desenhista
 from src import vitrine as vt
 from src import showcase as sc
 from src import sistema as ss
+from src import servicos as sv
 from src import editorial as ed
 
 
@@ -96,7 +97,8 @@ def main():
                 continue
             if post.get("vitrine"):
                 pasta.mkdir(parents=True, exist_ok=True)
-                imgs = [sc.vitrine_showcase(cfg, post["vitrine"], pasta / "01.jpg", "feed")]
+                imgs = sv.carrossel_servico(post, pasta, cfg)  # serviços no formato carrossel (pedido do João, 06/11)
+                post = {**post, "tipo": "carrossel"}
             elif post.get("layout") == "editorial":
                 for velho in pasta.glob("*.jpg"):
                     velho.unlink()

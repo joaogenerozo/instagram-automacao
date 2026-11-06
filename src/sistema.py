@@ -56,7 +56,10 @@ def _tokens(texto, auto=0):
             neg = not neg
             continue
         for w in parte.split():
-            out.append((w, neg))
+            if out and all(c in ".,;:!?)" for c in w):
+                out[-1] = (out[-1][0] + w, out[-1][1])
+            else:
+                out.append((w, neg))
     return out
 
 
@@ -262,7 +265,7 @@ def lamina(s, i, n, destino, layout):
             misto(d, txt, x, y + 40, larg, 38, auto=ax, entre=1.3)
     elif layout == "paragrafos":
         x, larg = 150, 780
-        corpo = f"**{tit}.**\n\n{txt}" if tit else txt
+        corpo = (tit if "**" in tit else f"**{tit}.**") + f"\n\n{txt}" if tit else txt
         t = _cabe(d, corpo, larg, 44, 32, 700, auto=ax, entre=1.32)
         h = misto(d, corpo, 0, 0, larg, t, auto=ax, entre=1.32, medir=True)
         misto(d, corpo, x, (H - 120 - h) / 2 + 20, larg, t, auto=ax, entre=1.32)
@@ -275,7 +278,7 @@ def lamina(s, i, n, destino, layout):
         misto(d, txt, 520, (H - 120 - h2) / 2 + 10, 420, t2, auto=ax, entre=1.3)
     else:  # centro
         larg = 760
-        corpo = f"**{tit}**\n\n{txt}" if tit else txt
+        corpo = (tit if "**" in tit else f"**{tit}**") + f"\n\n{txt}" if tit else txt
         t = _cabe(d, corpo, larg, 46, 32, 640, auto=ax, entre=1.3)
         h = misto(d, corpo, 0, 0, larg, t, auto=ax, entre=1.3, medir=True)
         misto(d, corpo, (W - larg) / 2, (H - 120 - h) / 2 + 10, larg, t, alinhar="centro", auto=ax, entre=1.3)
