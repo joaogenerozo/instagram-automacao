@@ -26,13 +26,14 @@
   "walt-disney": {
     "nome": "Walt Disney",
     "arquivo": "midia/fotos/walt-disney.jpg",
-    "autor": "Boy Scouts of America",
-    "licenca": "Domínio público",
-    "licenca_url": null,
-    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946.JPG",
-    "descricao": "Foto de divulgação de Walt Disney, 1946",
-    "alteracoes": "Nenhuma (450x675 px, resolução baixa: usar pequena na arte)",
-    "credito": "Foto: Boy Scouts of America, 1946 (domínio público)"
+    "autor": "Sir Mooniar (envio ao Commons)",
+    "licenca": "CC BY-SA 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Heitor-villa-Lobos-meeting-Walt-Disney.jpg",
+    "descricao": "Walt Disney conversando com Heitor Villa-Lobos (anos 1940)",
+    "largura": 1178,
+    "altura": 1472,
+    "alteracoes": "Recortada em Walt Disney",
+    "credito": "Foto: Sir Mooniar / Wikimedia Commons, CC BY-SA 4.0 (recortada)"
   },
   "oprah-winfrey": {
     "nome": "Oprah Winfrey",
