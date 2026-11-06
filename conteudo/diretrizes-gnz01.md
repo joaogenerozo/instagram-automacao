@@ -127,3 +127,4 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 - Capa com IA **somente** nos carrosséis de apresentação de produtos/serviços (posts com "vitrine": cardápio, agenda, catálogo, site).
 - **Nunca** usar IA nos carrosséis de especialistas/personalidades (sempre foto real licenciada e creditada) nem nos carrosséis de dicas.
 - Travado no código: `foto_capa(p, permitir_ia=False)`; só `servicos.carrossel_servico` passa `permitir_ia=True`; `tools/capas_ia.py` ignora posts sem "vitrine".
+- Capas com IA feitas no Canva: o item da fila leva "capa_canva_design_id". Na hora de publicar, exporte esse design (Canva export-design, jpg, 1080x1350) e use a URL exportada como 1ª imagem do carrossel no lugar de imagens[0]. Se a exportação falhar, publique com imagens[0] do GitHub.
