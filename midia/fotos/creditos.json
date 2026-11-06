@@ -366,5 +366,53 @@
     "altura": 1440,
     "alteracoes": "Redimensionada para 1920 px de largura",
     "credito": "Foto: Harrison Keely / Wikimedia Commons, CC BY 4.0 (redimensionada)"
+  },
+  "sam-walton": {
+    "nome": "Sam Walton",
+    "arquivo": "midia/fotos/sam-walton.jpg",
+    "autor": "George Bush Presidential Library and Museum",
+    "licenca": "Domínio público",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Sam_Walton_(1992).jpg",
+    "descricao": "George H. W. Bush entrega a Medalha da Liberdade a Sam Walton, Bentonville, 17 de março de 1992",
+    "largura": 768,
+    "altura": 960,
+    "alteracoes": "Nenhuma (resolução baixa: usar pequena)",
+    "credito": "Foto: George Bush Presidential Library and Museum, 1992 (domínio público)"
+  },
+  "cenarios/celular-mao": {
+    "nome": null,
+    "arquivo": "midia/fotos/cenarios/celular-mao.jpg",
+    "autor": "Dennis Cortés (Unsplash)",
+    "licenca": "CC0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Black_smartphone_in_hand_(Unsplash).jpg",
+    "descricao": "St. Louis, United States",
+    "largura": 1920,
+    "altura": 1280,
+    "alteracoes": "Redimensionada para 1920 px de largura",
+    "credito": "Foto: Dennis Cortés / Unsplash via Wikimedia Commons, CC0"
+  },
+  "cenarios/barbearia": {
+    "nome": null,
+    "arquivo": "midia/fotos/cenarios/barbearia.jpg",
+    "autor": "Chris Light",
+    "licenca": "CC BY-SA 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Barbershop_6815.jpg",
+    "descricao": "Barbearia antiga em exposição de museu, estilo vintage",
+    "largura": 1920,
+    "altura": 1280,
+    "alteracoes": "Redimensionada para 1920 px de largura",
+    "credito": "Foto: Chris Light / Wikimedia Commons, CC BY-SA 4.0 (redimensionada)"
+  },
+  "cenarios/escritorio": {
+    "nome": null,
+    "arquivo": "midia/fotos/cenarios/escritorio.jpg",
+    "autor": "Kristin Hardwick",
+    "licenca": "CC0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Top_Workspace_Office.jpg",
+    "descricao": "Top Workspace Office",
+    "largura": 1920,
+    "altura": 1280,
+    "alteracoes": "Redimensionada para 1920 px de largura",
+    "credito": "Foto: Kristin Hardwick / Wikimedia Commons, CC0"
   }
 }
