@@ -240,7 +240,7 @@ def cena_negocios(t, dur):
     lb = d.textlength(nome, font=f)
     d.rounded_rectangle([(W - lb) / 2 - 40, 1360, (W + lb) / 2 + 40, 1444], radius=42, fill=TEXTO)
     d.text(((W - lb) / 2, 1376), nome, font=f, fill=ESC)
-    centro(d, "Celular, tablet e computador", 1490, fonte("regular", 38), SUAVE)
+    # (legenda do roteiro ocupa esta faixa)
     aviso(d)
     return fr
 
@@ -267,25 +267,84 @@ def cena_cta(t, dur):
     return fr
 
 
-CENAS = [(cena_abertura, 3.0), (cena_site, 12.5), (cena_negocios, 8.0), (cena_cta, 4.0)]
+def cena_marca(t, dur):
+    fr = BASE.copy()
+    d = ImageDraw.Draw(fr)
+    a = ease(t / 0.6)
+    camada = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    dc = ImageDraw.Draw(camada)
+    esc = 0.85 + 0.15 * a
+    f = fonte("bold", int(220 * esc))
+    centro(dc, "GNZ01", 640, f, (*TEXTO, int(255 * a)))
+    centro(dc, "Tecnologia, design e experiências digitais.", 900, fonte("semi", 46), (*PRATA, int(255 * ease((t - 0.5) / 0.6))))
+    centro(dc, "Seu próximo passo começa aqui.", 1010, fonte("regular", 44), (*SUAVE, int(255 * ease((t - 1.5) / 0.6))))
+    fr.paste(camada, (0, 0), camada)
+    centro(d, "WhatsApp " + CFG.get("whatsapp", "(19) 97829-9585") + "  ·  @gnz01_", 1300, fonte("semi", 40), TEXTO)
+    aviso(d)
+    return fr
+
+
+CENAS = [(cena_abertura, 5.0), (cena_site, 17.0), (cena_negocios, 13.0), (cena_cta, 6.0), (cena_marca, 7.0)]
+
+# Roteiro do João (06/11) em legendas sincronizadas: (início, fim, texto)
+ROTEIRO = [
+    (0.3, 5.0, "Seu negócio merece uma presença digital à altura da qualidade dos seus serviços."),
+    (5.0, 12.0, "Imagine apresentar sua empresa com um site moderno, elegante e que transmite confiança desde o primeiro acesso."),
+    (12.0, 22.0, "Seus clientes encontram seus serviços, conhecem seus produtos, agendam e falam direto com você."),
+    (22.0, 30.0, "Mais do que um site: uma ferramenta para fortalecer sua marca e criar novas oportunidades."),
+    (30.0, 35.0, "Chegou a hora de levar seu negócio para outro nível."),
+    (35.0, 41.0, "Entre em contato com a GNZ01 e descubra o que podemos desenvolver para sua empresa."),
+]
+
+
+def legenda_roteiro(fr, tg):
+    for ini, fim, txt in ROTEIRO:
+        if ini <= tg < fim:
+            a = ease((tg - ini) / 0.3) * ease((fim - tg) / 0.3)
+            camada = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+            d = ImageDraw.Draw(camada)
+            f = fonte("bold", 44)
+            linhas = quebrar(d, txt, f, 900)
+            alt = len(linhas) * 56 + 50
+            y0 = H - 190 - alt
+            d.rounded_rectangle([60, y0, W - 60, y0 + alt], radius=30, fill=(244, 243, 238, int(235 * a)))
+            y = y0 + 25 + int(12 * (1 - a))
+            for l in linhas:
+                d.text(((W - d.textlength(l, font=f)) / 2, y), l, font=f, fill=(*ESC, int(255 * a)))
+                y += 56
+            fr.paste(camada, (0, 0), camada)
 
 
 def main():
     saida = Path(sys.argv[1] if len(sys.argv) > 1 else RAIZ / "midia/gnz01/videos/como-fica-seu-site.mp4")
     saida.parent.mkdir(parents=True, exist_ok=True)
     total = sum(d for _, d in CENAS)
+    trilha = RAIZ / "midia/audio/trilha-gnz01.wav"
+    if not trilha.exists():
+        subprocess.run([sys.executable, str(RAIZ / "tools/trilha.py"), str(total + 1), str(trilha)], check=True)
+    narr = RAIZ / "midia/audio/narracao-01.wav"
+    if narr.exists():  # narração em primeiro plano, trilha bem baixa
+        audio = ["-i", str(trilha), "-i", str(narr), "-filter_complex",
+                 "[1:a]volume=0.12[m];[2:a]volume=1.0,adelay=300|300[v];[m][v]amix=inputs=2:duration=first[a]",
+                 "-map", "0:v", "-map", "[a]"]
+    else:  # sem narração: só a trilha, baixa
+        audio = ["-i", str(trilha), "-filter_complex", "[1:a]volume=0.35[a]", "-map", "0:v", "-map", "[a]"]
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
-           "-r", str(FPS), "-i", "-", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-t", str(total),
-           "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac",
-           "-shortest", "-movflags", "+faststart", str(saida)]
+           "-r", str(FPS), "-i", "-", *audio, "-t", str(total),
+           "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
+           "-movflags", "+faststart", str(saida)]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    tg = 0.0
     for cena, dur in CENAS:
         for k in range(int(dur * FPS)):
-            p.stdin.write(cena(k / FPS, dur).tobytes())
+            fr = cena(k / FPS, dur)
+            legenda_roteiro(fr, tg + k / FPS)
+            p.stdin.write(fr.tobytes())
+        tg += dur
     p.stdin.close()
     p.wait()
     capa = saida.with_suffix(".jpg")
-    cena_abertura(2.0, 3.0).save(capa, "JPEG", quality=92)
+    cena_abertura(2.0, 5.0).save(capa, "JPEG", quality=92)
     print(saida, capa)
 
 

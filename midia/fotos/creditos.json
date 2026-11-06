@@ -8,7 +8,9 @@
     "pagina_commons": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP_(cropped_2).jpg",
     "descricao": "Steve Jobs mostra o iPhone 4 na WWDC, 7 de junho de 2010",
     "alteracoes": "Redimensionada para 1440 px",
-    "credito": "Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada)"
+    "credito": "Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada)",
+    "largura": 2400,
+    "altura": 2323
   },
   "henry-ford": {
     "nome": "Henry Ford",
@@ -24,25 +26,26 @@
   "walt-disney": {
     "nome": "Walt Disney",
     "arquivo": "midia/fotos/walt-disney.jpg",
-    "autor": "Boy Scouts of America",
-    "licenca": "Domínio público",
-    "licenca_url": null,
-    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946.JPG",
-    "descricao": "Foto de divulgação de Walt Disney, 1946",
-    "alteracoes": "Nenhuma (450x675 px, resolução baixa: usar pequena na arte)",
-    "credito": "Foto: Boy Scouts of America, 1946 (domínio público)"
+    "autor": "Sir Mooniar (envio ao Commons)",
+    "licenca": "CC BY-SA 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Heitor-villa-Lobos-meeting-Walt-Disney.jpg",
+    "descricao": "Walt Disney conversando com Heitor Villa-Lobos (anos 1940)",
+    "largura": 1178,
+    "altura": 1472,
+    "alteracoes": "Recortada em Walt Disney",
+    "credito": "Foto: Sir Mooniar / Wikimedia Commons, CC BY-SA 4.0 (recortada)"
   },
   "oprah-winfrey": {
     "nome": "Oprah Winfrey",
     "arquivo": "midia/fotos/oprah-winfrey.jpg",
-    "autor": "aphrodite-in-nyc from new york city",
+    "autor": "aphrodite-in-nyc (Flickr)",
     "licenca": "CC BY 2.0",
-    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_October_2014.jpg",
-    "descricao": "Winfrey at \"Life you Want\" Miami.",
-    "largura": 1730,
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_in_2014.jpg",
+    "descricao": "Oprah em Miami na turnê \"The Life You Want\", outubro de 2014",
+    "largura": 1809,
     "altura": 2400,
     "alteracoes": "Redimensionada",
-    "credito": "Foto: aphrodite-in-nyc from new york city / Wikimedia Commons, CC BY 2.0 (redimensionada)"
+    "credito": "Foto: aphrodite-in-nyc (Flickr) / Wikimedia Commons, CC BY 2.0 (redimensionada)"
   },
   "warren-buffett": {
     "nome": "Warren Buffett",
@@ -72,62 +75,26 @@
   "steve-jobs/03": {
     "nome": "Steve Jobs",
     "arquivo": "midia/fotos/steve-jobs/03.jpg",
-    "autor": "Tom Coates",
-    "licenca": "CC BY 2.0",
-    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_about_iTunes_Movie_Rental.jpg",
-    "descricao": "Steve Jobs présente le système de location de films sur iTunes lors d'une conférence de presse Apple, le 15 janvier 2008",
-    "largura": 2400,
-    "altura": 1598,
-    "alteracoes": "Redimensionada",
-    "credito": "Foto: Tom Coates / Wikimedia Commons, CC BY 2.0 (redimensionada)"
+    "autor": "Presidential Press and Information Office (Kremlin.ru)",
+    "licenca": "CC BY 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Medvedev_and_Steve_Jobs.jpg",
+    "descricao": "Jobs mostra o iPhone 4 a Dmitry Medvedev, 23 de junho de 2010",
+    "largura": 1650,
+    "altura": 2062,
+    "alteracoes": "Recortada em Steve Jobs",
+    "credito": "Foto: Kremlin.ru / Wikimedia Commons, CC BY 4.0 (recortada)"
   },
   "steve-jobs/04": {
     "nome": "Steve Jobs",
     "arquivo": "midia/fotos/steve-jobs/04.jpg",
-    "autor": "Acaben, cropped by Kyro",
-    "licenca": "CC BY-SA 2.0",
-    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_WWDC07_(cropped).jpg",
-    "descricao": "Steve Jobs at the WWDC 07",
-    "largura": 957,
-    "altura": 1412,
-    "alteracoes": "Nenhuma",
-    "credito": "Foto: Acaben, cropped by Kyro / Wikimedia Commons, CC BY-SA 2.0"
-  },
-  "steve-jobs/05": {
-    "nome": "Steve Jobs",
-    "arquivo": "midia/fotos/steve-jobs/05.jpg",
-    "autor": "Matthew Yohe",
-    "licenca": "CC BY 3.0",
-    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_with_MacBook_Air.jpg",
-    "descricao": "Steve Jobs with his MacBook Air at Macworld 2008.",
-    "largura": 1280,
-    "altura": 853,
-    "alteracoes": "Nenhuma",
-    "credito": "Foto: Matthew Yohe / Wikimedia Commons, CC BY 3.0"
-  },
-  "steve-jobs/06": {
-    "nome": "Steve Jobs",
-    "arquivo": "midia/fotos/steve-jobs/06.jpg",
-    "autor": "Joi Ito from Inbamura, Japan",
-    "licenca": "CC BY 2.0",
-    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_and_Bill_Gates_(522695099).jpg",
-    "descricao": "Walter Mossberg and Kara Swisher interview Steve Jobs and Bill Gates at 'D5: All Things Digital' conference in Carlsbad,",
-    "largura": 2400,
-    "altura": 1712,
-    "alteracoes": "Redimensionada",
-    "credito": "Foto: Joi Ito from Inbamura, Japan / Wikimedia Commons, CC BY 2.0 (redimensionada)"
-  },
-  "steve-jobs/07": {
-    "nome": "Steve Jobs",
-    "arquivo": "midia/fotos/steve-jobs/07.jpg",
-    "autor": "Steve Jurvetson from Menlo Park, USA",
-    "licenca": "CC BY 2.0",
-    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_in_2007_(3x4_crop).jpg",
-    "descricao": "Cropped photo of Steve Jobs",
-    "largura": 780,
-    "altura": 1040,
-    "alteracoes": "Nenhuma",
-    "credito": "Foto: Steve Jurvetson from Menlo Park, USA / Wikimedia Commons, CC BY 2.0"
+    "autor": "White House Photographic Office",
+    "licenca": "Domínio público",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:President_Ronald_Reagan_During_a_Ceremony_to_Present_The_1985_National_Technology_Awards_to_Steven_Jobs_in_The_East_Room_-_DPLA_-_1815e3d0c5e1c7a7dbd5d0956ab485cc.jpg",
+    "descricao": "Jobs recebe a National Medal of Technology, Casa Branca, 19 de fevereiro de 1985",
+    "largura": 1200,
+    "altura": 1500,
+    "alteracoes": "Recortada em Steve Jobs",
+    "credito": "Foto: White House Photographic Office, 1985 (domínio público)"
   },
   "steve-jobs/01": {
     "nome": "Steve Jobs",
@@ -138,7 +105,9 @@
     "pagina_commons": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP_(cropped_2).jpg",
     "descricao": "Steve Jobs mostra o iPhone 4 na WWDC, 7 de junho de 2010",
     "alteracoes": "Redimensionada para 1440 px",
-    "credito": "Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada)"
+    "credito": "Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0 (redimensionada)",
+    "largura": 2400,
+    "altura": 2323
   },
   "henry-ford/01": {
     "nome": "Henry Ford",
@@ -414,5 +383,77 @@
     "altura": 1280,
     "alteracoes": "Redimensionada para 1920 px de largura",
     "credito": "Foto: Kristin Hardwick / Wikimedia Commons, CC0"
+  },
+  "oprah-winfrey/01": {
+    "nome": "Oprah Winfrey",
+    "arquivo": "midia/fotos/oprah-winfrey/01.jpg",
+    "autor": "aphrodite-in-nyc (Flickr)",
+    "licenca": "CC BY 2.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_in_2014.jpg",
+    "descricao": "Oprah em Miami na turnê \"The Life You Want\", outubro de 2014",
+    "largura": 1809,
+    "altura": 2400,
+    "alteracoes": "Redimensionada",
+    "credito": "Foto: aphrodite-in-nyc (Flickr) / Wikimedia Commons, CC BY 2.0 (redimensionada)"
+  },
+  "oprah-winfrey/02": {
+    "nome": "Oprah Winfrey",
+    "arquivo": "midia/fotos/oprah-winfrey/02.jpg",
+    "autor": "Maryland GovPics (Joe Andrucyk, Patrick Siebert)",
+    "licenca": "CC BY 2.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_Pre_Inaugural_Reception_(52639507800)_(cropped).jpg",
+    "descricao": "Oprah na recepção pré-posse do governador Wes Moore, Maryland, janeiro de 2023",
+    "largura": 1425,
+    "altura": 1900,
+    "alteracoes": "Nenhuma",
+    "credito": "Foto: Maryland GovPics (Joe Andrucyk, Patrick Siebert) / Wikimedia Commons, CC BY 2.0"
+  },
+  "oprah-winfrey/03": {
+    "nome": "Oprah Winfrey",
+    "arquivo": "midia/fotos/oprah-winfrey/03.jpg",
+    "autor": "Greg Hernandez",
+    "licenca": "CC BY 2.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_at_2011_TCA.jpg",
+    "descricao": "Oprah no TCA 2011",
+    "largura": 1800,
+    "altura": 2400,
+    "alteracoes": "Redimensionada",
+    "credito": "Foto: Greg Hernandez / Wikimedia Commons, CC BY 2.0 (redimensionada)"
+  },
+  "oprah-winfrey/04": {
+    "nome": "Oprah Winfrey",
+    "arquivo": "midia/fotos/oprah-winfrey/04.jpg",
+    "autor": "Bill Ebbesen",
+    "licenca": "CC BY 3.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_in_Strøget,_Denmark_on_30_September_2009_(cropped).jpg",
+    "descricao": "Oprah em Copenhague, 30 de setembro de 2009",
+    "largura": 1919,
+    "altura": 2400,
+    "alteracoes": "Redimensionada",
+    "credito": "Foto: Bill Ebbesen / Wikimedia Commons, CC BY 3.0 (redimensionada)"
+  },
+  "oprah-winfrey/05": {
+    "nome": "Oprah Winfrey",
+    "arquivo": "midia/fotos/oprah-winfrey/05.jpg",
+    "autor": "Jarc12030",
+    "licenca": "CC BY-SA 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_presents_Sidney_Poitier_with_the_Gold_Medal_of_the_Academy_of_Achievement_in_Los_Angeles_in_2014.jpg",
+    "descricao": "Oprah na premiação da Academy of Achievement, Los Angeles, 2014",
+    "largura": 1020,
+    "altura": 1275,
+    "alteracoes": "Recortada no rosto de Oprah",
+    "credito": "Foto: Jarc12030 / Wikimedia Commons, CC BY-SA 4.0 (recortada)"
+  },
+  "oprah-winfrey/06": {
+    "nome": "Oprah Winfrey",
+    "arquivo": "midia/fotos/oprah-winfrey/06.jpg",
+    "autor": "Gedalia Vera",
+    "licenca": "CC BY-SA 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_and_Nancy_Pelosi_in_DC_Photo_By_Gedalia_Vera.jpg",
+    "descricao": "Oprah em Washington, D.C. (de perfil, sorrindo)",
+    "largura": 1984,
+    "altura": 2480,
+    "alteracoes": "Recortada no rosto de Oprah",
+    "credito": "Foto: Gedalia Vera / Wikimedia Commons, CC BY-SA 4.0 (recortada)"
   }
 }

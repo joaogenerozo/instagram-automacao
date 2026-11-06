@@ -284,7 +284,7 @@
   },
   {
     "id": "gnz01_2026-11-06_p3",
-    "status": "pulado",
+    "status": "pendente",
     "quando": "2026-11-06T18:30:00-03:00",
     "tipo": "carrossel",
     "tema": "marca",
@@ -296,11 +296,11 @@
       "midia/gnz01/2026-11-06/p3/04.jpg",
       "midia/gnz01/2026-11-06/p3/05.jpg",
       "midia/gnz01/2026-11-06/p3/06.jpg",
-      "midia/gnz01/2026-11-06/p3/07.jpg"
+      "midia/gnz01/2026-11-06/p3/07.jpg",
+      "midia/gnz01/2026-11-06/p3/08.jpg"
     ],
-    "legenda": "\"There is no such thing as failure. Failure is just life trying to move us in another direction.\"\n\"Não existe fracasso. O fracasso é só a vida tentando nos mover em outra direção.\"\nOprah Winfrey, discurso de formatura em Harvard (2013).\n\nNo negócio, uma tentativa que não deu certo mostra o próximo ajuste. Arraste para ver como aplicar. 👉\n\n💬 Qual tentativa te ensinou mais?\n💾 Salve para reler.\n\nQuer ajustar a presença digital do seu negócio? Fale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #oprahwinfrey #mentalidadeempreendedora #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: aphrodite-in-nyc from new york city / Wikimedia Commons, CC BY 2.0 (redimensionada)",
-    "fotos_por_lamina": false,
-    "motivo": "fotos sem nitidez suficiente"
+    "legenda": "\"There is no such thing as failure. Failure is just life trying to move us in another direction.\"\n\"Não existe fracasso. O fracasso é só a vida tentando nos mover em outra direção.\"\nOprah Winfrey, discurso de formatura em Harvard (2013).\n\nNo negócio, uma tentativa que não deu certo mostra o próximo ajuste. Arraste para ver como aplicar. 👉\n\n💬 Qual tentativa te ensinou mais?\n💾 Salve para reler.\n\nQuer ajustar a presença digital do seu negócio? Fale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #oprahwinfrey #mentalidadeempreendedora #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Fotos: Foto: Bill Ebbesen / Wikimedia Commons, CC BY 3.0 (redimensionada); Foto: Gedalia Vera / Wikimedia Commons, CC BY-SA 4.0 (recortada); Foto: Greg Hernandez / Wikimedia Commons, CC BY 2.0 (redimensionada); Foto: Jarc12030 / Wikimedia Commons, CC BY-SA 4.0 (recortada); Foto: Maryland GovPics (Joe Andrucyk, Patrick Siebert) / Wikimedia Commons, CC BY 2.0; Foto: aphrodite-in-nyc (Flickr) / Wikimedia Commons, CC BY 2.0 (redimensionada)",
+    "fotos_por_lamina": true
   },
   {
     "id": "gnz01_2026-11-06_reel1",
@@ -308,12 +308,12 @@
     "quando": "2026-11-06T19:00:00-03:00",
     "tipo": "reel",
     "tema": "sites",
-    "titulo": "Como fica o site do seu negócio (vídeo)",
+    "titulo": "Apresentação GNZ01 (vídeo com roteiro)",
     "imagens": [
-      "midia/gnz01/videos/como-fica-seu-site.mp4",
-      "midia/gnz01/videos/como-fica-seu-site.jpg"
+      "midia/gnz01/videos/apresentacao-gnz01.mp4",
+      "midia/gnz01/videos/apresentacao-gnz01.jpg"
     ],
-    "legenda": "Como fica o site do seu negócio? 👇\n\nMostrei aqui, parte por parte, o que o seu cliente vê quando abre o seu site no celular:\n1. Capa com a sua chamada e o botão do WhatsApp\n2. Seus serviços, fáceis de achar\n3. Fotos do seu trabalho\n4. Endereço, mapa e horários\n5. Botão para o cliente falar com você\n\nE tudo fica com a cara do seu negócio: clínica, pizzaria, barbearia, loja...\n\nQuer um site assim? Me chama no WhatsApp (19) 97829-9585 ou aqui no direct.\n\nDemonstração ilustrativa, nomes fictícios.\n.\n.\n#criacaodesites #siteprofissional #presencadigital #pequenosnegocios #gnz01 #solucoesdigitais"
+    "legenda": "Seu negócio merece uma presença digital à altura da qualidade dos seus serviços. ✨\n\nUm site moderno, elegante e feito para transmitir confiança desde o primeiro acesso. Seus clientes encontram seus serviços, conhecem seus produtos, agendam e falam direto com você.\n\nMais do que um site: uma ferramenta para fortalecer sua marca, melhorar o atendimento e criar novas oportunidades.\n\nChegou a hora de levar seu negócio para outro nível. 🚀\nFale com a GNZ01: WhatsApp (19) 97829-9585 ou aqui no direct.\n\nGNZ01 · Tecnologia, design e experiências digitais. Seu próximo passo começa aqui.\n\nDemonstração ilustrativa, nomes fictícios.\n.\n.\n#criacaodesites #siteprofissional #presencadigital #pequenosnegocios #gnz01 #solucoesdigitais"
   },
   {
     "id": "gnz01_2026-11-06_story6",
@@ -515,6 +515,19 @@
     ],
     "legenda": "\"Aprendi a escutar o que não quero ouvir.\"\nLuiza Helena Trajano, em entrevista à Forbes Brasil (2023).\n\nCrítica de cliente é um mapa do que melhorar. Arraste para ver como aplicar no seu negócio. 👉\n\n💬 Qual reclamação mais te ensinou?\n💾 Salve para reler.\n\nQuer facilitar o contato com seus clientes? Fale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #luizatrajano #atendimentoaocliente #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: Web Summit Rio / Wikimedia Commons, CC BY 2.0 (redimensionada)",
     "fotos_por_lamina": false
+  },
+  {
+    "id": "gnz01_2026-11-07_reel1",
+    "status": "pendente",
+    "quando": "2026-11-07T19:00:00-03:00",
+    "tipo": "reel",
+    "tema": "sites",
+    "titulo": "Como fica o site do seu negócio (vídeo)",
+    "imagens": [
+      "midia/gnz01/videos/como-fica-seu-site.mp4",
+      "midia/gnz01/videos/como-fica-seu-site.jpg"
+    ],
+    "legenda": "Como fica o site do seu negócio? 👇\n\nMostrei aqui, parte por parte, o que o seu cliente vê quando abre o seu site no celular:\n1. Capa com a sua chamada e o botão do WhatsApp\n2. Seus serviços, fáceis de achar\n3. Fotos do seu trabalho\n4. Endereço, mapa e horários\n5. Botão para o cliente falar com você\n\nE tudo fica com a cara do seu negócio: clínica, pizzaria, barbearia, loja...\n\nQuer um site assim? Me chama no WhatsApp (19) 97829-9585 ou aqui no direct.\n\nDemonstração ilustrativa, nomes fictícios.\n.\n.\n#criacaodesites #siteprofissional #presencadigital #pequenosnegocios #gnz01 #solucoesdigitais"
   },
   {
     "id": "gnz01_2026-11-07_story6",
