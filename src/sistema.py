@@ -307,7 +307,7 @@ CENARIO_TEMA = {"sites": "escritorio", "paginas": "loja", "agenda": "salao-de-be
                 "catalogo": "loja", "marca": "escritorio"}
 
 
-def foto_capa(p):
+def foto_capa(p, permitir_ia=False):
     """Foto profissional licenciada para a capa: campo "cenario" do post ou padrão do tema.
     Procura midia/fotos/cenarios/<slug>.jpg e o crédito em creditos.json ("cenarios/<slug>")."""
     import json
@@ -315,7 +315,9 @@ def foto_capa(p):
     slug = p.get("cenario") or CENARIO_TEMA.get(p.get("tema", ""))
     creds = json.load(open(raiz / "midia/fotos/creditos.json"))
     ia = raiz / f"midia/fotos/ia/{slug}.jpg"
-    if slug and ia.exists() and creds.get(f"ia/{slug}"):
+    # Capa com IA só nos carrosséis de apresentação de produtos/serviços (regra do João, 06/11).
+    # Carrosséis de especialistas/personalidades e de dicas nunca usam imagem gerada por IA.
+    if permitir_ia and slug and ia.exists() and creds.get(f"ia/{slug}"):
         return str(ia), creds[f"ia/{slug}"]["credito"]
     f = raiz / f"midia/fotos/cenarios/{slug}.jpg" if slug else None
     if not f or not f.exists():
@@ -349,10 +351,10 @@ def cena_capa(p, cfg, tam=(W, 640)):
     return img
 
 
-def carrossel(p, pasta, cfg, foto=None, credito=None):
+def carrossel(p, pasta, cfg, foto=None, credito=None, permitir_ia=False):
     """p: {titulo, subtitulo, hashtags, slides:[{titulo, texto, layout?}], cta_final}. Devolve a lista de arquivos."""
     if not foto:
-        foto, credito = foto_capa(p)
+        foto, credito = foto_capa(p, permitir_ia)
     pasta = Path(pasta)
     pasta.mkdir(parents=True, exist_ok=True)
     for velho in pasta.glob("*.jpg"):

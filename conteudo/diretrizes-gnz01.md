@@ -122,3 +122,8 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 - Ao escrever conteúdo, marque o destaque com **asteriscos** (ex.: "Seu cliente **agenda sozinho**"). Sem marcação, o sistema destaca o fim da frase. Campo opcional "layout" por slide força a lâmina.
 - Capas com IA (pedido do João, 05/11): cada carrossel comum tem "prompt_capa" (cena com pessoa fictícia, estilo cinematográfico, espaço escuro no topo). tools/capas_ia.py gera com o Gemini (GEMINI_API_KEY) em midia/fotos/ia/<cenario>.jpg; a capa usa, nesta ordem: imagem de IA, foto licenciada, cena criada no código. Nunca retratar pessoas reais ou famosas com IA; crédito "Imagem ilustrativa gerada por IA (Gemini)".
 - Posts de apresentação de serviço (pedido do João, 06/11): no feed, saem como carrossel do design system (src/servicos.py: capa com foto, 4 lâminas com funcionalidades reais, CTA). A peça vitrine com celular e monitor fica só nos stories de demonstração.
+
+## 21. Onde pode usar imagem gerada por IA (regra do João, 06/11/2026)
+- Capa com IA **somente** nos carrosséis de apresentação de produtos/serviços (posts com "vitrine": cardápio, agenda, catálogo, site).
+- **Nunca** usar IA nos carrosséis de especialistas/personalidades (sempre foto real licenciada e creditada) nem nos carrosséis de dicas.
+- Travado no código: `foto_capa(p, permitir_ia=False)`; só `servicos.carrossel_servico` passa `permitir_ia=True`; `tools/capas_ia.py` ignora posts sem "vitrine".

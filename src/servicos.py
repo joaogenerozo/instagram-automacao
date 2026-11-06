@@ -34,4 +34,4 @@ def carrossel_servico(post, pasta, cfg):
          "hashtags": post.get("hashtags") or [], "slides": post.get("slides") or slides,
          "cta_final": post.get("cta_final") or cta, "cenario": post.get("cenario") or cen,
          "prompt_capa": post.get("prompt_capa")}
-    return ss.carrossel(p, pasta, cfg)
+    return ss.carrossel(p, pasta, cfg, permitir_ia=True)  # único lugar onde capa com IA é permitida
