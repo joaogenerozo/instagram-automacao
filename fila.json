@@ -161,7 +161,7 @@
   },
   {
     "id": "gnz01_2026-11-06_story1",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T07:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -169,11 +169,25 @@
     "imagens": [
       "midia/gnz01/2026-11-06/stories/1.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "17933547390163460"
+  },
+  {
+    "id": "gnz01_2026-11-06_quote1hd",
+    "status": "publicado",
+    "quando": "2026-11-06T07:31:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Oprah Winfrey (repostado em alta resolução)",
+    "imagens": [
+      "midia/gnz01/2026-11-06/stories/quote-01-hd.jpg"
+    ],
+    "legenda": "",
+    "media_id": "18105065108376116"
   },
   {
     "id": "gnz01_2026-11-06_1",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T08:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -181,11 +195,12 @@
     "imagens": [
       "midia/gnz01/2026-11-06/1/01.jpg"
     ],
-    "legenda": "Antes de comprar, o cliente pesquisa. Digita o serviço, o nome da cidade e escolhe entre quem aparece.\n\nSe o seu negócio não está ali, a decisão acontece sem você. Não porque o seu trabalho é pior, mas porque ele não foi encontrado.\n\nUm site profissional coloca sua empresa nessa vitrine: mostra o que você faz, responde as dúvidas e leva o cliente direto para a conversa.\n\n👉 Quer saber como o seu negócio pode aparecer? Solicite um orçamento personalizado: (19) 97829-9585\n.\n.\n#criacaodesites #sitesparaempresas #negociolocal #presencadigital #sitesparapequenasempresas #facaseusite #siteresponsivo #webdesignerbrasil #orcamentodesite #siteprofissional #marketingdigital #empreendedorismo"
+    "legenda": "Antes de comprar, o cliente pesquisa. Digita o serviço, o nome da cidade e escolhe entre quem aparece.\n\nSe o seu negócio não está ali, a decisão acontece sem você. Não porque o seu trabalho é pior, mas porque ele não foi encontrado.\n\nUm site profissional coloca sua empresa nessa vitrine: mostra o que você faz, responde as dúvidas e leva o cliente direto para a conversa.\n\n👉 Quer saber como o seu negócio pode aparecer? Solicite um orçamento personalizado: (19) 97829-9585\n.\n.\n#criacaodesites #sitesparaempresas #negociolocal #presencadigital #sitesparapequenasempresas #facaseusite #siteresponsivo #webdesignerbrasil #orcamentodesite #siteprofissional #marketingdigital #empreendedorismo",
+    "media_id": "17971159010965477"
   },
   {
     "id": "gnz01_2026-11-06_story2",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T09:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -193,11 +208,12 @@
     "imagens": [
       "midia/gnz01/2026-11-06/stories/2.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18136908289782536"
   },
   {
     "id": "gnz01_2026-11-06_story3",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T11:00:00-03:00",
     "tipo": "story",
     "tema": "site",
@@ -205,11 +221,12 @@
     "imagens": [
       "midia/gnz01/2026-11-06/stories/3.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "17928494976429680"
   },
   {
     "id": "gnz01_2026-11-06_2",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T12:00:00-03:00",
     "tipo": "carrossel",
     "tema": "sites",
@@ -225,11 +242,12 @@
       "midia/gnz01/2026-11-06/2/08.jpg",
       "midia/gnz01/2026-11-06/2/09.jpg"
     ],
-    "legenda": "Muita gente diz que ainda não precisa de site. Mas os sinais costumam aparecer antes da decisão. 👀\n\nArrasta para o lado e conte quantos desses você vive hoje.\n\nSe marcou dois ou mais, o seu negócio já está pedindo uma presença digital profissional.\n\n💾 Salve para revisar depois\n💬 Me diga no Direct quantos você marcou, ou fale direto no WhatsApp: (19) 97829-9585\n.\n.\n#criacaodesites #siteprofissional #pequenasempresas #profissionalautonomo #sitesparapequenasempresas #facaseusite #siteresponsivo #webdesignerbrasil #orcamentodesite #sitesparaempresas #marketingdigital #empreendedorismo"
+    "legenda": "Muita gente diz que ainda não precisa de site. Mas os sinais costumam aparecer antes da decisão. 👀\n\nArrasta para o lado e conte quantos desses você vive hoje.\n\nSe marcou dois ou mais, o seu negócio já está pedindo uma presença digital profissional.\n\n💾 Salve para revisar depois\n💬 Me diga no Direct quantos você marcou, ou fale direto no WhatsApp: (19) 97829-9585\n.\n.\n#criacaodesites #siteprofissional #pequenasempresas #profissionalautonomo #sitesparapequenasempresas #facaseusite #siteresponsivo #webdesignerbrasil #orcamentodesite #sitesparaempresas #marketingdigital #empreendedorismo",
+    "media_id": "17903682813378248"
   },
   {
     "id": "gnz01_2026-11-06_quote2",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T13:00:00-03:00",
     "tipo": "story",
     "tema": "citacao",
@@ -237,11 +255,12 @@
     "imagens": [
       "midia/gnz01/2026-11-06/stories/quote-02.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "17907194688599271"
   },
   {
     "id": "gnz01_2026-11-06_story4",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T13:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -249,11 +268,12 @@
     "imagens": [
       "midia/gnz01/2026-11-06/stories/4.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18381462754210881"
   },
   {
     "id": "gnz01_2026-11-06_3",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T15:00:00-03:00",
     "tipo": "carrossel",
     "tema": "cardapio",
@@ -268,11 +288,12 @@
     ],
     "legenda": "Sexta à noite, pedidos chegando por áudio, foto do cardápio antigo, cliente perguntando o preço da borda... 🍕\n\nNo cardápio digital, o cliente escolhe sabores, bordas e bebidas, vê o total e envia o pedido pronto no seu WhatsApp. Você recebe tudo organizado e só confirma.\n\nEsta é uma demonstração de como fica. O seu sai com o nome, as cores e os sabores da sua pizzaria.\n\n👉 Quer ver como ficaria o seu? Solicite uma demonstração: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#cardapiodigital #pizzaria #donoderestaurante #deliverydepizza #cardapioonline #pedidopelowhatsapp #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo",
     "capa_canva_design_id": "DAHaGuk9O3w",
-    "capa_credito": "Imagem ilustrativa gerada por IA (Canva)"
+    "capa_credito": "Imagem ilustrativa gerada por IA (Canva)",
+    "media_id": "17978920134135950"
   },
   {
     "id": "gnz01_2026-11-06_story5",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T16:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -280,11 +301,12 @@
     "imagens": [
       "midia/gnz01/2026-11-06/stories/5.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18080045468571745"
   },
   {
     "id": "gnz01_2026-11-06_p3",
-    "status": "pulado",
+    "status": "publicado",
     "quando": "2026-11-06T18:30:00-03:00",
     "tipo": "carrossel",
     "tema": "marca",
@@ -296,28 +318,30 @@
       "midia/gnz01/2026-11-06/p3/04.jpg",
       "midia/gnz01/2026-11-06/p3/05.jpg",
       "midia/gnz01/2026-11-06/p3/06.jpg",
-      "midia/gnz01/2026-11-06/p3/07.jpg"
+      "midia/gnz01/2026-11-06/p3/07.jpg",
+      "midia/gnz01/2026-11-06/p3/08.jpg"
     ],
-    "legenda": "\"There is no such thing as failure. Failure is just life trying to move us in another direction.\"\n\"Não existe fracasso. O fracasso é só a vida tentando nos mover em outra direção.\"\nOprah Winfrey, discurso de formatura em Harvard (2013).\n\nNo negócio, uma tentativa que não deu certo mostra o próximo ajuste. Arraste para ver como aplicar. 👉\n\n💬 Qual tentativa te ensinou mais?\n💾 Salve para reler.\n\nQuer ajustar a presença digital do seu negócio? Fale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #oprahwinfrey #mentalidadeempreendedora #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: aphrodite-in-nyc from new york city / Wikimedia Commons, CC BY 2.0 (redimensionada)",
-    "fotos_por_lamina": false,
-    "motivo": "fotos sem nitidez suficiente"
+    "legenda": "\"There is no such thing as failure. Failure is just life trying to move us in another direction.\"\n\"Não existe fracasso. O fracasso é só a vida tentando nos mover em outra direção.\"\nOprah Winfrey, discurso de formatura em Harvard (2013).\n\nNo negócio, uma tentativa que não deu certo mostra o próximo ajuste. Arraste para ver como aplicar. 👉\n\n💬 Qual tentativa te ensinou mais?\n💾 Salve para reler.\n\nQuer ajustar a presença digital do seu negócio? Fale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #oprahwinfrey #mentalidadeempreendedora #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Fotos: Foto: Bill Ebbesen / Wikimedia Commons, CC BY 3.0 (redimensionada); Foto: Gedalia Vera / Wikimedia Commons, CC BY-SA 4.0 (recortada); Foto: Greg Hernandez / Wikimedia Commons, CC BY 2.0 (redimensionada); Foto: Jarc12030 / Wikimedia Commons, CC BY-SA 4.0 (recortada); Foto: Maryland GovPics (Joe Andrucyk, Patrick Siebert) / Wikimedia Commons, CC BY 2.0; Foto: aphrodite-in-nyc (Flickr) / Wikimedia Commons, CC BY 2.0 (redimensionada)",
+    "fotos_por_lamina": true,
+    "media_id": "17915730336540665"
   },
   {
     "id": "gnz01_2026-11-06_reel1",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T19:00:00-03:00",
     "tipo": "reel",
     "tema": "sites",
-    "titulo": "Como fica o site do seu negócio (vídeo)",
+    "titulo": "Apresentação GNZ01 (vídeo com roteiro)",
     "imagens": [
-      "midia/gnz01/videos/como-fica-seu-site.mp4",
-      "midia/gnz01/videos/como-fica-seu-site.jpg"
+      "midia/gnz01/videos/apresentacao-gnz01.mp4",
+      "midia/gnz01/videos/apresentacao-gnz01.jpg"
     ],
-    "legenda": "Como fica o site do seu negócio? 👇\n\nMostrei aqui, parte por parte, o que o seu cliente vê quando abre o seu site no celular:\n1. Capa com a sua chamada e o botão do WhatsApp\n2. Seus serviços, fáceis de achar\n3. Fotos do seu trabalho\n4. Endereço, mapa e horários\n5. Botão para o cliente falar com você\n\nE tudo fica com a cara do seu negócio: clínica, pizzaria, barbearia, loja...\n\nQuer um site assim? Me chama no WhatsApp (19) 97829-9585 ou aqui no direct.\n\nDemonstração ilustrativa, nomes fictícios.\n.\n.\n#criacaodesites #siteprofissional #presencadigital #pequenosnegocios #gnz01 #solucoesdigitais"
+    "legenda": "Seu negócio merece uma presença digital à altura da qualidade dos seus serviços. ✨\n\nUm site moderno, elegante e feito para transmitir confiança desde o primeiro acesso. Seus clientes encontram seus serviços, conhecem seus produtos, agendam e falam direto com você.\n\nMais do que um site: uma ferramenta para fortalecer sua marca, melhorar o atendimento e criar novas oportunidades.\n\nChegou a hora de levar seu negócio para outro nível. 🚀\nFale com a GNZ01: WhatsApp (19) 97829-9585 ou aqui no direct.\n\nGNZ01 · Tecnologia, design e experiências digitais. Seu próximo passo começa aqui.\n\nDemonstração ilustrativa, nomes fictícios.\n.\n.\n#criacaodesites #siteprofissional #presencadigital #pequenosnegocios #gnz01 #solucoesdigitais",
+    "media_id": "17988759258102094"
   },
   {
     "id": "gnz01_2026-11-06_story6",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T19:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -325,11 +349,12 @@
     "imagens": [
       "midia/gnz01/2026-11-06/stories/6.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18141771802546082"
   },
   {
     "id": "gnz01_2026-11-06_5",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T21:00:00-03:00",
     "tipo": "carrossel",
     "tema": "marca",
@@ -344,11 +369,14 @@
       "midia/gnz01/2026-11-06/5/07.jpg",
       "midia/gnz01/2026-11-06/5/08.jpg"
     ],
-    "legenda": "\"Failure is only the opportunity more intelligently to begin again.\"\n\"O fracasso é apenas a oportunidade de recomeçar de forma mais inteligente.\"\nHenry Ford, My Life and Work (1922).\n\nUm site que não trouxe clientes ou um perfil que não engajou não é o fim: é informação para a próxima versão.\n\nArraste para ver como aplicar isso no seu negócio. 👉\n\n💬 Conte nos comentários: o que você já tentou e deixou de lado?\n💾 Salve para lembrar quando for recomeçar.\n\nQuer refazer sua presença digital com mais estratégia? Fale com a GNZ01: (19) 97829-9585\n\nFonte da citação: Henry Ford e Samuel Crowther, My Life and Work (1922), Introdução.\n📷 Foto: Fred Hartsook, c. 1919 / Library of Congress (domínio público)\n.\n.\n#empreendedorismo #henryford #melhoriacontinua #gestaodenegocios #gnz01 #solucoesdigitais #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital"
+    "legenda": "\"Failure is only the opportunity more intelligently to begin again.\"\n\"O fracasso é apenas a oportunidade de recomeçar de forma mais inteligente.\"\nHenry Ford, My Life and Work (1922).\n\nUm site que não trouxe clientes ou um perfil que não engajou não é o fim: é informação para a próxima versão.\n\nArraste para ver como aplicar isso no seu negócio. 👉\n\n💬 Conte nos comentários: o que você já tentou e deixou de lado?\n💾 Salve para lembrar quando for recomeçar.\n\nQuer refazer sua presença digital com mais estratégia? Fale com a GNZ01: (19) 97829-9585\n\nFonte da citação: Henry Ford e Samuel Crowther, My Life and Work (1922), Introdução.\n📷 Foto: Fred Hartsook, c. 1919 / Library of Congress (domínio público)\n.\n.\n#empreendedorismo #henryford #melhoriacontinua #gestaodenegocios #gnz01 #solucoesdigitais #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital",
+    "media_id": "18099019481540820",
+    "permalink": "https://www.instagram.com/p/Dfa2hseCuk3/",
+    "publicado_em": "2026-11-07T00:04:48+0000"
   },
   {
     "id": "gnz01_2026-11-06_story7",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-06T22:00:00-03:00",
     "tipo": "story",
     "tema": "vendas",
@@ -356,23 +384,13 @@
     "imagens": [
       "midia/gnz01/2026-11-06/stories/7.jpg"
     ],
-    "legenda": ""
-  },
-  {
-    "id": "gnz01_2026-11-07_quote1",
-    "status": "pendente",
-    "quando": "2026-11-07T07:00:00-03:00",
-    "tipo": "story",
-    "tema": "citacao",
-    "titulo": "Luiza Helena Trajano: Aprendi a escutar o que não quero ouvir.",
-    "imagens": [
-      "midia/gnz01/2026-11-07/stories/quote-01.jpg"
-    ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "17954767887294839",
+    "publicado_em": "2026-11-07T01:03:00+0000"
   },
   {
     "id": "gnz01_2026-11-07_story1",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-07T07:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -380,11 +398,27 @@
     "imagens": [
       "midia/gnz01/2026-11-07/stories/1.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18112910675225756",
+    "publicado_em": "2026-11-07T10:36:45+0000"
+  },
+  {
+    "id": "gnz01_2026-11-07_quote1",
+    "status": "publicado",
+    "quando": "2026-11-07T07:40:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Luiza Helena Trajano: Aprendi a escutar o que não quero ouvir.",
+    "imagens": [
+      "midia/gnz01/2026-11-07/stories/quote-01.jpg"
+    ],
+    "legenda": "",
+    "media_id": "18439654192180960",
+    "publicado_em": "2026-11-07T10:43:04+0000"
   },
   {
     "id": "gnz01_2026-11-07_1",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-07T08:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -392,11 +426,13 @@
     "imagens": [
       "midia/gnz01/2026-11-07/1/01.jpg"
     ],
-    "legenda": "\"Mas eu já tenho Instagram.\" Ótimo, ele é essencial. Só que ele não faz tudo. 📲\n\nO Instagram é a vitrine que atrai. O site é o lugar onde o cliente entende o que você faz, confia e decide falar com você. E é ele que aparece quando alguém pesquisa no Google.\n\nOs dois juntos formam a estratégia completa.\n\n👉 Quer um site que trabalhe junto com o seu perfil? (19) 97829-9585\n.\n.\n#criacaodesites #marketingdigital #instagramparanegocios #siteprofissional #sitesparapequenasempresas #facaseusite #siteresponsivo #webdesignerbrasil #orcamentodesite #sitesparaempresas #empreendedorismo"
+    "legenda": "\"Mas eu já tenho Instagram.\" Ótimo, ele é essencial. Só que ele não faz tudo. 📲\n\nO Instagram é a vitrine que atrai. O site é o lugar onde o cliente entende o que você faz, confia e decide falar com você. E é ele que aparece quando alguém pesquisa no Google.\n\nOs dois juntos formam a estratégia completa.\n\n👉 Quer um site que trabalhe junto com o seu perfil? (19) 97829-9585\n.\n.\n#criacaodesites #marketingdigital #instagramparanegocios #siteprofissional #sitesparapequenasempresas #facaseusite #siteresponsivo #webdesignerbrasil #orcamentodesite #sitesparaempresas #empreendedorismo",
+    "media_id": "18189726853407145",
+    "publicado_em": "2026-11-07T11:02:30+0000"
   },
   {
     "id": "gnz01_2026-11-07_story2",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-07T09:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -404,11 +440,13 @@
     "imagens": [
       "midia/gnz01/2026-11-07/stories/2.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "17939479644406793",
+    "publicado_em": "2026-11-07T12:37:12+0000"
   },
   {
     "id": "gnz01_2026-11-07_story3",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-07T11:00:00-03:00",
     "tipo": "story",
     "tema": "site",
@@ -416,11 +454,13 @@
     "imagens": [
       "midia/gnz01/2026-11-07/stories/3.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18097963523259717",
+    "publicado_em": "2026-11-07T14:03:17+0000"
   },
   {
     "id": "gnz01_2026-11-07_2",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-07T12:00:00-03:00",
     "tipo": "carrossel",
     "tema": "agenda",
@@ -434,11 +474,14 @@
       "midia/gnz01/2026-11-07/2/06.jpg",
       "midia/gnz01/2026-11-07/2/07.jpg"
     ],
-    "legenda": "Ontem perguntei quantas mensagens você responde só para marcar horário. Hoje, a solução. ✂️💅\n\nArrasta para o lado e veja como o cliente agenda sozinho, em 5 passos, sem precisar falar com você.\n\nVocê ganha tempo para atender, e o cliente marca na hora em que lembra, até de madrugada.\n\n👉 Solicite uma demonstração da agenda online: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#agendaonline #salaodebeleza #barbearia #sistemadeagendamento #agendamentoonline #profissionaldabeleza #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo"
+    "legenda": "Ontem perguntei quantas mensagens você responde só para marcar horário. Hoje, a solução. ✂️💅\n\nArrasta para o lado e veja como o cliente agenda sozinho, em 5 passos, sem precisar falar com você.\n\nVocê ganha tempo para atender, e o cliente marca na hora em que lembra, até de madrugada.\n\n👉 Solicite uma demonstração da agenda online: (19) 97829-9585\n\n💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: (19) 97829-9585\n.\n.\n#agendaonline #salaodebeleza #barbearia #sistemadeagendamento #agendamentoonline #profissionaldabeleza #criacaodesites #siteprofissional #sitesparaempresas #marketingdigital #empreendedorismo",
+    "media_id": "18121236605067780",
+    "permalink": "https://www.instagram.com/p/DfcdWLXjd55/",
+    "publicado_em": "2026-11-07T15:03:19+0000"
   },
   {
     "id": "gnz01_2026-11-07_quote2",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-07T13:00:00-03:00",
     "tipo": "story",
     "tema": "citacao",
@@ -446,7 +489,8 @@
     "imagens": [
       "midia/gnz01/2026-11-07/stories/quote-02.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "motivo": "foto de Jeff Bezos reprovada no controle de nitidez (175 < 220)"
   },
   {
     "id": "gnz01_2026-11-07_story4",
@@ -517,6 +561,19 @@
     "fotos_por_lamina": false
   },
   {
+    "id": "gnz01_2026-11-07_reel1",
+    "status": "pendente",
+    "quando": "2026-11-07T19:00:00-03:00",
+    "tipo": "reel",
+    "tema": "sites",
+    "titulo": "Como fica o site do seu negócio (vídeo)",
+    "imagens": [
+      "midia/gnz01/videos/como-fica-seu-site.mp4",
+      "midia/gnz01/videos/como-fica-seu-site.jpg"
+    ],
+    "legenda": "Como fica o site do seu negócio? 👇\n\nMostrei aqui, parte por parte, o que o seu cliente vê quando abre o seu site no celular:\n1. Capa com a sua chamada e o botão do WhatsApp\n2. Seus serviços, fáceis de achar\n3. Fotos do seu trabalho\n4. Endereço, mapa e horários\n5. Botão para o cliente falar com você\n\nE tudo fica com a cara do seu negócio: clínica, pizzaria, barbearia, loja...\n\nQuer um site assim? Me chama no WhatsApp (19) 97829-9585 ou aqui no direct.\n\nDemonstração ilustrativa, nomes fictícios.\n.\n.\n#criacaodesites #siteprofissional #presencadigital #pequenosnegocios #gnz01 #solucoesdigitais"
+  },
+  {
     "id": "gnz01_2026-11-07_story6",
     "status": "pendente",
     "quando": "2026-11-07T19:30:00-03:00",
@@ -573,18 +630,6 @@
     "legenda": ""
   },
   {
-    "id": "gnz01_2026-11-08_quote1",
-    "status": "pendente",
-    "quando": "2026-11-08T07:00:00-03:00",
-    "tipo": "story",
-    "tema": "citacao",
-    "titulo": "Sara Blakely: Fracasso, para mim, passou a ser não tentar, e não o resultado.",
-    "imagens": [
-      "midia/gnz01/2026-11-08/stories/quote-01.jpg"
-    ],
-    "legenda": ""
-  },
-  {
     "id": "gnz01_2026-11-08_story1",
     "status": "pendente",
     "quando": "2026-11-08T07:30:00-03:00",
@@ -593,6 +638,18 @@
     "titulo": "Domingo também é dia de pensar no negócio.",
     "imagens": [
       "midia/gnz01/2026-11-08/stories/1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-08_quote1",
+    "status": "pendente",
+    "quando": "2026-11-08T07:40:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Sara Blakely: Fracasso, para mim, passou a ser não tentar, e não o resultado.",
+    "imagens": [
+      "midia/gnz01/2026-11-08/stories/quote-01.jpg"
     ],
     "legenda": ""
   },
@@ -980,18 +1037,6 @@
     "legenda": ""
   },
   {
-    "id": "gnz01_2026-11-10_quote1",
-    "status": "pendente",
-    "quando": "2026-11-10T07:00:00-03:00",
-    "tipo": "story",
-    "tema": "citacao",
-    "titulo": "Bill Gates: Seus clientes mais insatisfeitos são sua maior fonte de aprendizado.",
-    "imagens": [
-      "midia/gnz01/2026-11-10/stories/quote-01.jpg"
-    ],
-    "legenda": ""
-  },
-  {
     "id": "gnz01_2026-11-10_story1",
     "status": "pendente",
     "quando": "2026-11-10T07:30:00-03:00",
@@ -1000,6 +1045,18 @@
     "titulo": "Simples para o cliente. Organizado para você.",
     "imagens": [
       "midia/gnz01/2026-11-10/stories/1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "gnz01_2026-11-10_quote1",
+    "status": "pendente",
+    "quando": "2026-11-10T07:40:00-03:00",
+    "tipo": "story",
+    "tema": "citacao",
+    "titulo": "Bill Gates: Seus clientes mais insatisfeitos são sua maior fonte de aprendizado.",
+    "imagens": [
+      "midia/gnz01/2026-11-10/stories/quote-01.jpg"
     ],
     "legenda": ""
   },
