@@ -495,7 +495,7 @@
   },
   {
     "id": "gnz01_2026-11-07_story4",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-07T13:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -505,7 +505,9 @@
     ],
     "legenda": "",
     "tentativas": 1,
-    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)",
+    "media_id": "18137181566500729",
+    "publicado_em": "2026-11-07T16:37:58+0000"
   },
   {
     "id": "gnz01_2026-11-07_3",
@@ -617,7 +619,7 @@
       "midia/gnz01/2026-11-07/p4/06.jpg",
       "midia/gnz01/2026-11-07/p4/07.jpg"
     ],
-    "legenda": "\"One thing I love about customers is that they are divinely discontent.\"\n\"Uma coisa que eu adoro nos clientes é que eles são divinamente insatisfeitos.\"\nJeff Bezos, carta aos acionistas da Amazon (2017).\n\nA expectativa do cliente sobe o tempo todo. Arraste para ver como acompanhar. 👉\n\n💬 O que seu cliente já espera de você?\n💾 Salve para reler.\n\nFale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #jeffbezos #experienciadocliente #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Foto: Steve Jurvetson / Wikimedia Commons, CC BY 2.0 (redimensionada)",
+    "legenda": "\"One thing I love about customers is that they are divinely discontent.\"\n\"Uma coisa que eu adoro nos clientes é que eles são divinamente insatisfeitos.\"\nJeff Bezos, carta aos acionistas da Amazon (2017).\n\nA expectativa do cliente sobe o tempo todo. Arraste para ver como acompanhar. 👉\n\n💬 O que seu cliente já espera de você?\n💾 Salve para reler.\n\nFale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #jeffbezos #experienciadocliente #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Fotos: Foto: Daniel Oberhaus / Wikimedia Commons, CC BY 4.0; Foto: Number 10 (Downing Street) / Wikimedia Commons, CC BY 2.0; Foto: Seattle City Council / Wikimedia Commons, CC BY 2.0 (recortada)",
     "fotos_por_lamina": false
   },
   {
