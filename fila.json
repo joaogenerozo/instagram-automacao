@@ -446,7 +446,7 @@
   },
   {
     "id": "gnz01_2026-11-07_story3",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-07T11:00:00-03:00",
     "tipo": "story",
     "tema": "site",
@@ -454,7 +454,9 @@
     "imagens": [
       "midia/gnz01/2026-11-07/stories/3.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18097963523259717",
+    "publicado_em": "2026-11-07T14:03:17+0000"
   },
   {
     "id": "gnz01_2026-11-07_2",
