@@ -481,7 +481,7 @@
   },
   {
     "id": "gnz01_2026-11-07_quote2",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-07T13:00:00-03:00",
     "tipo": "story",
     "tema": "citacao",
@@ -489,7 +489,8 @@
     "imagens": [
       "midia/gnz01/2026-11-07/stories/quote-02.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "motivo": "foto de Jeff Bezos reprovada no controle de nitidez (175 < 220)"
   },
   {
     "id": "gnz01_2026-11-07_story4",
