@@ -207,14 +207,14 @@
   "jeff-bezos": {
     "nome": "Jeff Bezos",
     "arquivo": "midia/fotos/jeff-bezos.jpg",
-    "autor": "Steve Jurvetson",
-    "licenca": "CC BY 2.0",
-    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Jeff_Bezos%27_iconic_laugh.jpg",
-    "descricao": "Jeff Bezos at the ENCORE awards.",
-    "largura": 2081,
+    "autor": "Daniel Oberhaus",
+    "licenca": "CC BY 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Jeff_Bezos_Unveils_Blue_Origin_Lunar_Lander_(cropped).jpg",
+    "descricao": "Bezos na apresentação do módulo lunar da Blue Origin, 2019",
+    "largura": 1731,
     "altura": 2400,
-    "alteracoes": "Redimensionada",
-    "credito": "Foto: Steve Jurvetson / Wikimedia Commons, CC BY 2.0 (redimensionada)"
+    "alteracoes": "Nenhuma",
+    "credito": "Foto: Daniel Oberhaus / Wikimedia Commons, CC BY 4.0"
   },
   "sara-blakely": {
     "nome": "Sara Blakely",
@@ -455,5 +455,41 @@
     "altura": 2480,
     "alteracoes": "Recortada no rosto de Oprah",
     "credito": "Foto: Gedalia Vera / Wikimedia Commons, CC BY-SA 4.0 (recortada)"
+  },
+  "jeff-bezos/01": {
+    "nome": "Jeff Bezos",
+    "arquivo": "midia/fotos/jeff-bezos/01.jpg",
+    "autor": "Daniel Oberhaus",
+    "licenca": "CC BY 4.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Jeff_Bezos_Unveils_Blue_Origin_Lunar_Lander_(cropped).jpg",
+    "descricao": "Bezos na apresentação do módulo lunar da Blue Origin, 2019",
+    "largura": 1731,
+    "altura": 2400,
+    "alteracoes": "Nenhuma",
+    "credito": "Foto: Daniel Oberhaus / Wikimedia Commons, CC BY 4.0"
+  },
+  "jeff-bezos/02": {
+    "nome": "Jeff Bezos",
+    "arquivo": "midia/fotos/jeff-bezos/02.jpg",
+    "autor": "Number 10 (Downing Street)",
+    "licenca": "CC BY 2.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Boris_Johnson_UNGA_visit_(51498389942)_(cropped_to_Bezos).jpg",
+    "descricao": "Bezos em Nova York, setembro de 2021",
+    "largura": 1336,
+    "altura": 1781,
+    "alteracoes": "Nenhuma",
+    "credito": "Foto: Number 10 (Downing Street) / Wikimedia Commons, CC BY 2.0"
+  },
+  "jeff-bezos/03": {
+    "nome": "Jeff Bezos",
+    "arquivo": "midia/fotos/jeff-bezos/03.jpg",
+    "autor": "Seattle City Council",
+    "licenca": "CC BY 2.0",
+    "pagina_commons": "https://commons.wikimedia.org/wiki/File:Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_(39074799225)_(cropped3).jpg",
+    "descricao": "Bezos na inauguração das Amazon Spheres, Seattle, 2018",
+    "largura": 1700,
+    "altura": 2125,
+    "alteracoes": "Recortada",
+    "credito": "Foto: Seattle City Council / Wikimedia Commons, CC BY 2.0 (recortada)"
   }
 }
