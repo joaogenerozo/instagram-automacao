@@ -152,3 +152,7 @@ Dados reais em 08/11: 3 seguidores e alcance de 1 a 4 contas por post. A priorid
 - **Citações:** no máximo 1 post de citação/personalidade no feed por semana ("limite_citacoes_semana"); os demais ficam de fora automaticamente.
 - **Sem repetição:** título parecido com algo publicado ou agendado nos últimos 45 dias não entra na fila nem é publicado.
 - **Desempenho:** todo sábado tools/relatorio.py gera RELATORIOS/kpis-AAAA-MM-DD.md e conteudo/desempenho.json; a IA usa os 5 melhores e os 5 piores para escrever a semana seguinte.
+
+## 25. Carrosséis de sites com capa de IA (pedido do João, 08/11/2026)
+- 1 carrossel por dia às 15:00 apresentando um site por nicho (barbearia, clínica, salão, restaurante, advocacia, pet shop, personal, loja), no lugar do post desse horário. Conteúdo em conteudo/gnz01-sites-ia.json; para mais semanas, acrescente itens com nova data e novo "cenario".
+- Capa: pessoa fictícia feliz mostrando o site no celular, com o mesmo site desfocado no computador ao fundo (regra 21). Gerada por tools/sites_ia.py no GitHub Actions (Gemini se houver GEMINI_API_KEY; senão Pollinations/FLUX, gratuito). Crédito "Imagem ilustrativa gerada por IA" na capa e na legenda.

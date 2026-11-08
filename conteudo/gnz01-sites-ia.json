@@ -1,0 +1,262 @@
+{
+  "descricao": "Carrosséis de apresentação de SITES por nicho, com capa feita por IA (pedido do João, 08/11/2026). Agendados por tools/sites_ia.py às 15:00, substituindo o post desse horário.",
+  "hora": "15:00",
+  "itens": [
+    {
+      "data": "2026-11-08",
+      "cenario": "site-barbearia",
+      "nicho": "barbearia",
+      "titulo": "Seu cliente procura **barbearia no Google**. Acha a sua?",
+      "subtitulo": "Veja como fica o site de uma barbearia feito pela GNZ01.",
+      "slides": [
+        {
+          "titulo": "Quem procura corte **pesquisa antes**",
+          "texto": "\"Barbearia perto de mim\" é uma das buscas mais comuns. **Sem site, você não aparece nela.**"
+        },
+        {
+          "titulo": "Serviços e preços **à vista**",
+          "texto": "Corte, barba, pacotes. O cliente já chega **sabendo o que quer.**"
+        },
+        {
+          "titulo": "Botão de **agendar no WhatsApp**",
+          "texto": "Um toque e o cliente está falando com você, **sem procurar seu número.**"
+        },
+        {
+          "titulo": "Fotos do **seu trabalho**",
+          "texto": "O degradê que você faz bem vira **vitrine aberta 24 horas.**"
+        }
+      ],
+      "cta_final": "Quer o site **da sua barbearia?**",
+      "legenda": "Sábado de manhã, alguém novo na cidade digita \"barbearia\" no Google. Aparece quem tem site. 💈\n\nUm site simples e bem feito mostra seus serviços, seus preços, fotos dos cortes e leva o cliente direto para o seu WhatsApp.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.",
+      "hashtags": [
+        "#barbearia",
+        "#barbeiro"
+      ],
+      "prompt_capa": "Cinematic editorial advertising photograph, vertical 4:5. A Brazilian barbershop owner in his 30s smiling proudly, holding a smartphone toward the camera that shows a modern dark barbershop website with a green WhatsApp button; behind him, slightly blurred, a computer monitor shows the same website on desktop, barber chairs. The person is fictional, not a real or famous person. Happy, confident and aspirational mood. Premium look, deep black and graphite tones with warm practical lights, shallow depth of field, photorealistic, slight film grain. Subject in the lower 60% of the frame; top 40% dark, clean, out of focus, empty space for a title. No text, no letters, no logos, no watermarks, no numbers."
+    },
+    {
+      "data": "2026-11-09",
+      "cenario": "site-clinica",
+      "nicho": "clínica odontológica",
+      "titulo": "O paciente **pesquisa seu nome** antes de marcar.",
+      "subtitulo": "Veja como fica o site de uma clínica odontológica.",
+      "slides": [
+        {
+          "titulo": "Confiança **antes da consulta**",
+          "texto": "Tratamentos, equipe e estrutura. O paciente **conhece a clínica antes de entrar.**"
+        },
+        {
+          "titulo": "Tratamentos **explicados com clareza**",
+          "texto": "Avaliação, limpeza, clareamento, implante. **Menos dúvidas no WhatsApp.**"
+        },
+        {
+          "titulo": "Endereço, mapa **e horários**",
+          "texto": "Tudo que ele precisa para chegar, **sem precisar perguntar.**"
+        },
+        {
+          "titulo": "Botão para **agendar avaliação**",
+          "texto": "Do Google para a conversa com a sua recepção **em um toque.**"
+        }
+      ],
+      "cta_final": "Quer o site **da sua clínica?**",
+      "legenda": "Indicação boa ainda passa por uma pesquisa no Google. É ali que o paciente decide se marca ou não. 🦷\n\nUm site profissional apresenta seus tratamentos, sua equipe e sua estrutura, e leva direto para o agendamento da avaliação.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.",
+      "hashtags": [
+        "#clinicaodontologica",
+        "#dentista"
+      ],
+      "prompt_capa": "Cinematic editorial advertising photograph, vertical 4:5. A Brazilian female dentist in a white coat smiling confidently in a modern dental clinic, holding a tablet that shows an elegant clinic website; behind her, slightly blurred, a computer monitor shows the same website and a dental chair. The person is fictional, not a real or famous person. Happy, confident and aspirational mood. Premium look, deep black and graphite tones with warm practical lights, shallow depth of field, photorealistic, slight film grain. Subject in the lower 60% of the frame; top 40% dark, clean, out of focus, empty space for a title. No text, no letters, no logos, no watermarks, no numbers."
+    },
+    {
+      "data": "2026-11-10",
+      "cenario": "site-salao",
+      "nicho": "salão de beleza",
+      "titulo": "Seu salão é lindo. **Na internet também?**",
+      "subtitulo": "Veja como fica o site de um salão de beleza.",
+      "slides": [
+        {
+          "titulo": "A primeira impressão **agora é online**",
+          "texto": "Antes de conhecer o salão, a cliente **conhece o seu site.**"
+        },
+        {
+          "titulo": "Serviços **organizados por categoria**",
+          "texto": "Cabelo, unhas, sobrancelha, estética. **Ela encontra o que procura.**"
+        },
+        {
+          "titulo": "Galeria de **antes e depois**",
+          "texto": "Seu melhor portfólio, **sempre atualizado e bonito.**"
+        },
+        {
+          "titulo": "Agendamento **pelo WhatsApp**",
+          "texto": "Ela escolhe o serviço e chama você **já sabendo o que quer.**"
+        }
+      ],
+      "cta_final": "Quer o site **do seu salão?**",
+      "legenda": "Ela viu seu trabalho no Instagram, gostou, mas quer saber mais: serviços, endereço, como marcar. 💇‍♀️\n\nO site reúne tudo em um só lugar, com a cara do seu salão, e leva a cliente direto para o seu WhatsApp.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.",
+      "hashtags": [
+        "#salaodebeleza",
+        "#cabeleireira"
+      ],
+      "prompt_capa": "Cinematic editorial advertising photograph, vertical 4:5. A Brazilian beauty salon owner in her 30s laughing happily, showing a smartphone with a stylish beauty salon website; behind her, slightly blurred, a computer monitor shows the same website, salon mirrors with warm bulbs. The person is fictional, not a real or famous person. Happy, confident and aspirational mood. Premium look, deep black and graphite tones with warm practical lights, shallow depth of field, photorealistic, slight film grain. Subject in the lower 60% of the frame; top 40% dark, clean, out of focus, empty space for a title. No text, no letters, no logos, no watermarks, no numbers."
+    },
+    {
+      "data": "2026-11-11",
+      "cenario": "site-restaurante",
+      "nicho": "restaurante",
+      "titulo": "Fome bate, a pessoa pesquisa. **Seu restaurante aparece?**",
+      "subtitulo": "Veja como fica o site de um restaurante.",
+      "slides": [
+        {
+          "titulo": "Quem tem fome **decide rápido**",
+          "texto": "Foto do prato, horário e endereço. **Se não achar, vai para o vizinho.**"
+        },
+        {
+          "titulo": "Cardápio **com fotos**",
+          "texto": "O prato bonito na tela **abre o apetite antes de chegar.**"
+        },
+        {
+          "titulo": "Horários, mapa **e reservas**",
+          "texto": "Tudo que o cliente pergunta, **respondido no site.**"
+        },
+        {
+          "titulo": "Pedido direto **no WhatsApp**",
+          "texto": "Sem taxa de aplicativo: **o cliente é seu.**"
+        }
+      ],
+      "cta_final": "Quer o site **do seu restaurante?**",
+      "legenda": "Sexta, 19h. Alguém procura onde jantar e escolhe pelo que vê no celular. 🍽️\n\nUm site com fotos dos pratos, horários, mapa e pedido pelo WhatsApp faz o seu restaurante ser a escolha, sem pagar taxa por pedido.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.",
+      "hashtags": [
+        "#restaurante",
+        "#donoderestaurante"
+      ],
+      "prompt_capa": "Cinematic editorial advertising photograph, vertical 4:5. A Brazilian restaurant owner wearing an apron, smiling proudly at the counter, showing a smartphone with a restaurant website full of food photos; behind, slightly blurred, a computer monitor shows the same website, wood-fired oven glow and happy diners. The person is fictional, not a real or famous person. Happy, confident and aspirational mood. Premium look, deep black and graphite tones with warm practical lights, shallow depth of field, photorealistic, slight film grain. Subject in the lower 60% of the frame; top 40% dark, clean, out of focus, empty space for a title. No text, no letters, no logos, no watermarks, no numbers."
+    },
+    {
+      "data": "2026-11-12",
+      "cenario": "site-advocacia",
+      "nicho": "profissional liberal",
+      "titulo": "Recebeu uma indicação? **O cliente vai te pesquisar.**",
+      "subtitulo": "Veja como fica o site de um escritório de advocacia.",
+      "slides": [
+        {
+          "titulo": "Indicação **vira pesquisa**",
+          "texto": "A primeira coisa que o cliente faz é **procurar seu nome no Google.**"
+        },
+        {
+          "titulo": "Áreas de atuação **claras**",
+          "texto": "Trabalhista, família, empresarial. **Ele entende se você resolve o caso dele.**"
+        },
+        {
+          "titulo": "Formação e **credibilidade**",
+          "texto": "Sua trajetória apresentada com **sobriedade e profissionalismo.**"
+        },
+        {
+          "titulo": "Contato **discreto e direto**",
+          "texto": "WhatsApp e formulário para o primeiro contato, **sem complicação.**"
+        }
+      ],
+      "cta_final": "Quer um site **para o seu escritório?**",
+      "legenda": "Advogado, contador, psicólogo, arquiteto: no trabalho de quem vive de confiança, o site é a sua apresentação antes da primeira conversa. ⚖️\n\nÁreas de atuação, formação e contato direto, num site sóbrio e profissional.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.",
+      "hashtags": [
+        "#advogado",
+        "#profissionalliberal"
+      ],
+      "prompt_capa": "Cinematic editorial advertising photograph, vertical 4:5. A Brazilian lawyer in his 40s in a dark suit, smiling with confidence in an elegant office, holding a smartphone showing a sober professional law firm website; behind him, slightly blurred, a computer monitor shows the same website and bookshelves. The person is fictional, not a real or famous person. Happy, confident and aspirational mood. Premium look, deep black and graphite tones with warm practical lights, shallow depth of field, photorealistic, slight film grain. Subject in the lower 60% of the frame; top 40% dark, clean, out of focus, empty space for a title. No text, no letters, no logos, no watermarks, no numbers."
+    },
+    {
+      "data": "2026-11-13",
+      "cenario": "site-petshop",
+      "nicho": "pet shop",
+      "titulo": "Tutor procura **banho e tosa** no celular. E encontra você?",
+      "subtitulo": "Veja como fica o site de um pet shop.",
+      "slides": [
+        {
+          "titulo": "O tutor **pesquisa muito**",
+          "texto": "Antes de deixar o pet com alguém, ele quer **ver o lugar e confiar.**"
+        },
+        {
+          "titulo": "Serviços **e preços**",
+          "texto": "Banho, tosa, hidratação, consulta. **Tudo explicado.**"
+        },
+        {
+          "titulo": "Fotos dos **clientes de quatro patas**",
+          "texto": "Nada vende mais que **pet feliz e cheiroso.**"
+        },
+        {
+          "titulo": "Marcar horário **pelo WhatsApp**",
+          "texto": "O tutor escolhe o serviço e **já chama você.**"
+        }
+      ],
+      "cta_final": "Quer o site **do seu pet shop?**",
+      "legenda": "Para o tutor, o pet é da família. Antes de marcar o banho, ele pesquisa, olha fotos e procura confiança. 🐶\n\nUm site mostra seus serviços, seu espaço e o carinho com os bichos, e leva direto para o seu WhatsApp.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.",
+      "hashtags": [
+        "#petshop",
+        "#banhoetosa"
+      ],
+      "prompt_capa": "Cinematic editorial advertising photograph, vertical 4:5. A Brazilian pet shop owner smiling happily while petting a golden dog, holding a smartphone that shows a clean pet shop website; behind, slightly blurred, a computer monitor shows the same website and a grooming station. The person is fictional, not a real or famous person. Happy, confident and aspirational mood. Premium look, deep black and graphite tones with warm practical lights, shallow depth of field, photorealistic, slight film grain. Subject in the lower 60% of the frame; top 40% dark, clean, out of focus, empty space for a title. No text, no letters, no logos, no watermarks, no numbers."
+    },
+    {
+      "data": "2026-11-14",
+      "cenario": "site-personal",
+      "nicho": "personal trainer",
+      "titulo": "Personal trainer: **seu próximo aluno** está no Google.",
+      "subtitulo": "Veja como fica o site de um personal trainer.",
+      "slides": [
+        {
+          "titulo": "Aluno novo **pesquisa antes**",
+          "texto": "Ele quer saber quem você é **e como você trabalha.**"
+        },
+        {
+          "titulo": "Seus planos **apresentados**",
+          "texto": "Presencial, online, consultoria. **Ele escolhe o que cabe na rotina.**"
+        },
+        {
+          "titulo": "Sua **metodologia**",
+          "texto": "Mostre como você treina e **o que te diferencia.**"
+        },
+        {
+          "titulo": "Aula experimental **pelo WhatsApp**",
+          "texto": "Do interesse à conversa **em um toque.**"
+        }
+      ],
+      "cta_final": "Quer um site **para o seu trabalho?**",
+      "legenda": "Muita gente quer começar a treinar, mas quer confiar em quem vai acompanhar. 🏋️\n\nUm site apresenta sua metodologia, seus planos e leva o futuro aluno direto para o seu WhatsApp.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.",
+      "hashtags": [
+        "#personaltrainer",
+        "#educacaofisica"
+      ],
+      "prompt_capa": "Cinematic editorial advertising photograph, vertical 4:5. A Brazilian personal trainer in a modern gym, smiling energetically, showing a smartphone with a sleek fitness website; behind, slightly blurred, a computer monitor shows the same website and gym equipment. The person is fictional, not a real or famous person. Happy, confident and aspirational mood. Premium look, deep black and graphite tones with warm practical lights, shallow depth of field, photorealistic, slight film grain. Subject in the lower 60% of the frame; top 40% dark, clean, out of focus, empty space for a title. No text, no letters, no logos, no watermarks, no numbers."
+    },
+    {
+      "data": "2026-11-15",
+      "cenario": "site-loja",
+      "nicho": "loja",
+      "titulo": "Sua loja fecha às 18h. **Seu site, não.**",
+      "subtitulo": "Veja como fica o site de uma loja.",
+      "slides": [
+        {
+          "titulo": "Vitrine **aberta o dia todo**",
+          "texto": "O cliente vê seus produtos **mesmo com a loja fechada.**"
+        },
+        {
+          "titulo": "Produtos **por categoria**",
+          "texto": "Novidades, mais vendidos, promoções. **Fácil de achar.**"
+        },
+        {
+          "titulo": "Pedido ou orçamento **no WhatsApp**",
+          "texto": "O cliente escolhe e chama você **pronto para comprar.**"
+        },
+        {
+          "titulo": "Aparece **no Google**",
+          "texto": "Quem procura o que você vende **encontra a sua loja.**"
+        }
+      ],
+      "cta_final": "Quer o site **da sua loja?**",
+      "legenda": "O cliente lembra do seu produto às 23h, no sofá. Se ele não encontra sua loja online, compra de outro. 🛍️\n\nUm site com seus produtos, categorias e pedido pelo WhatsApp deixa sua loja aberta o tempo todo.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.",
+      "hashtags": [
+        "#lojadebairro",
+        "#varejo"
+      ],
+      "prompt_capa": "Cinematic editorial advertising photograph, vertical 4:5. A Brazilian small clothing store owner in her 40s smiling at the shop counter, smartphone in hand showing a modern store website, a laptop with the same website beside her; clothing racks softly blurred behind. The person is fictional, not a real or famous person. Happy, confident and aspirational mood. Premium look, deep black and graphite tones with warm practical lights, shallow depth of field, photorealistic, slight film grain. Subject in the lower 60% of the frame; top 40% dark, clean, out of focus, empty space for a title. No text, no letters, no logos, no watermarks, no numbers."
+    }
+  ]
+}
