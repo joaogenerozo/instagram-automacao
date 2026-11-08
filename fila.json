@@ -876,7 +876,7 @@
   },
   {
     "id": "reel_2026-11-08_1900",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-08T19:00:00-03:00",
     "tipo": "reel",
     "tema": "sites",
@@ -891,11 +891,13 @@
     ],
     "legenda": "Seu trabalho é profissional. Sua presença digital também precisa ser. ✨\n\nVocê investiu tempo, conhecimento e dedicação no seu negócio. Quando um cliente interessado não encontra preços, informações, resultados ou um jeito prático de falar com você, a decisão fica mais difícil.\n\nUm site é um espaço só seu para apresentar seu trabalho, mostrar seus serviços, destacar seus resultados e receber contatos direto no WhatsApp.\n\nFale conosco e solicite seu projeto: link na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #sitesprofissionais #presencadigital #criacaodesites",
     "tentativas": 1,
-    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)",
+    "media_id": "17919388077261945",
+    "publicado_em": "2026-11-08T22:38:26+00:00"
   },
   {
     "id": "gnz01_2026-11-08_story6",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-08T19:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -905,7 +907,9 @@
     ],
     "legenda": "",
     "tentativas": 1,
-    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)",
+    "media_id": "17916721935491059",
+    "publicado_em": "2026-11-08T22:38:26+00:00"
   },
   {
     "id": "gnz01_2026-11-08_5",
