@@ -10,7 +10,7 @@ import json
 from datetime import date, datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from src.comum import RAIZ, carregar_config, carregar_fila, salvar_fila, montar_legenda
+from src.comum import RAIZ, FEED, carregar_config, carregar_fila, salvar_fila, montar_legenda, repetido, eh_citacao, semana_iso
 from src.render import Desenhista
 from src import vitrine as vt
 from src import showcase as sc
@@ -49,6 +49,27 @@ def rel(caminho):
     return str(caminho.relative_to(RAIZ)).replace("\\", "/")
 
 
+def ok_para_feed(pid, quando, post, fila, cfg):
+    """Evita repetir título, dois posts de feed no mesmo horário e excesso de citações na semana."""
+    ativos = [o for o in fila if o["status"] in ("pendente", "publicado", "aguardando_aprovacao") and o["tipo"] in FEED]
+    cand = {"id": pid, "quando": quando, "tipo": "post", "titulo": post["titulo"], "tema": post.get("tema"),
+            "legenda": post.get("legenda", ""), "citacao": bool(post.get("personalidade"))}
+    antigo = repetido(cand, fila, cfg.get("janela_repeticao_dias", 45))
+    if antigo:
+        print(f"AVISO: {pid} repete \"{antigo['titulo'][:50]}\" ({antigo['id']}); não entra na fila.")
+        return False
+    if any(o["quando"] == quando and o["status"] != "publicado" for o in ativos):
+        print(f"AVISO: {pid} cairia no mesmo horário de outro post de feed ({quando[:16]}); não entra na fila.")
+        return False
+    limite = cfg.get("limite_citacoes_semana")
+    if limite and eh_citacao(cand):
+        n = sum(1 for o in ativos if eh_citacao(o) and semana_iso(o.get("publicado_em") or o["quando"]) == semana_iso(quando))
+        if n >= limite:
+            print(f"AVISO: {pid} passaria de {limite} post de citação na semana; não entra na fila.")
+            return False
+    return True
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("arquivo", help="JSON da semana, ex.: conteudo/semana-01.json")
@@ -77,7 +98,7 @@ def main():
     def adicionar(pid, **campos):
         if pid in ids:
             return
-        fila.append({"id": pid, "status": status_inicial, **campos})
+        fila.append({"id": pid, "status": status_inicial, **{k: v for k, v in campos.items() if v is not None}})
         ids.add(pid)
         cont[campos["tipo"]] += 1
 
@@ -95,6 +116,9 @@ def main():
             if post.get("personalidade") and not (post.get("foto") or post.get("capa", {}).get("foto")):
                 print(f"AVISO: {pid} cita {post['personalidade']} e está sem foto real licenciada; não entra na fila.")
                 continue
+            quando = horario(data, cfg["horarios"][n % len(cfg["horarios"])], tz)
+            if not ok_para_feed(pid, quando, post, fila, cfg):
+                continue
             if post.get("vitrine"):
                 pasta.mkdir(parents=True, exist_ok=True)
                 imgs = sv.carrossel_servico(post, pasta, cfg)  # serviços no formato carrossel (pedido do João, 06/11)
@@ -108,7 +132,7 @@ def main():
                 imgs = ss.carrossel(post, pasta, cfg)  # design system GNZ01 Carrossel (src/sistema.py)
             else:
                 imgs = [des.post(post, pasta / "01.jpg")]
-            adicionar(pid, quando=horario(data, cfg["horarios"][n % len(cfg["horarios"])], tz),
+            adicionar(pid, quando=quando, citacao=bool(post.get("personalidade")) or None,
                       tipo=post["tipo"], tema=post["tema"], titulo=post["titulo"],
                       imagens=[rel(i) for i in imgs], legenda=montar_legenda(post, cfg))
 

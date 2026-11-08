@@ -141,3 +141,14 @@ Pensar como diretor de marketing de agência. Nada genérico. Não copiar concor
 - Semana 1: R$ 25 no Reel da semana (R$ 5/dia, 5 dias). Semana 2: R$ 25 no post com mais salvamentos/compartilhamentos, de preferência um carrossel vitrine.
 - Objetivo: mensagens no WhatsApp. Público: Andradas (MG) + raio de ~40 km, 25 a 55 anos, interesses empreendedorismo e pequenos negócios.
 - Ao fim de cada quinzena: comparar conversas geradas por cada R$ 25 e repetir o que funcionou. Nunca prometer números.
+
+## 24. Alcance e conversão (pedido do João, 08/11/2026)
+Dados reais em 08/11: 3 seguidores e alcance de 1 a 4 contas por post. A prioridade é ser descoberto por quem não segue, sem perder a identidade.
+- **Gancho primeiro.** Título da arte e primeira linha da legenda começam pela dor ou pela cena real do cliente, num nicho concreto. Ex.: "Sua pizzaria ainda manda foto do cardápio no WhatsApp?". Nunca abrir com a marca nem com frase vaga ("Sua empresa merece uma presença digital à altura"). Campo "gancho" no conteúdo da IA.
+- **Foco local:** Andradas (MG) e região (config.json > "local"; a cidade vem da verba de impulsionamento de 06/11). Citar a cidade de forma natural em ~1 a cada 3 posts; hashtags #andradas e #andradasmg entram sozinhas; localização do post via "location_id" quando estiver configurado.
+- **CTA único**, acrescentado pelo sistema (src/comum.py): "Comente SITE/CARDÁPIO/AGENDA/PÁGINA/CATÁLOGO que eu te mando um exemplo pronto no Direct" + WhatsApp pelo link da bio + linha local. A legenda não traz número de WhatsApp solto nem cross-sell repetido.
+- **Hashtags:** no máximo 5 (2 locais + 2 a 3 de nicho que o DONO do negócio pesquisa). Hashtags que atraem outros designers ou são genéricas ficam bloqueadas em config.json > "hashtags_bloqueadas".
+- **Prova real e collab:** projetos reais (com autorização do cliente) entram como estudo de caso, nunca como demonstração ilustrativa. Post de cliente real sai em collab com a conta do cliente: campo "colaboradores": ["@conta"] no item da fila (até 3 contas; o cliente precisa aceitar o convite no app). Modelo em conteudo/casos-reais.md.
+- **Citações:** no máximo 1 post de citação/personalidade no feed por semana ("limite_citacoes_semana"); os demais ficam de fora automaticamente.
+- **Sem repetição:** título parecido com algo publicado ou agendado nos últimos 45 dias não entra na fila nem é publicado.
+- **Desempenho:** todo sábado tools/relatorio.py gera RELATORIOS/kpis-AAAA-MM-DD.md e conteudo/desempenho.json; a IA usa os 5 melhores e os 5 piores para escrever a semana seguinte.
