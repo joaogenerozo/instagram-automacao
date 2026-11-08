@@ -127,7 +127,7 @@ def _graos(n=4):
         a = np.zeros((H // 2, W // 2, 4), dtype="uint8")
         claro = g > 0
         a[..., :3] = np.where(claro[..., None], 255, 0)
-        a[..., 3] = np.clip(np.abs(g) * 9, 0, 22).astype("uint8")
+        a[..., 3] = np.clip(np.abs(g) * 6, 0, 14).astype("uint8")
         out.append(Image.fromarray(a, "RGBA").resize((W, H), Image.NEAREST))
     return out
 
@@ -811,7 +811,8 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
         ctx = Contexto(cfg, rec, com_legenda)
         cmd = ["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                "-i", "-", "-i", str(audio), "-map", "0:v", "-map", "1:a", "-t", f"{total:.3f}",
-               "-c:v", "libx264", "-profile:v", "high", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
+               "-c:v", "libx264", "-profile:v", "high", "-preset", "medium", "-crf", "21", "-maxrate", "6M",
+               "-bufsize", "12M", "-pix_fmt", "yuv420p",
                "-r", str(FPS), "-g", str(FPS * 2), "-c:a", "aac", "-b:a", "192k", "-ar", "44100",
                "-movflags", "+faststart", str(saida)]
         proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
@@ -833,7 +834,7 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
             if com_legenda:
                 desenhar_legenda(frame, blocos, tg, destaques)
             marca_fixa(frame, tg, total)
-            frame.alpha_composite(rec.graos[k % len(rec.graos)])
+            frame.alpha_composite(rec.graos[(k // 2) % len(rec.graos)])
             rgb = frame.convert("RGB")
             if capa is None and i == 0 and tl >= min(1.6, c["_dur"] - 0.2):
                 capa = quadro_cena(c, 2.5, ctx, rec, 0, luz_w).convert("RGBA")
