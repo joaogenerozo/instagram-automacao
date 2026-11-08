@@ -129,3 +129,11 @@ python reels.py --teste r01-google-andradas   # produz um roteiro em midia/reels
 python reels.py --horas 30                     # produz e agenda os próximos horários
 REELS_SEM_NARRACAO=1 python reels.py --teste r02-cardapio-whatsapp   # força versão sem voz
 ```
+
+### Roteiros do João (prioridade)
+
+Roteiros escritos pelo João ficam em `conteudo/reels/joao/*.json` (mesmo formato dos roteiros do estúdio).
+Com `"quando": "AAAA-MM-DD HH:MM"` o vídeo vai exatamente para esse horário; sem data, entra no próximo horário livre.
+Um roteiro do João sempre tira do horário um Reel gerado que ainda não foi publicado. Os roteiros gerados por IA
+só preenchem os horários que sobrarem. Cenas novas: `cinetico` (fala em tipografia cinética), `busca`,
+`montagem` (modelos de site por nicho), `dispositivos` (notebook + celular) e `notificacoes` no gancho.

@@ -1,0 +1,308 @@
+{
+  "roteiros": [
+    {
+      "id": "j-2026-11-08-1100-perdendo-clientes",
+      "quando": "2026-11-08 11:00",
+      "titulo": "Seus clientes estão procurando. Eles encontram você?",
+      "tema": "sites",
+      "objetivo": "Despertar no empresário a percepção de que ele pode estar perdendo clientes por não ter um site profissional.",
+      "publico": "Empresários e profissionais sem site profissional",
+      "direcao": "Roteiro do João. Abertura escura com notificações e soco de câmera; busca com concorrentes; site no notebook e no celular; logo GNZ01 metálico; fecha com o convite.",
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "notificacoes": [
+            "Nova mensagem | Vocês atendem hoje?",
+            "Cliente procurando | Tem site com os serviços?",
+            "Nova mensagem | Qual o endereço de vocês?",
+            "Pesquisa | serviço perto de mim"
+          ],
+          "atraso_texto": 1.4,
+          "texto": "SEUS CLIENTES ESTÃO PROCURANDO. ELES ENCONTRAM VOCÊ?",
+          "destaque": [
+            "VOCÊ?"
+          ],
+          "tam": 92,
+          "fala": "Quantos clientes sua empresa pode estar perdendo simplesmente porque não encontram seus serviços na internet?"
+        },
+        {
+          "tipo": "busca",
+          "busca": "serviço perto de mim",
+          "resultados": [
+            {
+              "url": "concorrente-a.com.br",
+              "titulo": "Concorrente A",
+              "linha": "Site profissional · serviços e contato"
+            },
+            {
+              "url": "concorrente-b.com.br",
+              "titulo": "Concorrente B",
+              "linha": "Site profissional · fotos e WhatsApp"
+            },
+            {
+              "url": "sem site",
+              "titulo": "Sua empresa",
+              "linha": "Não aparece",
+              "fraco": true
+            }
+          ],
+          "fala": "Hoje, antes de contratar um profissional, muitas pessoas pesquisam, comparam e procuram confiança."
+        },
+        {
+          "tipo": "lista",
+          "destaque": [],
+          "negativo": true,
+          "itens": [
+            "Menos visibilidade.",
+            "Menos confiança.",
+            "Oportunidades perdidas."
+          ],
+          "intervalo": 1.1,
+          "fala": "Se sua empresa não transmite profissionalismo no ambiente digital, você pode estar deixando oportunidades para a concorrência."
+        },
+        {
+          "tipo": "dispositivos",
+          "demo": {
+            "marca": "Sua Empresa",
+            "dominio": "suaempresa.com.br",
+            "chamada": "Sua empresa, apresentada como ela merece.",
+            "apoio": "Serviços, portfólio e contato em um só lugar.",
+            "servicos": [
+              "Serviços",
+              "Portfólio",
+              "Depoimentos"
+            ],
+            "botao": "Fale pelo WhatsApp"
+          },
+          "chips": [
+            "Serviços",
+            "Portfólio",
+            "Depoimentos",
+            "Botão de WhatsApp"
+          ],
+          "intervalo": 1.6,
+          "fala": "Com um site profissional, sua empresa pode apresentar seus serviços, destacar seus diferenciais, transmitir credibilidade e facilitar o contato com novos clientes,"
+        },
+        {
+          "tipo": "texto",
+          "texto": "SUA EMPRESA. SUA IDENTIDADE. SUA PRESENÇA DIGITAL.",
+          "destaque": [
+            "DIGITAL."
+          ],
+          "tam": 88,
+          "fala": "tudo em um só lugar."
+        },
+        {
+          "tipo": "cinetico",
+          "destaque": [
+            "indicações.",
+            "marca."
+          ],
+          "fala": "Não deixe sua empresa depender apenas das indicações. Construa uma presença digital que trabalhe pela sua marca."
+        },
+        {
+          "tipo": "marca",
+          "fala": "GNZ01. Transformamos sua presença digital em oportunidades de negócio."
+        },
+        {
+          "tipo": "cta",
+          "texto": "SEU PRÓXIMO CLIENTE PODE ESTAR A UM CLIQUE.",
+          "destaque": [
+            "CLIQUE."
+          ],
+          "acao": "Solicite seu site personalizado",
+          "detalhe": "Fale com a gente no WhatsApp",
+          "rodape": "Link na bio · @gnz01_"
+        }
+      ],
+      "gancho_legenda": "Seus clientes estão procurando. Eles encontram você? 🔎",
+      "legenda": "Antes de contratar, muita gente pesquisa, compara e procura confiança. Se a sua empresa não aparece com uma presença profissional, essa oportunidade pode ficar com a concorrência.\n\nUm site profissional apresenta seus serviços, mostra seus diferenciais, transmite credibilidade e facilita o contato com novos clientes. Tudo em um só lugar.",
+      "cta_legenda": "Solicite seu site personalizado: fale com a gente pelo link da bio.",
+      "hashtags": [
+        "#sitesprofissionais",
+        "#presencadigital",
+        "#pequenasempresas"
+      ]
+    },
+    {
+      "id": "j-2026-11-08-1900-valorize-seu-trabalho",
+      "quando": "2026-11-08 19:00",
+      "titulo": "Seu trabalho é profissional. Sua presença digital também precisa ser.",
+      "tema": "sites",
+      "objetivo": "Mostrar que um site não é apenas uma página na internet, mas uma ferramenta para valorizar o trabalho e facilitar a conquista de clientes.",
+      "publico": "Profissionais e empresas de serviço",
+      "direcao": "Roteiro do João. Gancho emocional com tipografia cinética; cliente procurando no celular sem achar informação; montagem rápida de modelos de site por nicho; notebook e celular; logo GNZ01; convite final.",
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "texto": "SEU TRABALHO É PROFISSIONAL.",
+          "destaque": [
+            "PROFISSIONAL."
+          ],
+          "fala": "Você investiu tempo, conhecimento e dedicação para construir seu negócio."
+        },
+        {
+          "tipo": "texto",
+          "texto": "SUA PRESENÇA DIGITAL TAMBÉM PRECISA SER.",
+          "destaque": [
+            "PRECISA"
+          ],
+          "fala": "Mas será que as pessoas conseguem enxergar o verdadeiro valor do seu trabalho?"
+        },
+        {
+          "tipo": "busca",
+          "titulo": "Não dificulte a decisão de quem quer contratar você.",
+          "destaque": [
+            "você."
+          ],
+          "busca": "profissional perto de mim",
+          "resultados": [
+            {
+              "url": "perfil",
+              "titulo": "Sem preços",
+              "linha": "Só fotos soltas no perfil",
+              "fraco": true
+            },
+            {
+              "url": "perfil",
+              "titulo": "Sem informações",
+              "linha": "Serviços e resultados não aparecem",
+              "fraco": true
+            },
+            {
+              "url": "perfil",
+              "titulo": "Sem contato fácil",
+              "linha": "Nenhum botão para falar",
+              "fraco": true
+            }
+          ],
+          "intervalo": 1.3,
+          "fala": "Imagine um cliente interessado nos seus serviços, mas que não encontra facilmente seus preços, informações, resultados ou uma maneira prática de entrar em contato."
+        },
+        {
+          "tipo": "montagem",
+          "titulo": "APRESENTE. VALORIZE. CONQUISTE.",
+          "destaque": [
+            "CONQUISTE."
+          ],
+          "modelos": [
+            {
+              "rotulo": "Clínica odontológica",
+              "tela": {
+                "tipo": "site",
+                "marca": "Clínica Sorriso",
+                "dominio": "clinicasorriso.com.br",
+                "chamada": "Seu sorriso em boas mãos.",
+                "apoio": "Avaliação, limpeza, clareamento e implantes.",
+                "botao": "Agendar pelo WhatsApp"
+              }
+            },
+            {
+              "rotulo": "Salão de beleza",
+              "tela": {
+                "tipo": "agenda",
+                "sigla": "SB",
+                "nome": "Studio Bela",
+                "chips": [
+                  "Corte",
+                  "Escova",
+                  "Unhas"
+                ]
+              }
+            },
+            {
+              "rotulo": "Restaurante",
+              "tela": {
+                "tipo": "cardapio",
+                "sigla": "CS",
+                "nome": "Cantina do Sabor",
+                "chips": [
+                  "Pratos",
+                  "Porções",
+                  "Bebidas"
+                ]
+              }
+            },
+            {
+              "rotulo": "Profissional autônomo",
+              "tela": {
+                "tipo": "site",
+                "marca": "Seu Nome",
+                "dominio": "seunome.com.br",
+                "chamada": "Seu trabalho, bem apresentado.",
+                "apoio": "Serviços, resultados e contato direto.",
+                "botao": "Falar no WhatsApp",
+                "servicos": [
+                  "Serviços",
+                  "Resultados",
+                  "Contato"
+                ]
+              }
+            },
+            {
+              "rotulo": "Empresa de serviços",
+              "tela": {
+                "tipo": "site",
+                "marca": "Sua Empresa",
+                "dominio": "suaempresa.com.br",
+                "chamada": "Soluções para o seu dia a dia.",
+                "apoio": "Conheça os serviços e peça um orçamento.",
+                "botao": "Pedir orçamento",
+                "servicos": [
+                  "Serviços",
+                  "Orçamento",
+                  "Contato"
+                ]
+              }
+            }
+          ],
+          "fala": "Agora imagine ter um espaço exclusivo para apresentar seu trabalho, mostrar seus serviços, destacar seus resultados e receber contatos diretamente pelo WhatsApp."
+        },
+        {
+          "tipo": "dispositivos",
+          "demo": {
+            "marca": "Seu Negócio",
+            "dominio": "seunegocio.com.br",
+            "chamada": "Confiança desde o primeiro clique.",
+            "apoio": "Serviços, resultados e contato direto.",
+            "servicos": [
+              "Serviços",
+              "Resultados",
+              "Contato"
+            ],
+            "botao": "Fale pelo WhatsApp"
+          },
+          "chips": [
+            "Transmite confiança",
+            "Mostra seus resultados",
+            "Contato pelo WhatsApp"
+          ],
+          "intervalo": 2.0,
+          "fala": "Seu negócio não precisa apenas estar nas redes sociais. Ele precisa de uma presença digital que transmita confiança e ajude seus clientes a escolher você."
+        },
+        {
+          "tipo": "marca",
+          "fala": "GNZ01. Criamos experiências digitais para empresas que querem crescer."
+        },
+        {
+          "tipo": "cta",
+          "texto": "CHEGOU A HORA DE ELEVAR O NÍVEL DO SEU NEGÓCIO.",
+          "destaque": [
+            "NÍVEL"
+          ],
+          "acao": "Fale conosco e solicite seu projeto",
+          "detalhe": "WhatsApp no link da bio",
+          "rodape": "ou no direct do @gnz01_"
+        }
+      ],
+      "gancho_legenda": "Seu trabalho é profissional. Sua presença digital também precisa ser. ✨",
+      "legenda": "Você investiu tempo, conhecimento e dedicação no seu negócio. Quando um cliente interessado não encontra preços, informações, resultados ou um jeito prático de falar com você, a decisão fica mais difícil.\n\nUm site é um espaço só seu para apresentar seu trabalho, mostrar seus serviços, destacar seus resultados e receber contatos direto no WhatsApp.",
+      "cta_legenda": "Fale conosco e solicite seu projeto: link na bio.",
+      "hashtags": [
+        "#sitesprofissionais",
+        "#presencadigital",
+        "#empreendedorismo"
+      ]
+    }
+  ]
+}

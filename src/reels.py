@@ -32,6 +32,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 FONTES = RAIZ / "fonts"
 W, H, FPS = 1080, 1920, 30
 TR = 0.32  # duração das transições
+BPM = 112  # andamento da trilha; o fundo pulsa junto com a batida
 
 PRETO = (9, 9, 11)
 GRAFITE = (30, 32, 37)
@@ -198,12 +199,13 @@ def desenhar_frase(camada, metal, texto, destaques, tam, y, t, atraso=0.0, passo
     for palavras, larg in linhas:
         x = (W - larg) / 2 if alinhar == "centro" else x0
         for p, f, eh, w in palavras:
-            a = ease_out((t - atraso - k * passo) / dur_entrada)
+            tk = (t - atraso - k * passo * 0.8) / dur_entrada
+            a = ease_out(tk * 1.3)
             k += 1
             if a <= 0:
                 x += w + esp
                 continue
-            dy = int(34 * (1 - a))
+            dy = int(72 * (1 - ease_back(tk)))
             _, bb = _medir(f, p)
             yy = y + dy + (int(tam * 0.02) if eh else 0)
             if eh:
@@ -267,8 +269,46 @@ def _camada():
     return Image.new("RGBA", (W, H), (0, 0, 0, 0))
 
 
+def _notificacoes(cam, itens, t, fundo=False):
+    """Cartões de notificação que aparecem e somem (abertura 'tela escura com mensagens chegando')."""
+    d = ImageDraw.Draw(cam)
+    f1, f2 = fonte("semi", 32), fonte("regular", 28)
+    n = len(itens)
+    ciclo = 0.42 * n + 0.6
+    for i, txt in enumerate(itens):
+        ti = 0.05 + i * 0.42
+        tt = (t - ti) % ciclo if t > ti else -1
+        if tt < 0:
+            continue
+        a = ease_out(tt / 0.22) * (1 - ease((tt - 1.0) / 0.3))
+        if fundo:
+            a *= 0.3
+        if a <= 0.01:
+            continue
+        b = ease_back(tt / 0.35)
+        ww = 760
+        x = (W - ww) / 2 + (-90 if i % 2 else 90) + (1 - b) * (60 if i % 2 else -60)
+        y = 300 + (i % 4) * 190 + (1 - b) * 40
+        d.rounded_rectangle([x + 6, y + 12, x + ww + 6, y + 142], radius=34, fill=(0, 0, 0, int(120 * a)))
+        d.rounded_rectangle([x, y, x + ww, y + 130], radius=34, fill=(*GRAFITE2, int(240 * a)),
+                            outline=(96, 101, 110, int(255 * a)), width=2)
+        d.rounded_rectangle([x + 28, y + 30, x + 98, y + 100], radius=18, fill=(*VERDE, int(255 * a)))
+        d.rounded_rectangle([x + 46, y + 50, x + 80, y + 76], radius=7, fill=(255, 255, 255, int(255 * a)))
+        d.polygon([(x + 50, y + 74), (x + 60, y + 74), (x + 48, y + 86)], fill=(255, 255, 255, int(255 * a)))
+        tit, _, corpo = txt.partition("|")
+        d.text((x + 124, y + 26), tit.strip(), font=f1, fill=(*OFF, int(255 * a)))
+        d.text((x + 124, y + 72), corpo.strip(), font=f2, fill=(*PRATA, int(255 * a)))
+        d.text((x + ww - 100, y + 30), "agora", font=fonte("regular", 24), fill=(*SUAVE, int(255 * a)))
+
+
 def cena_gancho(c, t, dur, ctx):
     cam = _camada()
+    if c.get("notificacoes"):
+        atraso = c.get("atraso_texto", 1.5)
+        _notificacoes(cam, c["notificacoes"], t, fundo=t > atraso)
+        t -= atraso
+        if t < -0.2:
+            return cam
     tam = c.get("tam", 104 if len(c["texto"]) < 48 else 88)
     linhas, _ = layout_frase(c["texto"], c.get("destaque", []), tam, 900)
     alt = len(linhas) * int(tam * 1.16)
@@ -317,12 +357,14 @@ def cena_lista(c, t, dur, ctx):
     d = ImageDraw.Draw(cam)
     n = len(c["itens"])
     alt_item = 150 if n <= 4 else 124
-    tam_t = 74 if len(c["titulo"]) < 40 else 64
-    linhas, _ = layout_frase(c["titulo"], c.get("destaque", []), tam_t, 900)
+    titulo = c.get("titulo", "")
+    tam_t = 74 if len(titulo) < 40 else 64
+    linhas, _ = layout_frase(titulo, c.get("destaque", []), tam_t, 900) if titulo else ([], 0)
     alt_tit = len(linhas) * int(tam_t * 1.16)
-    total = alt_tit + 50 + n * alt_item
+    total = alt_tit + (50 if titulo else 0) + n * alt_item
     y = max(TOPO_SEGURO + 30, int((TOPO_SEGURO + ctx.limite) / 2 - total / 2))
-    y = desenhar_frase(cam, ctx.rec.metal, c["titulo"], c.get("destaque", []), tam_t, y, t, passo=0.05) + 50
+    if titulo:
+        y = desenhar_frase(cam, ctx.rec.metal, titulo, c.get("destaque", []), tam_t, y, t, passo=0.05) + 50
     tempos = tempos_lista(c)
     f = fonte("semi", 44 if n <= 4 else 40)
     fn = fonte("serif", 54)
@@ -335,9 +377,11 @@ def cena_lista(c, t, dur, ctx):
         d.rounded_rectangle(caixa, radius=28, fill=(*GRAFITE, int(235 * a)), outline=(*GRAFITE2, int(255 * a)), width=2)
         # brilho metálico fino no topo do cartão
         d.line([(caixa[0] + 30, caixa[1] + 1), (caixa[2] - 30, caixa[1] + 1)], fill=(120, 126, 136, int(200 * a)), width=2)
-        num = f"{i + 1:02d}" if not c.get("check") else ""
+        num = f"{i + 1:02d}"
         cy = (caixa[1] + caixa[3]) / 2
-        if c.get("check"):
+        if c.get("negativo"):
+            _icone_check(d, caixa[0] + 62, cy, 24, a, ok=False)
+        elif c.get("check"):
             _icone_check(d, caixa[0] + 62, cy, 24, a)
         else:
             d.text((caixa[0] + 34, cy - 34), num, font=fn, fill=(*PRATA, int(255 * a)))
@@ -540,8 +584,12 @@ def cena_cta(c, t, dur, ctx):
     a = ease_back((t - 0.55) / 0.5)
     al = ease((t - 0.55) / 0.3)
     if al > 0:
-        f = fonte("bold", 46)
         txt = c.get("acao") or f"Comente {c.get('_palavra', 'SITE')}"
+        f = fonte("bold", 46)
+        for tam_b in (46, 42, 38, 34):
+            f = fonte("bold", tam_b)
+            if d.textlength(txt, font=f) + 150 <= 960:
+                break
         w = d.textlength(txt, font=f) + 150
         pulso = 1 + 0.025 * math.sin(max(0, t - 1.2) * 5)
         hh = 112 * pulso
@@ -556,7 +604,7 @@ def cena_cta(c, t, dur, ctx):
             d.polygon([(caixa[0] + 44, cy + 10), (caixa[0] + 56, cy + 10), (caixa[0] + 42, cy + 24)], fill=(*PRETO, int(255 * al)))
         else:
             d.ellipse([caixa[0] + 40, cy - 15, caixa[0] + 70, cy + 15], fill=(*VERDE, int(255 * al)))
-        d.text((caixa[0] + 92, yb + hh / 2 - 30), txt, font=f, fill=(*PRETO, int(255 * al)))
+        d.text((caixa[0] + 92, yb + hh / 2 - f.size * 0.62), txt, font=f, fill=(*PRETO, int(255 * al)))
         a2 = ease((t - 0.9) / 0.4)
         y2 = yb + hh + 50
         linha2 = c.get("detalhe") or ("que eu te mando um exemplo no Direct" if txt.lower().startswith("comente")
@@ -598,7 +646,262 @@ def cena_marca(c, t, dur, ctx):
     return cam
 
 
-CENAS = {"gancho": cena_gancho, "texto": cena_texto, "lista": cena_lista, "celular": cena_celular,
+def _pedacos_cineticos(c, dur):
+    """Divide a fala em pedaços de até 3 palavras (quebra na pontuação) com o tempo de entrada de cada um."""
+    pals = c.get("_pals")
+    if pals:
+        atraso = c.get("_atraso", 0.22)
+        pals = [{**p, "ini": p["ini"] + atraso} for p in pals]
+    else:
+        txt = c.get("fala") or c.get("texto", "")
+        pals = _palavras_estimadas(txt, max(0.5, dur - 0.8))
+        pals = [{**p, "ini": p["ini"] + 0.15} for p in pals]
+    out, atual = [], []
+    for p in pals:
+        atual.append(p)
+        if len(atual) >= c.get("palavras_por_vez", 3) or re.search(r"[.,!?:;]$", p["palavra"]):
+            out.append((atual[0]["ini"], " ".join(x["palavra"] for x in atual)))
+            atual = []
+    if atual:
+        out.append((atual[0]["ini"], " ".join(x["palavra"] for x in atual)))
+    return out
+
+
+def tempos_cinetico(c, dur):
+    return [ti for ti, _ in _pedacos_cineticos(c, dur)]
+
+
+def tempos_busca(c):
+    n0 = 0.35 + 0.035 * len(c.get("busca", "")) + 0.25
+    return [n0 + i * c.get("intervalo", 0.5) for i in range(len(c.get("resultados", [])))]
+
+
+def cena_busca(c, t, dur, ctx):
+    """Cliente pesquisando: a busca é digitada e os resultados entram (concorrentes com site x quem não tem)."""
+    cam = _camada()
+    d = ImageDraw.Draw(cam)
+    alt_t = (len(layout_frase(c["titulo"], c.get("destaque", []), 66, 900)[0]) * int(66 * 1.16) + 40) if c.get("titulo") else 0
+    total = alt_t + 150 + len(c.get("resultados", [])) * 200
+    y = max(TOPO_SEGURO + 20, int((TOPO_SEGURO + ctx.limite) / 2 - total / 2))
+    if c.get("titulo"):
+        y = desenhar_frase(cam, ctx.rec.metal, c["titulo"], c.get("destaque", []), 66, y, t, passo=0.05) + 40
+    a = ease_out(t / 0.35)
+    caixa = [80, y + int(40 * (1 - a)), 1000, y + 110 + int(40 * (1 - a))]
+    d.rounded_rectangle(caixa, radius=55, fill=(*OFF, int(250 * a)))
+    cx, cy = caixa[0] + 58, (caixa[1] + caixa[3]) / 2
+    d.ellipse([cx - 18, cy - 18, cx + 12, cy + 12], outline=(*PRETO, int(255 * a)), width=5)
+    d.line([(cx + 8, cy + 8), (cx + 22, cy + 22)], fill=(*PRETO, int(255 * a)), width=6)
+    q = c.get("busca", "")
+    k = int(max(0, (t - 0.35) / 0.035))
+    vis = q[:k]
+    f = fonte("semi", 40)
+    d.text((caixa[0] + 105, cy - 26), vis, font=f, fill=(*PRETO, int(255 * a)))
+    if k <= len(q) or int(t * 3) % 2:
+        xc = caixa[0] + 108 + d.textlength(vis, font=f)
+        d.rectangle([xc, cy - 24, xc + 3, cy + 24], fill=(*PRETO, int(255 * a)))
+    y = caixa[3] + 40
+    for i, (r, ti) in enumerate(zip(c.get("resultados", []), tempos_busca(c))):
+        b = ease_out((t - ti) / 0.4)
+        if b <= 0:
+            continue
+        top = y + i * 200 + int(70 * (1 - b))
+        if top + 170 > ctx.limite:
+            break
+        fraco = r.get("fraco")
+        cx0 = 80
+        if fraco:
+            d.rounded_rectangle([cx0, top, 1000, top + 170], radius=28, fill=(*GRAFITE, int(220 * b)),
+                                outline=(*GRAFITE2, int(255 * b)), width=2)
+            cor1, cor2 = SUAVE, (110, 114, 122)
+        else:
+            d.rounded_rectangle([cx0 + 6, top + 12, 1006, top + 182], radius=28, fill=(0, 0, 0, int(110 * b)))
+            d.rounded_rectangle([cx0, top, 1000, top + 170], radius=28, fill=(*OFF, int(250 * b)))
+            cor1, cor2 = PRETO, (70, 74, 82)
+            # miniatura do site
+            d.rounded_rectangle([780, top + 26, 970, top + 144], radius=14, fill=(*GRAFITE, int(255 * b)))
+            d.rectangle([800, top + 46, 900, top + 58], fill=(*OFF, int(220 * b)))
+            d.rectangle([800, top + 70, 940, top + 78], fill=(*SUAVE, int(220 * b)))
+            d.rounded_rectangle([800, top + 100, 880, top + 126], radius=13, fill=(*VERDE, int(255 * b)))
+        d.text((cx0 + 36, top + 26), r.get("url", ""), font=fonte("regular", 28), fill=(*cor2, int(255 * b)))
+        d.text((cx0 + 36, top + 66), r["titulo"], font=fonte("bold", 42), fill=(*cor1, int(255 * b)))
+        if r.get("linha"):
+            d.text((cx0 + 36, top + 120), r["linha"], font=fonte("regular", 28), fill=(*cor2, int(255 * b)))
+    if c.get("aviso", True):
+        fa = fonte("regular", 24)
+        txt = "Demonstração ilustrativa · nomes fictícios"
+        d.text(((W - d.textlength(txt, font=fa)) / 2, ctx.limite + 8 if ctx.limite < 1400 else 1530), txt,
+               font=fa, fill=(*SUAVE, int(200 * a)))
+    return cam
+
+
+def _tela_cache(ctx, v):
+    chave = json.dumps(v, sort_keys=True)
+    if chave not in _TELAS:
+        _TELAS[chave] = ctx.rec.tela(ctx.cfg, v)
+    return chave
+
+
+def cena_montagem(c, t, dur, ctx):
+    """Montagem rápida de modelos de site (um celular por nicho entrando em chicote) com rótulo do nicho."""
+    cam = _camada()
+    y_tit = TOPO_SEGURO + 10
+    y_fim = y_tit
+    if c.get("titulo"):
+        y_fim = desenhar_frase(cam, ctx.rec.metal, c["titulo"], c.get("destaque", []), 70, y_tit, t, passo=0.08)
+    modelos = c["modelos"]
+    n = len(modelos)
+    passo = max(0.8, (dur - 0.5) / n)
+    i = min(n - 1, int(max(0, t - 0.25) / passo))
+    tl = max(0, t - 0.25) - i * passo
+    m = modelos[i]
+    chave = _tela_cache(ctx, m["tela"])
+    larg = 560
+    ap, sombra = _aparelho_cache(chave, larg)
+    e_in = ease_out(tl / 0.28)
+    e_out = ease((tl - (passo - 0.2)) / 0.2) if i < n - 1 else 0
+    x = (W - ap.width) // 2 + int(700 * (1 - e_in)) - int(700 * e_out)
+    y = y_fim + 150 + int(math.sin(t * 1.6) * 6)
+    vis = ctx.limite - y
+    cam.alpha_composite(sombra, (x - 80, y - 50))
+    cam.alpha_composite(ap.crop((0, 0, ap.width, max(10, min(ap.height, vis)))), (x, y))
+    d = ImageDraw.Draw(cam)
+    f = fonte("bold", 40)
+    txt = m["rotulo"].upper()
+    w = d.textlength(txt, font=f) + 80
+    b = ease_back(tl / 0.35)
+    yb = y_fim + 50
+    caixa = [W / 2 - w / 2 * b, yb, W / 2 + w / 2 * b, yb + 76]
+    if b > 0.05:
+        d.rounded_rectangle(caixa, radius=38, fill=(*OFF, 250))
+        if b > 0.8:
+            d.text((W / 2 - (w - 80) / 2, yb + 16), txt, font=f, fill=(*PRETO, 255))
+    for k in range(n):
+        cx = W / 2 + (k - (n - 1) / 2) * 34
+        d.ellipse([cx - 7, ctx.limite - 30, cx + 7, ctx.limite - 16], fill=(*OFF, 230) if k <= i else (*SUAVE, 90))
+    fa = fonte("regular", 24)
+    av = "Modelos ilustrativos · nomes fictícios"
+    d.text(((W - d.textlength(av, font=fa)) / 2, ctx.limite + 8 if ctx.limite < 1400 else 1530), av, font=fa,
+           fill=(*SUAVE, 200))
+    return cam
+
+
+_NOTE = {}
+
+
+def _notebook(v, larg):
+    chave = (json.dumps(v, sort_keys=True), larg)
+    if chave not in _NOTE:
+        from src.showcase import tela_desktop
+        tela = tela_desktop(v)
+        tw = larg - 40
+        th = int(tw * tela.height / tela.width)
+        im = Image.new("RGBA", (larg + 120, th + 40 + 46), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        d.rounded_rectangle([60, 0, 60 + larg, th + 40], radius=24, fill=(14, 14, 16, 255), outline=(112, 118, 128, 255),
+                            width=3)
+        im.paste(tela.resize((tw, th), Image.LANCZOS), (80, 20))
+        d.polygon([(0, th + 40), (larg + 120, th + 40), (larg + 70, th + 40 + 40), (50, th + 40 + 40)],
+                  fill=(150, 154, 160, 255))
+        d.rectangle([larg / 2 + 10, th + 40, larg / 2 + 110, th + 48], fill=(110, 114, 120, 255))
+        _NOTE[chave] = (im, _sombra(im.width, im.height, 24))
+    return _NOTE[chave]
+
+
+def tempos_dispositivos(c):
+    return [1.0 + i * c.get("intervalo", 0.7) for i in range(len(c.get("chips", [])))]
+
+
+def cena_dispositivos(c, t, dur, ctx):
+    """O mesmo site no notebook e no celular, com destaques (serviços, portfólio, WhatsApp...) entrando."""
+    cam = _camada()
+    v = {"tipo": "site", **c.get("demo", {})}
+    nb, snb = _notebook(v, 860)
+    alt_t = (len(layout_frase(c["titulo"], c.get("destaque", []), 66, 900)[0]) * int(66 * 1.16) + 20) if c.get("titulo") else 0
+    total = alt_t + 60 + nb.height + 10 + len(c.get("chips", [])) * 100
+    y = max(TOPO_SEGURO + 10, int((TOPO_SEGURO + ctx.limite) / 2 - total / 2) - 60)
+    if c.get("titulo"):
+        y = desenhar_frase(cam, ctx.rec.metal, c["titulo"], c.get("destaque", []), 66, y, t, passo=0.05) + 20
+    a = ease_out(t / 0.6)
+    xn = (W - nb.width) // 2 - 40
+    yn = y + 60 + int(200 * (1 - a)) + int(math.sin(t * 1.3) * 5)
+    cam.alpha_composite(snb, (xn - 80, yn - 50))
+    nb_a = nb.copy()
+    if a < 1:
+        nb_a.putalpha(nb.getchannel("A").point(lambda p: int(p * a)))
+    cam.alpha_composite(nb_a, (xn, yn))
+    chave = _tela_cache(ctx, v)
+    ap, sombra = _aparelho_cache(chave, 300)
+    b = ease_back((t - 0.35) / 0.55)
+    xp = W - ap.width - 50 + int(500 * (1 - b))
+    yp = yn + nb.height - 260 + int(math.sin(t * 1.7 + 1) * 7)
+    vis = ctx.limite - yp
+    if b > 0:
+        cam.alpha_composite(sombra.resize((sombra.width * 300 // 600, sombra.height * 300 // 600)), (xp - 40, yp - 25))
+        cam.alpha_composite(ap.crop((0, 0, ap.width, max(10, min(ap.height, vis)))), (xp, yp))
+    d = ImageDraw.Draw(cam)
+    f = fonte("semi", 36)
+    for i, (txt, ti) in enumerate(zip(c.get("chips", []), tempos_dispositivos(c))):
+        bb = ease_back((t - ti) / 0.45)
+        al = ease((t - ti) / 0.3)
+        if al <= 0:
+            continue
+        w = d.textlength(txt, font=f) + 110
+        cx = 60 + (1 - bb) * -80
+        cy = yn + nb.height + 10 + i * 100
+        if cy + 84 > ctx.limite:
+            cy = ctx.limite - 84 - (len(c["chips"]) - 1 - i) * 96
+        caixa = [cx, cy, cx + w, cy + 84]
+        d.rounded_rectangle([caixa[0] + 6, caixa[1] + 10, caixa[2] + 6, caixa[3] + 10], radius=42,
+                            fill=(0, 0, 0, int(110 * al)))
+        verde = "whatsapp" in txt.lower()
+        d.rounded_rectangle(caixa, radius=42, fill=(*(VERDE if verde else OFF), int(250 * al)))
+        d.ellipse([caixa[0] + 24, cy + 22, caixa[0] + 64, cy + 62], fill=(*PRETO, int(255 * al)))
+        d.line([(caixa[0] + 35, cy + 43), (caixa[0] + 42, cy + 51), (caixa[0] + 55, cy + 34)],
+               fill=(*OFF, int(255 * al)), width=5)
+        d.text((caixa[0] + 82, cy + 20), txt, font=f, fill=(*PRETO, int(255 * al)))
+    fa = fonte("regular", 24)
+    av = "Demonstração ilustrativa · nomes fictícios"
+    d.text(((W - d.textlength(av, font=fa)) / 2, ctx.limite + 8 if ctx.limite < 1400 else 1530), av, font=fa,
+           fill=(*SUAVE, int(200 * a)))
+    return cam
+
+
+def cena_cinetico(c, t, dur, ctx):
+    """Tipografia cinética: a fala aparece em pedaços grandes, batendo junto com a voz (sem legenda embaixo)."""
+    cam = _camada()
+    if "_pedacos" not in c:
+        c["_pedacos"] = _pedacos_cineticos(c, dur)
+    ped = c["_pedacos"]
+    atual = [x for x in ped if x[0] <= t]
+    if not atual:
+        rotulo(cam, c.get("rotulo"), 560, ease((t + 0.2) / 0.3))
+        return cam
+    ti, txt = atual[-1]
+    idx = len(atual) - 1
+    dt = t - ti
+    base = c.get("tam", 132 if len(txt) <= 16 else 112)
+    tam = int(round(base * (1 + 0.22 * (1 - ease_out(dt / 0.2))) / 4) * 4)
+    linhas, _ = layout_frase(txt, c.get("destaque", []), tam, 920)
+    alt = len(linhas) * int(tam * 1.1)
+    meio = (TOPO_SEGURO + ctx.limite) / 2
+    y = int(meio - alt / 2 + (idx % 2) * 30 - 15)
+    rotulo(cam, c.get("rotulo"), y - 120, 1.0)
+    yf = desenhar_frase(cam, ctx.rec.metal, txt, c.get("destaque", []), tam, y, 10, entrelinha=1.1, sublinhar=False)
+    d = ImageDraw.Draw(cam)
+    g = ease_out(dt / 0.35)
+    larg = 220 * g
+    d.rectangle([W / 2 - larg, yf + 30, W / 2 + larg, yf + 36], fill=(*PRATA, 220))
+    # marcadores de progresso da frase
+    n = len(ped)
+    for k in range(n):
+        cx = W / 2 + (k - (n - 1) / 2) * 34
+        on = k <= idx
+        d.ellipse([cx - 7, yf + 80 - 7, cx + 7, yf + 80 + 7], fill=(*OFF, 230) if on else (*SUAVE, 90))
+    return cam
+
+
+CENAS = {"busca": cena_busca, "montagem": cena_montagem, "dispositivos": cena_dispositivos,
+         "cinetico": cena_cinetico, "gancho": cena_gancho, "texto": cena_texto, "lista": cena_lista, "celular": cena_celular,
          "comparacao": cena_comparacao, "imagem": cena_imagem, "cta": cena_cta, "marca": cena_marca}
 
 
@@ -710,6 +1013,14 @@ def duracao_leitura(c):
     for k in ("sem", "com"):
         if k in c:
             txt += " " + " ".join(c[k]["itens"])
+    if c["tipo"] == "cinetico":
+        return max(2.0, len((c.get("fala") or c.get("texto", "")).split()) * 0.36 + 0.9)
+    if c["tipo"] == "busca":
+        return max(3.0, tempos_busca(c)[-1] + 1.5 if c.get("resultados") else 3.0)
+    if c["tipo"] == "montagem":
+        return max(4.0, 1.0 * len(c["modelos"]) + 0.6)
+    if c["tipo"] == "dispositivos":
+        return max(3.5, (tempos_dispositivos(c) or [0])[-1] + 1.5)
     base = {"gancho": 2.2, "texto": 2.4, "lista": 1.2, "celular": 2.4, "comparacao": 2.6, "imagem": 2.6,
             "cta": 3.2, "marca": 2.2}[c["tipo"]]
     extra = len(txt.split()) * 0.27
@@ -727,7 +1038,7 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
     saida = Path(saida)
     saida.parent.mkdir(parents=True, exist_ok=True)
     cenas = [dict(c) for c in roteiro["cenas"]]
-    if cenas[-1]["tipo"] != "marca":
+    if not any(c["tipo"] == "marca" for c in cenas):
         cenas.append({"tipo": "marca"})
     semente = roteiro.get("semente", zlib.crc32(roteiro["id"].encode()) % 997)
     voz = voz or roteiro.get("voz", "masculina")
@@ -770,6 +1081,7 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
             c["_ini"] = t
             destaques |= {_limpa(x) for d in c.get("destaque", []) for x in d.split()}
             atraso_fala = 0.12 if i == 0 else 0.22
+            c["_atraso"] = atraso_fala
             if c.get("_fala"):
                 falas.append((t + atraso_fala, c["_fala"]))
                 palavras += [{**p, "ini": p["ini"] + t + atraso_fala, "fim": p["fim"] + t + atraso_fala}
@@ -783,6 +1095,19 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
             if c["tipo"] == "celular":
                 eventos += [(t + x, "clique", 0.8) for x in tempos_celular(c)]
                 eventos.append((t + 0.35, "notificacao", 0.7))
+            if c["tipo"] == "busca":
+                eventos += [(t + 0.35 + k * 0.035, "clique", 0.25) for k in range(0, len(c.get("busca", "")), 3)]
+                eventos += [(t + x, "clique", 0.8) for x in tempos_busca(c)]
+            if c["tipo"] == "dispositivos":
+                eventos += [(t + x, "clique", 0.8) for x in tempos_dispositivos(c)]
+            if c["tipo"] == "montagem":
+                n = len(c["modelos"])
+                pm = max(0.8, (c["_dur"] - 0.5) / n)
+                eventos += [(t + 0.25 + k * pm - 0.1, "whoosh", 0.45) for k in range(1, n)]
+            if c.get("notificacoes"):
+                eventos += [(t + 0.05 + k * 0.42, "notificacao", 0.55) for k in range(len(c["notificacoes"]))]
+            if c["tipo"] == "cinetico":
+                eventos += [(t + x, "clique", 0.55) for x in tempos_cinetico(c, c["_dur"])[1:]]
             if c["tipo"] == "comparacao":
                 eventos.append((t + 0.35 + c.get("intervalo", 1.6), "clique", 0.9))
             if c["tipo"] == "cta":
@@ -797,7 +1122,7 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
         blocos = []
         if com_legenda:  # blocos por cena: legenda nunca atravessa a troca de cena
             for c in cenas:
-                if c.get("_pals"):
+                if c.get("_pals") and c["tipo"] != "cinetico":
                     ini = c["_ini"] + (0.12 if c is cenas[0] else 0.22)
                     bs = blocos_legenda([{**p, "ini": p["ini"] + ini, "fim": p["fim"] + ini} for p in c["_pals"]])
                     if bs:
@@ -805,7 +1130,7 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
                     blocos += bs
         # 3) áudio
         audio = tmp / "audio.wav"
-        au.mixar(total, falas, eventos, semente, audio, energia=roteiro.get("energia", 1.0))
+        au.mixar(total, falas, eventos, semente, audio, energia=roteiro.get("energia", 1.1), bpm=BPM)
         # 4) vídeo
         rec = Recursos()
         ctx = Contexto(cfg, rec, com_legenda)
@@ -827,9 +1152,13 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
             frame = quadro_cena(c, tl, ctx, rec, tg, luz_w)
             if i > 0 and tl < TR:  # transição: o quadro anterior avança em zoom e se dissolve
                 ant = cenas[i - 1]
-                q_ant = quadro_cena(ant, ant["_dur"] + tl, ctx, rec, tg, luz_w, extra_zoom=0.07 * ease(tl / TR))
-                a = ease(tl / TR) ** 0.7
-                frame = Image.blend(q_ant, frame, a)
+                if i % 2:
+                    q_ant = quadro_cena(ant, ant["_dur"] + tl, ctx, rec, tg, luz_w, extra_zoom=0.07 * ease(tl / TR))
+                    a = ease(tl / TR) ** 0.7
+                    frame = Image.blend(q_ant, frame, a)
+                else:
+                    q_ant = quadro_cena(ant, ant["_dur"] + tl, ctx, rec, tg, luz_w)
+                    frame = transicao_chicote(q_ant, frame, tl / TR)
             frame = frame.convert("RGBA")
             if com_legenda:
                 desenhar_legenda(frame, blocos, tg, destaques)
@@ -848,22 +1177,70 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
         (capa or quadro_cena(cenas[0], 2.5, ctx, rec, 0, luz_w).convert("RGB")).save(capa_arq, "JPEG", quality=92)
         rel.update(duracao=round(total, 2), video=str(saida), capa=str(capa_arq), legendas=len(blocos),
                    srt=srt(blocos) if blocos else "", eventos_sfx=[(round(a, 2), b) for a, b, _ in eventos],
-                   trilha=f"GNZ01 Tech (original, gerada por código), semente {semente}, 100 BPM")
+                   trilha=f"GNZ01 Tech (original, gerada por código), semente {semente}, {BPM} BPM")
     return rel
 
 
+def transicao_chicote(a_img, b_img, p):
+    """Chicote lateral: a cena atual sai pela esquerda e a nova entra pela direita, com desfoque de movimento."""
+    e = ease(p)
+    borrao = math.sin(math.pi * min(1.0, max(0.0, p)))
+    fr = Image.new("RGB", (W, H), PRETO)
+    dx = int(W * e)
+    fr.paste(a_img, (-dx, 0))
+    fr.paste(b_img, (W - dx, 0))
+    if borrao > 0.05:
+        k = max(2, int(2 + 30 * borrao))
+        fr = fr.resize((max(8, W // k), H), Image.BILINEAR).resize((W, H), Image.BILINEAR)
+    return fr
+
+
+def _particulas(n=46, semente=5):
+    rng = np.random.default_rng(semente)
+    return [(rng.uniform(0, W), rng.uniform(0, H), rng.uniform(1.5, 4.5), rng.uniform(18, 70),
+             rng.uniform(0, 6.28), rng.uniform(40, 150)) for _ in range(n)]
+
+
+_PART = _particulas()
+
+
+def fundo_animado(fr, tg):
+    """Partículas que sobem, anéis que pulsam na batida da trilha e linhas de varredura."""
+    cam = _camada()
+    d = ImageDraw.Draw(cam)
+    for x, y, r, vel, fase, alfa in _PART:
+        yy = (y - tg * vel) % (H + 40) - 20
+        xx = x + math.sin(tg * 0.8 + fase) * 22
+        d.ellipse([xx - r, yy - r, xx + r, yy + r], fill=(*PRATA, int(alfa * (0.6 + 0.4 * math.sin(tg * 2 + fase)))))
+    batida = 60 / BPM
+    fase_b = (tg % batida) / batida
+    pulso = math.exp(-fase_b * 6)
+    cx, cy = W / 2, 820
+    for k, raio in enumerate((300, 470, 650)):
+        rr = raio * (1 + 0.035 * pulso) + 18 * math.sin(tg * 0.6 + k)
+        d.ellipse([cx - rr, cy - rr, cx + rr, cy + rr], outline=(*PRATA, int(16 + 26 * pulso)), width=2)
+    # linha de varredura horizontal que desce a cada 2 compassos
+    yv = int((tg % (batida * 8)) / (batida * 8) * (H + 200)) - 100
+    d.rectangle([0, yv, W, yv + 2], fill=(*OFF, 34))
+    fr.alpha_composite(cam)
+    return pulso
+
+
 def quadro_cena(c, tl, ctx, rec, tg, luz_w, extra_zoom=0.0):
-    """Fundo + feixe de luz + conteúdo da cena, com push-in de câmera."""
+    """Fundo animado + feixe de luz + conteúdo da cena, com soco de câmera no corte e push-in contínuo."""
     fr = rec.base.copy()
-    lx = int(-luz_w + (tg * 38) % (W + luz_w))
+    lx = int(-luz_w + (tg * 60) % (W + luz_w))
     fr.alpha_composite(rec.luz, (lx, -300))
+    pulso = fundo_animado(fr, tg)
     conteudo = CENAS[c["tipo"]](c, tl, c["_dur"], ctx)
     fr.alpha_composite(conteudo)
     fr.alpha_composite(rec.vinheta)
-    zoom = 1 + 0.035 * min(1.0, tl / max(c["_dur"], 0.1)) + extra_zoom
+    soco = 0.075 * (1 - ease_out(tl / 0.45))
+    zoom = 1 + soco + 0.05 * min(1.0, tl / max(c["_dur"], 0.1)) + 0.004 * pulso + extra_zoom
     if zoom > 1.001:
         cw, ch = W / zoom, H / zoom
-        x0, y0 = (W - cw) / 2, (H - ch) / 2
+        x0 = (W - cw) / 2 + math.sin(tg * 0.9) * (W - cw) * 0.35
+        y0 = (H - ch) / 2 + math.cos(tg * 0.7) * (H - ch) * 0.25
         fr = fr.resize((W, H), Image.BILINEAR, box=(x0, y0, x0 + cw, y0 + ch))
     return fr.convert("RGB")
 
