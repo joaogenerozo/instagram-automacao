@@ -2,14 +2,14 @@ name: Produzir Reels
 
 on:
   schedule:
-    # 03:00 e 12:00 de Brasília: produz os Reels das próximas 30 horas (07:00, 11:00 e 19:00)
-    - cron: "0 6 * * *"
-    - cron: "0 15 * * *"
+    # a cada 3 horas: o agendamento do GitHub atrasa ou pula execuções em repositórios pequenos,
+    # então várias tentativas por dia garantem os vídeos. Sem horário livre, termina em segundos.
+    - cron: "17 */3 * * *"
   workflow_dispatch:
     inputs:
       horas:
         description: "Janela em horas para produzir"
-        default: "30"
+        default: "48"
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
-        run: python reels.py --horas "${{ github.event.inputs.horas || '30' }}"
+        run: python reels.py --horas "${{ github.event.inputs.horas || '48' }}"
       - name: Salvar vídeos e fila
         if: always()
         run: |
