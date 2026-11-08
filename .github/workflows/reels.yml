@@ -1,0 +1,58 @@
+name: Produzir Reels
+
+on:
+  schedule:
+    # 03:00 e 12:00 de Brasília: produz os Reels das próximas 30 horas (07:00, 11:00 e 19:00)
+    - cron: "0 6 * * *"
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      horas:
+        description: "Janela em horas para produzir"
+        default: "30"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  produzir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar FFmpeg e dependências
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -r requirements.txt
+      - name: Escrever novos roteiros com IA (quando estiver acabando)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python gerar_reels_ia.py --se-faltar 9 || echo "Não foi possível gerar roteiros novos agora."
+      - name: Produzir e agendar os Reels
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+        run: python reels.py --horas "${{ github.event.inputs.horas || '30' }}"
+      - name: Salvar vídeos e fila
+        if: always()
+        run: |
+          git config user.name "robo-instagram"
+          git config user.email "actions@users.noreply.github.com"
+          git add midia/reels GNZ01-MARKETING/REELS fila.json conteudo/reels
+          git diff --cached --quiet || (git commit -m "Produz Reels dos próximos horários" && git pull --rebase && git push)
+      - name: Avisar o dono se algum Reel falhou
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s alerta.txt ]; then
+            gh issue create --title "Reels: aviso da produção ($(date -u '+%d/%m %H:%M') UTC)" --body-file alerta.txt || cat alerta.txt
+          fi

@@ -1,0 +1,382 @@
+{
+  "semana": 1,
+  "roteiros": [
+    {
+      "id": "r01-google-andradas",
+      "titulo": "Procuraram seu serviço no Google e acharam o concorrente",
+      "tema": "sites",
+      "objetivo": "Atrair donos de negócio local que ainda não aparecem no Google",
+      "publico": "Pequenos negócios de Andradas e região sem site",
+      "direcao": "Abertura seca com a cena da busca; ritmo rápido; demonstração do site no celular; fecha com convite direto.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Se você tem um negócio em Andradas", "texto": "Alguém procurou o seu serviço no Google agora.", "destaque": ["Google"], "fala": "Alguém procurou o seu serviço no Google agora."},
+        {"tipo": "texto", "texto": "E encontrou o seu concorrente.", "destaque": ["concorrente."], "apoio": "Não porque ele é melhor. Porque ele aparece.", "fala": "E encontrou o seu concorrente. Não porque ele é melhor. Porque ele aparece."},
+        {"tipo": "celular", "tela": "site", "titulo": "Um site coloca o seu negócio na busca.", "destaque": ["busca."], "chips": ["Seus serviços explicados", "Endereço e horários", "Botão para o WhatsApp"], "fala": "Com um site, quem procura encontra você: seus serviços, endereço, horários e um botão para falar no WhatsApp."},
+        {"tipo": "texto", "texto": "Quem não é encontrado não é lembrado.", "destaque": ["lembrado."], "fala": "Quem não é encontrado não é lembrado."},
+        {"tipo": "cta", "texto": "Quer aparecer para quem já está procurando?", "destaque": ["procurando?"], "fala": "Quer aparecer para quem já está procurando? Comente SITE que eu te mando um exemplo."}
+      ],
+      "gancho_legenda": "Alguém procurou o seu serviço no Google agora. E encontrou o concorrente. 🔎",
+      "legenda": "Não é porque ele é melhor. É porque ele aparece.\n\nQuando o cliente pesquisa, ele escolhe entre as opções que encontra. Um site bem feito coloca o seu negócio nessa lista, com seus serviços, endereço, horários e um botão direto para o WhatsApp.",
+      "hashtags": ["#sitesparapequenasempresas", "#negociolocal"]
+    },
+    {
+      "id": "r02-cardapio-whatsapp",
+      "titulo": "Pedido perdido no WhatsApp",
+      "tema": "cardapio",
+      "objetivo": "Mostrar o cardápio digital como solução para pedidos desorganizados",
+      "publico": "Donos de restaurante, pizzaria e lanchonete que vendem pelo WhatsApp",
+      "direcao": "Problema do dia a dia do delivery, comparação antes e depois, demonstração do cardápio.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Para donos de restaurante", "texto": "Quantos pedidos você perdeu hoje no WhatsApp?", "destaque": ["perdeu"], "fala": "Quantos pedidos você perdeu hoje no WhatsApp?"},
+        {"tipo": "texto", "texto": "Cliente esperando resposta pede no concorrente.", "destaque": ["concorrente."], "apoio": "Foto do cardápio, áudio, pergunta de preço. Toda noite.", "fala": "Cliente que fica esperando resposta pede no concorrente."},
+        {"tipo": "comparacao", "titulo": "A diferença na prática", "sem": {"titulo": "Hoje", "itens": ["Foto do cardápio no chat", "Pedido anotado à mão", "Pergunta de preço o tempo todo"]}, "com": {"titulo": "Com cardápio digital", "itens": ["Um link com tudo", "Pedido chega organizado", "Menos tempo respondendo"]}, "fala": "Com um cardápio digital, o cliente vê tudo num link e o pedido chega organizado."},
+        {"tipo": "celular", "tela": "cardapio", "titulo": "O cliente escolhe sozinho.", "destaque": ["sozinho."], "chips": ["Fotos e preços", "Categorias", "Pedido no WhatsApp"], "fala": "Ele escolhe sozinho, com fotos e preços, e manda o pedido pronto no seu WhatsApp."},
+        {"tipo": "cta", "texto": "Quer ver como fica no seu restaurante?", "destaque": ["seu"], "fala": "Quer ver como fica no seu restaurante? Comente CARDÁPIO."}
+      ],
+      "gancho_legenda": "Quantos pedidos você perdeu hoje no WhatsApp? 🍕",
+      "legenda": "Foto do cardápio, áudio, pergunta de preço... e o cliente esperando.\n\nCom um cardápio digital, ele abre um link, escolhe com fotos e preços e o pedido chega pronto no seu WhatsApp. Você para de digitar a mesma coisa toda noite.",
+      "hashtags": ["#cardapiodigital", "#delivery"]
+    },
+    {
+      "id": "r03-instagram-nao-basta",
+      "titulo": "Já tenho Instagram, preciso de site?",
+      "tema": "sites",
+      "objetivo": "Quebrar a objeção de que o Instagram substitui um site",
+      "publico": "Profissionais e comerciantes que divulgam só pelo Instagram",
+      "direcao": "Pergunta-objeção, resposta em lista, tom de autoridade sem atacar o Instagram.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "A dúvida que mais escuto", "texto": "Já tenho Instagram. Preciso de site?", "destaque": ["site?"], "fala": "Já tenho Instagram. Preciso mesmo de um site?"},
+        {"tipo": "texto", "texto": "O Instagram é ótimo para ser visto.", "destaque": ["visto."], "apoio": "O site é onde o cliente decide.", "fala": "O Instagram é ótimo para ser visto. O site é onde o cliente decide."},
+        {"tipo": "lista", "titulo": "O que o site faz por você", "destaque": ["site"], "itens": ["Aparece no Google", "Explica tudo num lugar só", "Passa confiança de empresa"], "fala": "Ele aparece no Google, explica tudo num lugar só e passa confiança de empresa estabelecida."},
+        {"tipo": "texto", "texto": "Instagram atrai. Site converte.", "destaque": ["converte."], "fala": "Instagram atrai. Site converte. Os dois juntos trabalham por você."},
+        {"tipo": "cta", "texto": "Quer os dois trabalhando juntos?", "destaque": ["juntos?"], "fala": "Quer os dois trabalhando juntos? Comente SITE."}
+      ],
+      "gancho_legenda": "\"Já tenho Instagram. Preciso de site?\" 🤔",
+      "legenda": "O Instagram é ótimo para ser visto. O site é onde o cliente decide.\n\n✔️ Aparece no Google quando alguém pesquisa\n✔️ Explica seus serviços num lugar só\n✔️ Passa a confiança de uma empresa estabelecida\n\nInstagram atrai. Site converte.",
+      "hashtags": ["#siteprofissional", "#presencadigital"]
+    },
+    {
+      "id": "r04-agenda-barbearia",
+      "titulo": "Barbearia que agenda pelo direct",
+      "tema": "agenda",
+      "objetivo": "Apresentar a agenda online para barbearias",
+      "publico": "Donos de barbearia",
+      "direcao": "Cena do barbeiro parando o corte para responder; agenda online como alívio.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Para barbearias", "texto": "Você para o corte para responder horário?", "destaque": ["corte"], "fala": "Você para o corte no meio para responder pedido de horário?"},
+        {"tipo": "texto", "texto": "Cada mensagem é uma pausa no seu trabalho.", "destaque": ["pausa"], "apoio": "E cada demora é um cliente que marca em outro lugar.", "fala": "Cada mensagem é uma pausa no seu trabalho. E cada demora é um cliente marcando em outro lugar."},
+        {"tipo": "celular", "tela": "agenda", "demo": {"nome": "Sua Barbearia", "sigla": "SB", "chips": ["Corte", "Barba", "Combo"], "notif": ["Novo agendamento", "Combo · Sex 14:30"], "botao": "Confirmar · Sex 14:30"}, "titulo": "O cliente marca sozinho.", "destaque": ["sozinho."], "chips": ["Horários livres na tela", "Escolhe o serviço", "Confirmação na hora"], "fala": "Com a agenda online, o cliente vê os horários livres, escolhe o serviço e marca sozinho."},
+        {"tipo": "texto", "texto": "Você só corta. A agenda trabalha.", "destaque": ["trabalha."], "fala": "Você só corta. A agenda trabalha."},
+        {"tipo": "cta", "texto": "Quer a sua barbearia assim?", "destaque": ["assim?"], "fala": "Quer a sua barbearia assim? Comente AGENDA."}
+      ],
+      "gancho_legenda": "Você para o corte no meio para responder pedido de horário? ✂️",
+      "legenda": "Cada mensagem é uma pausa. Cada demora, um cliente marcando em outro lugar.\n\nCom a agenda online, o cliente vê os horários livres, escolhe o serviço e confirma sozinho. Você continua no que faz de melhor.",
+      "hashtags": ["#barbearia", "#agendaonline"]
+    },
+    {
+      "id": "r05-primeiros-segundos",
+      "titulo": "Os primeiros segundos no seu site",
+      "tema": "sites",
+      "objetivo": "Educar sobre o que um site precisa mostrar logo de cara",
+      "publico": "Donos de negócio que têm ou vão criar um site",
+      "direcao": "Dica prática em lista numerada; tom de especialista.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Teste rápido", "texto": "Seu site responde isso em poucos segundos?", "destaque": ["segundos?"], "fala": "O seu site responde estas três perguntas em poucos segundos?"},
+        {"tipo": "lista", "titulo": "Logo na primeira tela", "destaque": ["primeira"], "itens": ["O que você faz", "Para quem é", "Como falar com você agora"], "intervalo": 0.8, "fala": "O que você faz. Para quem é. E como falar com você agora."},
+        {"tipo": "texto", "texto": "Se o visitante precisa procurar, ele vai embora.", "destaque": ["embora."], "fala": "Se o visitante precisa procurar essas respostas, ele vai embora."},
+        {"tipo": "celular", "tela": "site", "titulo": "Tudo claro na primeira tela.", "destaque": ["claro"], "chips": ["Chamada direta", "Serviços visíveis", "Botão de contato"], "fala": "Um site bem feito mostra tudo isso na primeira tela."},
+        {"tipo": "cta", "texto": "Quer um site claro desde o primeiro segundo?", "destaque": ["claro"], "fala": "Quer um site claro desde o primeiro segundo? Comente SITE."}
+      ],
+      "gancho_legenda": "O seu site responde estas 3 perguntas em poucos segundos? ⏱️",
+      "legenda": "1. O que você faz\n2. Para quem é\n3. Como falar com você agora\n\nSe o visitante precisa procurar essas respostas, ele vai embora. 💾 Salve para revisar o seu site.",
+      "hashtags": ["#criacaodesites", "#dicasdemarketing"]
+    },
+    {
+      "id": "r06-catalogo-loja",
+      "titulo": "Loja que responde preço um por um",
+      "tema": "catalogo",
+      "objetivo": "Apresentar o catálogo digital para lojas",
+      "publico": "Lojas de roupa, acessórios e presentes que vendem pelo WhatsApp e Instagram",
+      "direcao": "Repetição cansativa do 'quanto custa?', catálogo como vitrine organizada.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Para lojistas", "texto": "Quanto custa? Tem no M? Ainda tem?", "destaque": ["custa?"], "fala": "Quanto custa? Tem no M? Ainda tem?"},
+        {"tipo": "texto", "texto": "Se você responde isso o dia todo, tem um jeito melhor.", "destaque": ["melhor."], "fala": "Se você responde isso o dia inteiro, existe um jeito melhor."},
+        {"tipo": "celular", "tela": "catalogo", "titulo": "Seus produtos num link só.", "destaque": ["link"], "chips": ["Fotos e preços", "Categorias", "Pedido pelo WhatsApp"], "fala": "Um catálogo digital mostra seus produtos com fotos e preços num link só. O cliente escolhe e chama no WhatsApp já sabendo o que quer."},
+        {"tipo": "texto", "texto": "Menos pergunta. Mais venda.", "destaque": ["venda."], "fala": "Menos pergunta repetida. Mais venda."},
+        {"tipo": "cta", "texto": "Quer ver sua loja num catálogo assim?", "destaque": ["catálogo"], "fala": "Quer ver sua loja num catálogo assim? Comente CATÁLOGO."}
+      ],
+      "gancho_legenda": "\"Quanto custa?\" \"Tem no M?\" \"Ainda tem?\" 🛍️",
+      "legenda": "Se você responde isso o dia inteiro, existe um jeito melhor.\n\nUm catálogo digital mostra seus produtos com fotos, preços e categorias num link só. O cliente escolhe e chama no WhatsApp já sabendo o que quer.",
+      "hashtags": ["#catalogodigital", "#lojaonline"]
+    },
+    {
+      "id": "r07-clinica-confianca",
+      "titulo": "Paciente pesquisa antes de marcar",
+      "tema": "sites",
+      "objetivo": "Mostrar a clínicas que o site gera confiança antes do primeiro contato",
+      "publico": "Clínicas odontológicas, de estética e consultórios",
+      "direcao": "Tom sóbrio e premium; o site como primeira consulta.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Para clínicas e consultórios", "texto": "Seu paciente pesquisa você antes de marcar.", "destaque": ["pesquisa"], "fala": "Antes de marcar, o seu paciente pesquisa você."},
+        {"tipo": "texto", "texto": "O que ele encontra decide se ele liga.", "destaque": ["decide"], "fala": "E o que ele encontra decide se ele liga ou não."},
+        {"tipo": "lista", "titulo": "O que gera confiança", "destaque": ["confiança"], "check": true, "itens": ["Tratamentos bem explicados", "Equipe e estrutura", "Localização e contato fácil"], "fala": "Tratamentos bem explicados, a equipe, a estrutura e um contato fácil."},
+        {"tipo": "celular", "tela": "site", "titulo": "Seu site é a primeira consulta.", "destaque": ["primeira"], "chips": ["Tratamentos", "Agendar pelo WhatsApp"], "fala": "O seu site é a primeira consulta. Ele precisa transmitir o mesmo cuidado do seu atendimento."},
+        {"tipo": "cta", "texto": "Quer um site à altura da sua clínica?", "destaque": ["altura"], "fala": "Quer um site à altura da sua clínica? Comente SITE."}
+      ],
+      "gancho_legenda": "Antes de marcar, o seu paciente pesquisa você. 🦷",
+      "legenda": "E o que ele encontra decide se ele entra em contato.\n\nTratamentos bem explicados, equipe, estrutura e um jeito fácil de agendar. O site é a primeira consulta: ele precisa transmitir o mesmo cuidado do seu atendimento.",
+      "hashtags": ["#marketingodontologico", "#clinicadeestetica"]
+    },
+    {
+      "id": "r08-landing-anuncio",
+      "titulo": "Anúncio que leva para o lugar errado",
+      "tema": "landing",
+      "objetivo": "Explicar a landing page para quem investe em anúncio",
+      "publico": "Negócios que fazem ou querem fazer anúncios pagos",
+      "direcao": "Problema do dinheiro desperdiçado; solução simples: uma página, um objetivo.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Se você faz anúncio", "texto": "Seu anúncio leva o cliente para onde?", "destaque": ["onde?"], "fala": "O seu anúncio leva o cliente para onde?"},
+        {"tipo": "texto", "texto": "Perfil cheio de posts distrai quem chegou para comprar.", "destaque": ["distrai"], "fala": "Mandar para um perfil cheio de posts distrai quem chegou pronto para comprar."},
+        {"tipo": "comparacao", "titulo": "Para onde mandar o clique", "sem": {"titulo": "Perfil ou site genérico", "itens": ["Muitas opções", "Informação espalhada", "Cliente se perde"]}, "com": {"titulo": "Landing page", "itens": ["Uma oferta clara", "Tudo que ele precisa saber", "Um botão de ação"]}, "fala": "A landing page tem uma oferta, tudo o que o cliente precisa saber e um botão de ação."},
+        {"tipo": "texto", "texto": "Uma página. Um objetivo.", "destaque": ["objetivo."], "fala": "Uma página. Um objetivo."},
+        {"tipo": "cta", "texto": "Quer uma página feita para o seu anúncio?", "destaque": ["anúncio?"], "fala": "Quer uma página feita para o seu anúncio? Comente PÁGINA."}
+      ],
+      "gancho_legenda": "O seu anúncio leva o cliente para onde? 🎯",
+      "legenda": "Mandar o clique para um perfil cheio de posts distrai quem chegou pronto para comprar.\n\nA landing page tem uma oferta clara, tudo o que o cliente precisa saber e um único botão de ação. Uma página, um objetivo.",
+      "hashtags": ["#landingpage", "#trafegopago"]
+    },
+    {
+      "id": "r09-agenda-faltas",
+      "titulo": "Cliente que esquece o horário",
+      "tema": "agenda",
+      "objetivo": "Mostrar o lembrete automático como ajuda contra faltas",
+      "publico": "Salões, estúdios, clínicas e profissionais que atendem com hora marcada",
+      "direcao": "A cadeira vazia como imagem do problema; agenda organizada como solução.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Quem atende com hora marcada", "texto": "Horário marcado, cadeira vazia.", "destaque": ["vazia."], "fala": "Horário marcado. Cadeira vazia."},
+        {"tipo": "texto", "texto": "Muitas vezes, o cliente só esqueceu.", "destaque": ["esqueceu."], "apoio": "E quem paga a conta é você.", "fala": "Muitas vezes o cliente simplesmente esqueceu. E quem paga essa conta é você."},
+        {"tipo": "celular", "tela": "agenda", "titulo": "Agenda online com lembrete.", "destaque": ["lembrete."], "chips": ["Marca sozinho", "Recebe confirmação", "Lembrete antes do horário"], "fala": "Com a agenda online, o cliente marca, recebe a confirmação e um lembrete antes do horário."},
+        {"tipo": "texto", "texto": "Agenda organizada é dinheiro no caixa.", "destaque": ["caixa."], "fala": "Agenda organizada é dinheiro no caixa."},
+        {"tipo": "cta", "texto": "Quer menos cadeira vazia?", "destaque": ["vazia?"], "fala": "Quer menos cadeira vazia? Comente AGENDA."}
+      ],
+      "gancho_legenda": "Horário marcado. Cadeira vazia. 💺",
+      "legenda": "Muitas vezes o cliente simplesmente esqueceu.\n\nCom a agenda online, ele marca sozinho, recebe a confirmação e um lembrete antes do horário. Agenda organizada é dinheiro no caixa.",
+      "hashtags": ["#salaodebeleza", "#agendamentoonline"]
+    },
+    {
+      "id": "r10-site-celular",
+      "titulo": "Site que não abre direito no celular",
+      "tema": "sites",
+      "objetivo": "Alertar sobre sites que não funcionam bem no celular",
+      "publico": "Empresas com site antigo",
+      "direcao": "Teste prático que o espectador pode fazer agora.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Faça o teste agora", "texto": "Abra o seu site no celular.", "destaque": ["celular."], "fala": "Faça um teste agora: abra o seu site no celular."},
+        {"tipo": "lista", "titulo": "Se acontecer isso, é sinal de alerta", "destaque": ["alerta"], "itens": ["Precisa dar zoom para ler", "Botão difícil de tocar", "Demora para carregar"], "fala": "Precisa dar zoom para ler? O botão é difícil de tocar? Demora para carregar?"},
+        {"tipo": "texto", "texto": "Boa parte dos seus clientes chega pelo celular.", "destaque": ["celular."], "apoio": "Se o site atrapalha, ele volta para a busca.", "fala": "Boa parte dos seus clientes chega pelo celular. Se o site atrapalha, ele volta para a busca."},
+        {"tipo": "celular", "tela": "site", "titulo": "Feito primeiro para o celular.", "destaque": ["celular."], "chips": ["Leitura sem zoom", "Botões grandes", "Carrega rápido"], "fala": "Um site moderno é feito primeiro para o celular: leitura fácil, botões grandes e carregamento rápido."},
+        {"tipo": "cta", "texto": "Seu site passou no teste?", "destaque": ["teste?"], "fala": "O seu site passou no teste? Se não, comente SITE."}
+      ],
+      "gancho_legenda": "Faça um teste agora: abra o seu site no celular. 📱",
+      "legenda": "Precisa dar zoom para ler? O botão é difícil de tocar? Demora para carregar?\n\nSe a resposta for sim, o cliente volta para a busca e escolhe outro. Um site moderno é pensado primeiro para o celular.",
+      "hashtags": ["#siteresponsivo", "#criacaodesites"]
+    },
+    {
+      "id": "r11-pizzaria-noite",
+      "titulo": "Sexta à noite na pizzaria",
+      "tema": "cardapio",
+      "objetivo": "Mostrar o cardápio digital no horário de pico",
+      "publico": "Pizzarias e hamburguerias com delivery",
+      "direcao": "Pico de sexta, celular lotado; cardápio digital organiza a noite.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Para pizzarias", "texto": "Sexta, 20h: o WhatsApp não para.", "destaque": ["20h:"], "fala": "Sexta-feira, oito da noite. O WhatsApp não para."},
+        {"tipo": "texto", "texto": "Alguém no forno, alguém digitando preço.", "destaque": ["digitando"], "apoio": "E o pedido errado volta.", "fala": "Alguém no forno, alguém digitando preço. E o pedido errado volta."},
+        {"tipo": "celular", "tela": "cardapio", "demo": {"nome": "Sua Pizzaria", "sigla": "SP", "chips": ["Pizzas", "Bebidas", "Doces"], "itens": [["Margherita", "Molho, mussarela e manjericão", "R$ 49,90"], ["Calabresa", "Calabresa e cebola", "R$ 47,90"], ["Portuguesa", "Presunto, ovo e ervilha", "R$ 52,90"]], "total": "R$ 150,70"}, "titulo": "O pedido chega escrito, completo.", "destaque": ["completo."], "chips": ["Sabores e tamanhos", "Observações do cliente", "Total calculado"], "fala": "Com o cardápio digital, o pedido chega escrito e completo, com sabores, observações e o total calculado."},
+        {"tipo": "texto", "texto": "Sua equipe no forno. Não no celular.", "destaque": ["forno."], "fala": "Sua equipe no forno, não no celular."},
+        {"tipo": "cta", "texto": "Quer uma sexta mais tranquila?", "destaque": ["tranquila?"], "fala": "Quer uma sexta mais tranquila? Comente CARDÁPIO."}
+      ],
+      "gancho_legenda": "Sexta, 20h. O WhatsApp não para. 🍕",
+      "legenda": "Alguém no forno, alguém digitando preço... e o pedido errado volta.\n\nCom o cardápio digital, o pedido chega escrito e completo, com sabores, observações e o total calculado. Sua equipe no forno, não no celular.",
+      "hashtags": ["#pizzaria", "#cardapiodigital"]
+    },
+    {
+      "id": "r12-pagina-profissional",
+      "titulo": "Profissional liberal sem página própria",
+      "tema": "paginas",
+      "objetivo": "Apresentar a página profissional para autônomos e liberais",
+      "publico": "Advogados, psicólogos, nutricionistas, contadores e corretores",
+      "direcao": "Indicação como gatilho: o cliente indicado pesquisa e precisa achar algo sólido.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Para profissionais liberais", "texto": "Te indicaram. A pessoa pesquisou seu nome.", "destaque": ["pesquisou"], "fala": "Alguém te indicou. A pessoa pesquisou o seu nome."},
+        {"tipo": "texto", "texto": "O que ela encontrou?", "destaque": ["encontrou?"], "apoio": "Uma página profissional ou nada?", "fala": "E o que ela encontrou? Uma página profissional ou nada?"},
+        {"tipo": "lista", "titulo": "Sua página profissional mostra", "destaque": ["profissional"], "check": true, "itens": ["Sua formação e especialidade", "Como você trabalha", "Contato e agendamento"], "fala": "Sua formação, sua especialidade, como você trabalha e um jeito simples de entrar em contato."},
+        {"tipo": "texto", "texto": "A indicação abre a porta. A página fecha a confiança.", "destaque": ["confiança."], "fala": "A indicação abre a porta. A página confirma a confiança."},
+        {"tipo": "cta", "texto": "Quer uma página com o seu nome?", "destaque": ["nome?"], "fala": "Quer uma página profissional com o seu nome? Comente PÁGINA."}
+      ],
+      "gancho_legenda": "Alguém te indicou. A pessoa pesquisou o seu nome. O que ela encontrou? 🔍",
+      "legenda": "A indicação abre a porta. O que a pessoa encontra quando pesquisa confirma (ou não) a confiança.\n\nUma página profissional mostra sua formação, especialidade, como você trabalha e um jeito simples de agendar.",
+      "hashtags": ["#profissionalliberal", "#paginaprofissional"]
+    },
+    {
+      "id": "r13-checklist-site",
+      "titulo": "O que todo site profissional precisa ter",
+      "tema": "sites",
+      "objetivo": "Gerar salvamentos com um checklist útil",
+      "publico": "Donos de negócio planejando um site",
+      "direcao": "Checklist rápido e salvável; ritmo marcado pelos cliques.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Salve este vídeo", "texto": "Seu site tem estes 5 itens?", "destaque": ["5"], "fala": "Antes de criar ou refazer o seu site, confira se ele tem estes cinco itens."},
+        {"tipo": "lista", "titulo": "Checklist do site profissional", "destaque": ["profissional"], "check": true, "intervalo": 0.7, "itens": ["Funciona bem no celular", "Botão de WhatsApp visível", "Serviços explicados", "Endereço e mapa", "Domínio com o seu nome"], "fala": "Funciona bem no celular. Botão de WhatsApp visível. Serviços explicados. Endereço e mapa. E um domínio com o nome da sua empresa."},
+        {"tipo": "texto", "texto": "Faltou algum? Seu cliente percebe.", "destaque": ["percebe."], "fala": "Faltou algum? O seu cliente percebe."},
+        {"tipo": "cta", "texto": "Quer um site com tudo isso?", "destaque": ["tudo"], "fala": "Quer um site com tudo isso? Comente SITE."}
+      ],
+      "gancho_legenda": "Seu site tem estes 5 itens? ✅ Salve para conferir.",
+      "legenda": "✅ Funciona bem no celular\n✅ Botão de WhatsApp visível\n✅ Serviços explicados\n✅ Endereço e mapa\n✅ Domínio com o nome da sua empresa\n\nFaltou algum? O seu cliente percebe.",
+      "hashtags": ["#siteprofissional", "#checklist"]
+    },
+    {
+      "id": "r14-manicure-agenda",
+      "titulo": "Manicure que responde agenda de madrugada",
+      "tema": "agenda",
+      "objetivo": "Apresentar a agenda online para manicures e estúdios de beleza",
+      "publico": "Manicures, nail designers e estúdios de beleza",
+      "direcao": "Cena íntima e real: mensagens fora de hora; agenda online como descanso.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Para manicures", "texto": "23h e ainda respondendo horário?", "destaque": ["23h"], "fala": "Onze da noite e você ainda respondendo pedido de horário?"},
+        {"tipo": "texto", "texto": "Sua agenda pode trabalhar enquanto você descansa.", "destaque": ["descansa."], "fala": "A sua agenda pode trabalhar enquanto você descansa."},
+        {"tipo": "celular", "tela": "agenda", "titulo": "Ela escolhe, marca e pronto.", "destaque": ["pronto."], "chips": ["Serviços e valores", "Horários livres", "Confirmação automática"], "fala": "A cliente escolhe o serviço, vê os horários livres e confirma. Você acorda com a agenda organizada."},
+        {"tipo": "texto", "texto": "Menos mensagem. Mais atendimento.", "destaque": ["atendimento."], "fala": "Menos mensagem. Mais atendimento."},
+        {"tipo": "cta", "texto": "Quer sua agenda assim?", "destaque": ["assim?"], "fala": "Quer a sua agenda assim? Comente AGENDA."}
+      ],
+      "gancho_legenda": "23h e você ainda respondendo pedido de horário? 💅",
+      "legenda": "Sua agenda pode trabalhar enquanto você descansa.\n\nA cliente escolhe o serviço, vê os horários livres e confirma sozinha. Você acorda com a agenda organizada.",
+      "hashtags": ["#manicure", "#naildesigner"]
+    },
+    {
+      "id": "r15-perguntas-repetidas",
+      "titulo": "As mesmas perguntas todo dia",
+      "tema": "sites",
+      "objetivo": "Mostrar o site como atendente que responde as dúvidas frequentes",
+      "publico": "Negócios que recebem muitas perguntas repetidas",
+      "direcao": "Repetição como gancho; site como atendente 24 horas.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Você já respondeu hoje?", "texto": "Qual o endereço? Abre sábado? Aceita cartão?", "destaque": ["sábado?"], "fala": "Qual o endereço? Abre sábado? Aceita cartão?"},
+        {"tipo": "texto", "texto": "Você responde as mesmas perguntas todos os dias.", "destaque": ["mesmas"], "fala": "Você responde as mesmas perguntas todos os dias."},
+        {"tipo": "texto", "texto": "Seu site pode responder por você.", "destaque": ["por"], "apoio": "A qualquer hora, do mesmo jeito, sem esquecer nada.", "fala": "O seu site pode responder por você, a qualquer hora, sem esquecer nada."},
+        {"tipo": "celular", "tela": "site", "titulo": "Tudo que o cliente pergunta, na tela.", "destaque": ["tela."], "chips": ["Endereço e horários", "Formas de pagamento", "Perguntas frequentes"], "fala": "Endereço, horários, formas de pagamento e perguntas frequentes, tudo na tela."},
+        {"tipo": "cta", "texto": "Quer um site que atende por você?", "destaque": ["atende"], "fala": "Quer um site que atende por você? Comente SITE."}
+      ],
+      "gancho_legenda": "\"Qual o endereço?\" \"Abre sábado?\" \"Aceita cartão?\" 🔁",
+      "legenda": "Você responde as mesmas perguntas todos os dias.\n\nUm site bem organizado responde por você, a qualquer hora: endereço, horários, formas de pagamento e perguntas frequentes. Você fica livre para atender quem já decidiu comprar.",
+      "hashtags": ["#atendimentoaocliente", "#criacaodesites"]
+    },
+    {
+      "id": "r16-catalogo-direct",
+      "titulo": "Vende pelo direct e perde venda",
+      "tema": "catalogo",
+      "objetivo": "Mostrar o catálogo como complemento ao Instagram",
+      "publico": "Pequenas lojas e marcas que vendem pelo Instagram",
+      "direcao": "Problema do feed bagunçado como vitrine; catálogo organizado.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Vende pelo Instagram?", "texto": "Seu cliente rola o feed e desiste.", "destaque": ["desiste."], "fala": "O seu cliente rola o feed procurando um produto e desiste."},
+        {"tipo": "texto", "texto": "Feed é vitrine de novidade, não estoque.", "destaque": ["estoque."], "fala": "O feed é vitrine de novidade, não é estoque."},
+        {"tipo": "celular", "tela": "catalogo", "titulo": "Tudo organizado por categoria.", "destaque": ["categoria."], "chips": ["Busca por categoria", "Preço na tela", "Pedido no WhatsApp"], "fala": "No catálogo digital, tudo fica organizado por categoria, com preço na tela e pedido direto no WhatsApp."},
+        {"tipo": "texto", "texto": "Coloque o link na bio e deixe o cliente escolher.", "destaque": ["bio"], "fala": "Coloque o link na bio e deixe o cliente escolher com calma."},
+        {"tipo": "cta", "texto": "Quer um catálogo para a sua loja?", "destaque": ["catálogo"], "fala": "Quer um catálogo para a sua loja? Comente CATÁLOGO."}
+      ],
+      "gancho_legenda": "Seu cliente rola o feed procurando um produto... e desiste. 🛒",
+      "legenda": "O feed é vitrine de novidade, não é estoque.\n\nNo catálogo digital, seus produtos ficam organizados por categoria, com preço na tela e pedido direto no WhatsApp. É só colocar o link na bio.",
+      "hashtags": ["#catalogodigital", "#vendaspeloinstagram"]
+    },
+    {
+      "id": "r17-vitrine-24h",
+      "titulo": "Seu negócio fecha, a busca não",
+      "tema": "sites",
+      "objetivo": "Mostrar o site como vitrine que funciona fora do horário comercial",
+      "publico": "Comércio local e prestadores de serviço",
+      "direcao": "Contraste porta fechada x site aberto; tom inspirador.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Depois que você fecha", "texto": "Sua loja fecha às 18h. A busca não.", "destaque": ["não."], "fala": "A sua loja fecha às seis da tarde. A busca no Google, não."},
+        {"tipo": "texto", "texto": "À noite, o cliente pesquisa com calma.", "destaque": ["calma."], "apoio": "E escolhe quem ele consegue conhecer.", "fala": "À noite, o cliente pesquisa com calma e escolhe quem ele consegue conhecer."},
+        {"tipo": "celular", "tela": "site", "titulo": "Seu site trabalha fora do expediente.", "destaque": ["fora"], "chips": ["Apresenta seu negócio", "Tira dúvidas", "Recebe mensagens"], "fala": "O seu site apresenta o negócio, tira dúvidas e recebe mensagens mesmo fora do expediente."},
+        {"tipo": "texto", "texto": "Uma vitrine aberta 24 horas.", "destaque": ["24"], "fala": "É uma vitrine aberta vinte e quatro horas."},
+        {"tipo": "cta", "texto": "Quer sua vitrine sempre aberta?", "destaque": ["aberta?"], "fala": "Quer a sua vitrine sempre aberta? Comente SITE."}
+      ],
+      "gancho_legenda": "Sua loja fecha às 18h. A busca no Google, não. 🌙",
+      "legenda": "À noite, o cliente pesquisa com calma e escolhe quem ele consegue conhecer.\n\nO site apresenta o seu negócio, tira dúvidas e recebe mensagens mesmo fora do expediente. Uma vitrine aberta 24 horas.",
+      "hashtags": ["#comerciolocal", "#siteprofissional"]
+    },
+    {
+      "id": "r18-landing-objetivo",
+      "titulo": "Uma página, um objetivo",
+      "tema": "landing",
+      "objetivo": "Explicar quando usar landing page",
+      "publico": "Quem vai lançar serviço, promoção ou evento",
+      "direcao": "Didático e direto; três usos práticos.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Vai lançar algo?", "texto": "Promoção nova merece página própria.", "destaque": ["própria."], "fala": "Vai lançar uma promoção, um serviço ou um evento? Ele merece uma página própria."},
+        {"tipo": "lista", "titulo": "Quando usar landing page", "destaque": ["landing"], "itens": ["Lançamento de serviço", "Promoção com prazo", "Inscrição em evento ou aula"], "fala": "Lançamento de serviço, promoção com prazo ou inscrição em evento."},
+        {"tipo": "texto", "texto": "Sem distração, o cliente decide mais rápido.", "destaque": ["rápido."], "fala": "Sem distração, o cliente entende a oferta e decide mais rápido."},
+        {"tipo": "cta", "texto": "Tem um lançamento vindo aí?", "destaque": ["lançamento"], "fala": "Tem um lançamento vindo aí? Comente PÁGINA."}
+      ],
+      "gancho_legenda": "Vai lançar uma promoção, serviço ou evento? 🚀",
+      "legenda": "Ele merece uma página própria.\n\nA landing page é feita para um objetivo só: sem menu, sem distração, com a oferta clara e um botão de ação. Ideal para lançamentos, promoções com prazo e inscrições.",
+      "hashtags": ["#landingpage", "#lancamento"]
+    },
+    {
+      "id": "r19-dominio-email",
+      "titulo": "Contato no Gmail passa confiança?",
+      "tema": "sites",
+      "objetivo": "Mostrar o valor de domínio próprio e presença profissional",
+      "publico": "Empresas pequenas que usam e-mail gratuito e só redes sociais",
+      "direcao": "Detalhe que faz diferença; tom consultivo.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Detalhe que pesa", "texto": "Contato no Gmail. Site? Não tem.", "destaque": ["Gmail."], "fala": "O contato é um Gmail. Site? Não tem."},
+        {"tipo": "texto", "texto": "Para o cliente, parece improviso.", "destaque": ["improviso."], "apoio": "Mesmo quando o seu trabalho é excelente.", "fala": "Para o cliente, isso parece improviso, mesmo quando o seu trabalho é excelente."},
+        {"tipo": "comparacao", "titulo": "Como o cliente enxerga", "sem": {"titulo": "Sem site", "itens": ["Só rede social", "E-mail genérico", "Difícil de achar"]}, "com": {"titulo": "Com site próprio", "itens": ["seunegocio.com.br", "Informações completas", "Aparece na busca"]}, "fala": "Um site com domínio próprio mostra que o seu negócio é sério e fácil de encontrar."},
+        {"tipo": "texto", "texto": "Profissional por dentro. Profissional por fora.", "destaque": ["fora."], "fala": "Profissional por dentro. Profissional por fora."},
+        {"tipo": "cta", "texto": "Quer o seu negócio com endereço próprio?", "destaque": ["próprio?"], "fala": "Quer o seu negócio com endereço próprio na internet? Comente SITE."}
+      ],
+      "gancho_legenda": "O contato é um Gmail. Site? Não tem. 🤨",
+      "legenda": "Para o cliente, isso pode parecer improviso, mesmo quando o seu trabalho é excelente.\n\nUm site com domínio próprio (seunegocio.com.br) mostra que o seu negócio é sério e fácil de encontrar.",
+      "hashtags": ["#dominioproprio", "#siteprofissional"]
+    },
+    {
+      "id": "r20-andradas-local",
+      "titulo": "Quem procura em Andradas encontra você?",
+      "tema": "sites",
+      "objetivo": "Reforçar a presença local e a busca no Google na região",
+      "publico": "Negócios de Andradas e região",
+      "direcao": "Foco local explícito, sem citar negócios reais; site + Google como dupla.",
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Andradas e região", "texto": "Barbearia em Andradas. Você aparece?", "destaque": ["aparece?"], "fala": "Alguém digita no Google: barbearia em Andradas. Você aparece?"},
+        {"tipo": "texto", "texto": "Troque barbearia pelo seu ramo.", "destaque": ["seu"], "apoio": "Pizzaria, clínica, salão, loja, oficina.", "fala": "Troque barbearia pelo seu ramo. Pizzaria, clínica, salão, loja."},
+        {"tipo": "lista", "titulo": "Para aparecer na sua cidade", "destaque": ["cidade"], "check": true, "itens": ["Site com cidade e serviços", "Perfil no Google atualizado", "Avaliações de clientes"], "fala": "Um site que fala da sua cidade e dos seus serviços, o perfil no Google atualizado e avaliações de clientes."},
+        {"tipo": "texto", "texto": "O cliente da sua cidade já está procurando.", "destaque": ["procurando."], "fala": "O cliente da sua cidade já está procurando."},
+        {"tipo": "cta", "texto": "Vamos colocar o seu negócio no mapa?", "destaque": ["mapa?"], "fala": "Vamos colocar o seu negócio no mapa? Comente SITE."}
+      ],
+      "gancho_legenda": "Alguém digita no Google: \"barbearia em Andradas\". Você aparece? 📍",
+      "legenda": "Troque barbearia pelo seu ramo: pizzaria, clínica, salão, loja.\n\nPara aparecer para quem procura na sua cidade: site com a cidade e os seus serviços, perfil no Google atualizado e avaliações de clientes.",
+      "hashtags": ["#negociolocal", "#googlemeunegocio"]
+    },
+    {
+      "id": "r21-gnz01-proposito",
+      "titulo": "Tecnologia que trabalha pelo seu negócio",
+      "tema": "marca",
+      "objetivo": "Construir reconhecimento da GNZ01 e mostrar o portfólio de soluções",
+      "publico": "Empresários e profissionais que buscam modernizar o negócio",
+      "direcao": "Peça institucional premium: ritmo mais lento, marca no fim, sem promessas de resultado.",
+      "energia": 0.85,
+      "cenas": [
+        {"tipo": "gancho", "rotulo": "Para quem faz tudo sozinho", "texto": "Você atende, vende, cobra e ainda divulga?", "destaque": ["divulga?"], "fala": "Você atende, vende, cobra e ainda precisa divulgar?"},
+        {"tipo": "texto", "texto": "Tecnologia deveria tirar trabalho de você.", "destaque": ["tirar"], "apoio": "Não criar mais.", "fala": "A tecnologia deveria tirar trabalho de você. Não criar mais."},
+        {"tipo": "lista", "titulo": "O que a GNZ01 cria", "destaque": ["GNZ01"], "itens": ["Sites profissionais", "Cardápios e catálogos digitais", "Agendas online", "Landing pages"], "fala": "Na GNZ01, criamos sites, cardápios e catálogos digitais, agendas online e landing pages."},
+        {"tipo": "texto", "texto": "Feitos para o seu negócio funcionar melhor.", "destaque": ["melhor."], "fala": "Soluções pensadas para o seu negócio funcionar melhor."},
+        {"tipo": "cta", "texto": "Qual dessas o seu negócio precisa?", "destaque": ["precisa?"], "fala": "Qual dessas o seu negócio precisa? Comente SITE e a gente conversa."}
+      ],
+      "gancho_legenda": "Você atende, vende, cobra e ainda precisa divulgar? ⚙️",
+      "legenda": "A tecnologia deveria tirar trabalho de você, não criar mais.\n\nNa GNZ01 criamos sites profissionais, cardápios e catálogos digitais, agendas online e landing pages, pensados para o seu negócio funcionar melhor.",
+      "hashtags": ["#gnz01", "#solucoesdigitais"]
+    }
+  ]
+}

@@ -10,7 +10,7 @@ Todo dia, no automático:
 | 18:30 | Post |
 | 21:00 | Post |
 
-E mais **7 stories por dia** com perguntas frequentes (07:30, 09:30, 11:00, 13:30, 16:30, 19:30 e 22:00), mais **1 Reels por dia às 19:00** quando houver vídeo de depoimento na pasta `videos/`.
+E mais **3 Reels por dia (07:00, 11:00 e 19:00)** produzidos pelo estúdio de vídeo (veja abaixo), **7 stories por dia** com perguntas frequentes (07:30, 09:30, 11:00, 13:30, 16:30, 19:30 e 22:00), mais **1 Reels por dia às 19:00** quando houver vídeo de depoimento na pasta `videos/`.
 
 Temas: **criação de sites** (foco principal), **cardápio digital** e **agenda online para profissionais**. Os posts de cardápio e agenda terminam oferecendo também a criação de site.
 
@@ -96,3 +96,36 @@ python gerar_conteudo_ia.py      # escreve uma semana nova com IA
 - O GitHub pode atrasar o agendamento alguns minutos. Se um post atrasar mais de 3 horas, ele é pulado para não sair tudo de uma vez.
 - Se der erro, o robô tenta de novo nas próximas execuções (até 3 vezes) e o motivo fica em `fila.json`.
 - Para mudar um post já agendado, edite `conteudo/semana-XX.json`, apague as linhas daquela semana em `fila.json` e rode `gerar.py` de novo.
+
+## Estúdio de Reels (3 vídeos por dia)
+
+Pedido do João (08/11): vídeos às **07:00, 11:00 e 19:00**, publicados sem aprovação prévia, seguindo o prompt
+"GNZ01 AI Video Production Studio" (guardado em `conteudo/reels/diretrizes-video.md`).
+
+Como funciona:
+1. Os roteiros ficam em `conteudo/reels/roteiros-semana-NN.json` (gancho, desenvolvimento, CTA; fala e texto de cada cena).
+2. Duas vezes por dia (03:00 e 12:00) o workflow **Produzir Reels** pega o próximo roteiro para cada horário livre
+   das próximas 30 horas, produz o vídeo com `reels.py` e coloca na fila. O `publicar.py` publica no horário, com capa.
+3. Produção (`src/reels.py` + `src/reels_audio.py`, FFmpeg): 1080x1920, H.264, 30 fps; texto cinético com destaque
+   metálico, push-in de câmera, transições com zoom, demonstrações no celular, listas e comparações animadas;
+   trilha eletrônica e efeitos (whoosh, impacto, cliques, notificação) **originais, gerados por código** (sem direitos de terceiros);
+   narração com IA e legendas palavra por palavra; música abaixa sozinha sob a voz; volume final -14 LUFS.
+4. Controle de qualidade automático antes de agendar (formato, duração, áudio, volume, picos, quadros pretos).
+   Vídeo reprovado não entra na fila e abre uma issue de aviso.
+5. Entregas de cada vídeo: `midia/reels/*.mp4` (+ capa .jpg) e `GNZ01-MARKETING/REELS/<data>_<hora>_<titulo>/`
+   com `roteiro.md` (roteiro com tempos, narração, trilha e efeitos, legenda do post) e `legendas.srt`.
+6. Quando faltarem menos de 9 roteiros, `gerar_reels_ia.py` escreve mais 21 com o Claude (precisa do segredo `ANTHROPIC_API_KEY`).
+
+Narração (nessa ordem):
+- **ElevenLabs**, se existir o segredo `ELEVENLABS_API_KEY` (plano pago a partir do Starter permite uso comercial;
+  voz opcional na variável `ELEVENLABS_VOICE_ID`). É a voz mais natural.
+- Senão, **vozes neurais da Microsoft via edge-tts** (pt-BR Antonio). Grátis e sem chave, mas é um serviço não oficial
+  que pode parar de funcionar sem aviso.
+- Se nenhuma funcionar, o vídeo sai **sem narração** (texto na tela, feito para assistir sem som) e a ficha diz isso.
+
+Comandos:
+```bash
+python reels.py --teste r01-google-andradas   # produz um roteiro em midia/reels/teste/ sem agendar
+python reels.py --horas 30                     # produz e agenda os próximos horários
+REELS_SEM_NARRACAO=1 python reels.py --teste r02-cardapio-whatsapp   # força versão sem voz
+```
