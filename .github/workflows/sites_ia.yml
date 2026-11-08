@@ -1,0 +1,38 @@
+name: Carrosséis de sites com capa de IA
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - conteudo/gnz01-sites-ia.json
+      - tools/sites_ia.py
+  schedule:
+    - cron: "15 9 * * *"   # todo dia 06:15 de Brasília: tenta de novo o que faltou
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  sites:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Gerar capas com IA, desenhar e agendar
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python tools/sites_ia.py
+      - name: Enviar para o repositório
+        run: |
+          git config user.name "robo-instagram"
+          git config user.email "actions@users.noreply.github.com"
+          git add midia fila.json
+          git diff --cached --quiet || (git commit -m "Agenda carrosséis de sites com capa de IA" && git pull --rebase && git push)
