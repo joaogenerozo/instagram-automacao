@@ -293,7 +293,7 @@ def narrar(texto, destino, voz="masculina"):
 
 
 # ------------------------------------------------------------------ mixagem
-def mixar(dur, falas, eventos, semente, destino, energia=1.0):
+def mixar(dur, falas, eventos, semente, destino, energia=1.0, bpm=100):
     """falas: [(inicio_s, caminho_audio)], eventos: [(inicio_s, nome_sfx, volume)].
     Voz tratada (passa-alta, presença, compressão), trilha com ducking automático sob a voz,
     efeitos por cima, loudness final -14 LUFS (padrão de Reels) com pico máximo -1.5 dBTP."""
@@ -305,7 +305,7 @@ def mixar(dur, falas, eventos, semente, destino, energia=1.0):
         m = min(len(x), n - j)
         if m > 0:
             voz[j:j + m] += x[:m]
-    musica = trilha(dur, semente=semente, energia=energia)[:n]
+    musica = trilha(dur, semente=semente, bpm=bpm, energia=energia)[:n]
     if len(musica) < n:
         musica = np.pad(musica, (0, n - len(musica)))
     tem_voz = np.max(np.abs(voz)) > 0.01

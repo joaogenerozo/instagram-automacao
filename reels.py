@@ -30,11 +30,27 @@ HORARIOS_PADRAO = ["07:00", "11:00", "19:00"]
 PASTA_ROTEIROS = RAIZ / "conteudo" / "reels"
 
 
+PASTA_JOAO = PASTA_ROTEIROS / "joao"
+
+
 def roteiros():
+    """Roteiros do João (conteudo/reels/joao/*.json) primeiro, depois os gerados (roteiros-*.json)."""
     out = []
+    for arq in sorted(PASTA_JOAO.glob("*.json")):
+        d = json.loads(arq.read_text(encoding="utf-8"))
+        for r in (d["roteiros"] if isinstance(d, dict) and "roteiros" in d else d if isinstance(d, list) else [d]):
+            out.append({**r, "origem": "joao"})
     for arq in sorted(PASTA_ROTEIROS.glob("roteiros-*.json")):
         out += json.loads(arq.read_text(encoding="utf-8"))["roteiros"]
     return out
+
+
+def quando_roteiro(r, tz):
+    """'quando' opcional do roteiro: '2026-11-08 11:00' (ou ISO). Devolve datetime no fuso ou None."""
+    if not r.get("quando"):
+        return None
+    q = datetime.fromisoformat(r["quando"].replace(" ", "T"))
+    return q if q.tzinfo else q.replace(tzinfo=tz)
 
 
 def slug(txt):
@@ -106,6 +122,8 @@ def ficha(roteiro, rel, quando, legenda):
 def produzir_roteiro(roteiro, cfg, quando, video, pasta):
     rel = motor.produzir(roteiro, cfg, video)
     problemas = controle_qualidade(video, rel)
+    if roteiro.get("cta_legenda"):  # chamada final escrita no roteiro (ex.: roteiros do João)
+        cfg = {**cfg, "cta": {**cfg.get("cta", {}), "modelo": roteiro["cta_legenda"]}}
     post = {"legenda": roteiro["legenda"], "tema": roteiro.get("tema", "sites"),
             "hashtags": roteiro.get("hashtags", []), "gancho": roteiro.get("gancho_legenda")}
     legenda = montar_legenda(post, cfg)
@@ -139,24 +157,57 @@ def main():
 
     agora = datetime.now(tz)
     fila = carregar_fila()
+    origem = {r["id"]: r.get("origem") for r in todos}
     usados = {p.get("roteiro") for p in fila if p["tipo"] == "reel"}
-    ocupados = {p["quando"] for p in fila if p["tipo"] == "reel" and p["status"] != "erro"}
-    disponiveis = [r for r in todos if r["id"] not in usados]
+    joao = [r for r in todos if r.get("origem") == "joao" and r["id"] not in usados]
     horarios = cfg.get("horarios_reels", HORARIOS_PADRAO)
-    slots = []
+    limite = agora + timedelta(hours=args.horas)
+    cedo = agora + timedelta(minutes=10)
+    # roteiros do João têm prioridade: tiram do horário um Reel gerado que ainda não foi publicado
+    alvos = {}
+    for r in joao:
+        q = quando_roteiro(r, tz)
+        if q and q > cedo:
+            alvos[q.isoformat()] = r
+    sem_data = [r for r in joao if not quando_roteiro(r, tz)]
     for d in range(0, int(args.horas // 24) + 2):
         dia = agora.date() + timedelta(days=d)
         for h in horarios:
             q = datetime.combine(dia, datetime.strptime(h, "%H:%M").time(), tz)
-            if agora + timedelta(minutes=10) < q <= agora + timedelta(hours=args.horas) and q.isoformat() not in ocupados:
+            if sem_data and cedo < q <= limite and q.isoformat() not in alvos:
+                atual = next((p for p in fila if p["tipo"] == "reel" and p["quando"] == q.isoformat()
+                              and p["status"] != "erro"), None)
+                if not atual or (atual["status"] == "pendente" and origem.get(atual.get("roteiro")) != "joao"):
+                    alvos[q.isoformat()] = sem_data.pop(0)
+    for qi, r in alvos.items():
+        for p in [p for p in fila if p["tipo"] == "reel" and p["quando"] == qi and p["status"] == "pendente"
+                  and p.get("roteiro") != r["id"]]:
+            print(f"Roteiro do João {r['id']} substitui {p.get('roteiro')} em {qi}")
+            for arq in p.get("imagens", []):
+                (RAIZ / arq).unlink(missing_ok=True)
+            fila.remove(p)
+    salvar_fila(fila)
+    usados = {p.get("roteiro") for p in fila if p["tipo"] == "reel"}
+    ocupados = {p["quando"] for p in fila if p["tipo"] == "reel" and p["status"] != "erro"}
+    disponiveis = [r for r in todos if r["id"] not in usados and r.get("origem") != "joao"]
+    slots = sorted(datetime.fromisoformat(qi) for qi in alvos if qi not in ocupados)
+    for d in range(0, int(args.horas // 24) + 2):
+        dia = agora.date() + timedelta(days=d)
+        for h in horarios:
+            q = datetime.combine(dia, datetime.strptime(h, "%H:%M").time(), tz)
+            if cedo < q <= limite and q.isoformat() not in ocupados and q.isoformat() not in alvos:
                 slots.append(q)
-    print(f"{len(slots)} horário(s) livre(s); {len(disponiveis)} roteiro(s) disponível(is).")
+    slots.sort()
+    print(f"{len(slots)} horário(s) a produzir ({len(alvos)} com roteiro do João); "
+          f"{len(disponiveis)} roteiro(s) gerado(s) disponível(is).")
     falhas = []
     for q in slots:
-        if not disponiveis:
-            falhas.append(f"- Sem roteiro novo para o Reel de {q:%d/%m %H:%M}. Rode gerar_reels_ia.py ou escreva roteiros.")
-            continue
-        r = disponiveis.pop(0)
+        r = alvos.get(q.isoformat())
+        if r is None:
+            if not disponiveis:
+                falhas.append(f"- Sem roteiro novo para o Reel de {q:%d/%m %H:%M}. Rode gerar_reels_ia.py ou escreva roteiros.")
+                continue
+            r = disponiveis.pop(0)
         nome = f"{q:%Y-%m-%d_%Hh%M}_{slug(r['titulo'])}"
         video = RAIZ / "midia" / "reels" / f"{nome}.mp4"
         pasta = RAIZ / "GNZ01-MARKETING" / "REELS" / nome
@@ -172,6 +223,7 @@ def main():
             continue
         fila.append({"id": f"reel_{q:%Y-%m-%d_%H%M}", "status": "pendente", "quando": q.isoformat(), "tipo": "reel",
                      "tema": r.get("tema", "sites"), "titulo": r["titulo"], "roteiro": r["id"],
+                     "origem": r.get("origem", "estudio"),
                      "narracao": rel["narracao"], "duracao": rel["duracao"],
                      "imagens": [rel_path(video), rel_path(video.with_suffix(".jpg"))], "legenda": legenda})
         salvar_fila(fila)
