@@ -2,20 +2,18 @@
 
 Para cada item de conteudo/gnz01-sites-ia.json:
 1. gera a capa em midia/fotos/ia/<cenario>.jpg se ainda não existir
-   (Gemini se houver GEMINI_API_KEY; senão Pollinations, gratuito e sem chave);
+   (Gemini se houver GEMINI_API_KEY; as capas atuais vieram do Canva via tools/baixar_capas.py);
 2. desenha o carrossel no design system (src/servicos.py, capa com IA permitida);
 3. coloca na fila no horário do item, no lugar do post de feed que estava ali (vira "pulado" com observação).
-Idempotente: o que já está na fila ou já passou do horário não é refeito.
-Uso: python tools/sites_ia.py"""
+Idempotente: o que já está na fila ou já passou do horário não é refeito,
+a não ser com --refazer (redesenha os pendentes, por exemplo depois de trocar a capa).
+Uso: python tools/sites_ia.py [--refazer]"""
 import json
 import sys
-import time
-import urllib.parse
+import argparse
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
-
-import requests
 
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
@@ -26,23 +24,6 @@ CONTEUDO = RAIZ / "conteudo" / "gnz01-sites-ia.json"
 CREDITOS = RAIZ / "midia" / "fotos" / "creditos.json"
 
 
-def gerar_pollinations(prompt, destino, seed):
-    url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt) +
-           f"?width=1080&height=1350&model=flux&nologo=true&enhance=false&seed={seed}")
-    for tentativa in range(4):
-        try:
-            r = requests.get(url, timeout=180)
-            if r.ok and r.headers.get("content-type", "").startswith("image") and len(r.content) > 30000:
-                destino.parent.mkdir(parents=True, exist_ok=True)
-                destino.write_bytes(r.content)
-                return "Pollinations (FLUX)"
-            print("pollinations respondeu", r.status_code, r.headers.get("content-type"), len(r.content))
-        except requests.RequestException as e:
-            print("pollinations falhou:", e)
-        time.sleep(10 * (tentativa + 1))
-    return None
-
-
 def gerar_capa(prompt, destino, seed):
     import os
     chave = os.environ.get("GEMINI_API_KEY")
@@ -51,10 +32,13 @@ def gerar_capa(prompt, destino, seed):
         m = gerar(prompt, destino, chave)
         if m:
             return f"Gemini ({m})"
-    return gerar_pollinations(prompt, destino, seed)
+    return None  # sem fallback gratuito: o Pollinations sai com marca d'água e baixa resolução
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--refazer", action="store_true", help="redesenha os carrosséis ainda pendentes")
+    refazer = ap.parse_args().refazer
     cfg = carregar_config()
     tz = ZoneInfo(cfg["fuso"])
     agora = datetime.now(tz)
@@ -67,7 +51,7 @@ def main():
     for n, it in enumerate(dados["itens"]):
         pid = f"gnz01_{it['data']}_site_ia"
         quando = datetime.fromisoformat(f"{it['data']}T{hora}:00").replace(tzinfo=tz)
-        if pid in ids or quando <= agora:
+        if quando <= agora or (pid in ids and not (refazer and ids[pid]["status"] == "pendente")):
             continue
         slug = it["cenario"]
         foto = RAIZ / f"midia/fotos/ia/{slug}.jpg"
@@ -89,13 +73,18 @@ def main():
         imgs = sv.carrossel_servico(post, pasta, cfg)
         iso = quando.isoformat()
         for o in fila:  # libera o horário: o post que estava ali sai (pode voltar trocando o status)
-            if o["tipo"] in FEED and o["quando"] == iso and o["status"] in ("pendente", "aguardando_aprovacao"):
+            if o.get("id") != pid and o["tipo"] in FEED and o["quando"] == iso \
+                    and o["status"] in ("pendente", "aguardando_aprovacao"):
                 o["status"] = "pulado"
                 o["observacao"] = "Substituído pelo carrossel de site com capa de IA (pedido do João, 08/11)."
         item = {"id": pid, "status": "pendente", "quando": iso, "tipo": "carrossel", "tema": "sites",
                 "titulo": post["titulo"], "imagens": [str(Path(i).relative_to(RAIZ)) for i in imgs],
                 "legenda": montar_legenda(post, cfg) + "\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
                 "capa_ia": True}
+        if pid in ids:
+            ids[pid].update(item)
+            print("redesenhado", pid, iso)
+            continue
         fila.append(item)
         ids[pid] = item
         print("agendado", pid, iso)

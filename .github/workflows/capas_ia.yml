@@ -1,0 +1,41 @@
+name: Trocar capas de IA dos carrosséis de sites
+
+on:
+  workflow_dispatch:
+    inputs:
+      capas:
+        description: 'JSON {"site-barbearia": "https://...", ...} com as imagens novas'
+        required: true
+      modelo:
+        description: "Origem da imagem (vai para os créditos)"
+        default: "Canva (IA)"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  capas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Baixar capas
+        env:
+          CAPAS: ${{ inputs.capas }}
+          MODELO: ${{ inputs.modelo }}
+        run: python tools/baixar_capas.py --modelo "$MODELO"
+      - name: Redesenhar e agendar carrosséis
+        run: python tools/sites_ia.py --refazer
+      - name: Enviar para o repositório
+        run: |
+          git config user.name "robo-instagram"
+          git config user.email "actions@users.noreply.github.com"
+          git add midia fila.json
+          git diff --cached --quiet || (git commit -m "Troca capas de IA dos carrosséis de sites" && git pull --rebase && git push)
