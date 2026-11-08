@@ -603,17 +603,25 @@ CENAS = {"gancho": cena_gancho, "texto": cena_texto, "lista": cena_lista, "celul
 
 
 # ------------------------------------------------------------------ legendas da narração
-def blocos_legenda(palavras, max_chars=20, max_palavras=4):
-    """Agrupa palavras (com tempos globais) em blocos curtos; quebra em pontuação."""
-    blocos, atual = [], []
+def blocos_legenda(palavras, max_chars=24, max_palavras=4):
+    """Agrupa palavras (com tempos globais) em blocos curtos e equilibrados, sem atravessar pontuação."""
+    frases, atual = [], []
     for p in palavras:
         atual.append(p)
-        txt = " ".join(x["palavra"] for x in atual)
-        if len(txt) >= max_chars or len(atual) >= max_palavras or re.search(r"[.,!?:;]$", p["palavra"]):
-            blocos.append(atual)
+        if re.search(r"[.,!?:;]$", p["palavra"]):
+            frases.append(atual)
             atual = []
     if atual:
-        blocos.append(atual)
+        frases.append(atual)
+    blocos = []
+    for fr in frases:
+        chars = len(" ".join(p["palavra"] for p in fr))
+        n = max(1, math.ceil(len(fr) / max_palavras), math.ceil(chars / max_chars))
+        tam = len(fr) / n
+        for k in range(n):
+            pedaco = fr[round(k * tam):round((k + 1) * tam)]
+            if pedaco:
+                blocos.append(pedaco)
     out = []
     for i, b in enumerate(blocos):
         ini = b[0]["ini"]
@@ -677,6 +685,24 @@ def _palavras_estimadas(texto, dur):
     return [{"palavra": p, "ini": acum[i], "fim": acum[i + 1]} for i, p in enumerate(ps)]
 
 
+def _alinhar(pals, fala):
+    """A voz devolve as palavras sem pontuação; recoloca a grafia do roteiro (vírgulas, pontos, interrogação)."""
+    tokens = fala.split()
+    j = 0
+    out = []
+    for p in pals:
+        alvo = _limpa(p["palavra"])
+        for k in range(j, min(j + 4, len(tokens))):
+            tk = _limpa(tokens[k])
+            if tk == alvo or (alvo and (tk.startswith(alvo) or alvo.startswith(tk))):
+                out.append({**p, "palavra": tokens[k]})
+                j = k + 1
+                break
+        else:
+            out.append(p)
+    return out
+
+
 def duracao_leitura(c):
     """Tempo mínimo de tela para quem lê sem som."""
     txt = " ".join(str(c.get(k, "")) for k in ("texto", "titulo", "apoio", "acao"))
@@ -724,7 +750,7 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
                         ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(arq)],
                         capture_output=True, text=True).stdout.strip())
                     c["_fala"] = arq
-                    c["_pals"] = pals or _palavras_estimadas(c["fala"], dur_fala)
+                    c["_pals"] = _alinhar(pals, c["fala"]) if pals else _palavras_estimadas(c["fala"], dur_fala)
                     c["_dur"] = max(c["_dur"] * 0.8, dur_fala + 0.5)
                 else:
                     provedor = None
@@ -768,7 +794,15 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
             rel["cenas"].append({"tipo": c["tipo"], "inicio": round(c["_ini"], 2), "duracao": round(c["_dur"], 2),
                                  "fala": c.get("fala", ""), "texto": c.get("texto") or c.get("titulo", "")})
         total = t
-        blocos = blocos_legenda(palavras) if com_legenda else []
+        blocos = []
+        if com_legenda:  # blocos por cena: legenda nunca atravessa a troca de cena
+            for c in cenas:
+                if c.get("_pals"):
+                    ini = c["_ini"] + (0.12 if c is cenas[0] else 0.22)
+                    bs = blocos_legenda([{**p, "ini": p["ini"] + ini, "fim": p["fim"] + ini} for p in c["_pals"]])
+                    if bs:
+                        bs[-1]["fim"] = min(bs[-1]["fim"] + 0.3, c["_ini"] + c["_dur"])
+                    blocos += bs
         # 3) áudio
         audio = tmp / "audio.wav"
         au.mixar(total, falas, eventos, semente, audio, energia=roteiro.get("energia", 1.0))
