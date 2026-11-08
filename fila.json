@@ -2192,7 +2192,7 @@
   },
   {
     "id": "2026-11-15_3",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-15T15:00:00-03:00",
     "tipo": "post",
     "tema": "agenda",
@@ -2200,7 +2200,26 @@
     "imagens": [
       "midia/2026-11-15/3/01.jpg"
     ],
-    "legenda": "Quantas mensagens de \"tem horário amanhã?\" você recebe depois que já fechou? 🌙\n\nCom agenda online, esse cliente agenda na hora, mesmo com você descansando. De manhã, é só conferir a agenda.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #agendaonline #automacao #barbearia"
+    "legenda": "Quantas mensagens de \"tem horário amanhã?\" você recebe depois que já fechou? 🌙\n\nCom agenda online, esse cliente agenda na hora, mesmo com você descansando. De manhã, é só conferir a agenda.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #agendaonline #automacao #barbearia",
+    "observacao": "Substituído pelo carrossel de site com capa de IA (pedido do João, 08/11)."
+  },
+  {
+    "id": "gnz01_2026-11-15_site_ia",
+    "status": "pendente",
+    "quando": "2026-11-15T15:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "sites",
+    "titulo": "Sua loja fecha às 18h. Seu site, não.",
+    "imagens": [
+      "midia/gnz01/2026-11-15/site_ia/01.jpg",
+      "midia/gnz01/2026-11-15/site_ia/02.jpg",
+      "midia/gnz01/2026-11-15/site_ia/03.jpg",
+      "midia/gnz01/2026-11-15/site_ia/04.jpg",
+      "midia/gnz01/2026-11-15/site_ia/05.jpg",
+      "midia/gnz01/2026-11-15/site_ia/06.jpg"
+    ],
+    "legenda": "O cliente lembra do seu produto às 23h, no sofá. Se ele não encontra sua loja online, compra de outro. 🛍️\n\nUm site com seus produtos, categorias e pedido pelo WhatsApp deixa sua loja aberta o tempo todo.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #lojadebairro #varejo #criacaodesites\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
+    "capa_ia": true
   },
   {
     "id": "2026-11-15_story5",
