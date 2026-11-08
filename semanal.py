@@ -27,6 +27,10 @@ if not arquivo:
     semanas_agendadas = len({p["quando"][:10] for p in fila}) // 7
     arquivo = str(arquivos[semanas_agendadas % len(arquivos)].relative_to(RAIZ))
     print("Reaproveitando", arquivo)
+    # semana reciclada: o gerar.py descarta os títulos repetidos, mas avisa o dono que faltou conteúdo novo
+    (RAIZ / "alerta.txt").open("a", encoding="utf-8").write(
+        f"- Semana a partir de {inicio}: sem conteúdo novo da IA (falta ANTHROPIC_API_KEY ou a IA falhou). "
+        f"Reaproveitado {arquivo}; posts repetidos ficam de fora.\n")
 
 # o dono autorizou publicar sem aprovação prévia; defina PEDIR_APROVACAO=1 para voltar a exigir
 extra = ["--aprovacao"] if os.environ.get("PEDIR_APROVACAO") == "1" else []

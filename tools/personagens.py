@@ -7,6 +7,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
 from src import editorial as ed, ensinamentos as en
+from src.comum import eh_citacao, montar_legenda, semana_iso
 
 cfg = json.load(open(RAIZ / "config.json"))
 dados = json.load(open(RAIZ / "conteudo/gnz01-personagens.json"))
@@ -23,6 +24,14 @@ for n, it in enumerate(dados["itens"], 1):
         existente["status"] = "pendente"  # tenta de novo: pode ter chegado foto nova
     if existente and existente["status"] != "pendente":
         continue
+    limite = cfg.get("limite_citacoes_semana")
+    if limite and not existente:  # no máximo 1 post de citação por semana (pedido do João, 08/11)
+        quando = f"{it['data']}T12:00:00-03:00"
+        n = sum(1 for o in fila if o["status"] in ("pendente", "publicado") and eh_citacao(o)
+                and semana_iso(o.get("publicado_em") or o["quando"]) == semana_iso(quando))
+        if n >= limite:
+            print(f"AVISO: {pid} ({it['personalidade']}) passaria do limite de {limite} citação por semana; fica de fora.")
+            continue
     fotos = en.fotos_de(it["slug"], RAIZ)
     unica = RAIZ / f"midia/fotos/{it['slug']}.jpg"
     if not fotos and unica.exists() and it["slug"] in cred:
@@ -47,7 +56,7 @@ for n, it in enumerate(dados["itens"], 1):
         "slides": it["slides"]}).replace("{whatsapp}", w))
     pasta = RAIZ / f"midia/gnz01/{it['data']}/p{it['slot']}"
     imgs = en.carrossel(p, fotos, pasta) if len(fotos) >= 4 else ed.carrossel(p, pasta)
-    legenda = it["legenda"].replace("{whatsapp}", w) + "\n.\n.\n" + " ".join(it["hashtags"] + fixas)
+    legenda = montar_legenda({"legenda": it["legenda"], "hashtags": it["hashtags"], "tema": "marca"}, cfg)
     if len(fotos) == 1:
         legenda += "\n\n📷 " + fotos[0][1]
     else:

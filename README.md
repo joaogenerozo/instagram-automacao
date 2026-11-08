@@ -25,6 +25,17 @@ A semana 1 já está escrita em `conteudo/semana-01.json` e as imagens de exempl
 ## Aprovação antes de publicar
 Por decisão do dono da conta, cada semana nova entra na fila já como `pendente` e é publicada sem aprovação prévia. Para voltar a exigir aprovação, defina a variável `PEDIR_APROVACAO=1` no workflow semanal; aí as semanas entram como `aguardando_aprovacao` até o status ser trocado para `pendente`. Toda a semana fica organizada para revisão em `GNZ01-MARKETING/` (índice em `GNZ01-MARKETING/INDICE-SEMANA-01.md`). Para gerar as fichas de uma semana: `python tools/fichas.py conteudo/gnz01-semana-01.json`.
 
+## Alcance e conversão (desde 08/11/2026)
+- **Legenda com CTA único** ("Comente SITE que eu te mando um exemplo") + WhatsApp pelo link da bio + linha local. O número solto e o cross-sell repetido saíram. Responda os comentários com a palavra-chave pelo Direct no mesmo dia.
+- **No máximo 5 hashtags**: 2 da cidade (`config.json > local.hashtags`) + 2 a 3 de nicho. Lista negra em `hashtags_bloqueadas`.
+- **Localização nos posts**: preencha `config.json > local.location_id` com o ID da página de lugar da cidade no Facebook (procure "Andradas, Minas Gerais" no Facebook, abra a página do lugar e copie o número do endereço). Vazio = sai sem localização.
+- **Collab**: em qualquer post/carrossel da fila, `"colaboradores": ["@conta"]` (até 3). Se o convite falhar, o post sai sem collab e você recebe aviso. Modelo de estudo de caso em `conteudo/casos-reais.md`.
+- **Citações**: no máximo 1 post de personalidade por semana (`limite_citacoes_semana`).
+- **Sem repetição**: título parecido com algo dos últimos 45 dias (`janela_repeticao_dias`) não entra na fila nem é publicado. Para aplicar as regras na fila atual: `python tools/limpar_fila.py`.
+- **Um post de feed por horário**: se dois coincidirem, o segundo sai na rodada seguinte (30 min depois).
+- **Avisos**: post pulado (com motivo gravado em `fila.json`), erro definitivo ou semana sem conteúdo novo abrem uma *issue* no GitHub, que chega por e-mail.
+- **Relatório semanal**: todo sábado `tools/relatorio.py` grava `GNZ01-MARKETING/RELATORIOS/kpis-AAAA-MM-DD.md` e `conteudo/desempenho.json`, que a IA usa para repetir o que funcionou. O token precisa também da permissão `instagram_manage_insights`.
+
 ## Arquivos
 
 | Arquivo | Para que serve |
@@ -51,7 +62,7 @@ Por decisão do dono da conta, cada semana nova entra na fila já como `pendente
 1. Acesse developers.facebook.com, crie um app do tipo **Empresa**.
 2. Adicione o produto **Instagram** (API com login do Facebook).
 3. No **Gerenciador de Negócios** (business.facebook.com > Configurações > Usuários do sistema), crie um **usuário do sistema** administrador, dê acesso à sua Página e ao app e gere um token com as permissões:
-   `instagram_basic`, `instagram_content_publish`, `pages_show_list`, `pages_read_engagement`, `business_management`.
+   `instagram_basic`, `instagram_content_publish`, `instagram_manage_insights`, `pages_show_list`, `pages_read_engagement`, `business_management`.
    Token de usuário do sistema **não expira**, por isso é o recomendado.
 4. Descubra o **ID da conta do Instagram**: abra no navegador
    `https://graph.facebook.com/v21.0/me/accounts?fields=instagram_business_account&access_token=SEU_TOKEN`

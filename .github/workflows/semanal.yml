@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: instagram
@@ -21,6 +22,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Relatório de desempenho da semana (dados reais)
+        continue-on-error: true
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python tools/relatorio.py
       - name: Gerar conteúdo e imagens da próxima semana
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -29,5 +36,13 @@ jobs:
         run: |
           git config user.name "robo-instagram"
           git config user.email "actions@users.noreply.github.com"
-          git add conteudo midia fila.json
+          git add conteudo midia fila.json GNZ01-MARKETING/RELATORIOS
           git diff --cached --quiet || (git commit -m "Agenda posts da próxima semana" && git pull --rebase && git push)
+      - name: Avisar o dono se algo foi pulado ou falhou
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s alerta.txt ]; then
+            gh issue create --title "Instagram: aviso da automação ($(date -u '+%d/%m %H:%M') UTC)" --body-file alerta.txt || cat alerta.txt
+          fi

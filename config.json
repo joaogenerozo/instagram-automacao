@@ -53,13 +53,7 @@
   ],
   "fuso": "America/Sao_Paulo",
   "url_base_imagens": "https://raw.githubusercontent.com/joaogenerozo/instagram-automacao/main/",
-  "hashtags_fixas": [
-    "#criacaodesites",
-    "#siteprofissional",
-    "#sitesparaempresas",
-    "#marketingdigital",
-    "#empreendedorismo"
-  ],
+  "hashtags_fixas": [],
   "graph_api_versao": "v21.0",
   "graph_api_host": "https://graph.facebook.com",
   "horarios_stories": [
@@ -74,53 +68,94 @@
   "horario_reels": "19:00",
   "hashtags_tema": {
     "sites": [
-      "#sitesparapequenasempresas",
-      "#facaseusite",
-      "#siteresponsivo",
-      "#webdesignerbrasil",
-      "#orcamentodesite"
+      "#criacaodesites",
+      "#siteprofissional",
+      "#sitesparapequenasempresas"
     ],
     "cardapio": [
       "#cardapiodigital",
-      "#cardapioonline",
-      "#pedidopelowhatsapp",
+      "#pizzaria",
       "#donoderestaurante"
     ],
     "agenda": [
       "#agendaonline",
-      "#agendamentoonline",
-      "#sistemadeagendamento",
-      "#profissionaldabeleza"
-    ],
-    "depoimento": [
-      "#criacaodesites",
-      "#cardapiodigital",
-      "#agendaonline"
+      "#barbearia",
+      "#salaodebeleza"
     ],
     "paginas": [
-      "#paginaprofissional",
       "#profissionalliberal",
-      "#presencadigital"
+      "#paginaprofissional",
+      "#consultorio"
     ],
     "catalogo": [
       "#catalogodigital",
-      "#catalogoonline",
-      "#vendaspelowhatsapp"
+      "#vendaspelowhatsapp",
+      "#lojadebairro"
     ],
     "landing": [
       "#landingpage",
       "#captacaodeclientes",
-      "#paginadevendas"
+      "#pequenosnegocios"
     ],
     "solucoes": [
+      "#pequenosnegocios",
       "#solucoesdigitais",
-      "#transformacaodigital",
-      "#automacao"
+      "#empreendedorlocal"
     ],
     "marca": [
-      "#gnz01",
-      "#solucoesdigitais"
+      "#pequenosnegocios",
+      "#empreendedorlocal",
+      "#gnz01"
+    ],
+    "depoimento": [
+      "#criacaodesites",
+      "#pequenosnegocios",
+      "#gnz01"
     ]
   },
-  "assinatura_cross_sell": "💻 Também crio sites profissionais para o seu negócio aparecer no Google. Peça seu orçamento: {whatsapp}"
+  "max_hashtags": 5,
+  "local": {
+    "cidade": "Andradas",
+    "uf": "MG",
+    "regiao": "Andradas e região",
+    "hashtags": [
+      "#andradas",
+      "#andradasmg"
+    ],
+    "location_id": "",
+    "_comentario": "location_id = ID da página de lugar do Facebook da cidade (ver README). Vazio = posts saem sem localização."
+  },
+  "hashtags_bloqueadas": [
+    "#webdesignerbrasil",
+    "#webdesign",
+    "#marketingdigital",
+    "#empreendedorismo",
+    "#dicasdemarketing",
+    "#seo",
+    "#jp01",
+    "#digitalsolutions",
+    "#trafegopago",
+    "#sitesparaempresas",
+    "#orcamentodesite",
+    "#facaseusite",
+    "#siteresponsivo"
+  ],
+  "cta": {
+    "palavras": {
+      "sites": "SITE",
+      "paginas": "PÁGINA",
+      "landing": "PÁGINA",
+      "solucoes": "SITE",
+      "marca": "SITE",
+      "cardapio": "CARDÁPIO",
+      "agenda": "AGENDA",
+      "catalogo": "CATÁLOGO",
+      "depoimento": "SITE"
+    },
+    "modelo": "💬 Comente {palavra} que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.",
+    "local": "📍 GNZ01 · {regiao}"
+  },
+  "link_whatsapp": "https://wa.me/5519978299585?text=Ol%C3%A1!%20Vim%20pelo%20Instagram%20e%20quero%20um%20or%C3%A7amento",
+  "limite_citacoes_semana": 1,
+  "janela_repeticao_dias": 45
 }

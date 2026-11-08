@@ -11,7 +11,7 @@ from typing import List, Literal, Optional
 import anthropic
 from pydantic import BaseModel, Field
 
-from src.comum import RAIZ, carregar_config
+from src.comum import RAIZ, carregar_config, carregar_fila
 
 MODELO = "claude-opus-5-5"
 PASTA = RAIZ / "conteudo"
@@ -31,13 +31,18 @@ class Post(BaseModel):
     tecnica: str = Field(description="Técnica de copy usada: AIDA, PAS, storytelling, quebra de objeção etc.")
     palavras_chave: List[str] = Field(description="3 a 5 palavras-chave para SEO do Instagram")
     direcao_visual: str = Field(description="Direção visual em 1 ou 2 frases, dentro da identidade preto/grafite/off-white")
-    titulo: str = Field(description="Frase de impacto para a imagem, até 70 caracteres")
+    titulo: str = Field(description="Gancho da imagem, até 60 caracteres: começa pela dor ou pela cena do cliente "
+                        "(nicho, situação concreta ou pergunta), nunca pela marca nem por frase genérica")
+    gancho: str = Field(description="Primeira linha da legenda, até 90 caracteres: o problema do cliente em uma frase "
+                        "que faça parar de rolar (pergunta direta ou cena do dia a dia do negócio)")
     subtitulo: str = Field(description="Complemento da imagem, até 110 caracteres")
     itens: List[str] = Field(default_factory=list, description="Só em post: 3 benefícios curtos (até 40 caracteres cada)")
     slides: List[Slide] = Field(default_factory=list, description="Só em carrossel: 5 ou 6 slides")
     cta_final: Optional[str] = Field(default=None, description="Só em carrossel: chamada do último slide")
-    legenda: str = Field(description="Legenda com emojis, quebras de linha e chamada final com {whatsapp}")
-    hashtags: List[str] = Field(description="4 a 6 hashtags em português, começando com #")
+    legenda: str = Field(description="Corpo da legenda (sem repetir o gancho), com quebras de linha, SEM número de "
+                         "WhatsApp e SEM chamada final: a chamada padrão é acrescentada automaticamente")
+    hashtags: List[str] = Field(description="2 a 3 hashtags de nicho que o DONO do negócio pesquisa "
+                                "(ex.: #pizzaria, #barbearia, #clinicaodontologica), começando com #")
 
 
 class Dia(BaseModel):
@@ -57,7 +62,22 @@ def titulos_usados():
     for arq in semanas_existentes():
         for dia in json.loads(arq.read_text(encoding="utf-8"))["dias"]:
             titulos += [p["titulo"] for p in dia["posts"]]
-    return titulos
+    titulos += [p["titulo"] for p in carregar_fila() if p.get("tipo") in ("post", "carrossel")]
+    return list(dict.fromkeys(titulos))
+
+
+def desempenho():
+    """Resumo dos posts que mais e menos funcionaram (gerado por tools/relatorio.py)."""
+    arq = PASTA / "desempenho.json"
+    if not arq.exists():
+        return "Ainda não há dados de desempenho."
+    d = json.loads(arq.read_text(encoding="utf-8"))
+    linhas = [f"Seguidores: {d.get('seguidores')}. Posts que MAIS funcionaram (repita o formato e o nicho):"]
+    linhas += [f"  - {m['titulo']} ({m['tipo']}): alcance {m['alcance']}, salvos {m['salvos']}, "
+               f"compartilhamentos {m['compartilhamentos']}" for m in d.get("melhores", [])]
+    linhas.append("Posts que MENOS funcionaram (evite o formato):")
+    linhas += [f"  - {m['titulo']} ({m['tipo']}): alcance {m['alcance']}" for m in d.get("piores", [])]
+    return "\n".join(linhas)
 
 
 def main():
@@ -75,8 +95,18 @@ TAREFA: crie o conteúdo de UMA SEMANA para o Instagram {cfg['instagram']}: 7 di
 - Cerca de metade das publicações deve levar à venda de SITES (temas sites, paginas ou landing).
   Os demais serviços (cardapio, agenda, catalogo, solucoes) aparecem ao longo da semana.
 - Linguagem do Brasil, profissional e objetiva, falando com o dono do negócio ou o profissional liberal.
-- Toda legenda termina com uma chamada para ação usando o marcador {{whatsapp}} (ou convite para o Direct).
-- Hashtags que o cliente em potencial segue ou pesquisa (nicho + serviço), nada genérico demais.
+- GANCHO: título e primeira linha da legenda começam pelo problema ou pela cena real do cliente, num nicho
+  concreto (pizzaria, barbearia, clínica, manicure, loja). Ex.: "Sua pizzaria ainda manda foto do cardápio no
+  WhatsApp?". Proibido abrir com a marca ou com frases vagas como "Sua empresa merece uma presença digital".
+- FOCO LOCAL: o público são negócios de {cfg['local']['regiao']} ({cfg['local']['cidade']}-{cfg['local']['uf']}).
+  Em cerca de 1 a cada 3 publicações, cite a cidade de forma natural (ex.: "quem procura barbearia em
+  {cfg['local']['cidade']} no Google..."). Nunca invente negócios reais da cidade.
+- NÃO escreva número de WhatsApp nem chamada final na legenda: o sistema acrescenta um CTA único
+  ("Comente SITE que eu te mando um exemplo").
+- Hashtags: só 2 ou 3 de nicho que o dono do negócio pesquisa. As hashtags da cidade entram automaticamente.
+- Não crie posts de citação de personalidades (já existe 1 por semana à parte).
+- Desempenho real da conta até agora:
+{desempenho()}
 - Não invente números de pesquisas, clientes ou depoimentos. Demonstrações devem ser apresentadas
   como exemplos ("veja como fica"), nunca como cliente real.
 - Não repita estes títulos já usados: {json.dumps(usados[-140:], ensure_ascii=False)}
