@@ -728,7 +728,7 @@
   },
   {
     "id": "gnz01_2026-11-08_story3",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-08T11:00:00-03:00",
     "tipo": "story",
     "tema": "site",
@@ -736,11 +736,13 @@
     "imagens": [
       "midia/gnz01/2026-11-08/stories/3.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18026137088927863",
+    "publicado_em": "2026-11-08T14:02:30+00:00"
   },
   {
     "id": "reel_2026-11-08_1100",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-08T11:00:00-03:00",
     "tipo": "reel",
     "tema": "sites",
@@ -753,7 +755,9 @@
       "midia/reels/2026-11-08_11h00_seus-clientes-estao-procurando-eles-enco.mp4",
       "midia/reels/2026-11-08_11h00_seus-clientes-estao-procurando-eles-enco.jpg"
     ],
-    "legenda": "Seus clientes estão procurando. Eles encontram você? 🔎\n\nAntes de contratar, muita gente pesquisa, compara e procura confiança. Se a sua empresa não aparece com uma presença profissional, essa oportunidade pode ficar com a concorrência.\n\nUm site profissional apresenta seus serviços, mostra seus diferenciais, transmite credibilidade e facilita o contato com novos clientes. Tudo em um só lugar.\n\nSolicite seu site personalizado: fale com a gente pelo link da bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #sitesprofissionais #presencadigital #criacaodesites"
+    "legenda": "Seus clientes estão procurando. Eles encontram você? 🔎\n\nAntes de contratar, muita gente pesquisa, compara e procura confiança. Se a sua empresa não aparece com uma presença profissional, essa oportunidade pode ficar com a concorrência.\n\nUm site profissional apresenta seus serviços, mostra seus diferenciais, transmite credibilidade e facilita o contato com novos clientes. Tudo em um só lugar.\n\nSolicite seu site personalizado: fale com a gente pelo link da bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #sitesprofissionais #presencadigital #criacaodesites",
+    "media_id": "17980161009133042",
+    "publicado_em": "2026-11-08T14:03:49+00:00"
   },
   {
     "id": "gnz01_2026-11-08_2",
