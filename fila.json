@@ -1294,6 +1294,23 @@
     "legenda": ""
   },
   {
+    "id": "reel_2026-11-10_1100",
+    "status": "pendente",
+    "quando": "2026-11-10T11:00:00-03:00",
+    "tipo": "reel",
+    "tema": "cardapio",
+    "titulo": "Pedido perdido no WhatsApp",
+    "roteiro": "r02-cardapio-whatsapp",
+    "origem": "estudio",
+    "narracao": "edge",
+    "duracao": 29.03,
+    "imagens": [
+      "midia/reels/2026-11-10_11h00_pedido-perdido-no-whatsapp.mp4",
+      "midia/reels/2026-11-10_11h00_pedido-perdido-no-whatsapp.jpg"
+    ],
+    "legenda": "Quantos pedidos você perdeu hoje no WhatsApp? 🍕\n\nFoto do cardápio, áudio, pergunta de preço... e o cliente esperando.\n\nCom um cardápio digital, ele abre um link, escolhe com fotos e preços e o pedido chega pronto no seu WhatsApp. Você para de digitar a mesma coisa toda noite.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #cardapiodigital #delivery #pizzaria"
+  },
+  {
     "id": "gnz01_2026-11-10_2",
     "status": "pendente",
     "quando": "2026-11-10T12:00:00-03:00",
