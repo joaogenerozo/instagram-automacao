@@ -808,7 +808,7 @@
   },
   {
     "id": "gnz01_2026-11-08_site_ia",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-08T15:00:00-03:00",
     "tipo": "carrossel",
     "tema": "sites",
@@ -822,7 +822,9 @@
       "midia/gnz01/2026-11-08/site_ia/06.jpg"
     ],
     "legenda": "Sábado de manhã, alguém novo na cidade digita \"barbearia\" no Google. Aparece quem tem site. 💈\n\nUm site simples e bem feito mostra seus serviços, seus preços, fotos dos cortes e leva o cliente direto para o seu WhatsApp.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #barbearia #barbeiro #criacaodesites\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
-    "capa_ia": true
+    "capa_ia": true,
+    "media_id": "18634368778015349",
+    "publicado_em": "2026-11-08T18:02:50+00:00"
   },
   {
     "id": "gnz01_2026-11-08_story5",
