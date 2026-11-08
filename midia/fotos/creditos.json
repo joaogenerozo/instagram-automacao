@@ -491,5 +491,40 @@
     "altura": 2125,
     "alteracoes": "Recortada",
     "credito": "Foto: Seattle City Council / Wikimedia Commons, CC BY 2.0 (recortada)"
+  },
+  "ia/site-barbearia": {
+    "arquivo": "midia/fotos/ia/site-barbearia.jpg",
+    "modelo": "Pollinations (FLUX)",
+    "credito": "Imagem ilustrativa gerada por IA"
+  },
+  "ia/site-clinica": {
+    "arquivo": "midia/fotos/ia/site-clinica.jpg",
+    "modelo": "Pollinations (FLUX)",
+    "credito": "Imagem ilustrativa gerada por IA"
+  },
+  "ia/site-salao": {
+    "arquivo": "midia/fotos/ia/site-salao.jpg",
+    "modelo": "Pollinations (FLUX)",
+    "credito": "Imagem ilustrativa gerada por IA"
+  },
+  "ia/site-restaurante": {
+    "arquivo": "midia/fotos/ia/site-restaurante.jpg",
+    "modelo": "Pollinations (FLUX)",
+    "credito": "Imagem ilustrativa gerada por IA"
+  },
+  "ia/site-advocacia": {
+    "arquivo": "midia/fotos/ia/site-advocacia.jpg",
+    "modelo": "Pollinations (FLUX)",
+    "credito": "Imagem ilustrativa gerada por IA"
+  },
+  "ia/site-petshop": {
+    "arquivo": "midia/fotos/ia/site-petshop.jpg",
+    "modelo": "Pollinations (FLUX)",
+    "credito": "Imagem ilustrativa gerada por IA"
+  },
+  "ia/site-personal": {
+    "arquivo": "midia/fotos/ia/site-personal.jpg",
+    "modelo": "Pollinations (FLUX)",
+    "credito": "Imagem ilustrativa gerada por IA"
   }
 }

@@ -785,7 +785,7 @@
   },
   {
     "id": "gnz01_2026-11-08_3",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-08T15:00:00-03:00",
     "tipo": "post",
     "tema": "marca",
@@ -793,7 +793,26 @@
     "imagens": [
       "midia/gnz01/2026-11-08/3/01.jpg"
     ],
-    "legenda": "A GNZ01 nasceu de uma observação simples: muitos negócios excelentes perdem clientes não pela qualidade do trabalho, mas pela forma como aparecem na internet. 💡\n\nA barbearia cheia de clientes fiéis que ninguém novo encontra. O restaurante com comida incrível e pedidos anotados no papel. A profissional talentosa que passa a noite respondendo mensagem para marcar horário.\n\nNosso trabalho é resolver isso com soluções digitais simples, bonitas e que funcionam no dia a dia.\n\nSe você se identificou com algum desses exemplos, me conta no Direct. 💬\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #gnz01 #solucoesdigitais #pequenosnegocios"
+    "legenda": "A GNZ01 nasceu de uma observação simples: muitos negócios excelentes perdem clientes não pela qualidade do trabalho, mas pela forma como aparecem na internet. 💡\n\nA barbearia cheia de clientes fiéis que ninguém novo encontra. O restaurante com comida incrível e pedidos anotados no papel. A profissional talentosa que passa a noite respondendo mensagem para marcar horário.\n\nNosso trabalho é resolver isso com soluções digitais simples, bonitas e que funcionam no dia a dia.\n\nSe você se identificou com algum desses exemplos, me conta no Direct. 💬\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #gnz01 #solucoesdigitais #pequenosnegocios",
+    "observacao": "Substituído pelo carrossel de site com capa de IA (pedido do João, 08/11)."
+  },
+  {
+    "id": "gnz01_2026-11-08_site_ia",
+    "status": "pendente",
+    "quando": "2026-11-08T15:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "sites",
+    "titulo": "Seu cliente procura barbearia no Google. Acha a sua?",
+    "imagens": [
+      "midia/gnz01/2026-11-08/site_ia/01.jpg",
+      "midia/gnz01/2026-11-08/site_ia/02.jpg",
+      "midia/gnz01/2026-11-08/site_ia/03.jpg",
+      "midia/gnz01/2026-11-08/site_ia/04.jpg",
+      "midia/gnz01/2026-11-08/site_ia/05.jpg",
+      "midia/gnz01/2026-11-08/site_ia/06.jpg"
+    ],
+    "legenda": "Sábado de manhã, alguém novo na cidade digita \"barbearia\" no Google. Aparece quem tem site. 💈\n\nUm site simples e bem feito mostra seus serviços, seus preços, fotos dos cortes e leva o cliente direto para o seu WhatsApp.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #barbearia #barbeiro #criacaodesites\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
+    "capa_ia": true
   },
   {
     "id": "gnz01_2026-11-08_story5",
@@ -1044,7 +1063,7 @@
   },
   {
     "id": "gnz01_2026-11-09_3",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-09T15:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -1052,7 +1071,26 @@
     "imagens": [
       "midia/gnz01/2026-11-09/3/01.jpg"
     ],
-    "legenda": "Antes de ler uma palavra, o visitante já formou uma impressão. ✨\n\nUm site com visual descuidado passa a sensação de um serviço descuidado, mesmo quando o trabalho é excelente. Um visual limpo, organizado e profissional faz o contrário: transmite segurança e valoriza o seu preço.\n\nÉ por isso que cada projeto da GNZ01 tem estética minimalista, tipografia cuidada e foco total na experiência do cliente.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #designpremium #criacaodesites #siteprofissional"
+    "legenda": "Antes de ler uma palavra, o visitante já formou uma impressão. ✨\n\nUm site com visual descuidado passa a sensação de um serviço descuidado, mesmo quando o trabalho é excelente. Um visual limpo, organizado e profissional faz o contrário: transmite segurança e valoriza o seu preço.\n\nÉ por isso que cada projeto da GNZ01 tem estética minimalista, tipografia cuidada e foco total na experiência do cliente.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #designpremium #criacaodesites #siteprofissional",
+    "observacao": "Substituído pelo carrossel de site com capa de IA (pedido do João, 08/11)."
+  },
+  {
+    "id": "gnz01_2026-11-09_site_ia",
+    "status": "pendente",
+    "quando": "2026-11-09T15:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "sites",
+    "titulo": "O paciente pesquisa seu nome antes de marcar.",
+    "imagens": [
+      "midia/gnz01/2026-11-09/site_ia/01.jpg",
+      "midia/gnz01/2026-11-09/site_ia/02.jpg",
+      "midia/gnz01/2026-11-09/site_ia/03.jpg",
+      "midia/gnz01/2026-11-09/site_ia/04.jpg",
+      "midia/gnz01/2026-11-09/site_ia/05.jpg",
+      "midia/gnz01/2026-11-09/site_ia/06.jpg"
+    ],
+    "legenda": "Indicação boa ainda passa por uma pesquisa no Google. É ali que o paciente decide se marca ou não. 🦷\n\nUm site profissional apresenta seus tratamentos, sua equipe e sua estrutura, e leva direto para o agendamento da avaliação.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #clinicaodontologica #dentista #criacaodesites\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
+    "capa_ia": true
   },
   {
     "id": "gnz01_2026-11-09_story5",
@@ -1278,7 +1316,7 @@
   },
   {
     "id": "gnz01_2026-11-10_3",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-10T15:00:00-03:00",
     "tipo": "post",
     "tema": "cardapio",
@@ -1286,7 +1324,26 @@
     "imagens": [
       "midia/gnz01/2026-11-10/3/01.jpg"
     ],
-    "legenda": "Os aplicativos de delivery ajudam a ser encontrado. Mas o cliente que já te conhece pode pedir direto com você. 🛵\n\nCom um cardápio digital próprio, o pedido chega no seu WhatsApp e o contato do cliente fica com você, para fidelizar e avisar de promoções.\n\nA estratégia que funciona: app para ser descoberto, canal próprio para fidelizar.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #cardapiodigital #delivery #pizzaria"
+    "legenda": "Os aplicativos de delivery ajudam a ser encontrado. Mas o cliente que já te conhece pode pedir direto com você. 🛵\n\nCom um cardápio digital próprio, o pedido chega no seu WhatsApp e o contato do cliente fica com você, para fidelizar e avisar de promoções.\n\nA estratégia que funciona: app para ser descoberto, canal próprio para fidelizar.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #cardapiodigital #delivery #pizzaria",
+    "observacao": "Substituído pelo carrossel de site com capa de IA (pedido do João, 08/11)."
+  },
+  {
+    "id": "gnz01_2026-11-10_site_ia",
+    "status": "pendente",
+    "quando": "2026-11-10T15:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "sites",
+    "titulo": "Seu salão é lindo. Na internet também?",
+    "imagens": [
+      "midia/gnz01/2026-11-10/site_ia/01.jpg",
+      "midia/gnz01/2026-11-10/site_ia/02.jpg",
+      "midia/gnz01/2026-11-10/site_ia/03.jpg",
+      "midia/gnz01/2026-11-10/site_ia/04.jpg",
+      "midia/gnz01/2026-11-10/site_ia/05.jpg",
+      "midia/gnz01/2026-11-10/site_ia/06.jpg"
+    ],
+    "legenda": "Ela viu seu trabalho no Instagram, gostou, mas quer saber mais: serviços, endereço, como marcar. 💇‍♀️\n\nO site reúne tudo em um só lugar, com a cara do seu salão, e leva a cliente direto para o seu WhatsApp.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #salaodebeleza #cabeleireira #criacaodesites\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
+    "capa_ia": true
   },
   {
     "id": "gnz01_2026-11-10_story5",
@@ -1449,7 +1506,7 @@
   },
   {
     "id": "gnz01_2026-11-11_3",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-11T15:00:00-03:00",
     "tipo": "carrossel",
     "tema": "catalogo",
@@ -1462,7 +1519,26 @@
       "midia/gnz01/2026-11-11/3/05.jpg",
       "midia/gnz01/2026-11-11/3/06.jpg"
     ],
-    "legenda": "Novidades, vestidos, blusas, cada peça com foto e preço. A cliente escolhe, monta o pedido e envia direto no seu WhatsApp. 🛍️\n\nNada de mandar foto por foto ou responder \"quanto custa?\" vinte vezes por dia.\n\nEsta é uma demonstração. O seu catálogo sai com as suas peças, suas fotos e a identidade da sua loja.\n\n💬 Comente CATÁLOGO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #catalogodigital #lojadeRoupas #vendaspelowhatsapp"
+    "legenda": "Novidades, vestidos, blusas, cada peça com foto e preço. A cliente escolhe, monta o pedido e envia direto no seu WhatsApp. 🛍️\n\nNada de mandar foto por foto ou responder \"quanto custa?\" vinte vezes por dia.\n\nEsta é uma demonstração. O seu catálogo sai com as suas peças, suas fotos e a identidade da sua loja.\n\n💬 Comente CATÁLOGO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #catalogodigital #lojadeRoupas #vendaspelowhatsapp",
+    "observacao": "Substituído pelo carrossel de site com capa de IA (pedido do João, 08/11)."
+  },
+  {
+    "id": "gnz01_2026-11-11_site_ia",
+    "status": "pendente",
+    "quando": "2026-11-11T15:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "sites",
+    "titulo": "Fome bate, a pessoa pesquisa. Seu restaurante aparece?",
+    "imagens": [
+      "midia/gnz01/2026-11-11/site_ia/01.jpg",
+      "midia/gnz01/2026-11-11/site_ia/02.jpg",
+      "midia/gnz01/2026-11-11/site_ia/03.jpg",
+      "midia/gnz01/2026-11-11/site_ia/04.jpg",
+      "midia/gnz01/2026-11-11/site_ia/05.jpg",
+      "midia/gnz01/2026-11-11/site_ia/06.jpg"
+    ],
+    "legenda": "Sexta, 19h. Alguém procura onde jantar e escolhe pelo que vê no celular. 🍽️\n\nUm site com fotos dos pratos, horários, mapa e pedido pelo WhatsApp faz o seu restaurante ser a escolha, sem pagar taxa por pedido.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #restaurante #donoderestaurante #criacaodesites\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
+    "capa_ia": true
   },
   {
     "id": "gnz01_2026-11-11_story5",
@@ -1604,7 +1680,7 @@
   },
   {
     "id": "gnz01_2026-11-12_3",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-12T15:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -1612,7 +1688,26 @@
     "imagens": [
       "midia/gnz01/2026-11-12/3/01.jpg"
     ],
-    "legenda": "Faça agora: abra o seu site no celular, como se fosse um cliente. 📱\n\n✔️ Carregou rápido?\n✔️ Dá para ler sem dar zoom?\n✔️ O botão de WhatsApp aparece fácil?\n\nSe alguma resposta foi \"não\", o seu site pode estar perdendo visitantes antes mesmo de eles conhecerem o seu trabalho.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #criacaodesites #experienciadousuario #siteprofissional"
+    "legenda": "Faça agora: abra o seu site no celular, como se fosse um cliente. 📱\n\n✔️ Carregou rápido?\n✔️ Dá para ler sem dar zoom?\n✔️ O botão de WhatsApp aparece fácil?\n\nSe alguma resposta foi \"não\", o seu site pode estar perdendo visitantes antes mesmo de eles conhecerem o seu trabalho.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #criacaodesites #experienciadousuario #siteprofissional",
+    "observacao": "Substituído pelo carrossel de site com capa de IA (pedido do João, 08/11)."
+  },
+  {
+    "id": "gnz01_2026-11-12_site_ia",
+    "status": "pendente",
+    "quando": "2026-11-12T15:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "sites",
+    "titulo": "Recebeu uma indicação? O cliente vai te pesquisar.",
+    "imagens": [
+      "midia/gnz01/2026-11-12/site_ia/01.jpg",
+      "midia/gnz01/2026-11-12/site_ia/02.jpg",
+      "midia/gnz01/2026-11-12/site_ia/03.jpg",
+      "midia/gnz01/2026-11-12/site_ia/04.jpg",
+      "midia/gnz01/2026-11-12/site_ia/05.jpg",
+      "midia/gnz01/2026-11-12/site_ia/06.jpg"
+    ],
+    "legenda": "Advogado, contador, psicólogo, arquiteto: no trabalho de quem vive de confiança, o site é a sua apresentação antes da primeira conversa. ⚖️\n\nÁreas de atuação, formação e contato direto, num site sóbrio e profissional.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #advogado #profissionalliberal #criacaodesites\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
+    "capa_ia": true
   },
   {
     "id": "gnz01_2026-11-12_story5",
@@ -1755,7 +1850,7 @@
   },
   {
     "id": "2026-11-13_3",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-13T15:00:00-03:00",
     "tipo": "post",
     "tema": "agenda",
@@ -1763,7 +1858,26 @@
     "imagens": [
       "midia/2026-11-13/3/01.jpg"
     ],
-    "legenda": "Responder mensagem por mensagem para marcar horário toma o seu tempo e ainda gera confusão.\n\nCom a agenda online, seu cliente vê os horários livres e agenda sozinho, até de madrugada. Você só recebe o aviso. ✅\n\nIdeal para barbearias, salões, clínicas, personal trainers, psicólogos e todo profissional que atende com hora marcada.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #agendaonline #agendamentoonline #barbearia"
+    "legenda": "Responder mensagem por mensagem para marcar horário toma o seu tempo e ainda gera confusão.\n\nCom a agenda online, seu cliente vê os horários livres e agenda sozinho, até de madrugada. Você só recebe o aviso. ✅\n\nIdeal para barbearias, salões, clínicas, personal trainers, psicólogos e todo profissional que atende com hora marcada.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #agendaonline #agendamentoonline #barbearia",
+    "observacao": "Substituído pelo carrossel de site com capa de IA (pedido do João, 08/11)."
+  },
+  {
+    "id": "gnz01_2026-11-13_site_ia",
+    "status": "pendente",
+    "quando": "2026-11-13T15:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "sites",
+    "titulo": "Tutor procura banho e tosa no celular. E encontra você?",
+    "imagens": [
+      "midia/gnz01/2026-11-13/site_ia/01.jpg",
+      "midia/gnz01/2026-11-13/site_ia/02.jpg",
+      "midia/gnz01/2026-11-13/site_ia/03.jpg",
+      "midia/gnz01/2026-11-13/site_ia/04.jpg",
+      "midia/gnz01/2026-11-13/site_ia/05.jpg",
+      "midia/gnz01/2026-11-13/site_ia/06.jpg"
+    ],
+    "legenda": "Para o tutor, o pet é da família. Antes de marcar o banho, ele pesquisa, olha fotos e procura confiança. 🐶\n\nUm site mostra seus serviços, seu espaço e o carinho com os bichos, e leva direto para o seu WhatsApp.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #petshop #banhoetosa #criacaodesites\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
+    "capa_ia": true
   },
   {
     "id": "2026-11-13_story5",
@@ -1907,7 +2021,7 @@
   },
   {
     "id": "2026-11-14_3",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-14T15:00:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -1915,7 +2029,26 @@
     "imagens": [
       "midia/2026-11-14/3/01.jpg"
     ],
-    "legenda": "Design é importante, mas o que importa mesmo é resultado. 🎯\n\nTodo site que eu crio é pensado para gerar contato: carrega rápido, funciona perfeito no celular e tem o caminho certo até o seu WhatsApp.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #criacaodesites #landingpage #siteprofissional"
+    "legenda": "Design é importante, mas o que importa mesmo é resultado. 🎯\n\nTodo site que eu crio é pensado para gerar contato: carrega rápido, funciona perfeito no celular e tem o caminho certo até o seu WhatsApp.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #criacaodesites #landingpage #siteprofissional",
+    "observacao": "Substituído pelo carrossel de site com capa de IA (pedido do João, 08/11)."
+  },
+  {
+    "id": "gnz01_2026-11-14_site_ia",
+    "status": "pendente",
+    "quando": "2026-11-14T15:00:00-03:00",
+    "tipo": "carrossel",
+    "tema": "sites",
+    "titulo": "Personal trainer: seu próximo aluno está no Google.",
+    "imagens": [
+      "midia/gnz01/2026-11-14/site_ia/01.jpg",
+      "midia/gnz01/2026-11-14/site_ia/02.jpg",
+      "midia/gnz01/2026-11-14/site_ia/03.jpg",
+      "midia/gnz01/2026-11-14/site_ia/04.jpg",
+      "midia/gnz01/2026-11-14/site_ia/05.jpg",
+      "midia/gnz01/2026-11-14/site_ia/06.jpg"
+    ],
+    "legenda": "Muita gente quer começar a treinar, mas quer confiar em quem vai acompanhar. 🏋️\n\nUm site apresenta sua metodologia, seus planos e leva o futuro aluno direto para o seu WhatsApp.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #personaltrainer #educacaofisica #criacaodesites\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
+    "capa_ia": true
   },
   {
     "id": "2026-11-14_story5",
