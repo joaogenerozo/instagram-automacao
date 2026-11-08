@@ -68,6 +68,9 @@ def controle_qualidade(video, rel):
         problemas.append(f"volume fora do padrão: {lufs[-1]} LUFS")
     if pico and float(pico[-1]) > -0.5:
         problemas.append(f"pico de áudio alto demais: {pico[-1]} dBFS")
+    mb = Path(video).stat().st_size / 1e6
+    if mb > 45:
+        problemas.append(f"arquivo grande demais: {mb:.0f} MB (limite 45 MB)")
     if "black_start" in r:
         problemas.append("trecho preto no vídeo")
     for c in rel["cenas"]:
