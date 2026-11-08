@@ -751,7 +751,7 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
                         capture_output=True, text=True).stdout.strip())
                     c["_fala"] = arq
                     c["_pals"] = _alinhar(pals, c["fala"]) if pals else _palavras_estimadas(c["fala"], dur_fala)
-                    c["_dur"] = max(c["_dur"] * 0.8, dur_fala + 0.5)
+                    c["_dur"] = max(c["_dur"] * 0.8, dur_fala + (1.4 if c["tipo"] == "cta" else 0.5))
                 else:
                     provedor = None
                     break
