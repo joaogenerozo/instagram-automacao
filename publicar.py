@@ -76,9 +76,10 @@ class Instagram:
         self._esperar(c)
         return self._req("POST", f"{self.user}/media_publish", creation_id=c)["id"]
 
-    def publicar_reel(self, url, legenda):
+    def publicar_reel(self, url, legenda, capa=None):
+        extra = {"cover_url": capa} if capa else {}  # capa = quadro do gancho (fica bonito no grid do perfil)
         c = self._req("POST", f"{self.user}/media", video_url=url, media_type="REELS",
-                      caption=legenda, share_to_feed="true")["id"]
+                      caption=legenda, share_to_feed="true", **extra)["id"]
         self._esperar(c, tentativas=120)  # vídeo pode levar alguns minutos para processar
         return self._req("POST", f"{self.user}/media_publish", creation_id=c)["id"]
 
@@ -152,7 +153,8 @@ def main():
             if p["tipo"] == "story":
                 media_id = ig.publicar_story(urls[0])
             elif p["tipo"] == "reel":
-                media_id = ig.publicar_reel(urls[0], p["legenda"])
+                capa = next((u for u in urls[1:] if u.endswith(".jpg")), None)
+                media_id = ig.publicar_reel(urls[0], p["legenda"], capa=capa)
             else:
                 fn = ig.publicar_carrossel if p["tipo"] == "carrossel" else (lambda u, l, **x: ig.publicar_imagem(u[0], l, **x))
                 extras = extras_feed(p, cfg)
