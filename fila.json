@@ -617,7 +617,7 @@
   },
   {
     "id": "gnz01_2026-11-07_p4",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-07T21:00:00-03:00",
     "tipo": "carrossel",
     "tema": "marca",
@@ -634,7 +634,9 @@
     "legenda": "\"One thing I love about customers is that they are divinely discontent.\"\n\"Uma coisa que eu adoro nos clientes é que eles são divinamente insatisfeitos.\"\nJeff Bezos, carta aos acionistas da Amazon (2017).\n\nA expectativa do cliente sobe o tempo todo. Arraste para ver como acompanhar. 👉\n\n💬 O que seu cliente já espera de você?\n💾 Salve para reler.\n\nFale com a GNZ01: (19) 97829-9585\n.\n.\n#empreendedorismo #jeffbezos #experienciadocliente #gestaodenegocios #gnz01 #solucoesdigitais\n\n📷 Fotos: Foto: Daniel Oberhaus / Wikimedia Commons, CC BY 4.0; Foto: Number 10 (Downing Street) / Wikimedia Commons, CC BY 2.0; Foto: Seattle City Council / Wikimedia Commons, CC BY 2.0 (recortada)",
     "fotos_por_lamina": false,
     "tentativas": 1,
-    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)",
+    "media_id": "18026722400872700",
+    "publicado_em": "2026-11-08T00:04:03+00:00"
   },
   {
     "id": "gnz01_2026-11-07_story7",
