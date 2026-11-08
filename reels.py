@@ -10,7 +10,7 @@ Entregas de cada vídeo:
   GNZ01-MARKETING/REELS/<data>_<hora>_<slug>/legendas.srt legendas sincronizadas (quando há narração)
 
 Uso:
-  python reels.py                 agenda/produz os horários das próximas 30 horas
+  python reels.py                 agenda/produz os horários das próximas 48 horas
   python reels.py --horas 72      outra janela
   python reels.py --teste ID      só produz o roteiro ID em midia/reels/teste/ (não agenda)
 """
@@ -122,7 +122,7 @@ def rel_path(p):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--horas", type=float, default=30)
+    ap.add_argument("--horas", type=float, default=48)
     ap.add_argument("--teste")
     args = ap.parse_args()
     cfg = carregar_config()
