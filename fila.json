@@ -1509,6 +1509,23 @@
     "legenda": ""
   },
   {
+    "id": "reel_2026-11-11_0700",
+    "status": "pendente",
+    "quando": "2026-11-11T07:00:00-03:00",
+    "tipo": "reel",
+    "tema": "landing",
+    "titulo": "Anúncio que leva para o lugar errado",
+    "roteiro": "r08-landing-anuncio",
+    "origem": "estudio",
+    "narracao": "edge",
+    "duracao": 26.65,
+    "imagens": [
+      "midia/reels/2026-11-11_07h00_anuncio-que-leva-para-o-lugar-errado.mp4",
+      "midia/reels/2026-11-11_07h00_anuncio-que-leva-para-o-lugar-errado.jpg"
+    ],
+    "legenda": "O seu anúncio leva o cliente para onde? 🎯\n\nMandar o clique para um perfil cheio de posts distrai quem chegou pronto para comprar.\n\nA landing page tem uma oferta clara, tudo o que o cliente precisa saber e um único botão de ação. Uma página, um objetivo.\n\n💬 Comente PÁGINA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #landingpage #captacaodeclientes #pequenosnegocios"
+  },
+  {
     "id": "gnz01_2026-11-11_story1",
     "status": "pendente",
     "quando": "2026-11-11T07:30:00-03:00",
@@ -1555,6 +1572,23 @@
       "midia/gnz01/2026-11-11/stories/3.jpg"
     ],
     "legenda": ""
+  },
+  {
+    "id": "reel_2026-11-11_1100",
+    "status": "pendente",
+    "quando": "2026-11-11T11:00:00-03:00",
+    "tipo": "reel",
+    "tema": "agenda",
+    "titulo": "Cliente que esquece o horário",
+    "roteiro": "r09-agenda-faltas",
+    "origem": "estudio",
+    "narracao": "edge",
+    "duracao": 28.3,
+    "imagens": [
+      "midia/reels/2026-11-11_11h00_cliente-que-esquece-o-horario.mp4",
+      "midia/reels/2026-11-11_11h00_cliente-que-esquece-o-horario.jpg"
+    ],
+    "legenda": "Horário marcado. Cadeira vazia. 💺\n\nMuitas vezes o cliente simplesmente esqueceu.\n\nCom a agenda online, ele marca sozinho, recebe a confirmação e um lembrete antes do horário. Agenda organizada é dinheiro no caixa.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #salaodebeleza #agendamentoonline #agendaonline"
   },
   {
     "id": "2026-11-11_2",
