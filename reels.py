@@ -23,7 +23,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from src.comum import RAIZ, carregar_config, carregar_fila, montar_legenda, salvar_fila
+from src.comum import RAIZ, carregar_config, carregar_fila, montar_legenda, parecidos, salvar_fila
 from src import reels as motor
 
 HORARIOS_PADRAO = ["07:00", "11:00", "19:00"]
@@ -122,10 +122,10 @@ def ficha(roteiro, rel, quando, legenda):
 def produzir_roteiro(roteiro, cfg, quando, video, pasta):
     rel = motor.produzir(roteiro, cfg, video)
     problemas = controle_qualidade(video, rel)
-    if roteiro.get("cta_legenda"):  # chamada final escrita no roteiro (ex.: roteiros do João)
-        cfg = {**cfg, "cta": {**cfg.get("cta", {}), "modelo": roteiro["cta_legenda"]}}
     post = {"legenda": roteiro["legenda"], "tema": roteiro.get("tema", "sites"),
-            "hashtags": roteiro.get("hashtags", []), "gancho": roteiro.get("gancho_legenda")}
+            "hashtags": roteiro.get("hashtags", []), "gancho": roteiro.get("gancho_legenda"),
+            "pergunta": roteiro.get("pergunta"),  # engajamento (diretrizes, seção 26)
+            "cta_personalizado": roteiro.get("cta_legenda") or roteiro.get("cta_personalizado")}
     legenda = montar_legenda(post, cfg)
     pasta.mkdir(parents=True, exist_ok=True)
     (pasta / "roteiro.md").write_text(ficha(roteiro, rel, quando, legenda), encoding="utf-8")
@@ -189,7 +189,10 @@ def main():
     salvar_fila(fila)
     usados = {p.get("roteiro") for p in fila if p["tipo"] == "reel"}
     ocupados = {p["quando"] for p in fila if p["tipo"] == "reel" and p["status"] != "erro"}
-    disponiveis = [r for r in todos if r["id"] not in usados and r.get("origem") != "joao"]
+    # trava de repetição (seção 26): roteiro gerado com título parecido a um Reel já publicado/agendado não entra
+    titulos_fila = [p.get("titulo", "") for p in fila if p["tipo"] == "reel" and p["status"] != "erro"]
+    disponiveis = [r for r in todos if r["id"] not in usados and r.get("origem") != "joao"
+                   and not any(parecidos(r["titulo"], t) for t in titulos_fila)]
     slots = sorted(datetime.fromisoformat(qi) for qi in alvos if qi not in ocupados)
     for d in range(0, int(args.horas // 24) + 2):
         dia = agora.date() + timedelta(days=d)
