@@ -156,3 +156,31 @@ Dados reais em 08/11: 3 seguidores e alcance de 1 a 4 contas por post. A priorid
 ## 25. Carrosséis de sites com capa de IA (pedido do João, 08/11/2026)
 - 1 carrossel por dia às 15:00 apresentando um site por nicho (barbearia, clínica, salão, restaurante, advocacia, pet shop, personal, loja), no lugar do post desse horário. Conteúdo em conteudo/gnz01-sites-ia.json; para mais semanas, acrescente itens com nova data e novo "cenario".
 - Capa: pessoa fictícia feliz mostrando o site no celular, com o mesmo site desfocado no computador ao fundo (regra 21). Gerada por tools/sites_ia.py no GitHub Actions (Gemini se houver GEMINI_API_KEY; senão Pollinations/FLUX, gratuito). Crédito "Imagem ilustrativa gerada por IA" na capa e na legenda.
+
+## 26. Engajamento: quadros fixos (pesquisa de perfis semelhantes, 09/11/2026)
+Pedido do João (09/11): mudança significativa no perfil para aumentar o engajamento. O que perfis que vendem sites,
+cardápio digital e agenda para pequenos negócios fazem e que a GNZ01 ainda não fazia:
+- **O algoritmo de 2026 pesa compartilhamento (envio por Direct), salvamento e tempo de visualização** muito mais
+  que curtida. Por isso cada post tem um mecanismo: salvar, compartilhar ou comentar (campo `mecanismo`), e fecha
+  com uma pergunta fácil (campo `pergunta`, acrescentada antes do CTA pelo src/comum.py).
+- **Reels para alcance, carrossel para salvamento.** Reels levam a conta a quem não segue; carrosséis úteis
+  (checklist, passo a passo) são os mais salvos. Post de imagem única fica para enquetes A/B e frases curtas.
+- **Quadros fixos** (o seguidor aprende a esperar por eles):
+  - `raio-x`: "Comente o @ do seu negócio que eu faço um raio-x grátis". O João responde no Direct com 3 ajustes
+    (bio, Google, caminho até o pedido). Gera comentário, conversa e lead. CTA próprio (`cta_personalizado`).
+  - `isso-ou-aquilo`: escolha A ou B sobre uma situação real do dono do negócio. Comentário de uma letra.
+  - `salvavel`: checklist que o dono faz sozinho (ex.: Perfil da Empresa no Google). Valor real antes da venda.
+  - `compartilhavel`: "as mensagens que todo barbeiro responde", "manda para o dono de pizzaria que você conhece".
+    O seguidor vira ponte até quem compra.
+  - `antes-e-depois`: o mesmo pedido/agendamento feito do jeito antigo e com a solução (sempre "situação ilustrativa").
+  - `bastidores`: o João aparecendo (rosto, voz, tela do computador). Pessoas compram de pessoas; perfis de
+    prestadores locais que mostram quem faz crescem mais rápido. Depende de foto/vídeo do João.
+- **Não repetir publicação.** Em 06 a 09/11 saíram títulos repetidos ("Instagram não é site", "Seu cliente procurou
+  no Google...") e isso derruba a distribuição. A trava de repetição vale também para o que já foi publicado.
+- **Nada de frase motivacional de personalidade no feed além de 1 por semana**: atrai seguidores que não compram.
+- **Stories**: a API não coloca enquete nem caixinha. O João deve postar à mão 1 story por dia com figurinha de
+  enquete ou caixinha de perguntas (ex.: repostar o post do dia com "A ou B?"). É o que mais gera resposta.
+- **Responder todo comentário em até 1 hora** e mandar o exemplo prometido no Direct: comentário respondido rápido
+  aumenta a distribuição do post.
+- Aplicar quadros prontos: `python tools/quadros.py conteudo/engajamento/<arquivo>.json` (troca um post pendente
+  mais fraco pelo quadro; o antigo fica "pulado" e pode voltar).

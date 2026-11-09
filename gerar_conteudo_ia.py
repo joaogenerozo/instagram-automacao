@@ -41,6 +41,13 @@ class Post(BaseModel):
     cta_final: Optional[str] = Field(default=None, description="Só em carrossel: chamada do último slide")
     legenda: str = Field(description="Corpo da legenda (sem repetir o gancho), com quebras de linha, SEM número de "
                          "WhatsApp e SEM chamada final: a chamada padrão é acrescentada automaticamente")
+    mecanismo: Literal["salvar", "compartilhar", "comentar"] = Field(
+        description="A ação principal que o post provoca. Salvar: checklist/passo a passo útil. Compartilhar: "
+                    "o seguidor manda para um dono de negócio que ele conhece. Comentar: escolha A/B, número ou opinião")
+    quadro: Optional[Literal["raio-x", "isso-ou-aquilo", "salvavel", "compartilhavel", "antes-e-depois", "bastidores"]] = Field(
+        default=None, description="Quadro fixo da semana, se o post for um deles (veja a seção 26 das diretrizes)")
+    pergunta: str = Field(description="Pergunta curta e fácil de responder que fecha a legenda antes do CTA "
+                          "(ex.: 'Qual dessas você mais recebe? Comenta o número.'). Nada de pergunta genérica")
     hashtags: List[str] = Field(description="2 a 3 hashtags de nicho que o DONO do negócio pesquisa "
                                 "(ex.: #pizzaria, #barbearia, #clinicaodontologica), começando com #")
 
@@ -105,6 +112,11 @@ TAREFA: crie o conteúdo de UMA SEMANA para o Instagram {cfg['instagram']}: 7 di
   ("Comente SITE que eu te mando um exemplo").
 - Hashtags: só 2 ou 3 de nicho que o dono do negócio pesquisa. As hashtags da cidade entram automaticamente.
 - Não crie posts de citação de personalidades (já existe 1 por semana à parte).
+- ENGAJAMENTO (seção 26): cada publicação tem um mecanismo (salvar, compartilhar ou comentar) e uma pergunta
+  final fácil de responder. Na semana, inclua os quadros fixos: 1 raio-x (comente o @ do seu negócio),
+  2 isso-ou-aquilo (A ou B), 2 salvaveis (checklist prático), 2 compartilhaveis ("manda para o dono de ... que
+  você conhece") e 1 antes-e-depois (situação ilustrativa). Distribua ~1/3 de cada mecanismo.
+- Alterne nichos: no mesmo dia, nunca dois posts para o mesmo nicho; na semana, pelo menos 6 nichos diferentes.
 - Desempenho real da conta até agora:
 {desempenho()}
 - Não invente números de pesquisas, clientes ou depoimentos. Demonstrações devem ser apresentadas

@@ -1,0 +1,187 @@
+{
+  "_sobre": "Quadros fixos de engajamento (pesquisa de 09/11/2026). Cada item ocupa o horário de um post pendente mais fraco ('substitui'), que fica 'pulado' com motivo. Aplicar com: python tools/quadros.py conteudo/engajamento/quadros-semana-02.json",
+  "itens": [
+    {
+      "quadro": "raio-x",
+      "quando": "2026-11-09T21:00:00-03:00",
+      "substitui": "gnz01_2026-11-09_5",
+      "tipo": "carrossel",
+      "tema": "sites",
+      "titulo": "Comente o @ do seu negócio que eu faço um **raio-x grátis**",
+      "subtitulo": "Olho seu perfil e seu Google e te digo 3 ajustes que fariam diferença hoje.",
+      "slides": [
+        {
+          "titulo": "Como funciona",
+          "texto": "Você comenta o @ do seu negócio aqui embaixo. Eu olho com calma e te respondo no **Direct**."
+        },
+        {
+          "titulo": "1. A bio",
+          "texto": "Em 3 segundos dá para saber **o que você faz, onde fica** e como chamar você?"
+        },
+        {
+          "titulo": "2. O Google",
+          "texto": "Quem pesquisa seu serviço em Andradas **encontra você** ou o concorrente?"
+        },
+        {
+          "titulo": "3. O caminho até o pedido",
+          "texto": "Do primeiro clique até o pedido ou o horário marcado: **quantos passos** o cliente precisa dar?"
+        },
+        {
+          "titulo": "Sem pegadinha",
+          "texto": "O raio-x é grátis e **sem compromisso**. Se fizer sentido, aí sim a gente conversa sobre site."
+        }
+      ],
+      "cta_final": "Comente o **@ do seu negócio** aqui embaixo",
+      "gancho": "Seu cliente decide em segundos se confia no seu negócio. Quer saber o que ele vê?",
+      "legenda": "Esta semana estou fazendo um raio-x grátis de negócios de Andradas e região.\n\nVocê comenta o @ do seu perfil e eu te mando no Direct 3 ajustes práticos: bio, Google e o caminho até o cliente pedir ou marcar horário.\n\nConhece alguém que precisa? Marca a pessoa aqui. 👇",
+      "cta_personalizado": "💬 Comente o @ do seu negócio que eu te mando o raio-x no Direct.\n📲 Prefere WhatsApp? O link está na bio.",
+      "hashtags": [
+        "#pequenosnegocios",
+        "#empreendedorlocal"
+      ]
+    },
+    {
+      "quadro": "compartilhavel",
+      "quando": "2026-11-12T18:30:00-03:00",
+      "substitui": "gnz01_2026-11-12_4",
+      "tipo": "carrossel",
+      "tema": "agenda",
+      "titulo": "As 5 mensagens que todo **barbeiro responde** o dia inteiro",
+      "subtitulo": "Se você conhece um barbeiro, manda para ele. Ele vai se identificar.",
+      "slides": [
+        {
+          "titulo": "\"Tem horário hoje?\"",
+          "texto": "A campeã. Chega no meio do corte e **fica sem resposta** até o fim do cliente."
+        },
+        {
+          "titulo": "\"Quanto é o corte com barba?\"",
+          "texto": "O preço já foi mandado dezenas de vezes. E vai ser **mandado de novo** amanhã."
+        },
+        {
+          "titulo": "\"Pode ser às 18h?\"",
+          "texto": "Aí começa o vai e vem: 18h não dá, 18h30 dá, **o cliente some**."
+        },
+        {
+          "titulo": "\"Onde fica?\"",
+          "texto": "Endereço, ponto de referência, foto da fachada. **Tudo de novo.**"
+        },
+        {
+          "titulo": "\"Vou ter que desmarcar\"",
+          "texto": "Em cima da hora, com a cadeira vazia e **ninguém para encaixar**."
+        },
+        {
+          "titulo": "O que muda com agenda online",
+          "texto": "O cliente vê os horários livres, escolhe, recebe o endereço e **você só corta cabelo**."
+        }
+      ],
+      "cta_final": "Quer ver uma **agenda de barbearia** funcionando?",
+      "gancho": "Barbeiro, quantas vezes hoje você já respondeu \"tem horário?\"",
+      "legenda": "Cada mensagem dessas parece pequena. Somadas, viram horas no celular em vez de horas na cadeira.\n\nQual dessas você mais recebe? Comenta o número de 1 a 5. 👇\n\nTem um amigo barbeiro? Manda este post para ele.",
+      "hashtags": [
+        "#barbearia",
+        "#barbeiro",
+        "#agendaonline"
+      ]
+    },
+    {
+      "quadro": "isso-ou-aquilo",
+      "quando": "2026-11-12T21:00:00-03:00",
+      "substitui": "gnz01_2026-11-12_5",
+      "tipo": "post",
+      "tema": "cardapio",
+      "titulo": "Cliente pede o preço no Direct. Você manda foto ou link?",
+      "subtitulo": "A) foto do cardápio impresso  ·  B) link com fotos, preços e pedido pronto no WhatsApp",
+      "itens": [
+        "Comenta A ou B aqui embaixo"
+      ],
+      "gancho": "Pergunta rápida para quem tem pizzaria, lanchonete ou restaurante:",
+      "legenda": "O cliente chega no Direct: \"qual o preço da pizza grande?\"\n\nVocê responde com:\nA) a foto do cardápio impresso\nB) um link onde ele vê tudo, monta o pedido e manda pronto no seu WhatsApp\n\nNão existe resposta errada, mas existe diferença no que acontece depois. Comenta A ou B. 👇",
+      "hashtags": [
+        "#pizzaria",
+        "#donoderestaurante",
+        "#cardapiodigital"
+      ]
+    },
+    {
+      "quadro": "salvavel",
+      "quando": "2026-11-13T21:00:00-03:00",
+      "substitui": "2026-11-13_5",
+      "tipo": "carrossel",
+      "tema": "sites",
+      "titulo": "Checklist: seu negócio **no Google** em 10 minutos",
+      "subtitulo": "Salve para fazer hoje à noite. É grátis e não precisa de site para começar.",
+      "slides": [
+        {
+          "titulo": "1. Perfil da Empresa",
+          "texto": "Procure \"Perfil da Empresa no Google\" e **reivindique** o seu negócio (ou crie)."
+        },
+        {
+          "titulo": "2. Categoria certa",
+          "texto": "Barbearia, pizzaria, clínica odontológica... a categoria é **o que faz você aparecer** na busca."
+        },
+        {
+          "titulo": "3. Horário de verdade",
+          "texto": "Horário errado faz o cliente ir até a porta fechada. **Atualize feriados** também."
+        },
+        {
+          "titulo": "4. Fotos reais",
+          "texto": "Fachada, ambiente e o seu trabalho. Foto real **passa confiança** antes do primeiro contato."
+        },
+        {
+          "titulo": "5. Peça avaliações",
+          "texto": "Peça para clientes satisfeitos avaliarem e **responda todas**, inclusive as ruins."
+        },
+        {
+          "titulo": "6. Link para o próximo passo",
+          "texto": "Coloque o link do seu site, cardápio ou agenda. **É ali que o cliente decide.**"
+        }
+      ],
+      "cta_final": "Quer um **site** para colocar nesse link?",
+      "gancho": "Quando alguém pesquisa seu serviço em Andradas, o que aparece?",
+      "legenda": "Antes de qualquer site, o básico precisa estar certo: o seu perfil no Google.\n\nSão 6 passos que você faz sozinho, de graça, em poucos minutos.\n\nSalve este post para não perder e mande para quem tem negócio e ainda não apareceu no Google.",
+      "hashtags": [
+        "#pequenosnegocios",
+        "#empreendedorlocal"
+      ]
+    },
+    {
+      "quadro": "antes-e-depois",
+      "quando": "2026-11-15T21:00:00-03:00",
+      "substitui": "2026-11-15_5",
+      "tipo": "carrossel",
+      "tema": "cardapio",
+      "titulo": "Antes e depois: o mesmo pedido, **dois caminhos**",
+      "subtitulo": "Situação ilustrativa de uma pizzaria. Veja quantas mensagens cada um leva.",
+      "slides": [
+        {
+          "titulo": "Antes",
+          "texto": "\"Oi, me manda o cardápio?\" Foto do cardápio. \"Tem meia a meia?\" \"Quanto é a borda?\" **Mais 10 mensagens.**"
+        },
+        {
+          "titulo": "Antes",
+          "texto": "O pedido chega quebrado em várias mensagens. Alguém anota à mão. **Um sabor sai errado.**"
+        },
+        {
+          "titulo": "Depois",
+          "texto": "\"Oi, me manda o cardápio?\" Um link. O cliente escolhe, vê os preços e **monta sozinho**."
+        },
+        {
+          "titulo": "Depois",
+          "texto": "O pedido chega **pronto e organizado** no seu WhatsApp: sabores, borda, endereço e forma de pagamento."
+        },
+        {
+          "titulo": "A diferença",
+          "texto": "Menos tempo no celular na hora do pico e **menos erro** na cozinha."
+        }
+      ],
+      "cta_final": "Quer ver como fica com o **seu cardápio**?",
+      "gancho": "Sexta à noite, pizzaria cheia, e o WhatsApp não para. Qual dos dois é o seu?",
+      "legenda": "Arrasta para ver o mesmo pedido de pizza feito de dois jeitos.\n\nSituação ilustrativa, mas quem tem delivery reconhece cada mensagem.\n\nQual é o seu hoje: antes ou depois? Comenta. 👇",
+      "hashtags": [
+        "#pizzaria",
+        "#delivery",
+        "#cardapiodigital"
+      ]
+    }
+  ]
+}
