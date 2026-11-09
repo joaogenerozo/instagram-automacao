@@ -65,9 +65,13 @@ def montar_legenda(post, cfg):
     texto = limpar_cta(texto, cfg)
     for chave in ("marca", "link", "instagram"):
         texto = texto.replace("{" + chave + "}", cfg.get(chave, ""))
+    if post.get("pergunta") and post["pergunta"] not in texto:
+        texto += "\n\n" + post["pergunta"]  # pergunta que puxa comentário (engajamento, 09/11)
     cta = cfg.get("cta", {})
     palavra = cta.get("palavras", {}).get(tema, "SITE")
-    if cta.get("modelo"):
+    if post.get("cta_personalizado"):
+        texto += "\n\n" + post["cta_personalizado"]  # quadros como o raio-x pedem outro comentário
+    elif cta.get("modelo"):
         texto += "\n\n" + cta["modelo"].format(palavra=palavra)
     local = cfg.get("local", {})
     if cta.get("local") and local.get("regiao"):
@@ -88,7 +92,10 @@ def separar_legenda(legenda):
 def remontar_legenda(item, cfg):
     """Aplica as regras atuais de CTA e hashtags a uma legenda que já está na fila."""
     texto, tags, creditos = separar_legenda(item.get("legenda", ""))
-    nova = montar_legenda({"legenda": texto, "hashtags": tags, "tema": item.get("tema")}, cfg)
+    if item.get("cta_personalizado"):
+        texto = texto.replace(item["cta_personalizado"], "").rstrip()
+    nova = montar_legenda({"legenda": texto, "hashtags": tags, "tema": item.get("tema"),
+                           "cta_personalizado": item.get("cta_personalizado")}, cfg)
     return nova + ("\n\n" + creditos if creditos else "")
 
 
