@@ -1140,7 +1140,7 @@
   },
   {
     "id": "gnz01_2026-11-09_story5",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-09T16:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -1148,7 +1148,9 @@
     "imagens": [
       "midia/gnz01/2026-11-09/stories/5.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18142867027627811",
+    "publicado_em": "2026-11-09T19:37:13+00:00"
   },
   {
     "id": "2026-11-09_4",
