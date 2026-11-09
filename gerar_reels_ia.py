@@ -39,6 +39,8 @@ class Cena(BaseModel):
     check: Optional[bool] = Field(default=None, description="lista: true para usar ✓ em vez de números")
     tela: Optional[Literal["site", "cardapio", "agenda", "catalogo"]] = Field(default=None, description="celular")
     chips: List[str] = Field(default_factory=list, description="celular: 2 ou 3 destaques de até 26 caracteres")
+    acao: Optional[str] = Field(default=None, description="cta: texto do botão quando não for 'Comente PALAVRA' "
+                                "(ex.: raio-x: 'Comente o @ do seu negócio'), até 34 caracteres")
     sem: Optional[Lado] = Field(default=None, description="comparacao: situação atual")
     com: Optional[Lado] = Field(default=None, description="comparacao: com a solução")
 
@@ -54,6 +56,15 @@ class Roteiro(BaseModel):
     gancho_legenda: str = Field(description="Primeira linha da legenda, começa pelo problema do cliente")
     legenda: str = Field(description="Corpo da legenda, sem número de WhatsApp e sem chamada final")
     hashtags: List[str] = Field(description="2 ou 3 hashtags de nicho")
+    mecanismo: Literal["salvar", "compartilhar", "comentar"] = Field(
+        description="Ação principal que o Reel provoca (seção 26): salvar, compartilhar (mandar para um dono de "
+                    "negócio que a pessoa conhece) ou comentar")
+    quadro: Optional[Literal["raio-x", "isso-ou-aquilo", "salvavel", "compartilhavel", "antes-e-depois"]] = Field(
+        default=None, description="Quadro fixo, se o Reel for um deles (seção 26)")
+    pergunta: str = Field(description="Pergunta curta e fácil de responder que fecha a legenda antes do CTA "
+                          "(ex.: 'Qual dessas você mais recebe? Comenta o número.'). Nada de pergunta genérica")
+    cta_personalizado: Optional[str] = Field(default=None, description="Só para quadros com outro pedido de comentário "
+                                             "(ex.: raio-x): chamada final da legenda no lugar do 'Comente PALAVRA'")
 
 
 class Semana(BaseModel):
@@ -69,7 +80,10 @@ def main():
     ap.add_argument("--se-faltar", type=int)
     args = ap.parse_args()
     todos = [r for a in existentes() for r in json.loads(a.read_text(encoding="utf-8"))["roteiros"]]
-    usados = {p.get("roteiro") for p in carregar_fila() if p["tipo"] == "reel"}
+    fila = carregar_fila()
+    usados = {p.get("roteiro") for p in fila if p["tipo"] == "reel"}
+    usados_titulos = list(dict.fromkeys([r["titulo"] for r in todos] +
+                                        [p.get("titulo", "") for p in fila if p["tipo"] == "reel"]))
     restantes = [r for r in todos if r["id"] not in usados]
     if args.se_faltar is not None and len(restantes) >= args.se_faltar:
         print(f"Ainda há {len(restantes)} roteiros. Nada a fazer.")
@@ -105,7 +119,12 @@ Regras:
 - Não invente números, pesquisas, preços, prazos, clientes ou depoimentos. Demonstrações são exemplos.
 - A fala é falada: frases curtas, ritmo natural, sem siglas difíceis. O texto na tela é mais curto que a fala.
 - Varie os tipos de cena entre os vídeos; não repita a mesma sequência em todos.
-- Não repita temas destes títulos já usados: {json.dumps([r['titulo'] for r in todos][-60:], ensure_ascii=False)}
+- ENGAJAMENTO (seção 26 da diretriz da marca): Reels são para alcance, então priorize compartilhar e comentar.
+  Cada roteiro tem `mecanismo` e uma `pergunta` final fácil. Na semana, inclua pelo menos: 2 compartilhaveis
+  ("manda para o dono de pizzaria que você conhece"), 2 isso-ou-aquilo (A ou B, comentário de uma letra),
+  1 raio-x (CTA "Comente o @ do seu negócio que eu faço um raio-x grátis", com `acao` no cta e `cta_personalizado`)
+  e 1 antes-e-depois (situação ilustrativa). Nenhuma frase motivacional.
+- Não repita títulos nem temas destes Reels já usados ou publicados: {json.dumps(usados_titulos[-80:], ensure_ascii=False)}
 
 Formato de referência (2 roteiros já aprovados): {exemplos}
 """
