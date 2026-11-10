@@ -1182,7 +1182,7 @@
   },
   {
     "id": "reel_2026-11-09_1900",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-09T19:00:00-03:00",
     "tipo": "reel",
     "tema": "catalogo",
@@ -1194,11 +1194,12 @@
       "midia/reels/2026-11-09_19h00_loja-que-responde-preco-um-por-um.mp4",
       "midia/reels/2026-11-09_19h00_loja-que-responde-preco-um-por-um.jpg"
     ],
-    "legenda": "\"Quanto custa?\" \"Tem no M?\" \"Ainda tem?\" 🛍️\n\nSe você responde isso o dia inteiro, existe um jeito melhor.\n\nUm catálogo digital mostra seus produtos com fotos, preços e categorias num link só. O cliente escolhe e chama no WhatsApp já sabendo o que quer.\n\n💬 Comente CATÁLOGO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #catalogodigital #lojaonline #vendaspelowhatsapp"
+    "legenda": "\"Quanto custa?\" \"Tem no M?\" \"Ainda tem?\" 🛍️\n\nSe você responde isso o dia inteiro, existe um jeito melhor.\n\nUm catálogo digital mostra seus produtos com fotos, preços e categorias num link só. O cliente escolhe e chama no WhatsApp já sabendo o que quer.\n\n💬 Comente CATÁLOGO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #catalogodigital #lojaonline #vendaspelowhatsapp",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "gnz01_2026-11-09_story6",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-09T19:30:00-03:00",
     "tipo": "story",
     "tema": "catalogo",
@@ -1206,7 +1207,8 @@
     "imagens": [
       "midia/gnz01/2026-11-09/stories/6.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "gnz01_2026-11-09_5",
@@ -1259,7 +1261,9 @@
       "midia/quadros/2026-11-09/raio-x/07.jpg"
     ],
     "legenda": "Seu cliente decide em segundos se confia no seu negócio. Quer saber o que ele vê?\n\nEsta semana estou fazendo um raio-x grátis de negócios de Andradas e região.\n\nVocê comenta o @ do seu perfil e eu te mando no Direct 3 ajustes práticos: bio, Google e o caminho até o cliente pedir ou marcar horário.\n\nConhece alguém que precisa? Marca a pessoa aqui. 👇\n\n💬 Comente o @ do seu negócio que eu te mando o raio-x no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #pequenosnegocios #empreendedorlocal #criacaodesites",
-    "cta_personalizado": "💬 Comente o @ do seu negócio que eu te mando o raio-x no Direct.\n📲 Prefere WhatsApp? O link está na bio."
+    "cta_personalizado": "💬 Comente o @ do seu negócio que eu te mando o raio-x no Direct.\n📲 Prefere WhatsApp? O link está na bio.",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "gnz01_2026-11-09_story7",
@@ -1271,7 +1275,9 @@
     "imagens": [
       "midia/gnz01/2026-11-09/stories/7.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "reel_2026-11-10_0700",
