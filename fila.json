@@ -1493,7 +1493,7 @@
   },
   {
     "id": "reel_2026-11-10_1900",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-10T19:00:00-03:00",
     "tipo": "reel",
     "tema": "sites",
@@ -1506,11 +1506,13 @@
       "midia/reels/2026-11-10_19h00_ja-tenho-instagram-preciso-de-site.mp4",
       "midia/reels/2026-11-10_19h00_ja-tenho-instagram-preciso-de-site.jpg"
     ],
-    "legenda": "\"Já tenho Instagram. Preciso de site?\" 🤔\n\nO Instagram é ótimo para ser visto. O site é onde o cliente decide.\n\n✔️ Aparece no Google quando alguém pesquisa\n✔️ Explica seus serviços num lugar só\n✔️ Passa a confiança de uma empresa estabelecida\n\nInstagram atrai. Site converte.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #siteprofissional #presencadigital #criacaodesites"
+    "legenda": "\"Já tenho Instagram. Preciso de site?\" 🤔\n\nO Instagram é ótimo para ser visto. O site é onde o cliente decide.\n\n✔️ Aparece no Google quando alguém pesquisa\n✔️ Explica seus serviços num lugar só\n✔️ Passa a confiança de uma empresa estabelecida\n\nInstagram atrai. Site converte.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #siteprofissional #presencadigital #criacaodesites",
+    "media_id": "18133494995502567",
+    "publicado_em": "2026-11-10T22:37:29+00:00"
   },
   {
     "id": "gnz01_2026-11-10_story6",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-10T19:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -1518,7 +1520,9 @@
     "imagens": [
       "midia/gnz01/2026-11-10/stories/6.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18118153807832298",
+    "publicado_em": "2026-11-10T22:37:29+00:00"
   },
   {
     "id": "gnz01_2026-11-10_5",
