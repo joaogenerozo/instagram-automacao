@@ -1445,7 +1445,7 @@
   },
   {
     "id": "gnz01_2026-11-10_site_ia",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-10T15:00:00-03:00",
     "tipo": "carrossel",
     "tema": "sites",
@@ -1459,7 +1459,9 @@
       "midia/gnz01/2026-11-10/site_ia/06.jpg"
     ],
     "legenda": "Ela viu seu trabalho no Instagram, gostou, mas quer saber mais: serviços, endereço, como marcar. 💇‍♀️\n\nO site reúne tudo em um só lugar, com a cara do seu salão, e leva a cliente direto para o seu WhatsApp.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #salaodebeleza #cabeleireira #criacaodesites\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
-    "capa_ia": true
+    "capa_ia": true,
+    "media_id": "17987933160091288",
+    "publicado_em": "2026-11-10T18:06:28+00:00"
   },
   {
     "id": "gnz01_2026-11-10_story5",
