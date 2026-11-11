@@ -26,3 +26,9 @@ node tools/filme_marca/render.js saida.mp4 --w 1080 --h 1920 --fps 59.94 --audio
 ```
 
 Os Reels diários (`src/reels.py`) seguem a mesma identidade: fundo escuro, Inter, destaques em dourado `OURO` e assinatura final "GNZ01_ / DESIGN. DESENVOLVIMENTO. DIGITAL.".
+
+## Reels diários (desde 11/11)
+
+Todo Reel é produzido pelo mesmo motor do filme (`src/reels_cinema.py`). As 8 cenas do prompt recebem os textos de cada roteiro, sempre em português, em 1080×1920 com 30 s e 30 fps. O tempo de cada cena está em `tools/filme_marca/mapa_reel.json`.
+
+Os Reels não têm narração, seguindo o prompt. A trilha é de 124 BPM, com efeitos sincronizados ao mesmo mapa de tempo.

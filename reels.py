@@ -24,7 +24,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from src.comum import RAIZ, carregar_config, carregar_fila, montar_legenda, parecidos, salvar_fila
-from src import reels as motor
+from src import reels_cinema as motor  # prompt GNZ01_ (motor antigo de textos: src/reels.py)
 
 HORARIOS_PADRAO = ["07:00", "11:00", "19:00"]
 PASTA_ROTEIROS = RAIZ / "conteudo" / "reels"

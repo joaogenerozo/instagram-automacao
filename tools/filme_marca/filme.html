@@ -178,16 +178,16 @@
           <div class="nav"><b>GNZ01_</b><div><span>Projetos</span><span>Serviços</span><span>Estúdio</span><span>Contato</span></div></div>
           <div class="photo ph-arch" style="margin:0 34px; height:300px"></div>
           <div style="padding:40px 50px">
-            <div style="font-size:13px; letter-spacing:.32em" class="gold">SOLUÇÕES DIGITAIS</div>
-            <div style="font-size:50px; font-weight:800; line-height:1.06; letter-spacing:-.025em; margin-top:16px">Sua empresa merece uma presença digital mais forte.</div>
-            <div class="muted" style="font-size:19px; line-height:1.55; margin-top:22px; max-width:720px">Criamos sites premium e experiências digitais inteligentes para fortalecer sua marca, melhorar o atendimento e gerar novas oportunidades de negócio.</div>
-            <div style="margin-top:28px; font-size:24px; font-weight:600; display:inline-block; position:relative">Experiências digitais que geram resultados.
+            <div style="font-size:13px; letter-spacing:.32em" class="gold" id="t4label">SOLUÇÕES DIGITAIS</div>
+            <div id="t4head" style="font-size:50px; font-weight:800; line-height:1.06; letter-spacing:-.025em; margin-top:16px">Sua empresa merece uma presença digital mais forte.</div>
+            <div class="muted" id="t4body" style="font-size:19px; line-height:1.55; margin-top:22px; max-width:720px">Criamos sites premium e experiências digitais inteligentes para fortalecer sua marca, melhorar o atendimento e gerar novas oportunidades de negócio.</div>
+            <div style="margin-top:28px; font-size:24px; font-weight:600; display:inline-block; position:relative"><span id="t4hl">Experiências digitais que geram resultados.</span>
               <div id="hl" style="position:absolute; left:0; bottom:-8px; height:2px; width:0; background:linear-gradient(90deg,#C5A46D,#E2CB9C)"></div></div>
           </div>
           <div style="display:flex; gap:18px; padding:6px 50px 0">
-            <div class="tile"><span class="gold">01</span><b>Sites</b><i>Design e desempenho</i></div>
-            <div class="tile"><span class="gold">02</span><b>Sistemas</b><i>Automação e organização</i></div>
-            <div class="tile"><span class="gold">03</span><b>Marca</b><i>Identidade digital consistente</i></div>
+            <div class="tile"><span class="gold">01</span><b id="t4a">Sites</b><i id="t4as">Design e desempenho</i></div>
+            <div class="tile"><span class="gold">02</span><b id="t4b">Sistemas</b><i id="t4bs">Automação e organização</i></div>
+            <div class="tile"><span class="gold">03</span><b id="t4c">Marca</b><i id="t4cs">Identidade digital consistente</i></div>
           </div>
         </div>
       </div>
@@ -211,8 +211,8 @@
           </div>
         </div>
         <div style="padding:34px 10px 0">
-          <div class="glass-title" style="font-size:58px">Desenvolvimento Web</div>
-          <div class="muted" style="font-size:22px; margin-top:12px">Sites premium feitos para elevar o seu negócio.</div>
+          <div class="glass-title" id="t5title" style="font-size:58px; line-height:1.08">Desenvolvimento Web</div>
+          <div class="muted" id="t5sub" style="font-size:22px; margin-top:12px">Sites premium feitos para elevar o seu negócio.</div>
         </div>
         <div class="sweep" id="wsweep"></div>
       </div>
@@ -224,16 +224,16 @@
         <div class="photo ph-arch" style="width:300px; height:100%; border-radius:0"></div>
         <div style="padding:46px 42px">
           <div style="font-size:12px; letter-spacing:.32em" class="gold">01</div>
-          <div class="glass-title" style="font-size:78px; margin-top:8px">Sites</div>
-          <div class="muted" style="font-size:22px; margin-top:10px">Presença digital. Design. Desempenho.</div>
+          <div class="glass-title" id="t6a" style="font-size:78px; margin-top:8px; line-height:1.05">Sites</div>
+          <div class="muted" id="t6as" style="font-size:22px; margin-top:10px">Presença digital. Design. Desempenho.</div>
         </div>
       </div>
       <div class="card" id="c2" style="left:130px; top:560px; width:820px; height:330px; display:flex">
         <div class="photo ph-sys" style="width:300px; height:100%; border-radius:0"></div>
         <div style="padding:46px 42px">
           <div style="font-size:12px; letter-spacing:.32em" class="gold">02</div>
-          <div class="glass-title" style="font-size:78px; margin-top:8px">Sistemas</div>
-          <div class="muted" style="font-size:22px; margin-top:10px">Automação. Organização. Eficiência.</div>
+          <div class="glass-title" id="t6b" style="font-size:78px; margin-top:8px; line-height:1.05">Sistemas</div>
+          <div class="muted" id="t6bs" style="font-size:22px; margin-top:10px">Automação. Organização. Eficiência.</div>
         </div>
       </div>
     </div>
@@ -257,6 +257,10 @@
           <div class="sweep" id="s8sweep" style="-webkit-background-clip:text"></div></div>
         <div id="s8line" style="margin:18px auto 0; height:1px; width:0; background:linear-gradient(90deg,transparent,#C5A46D,transparent)"></div>
         <div id="s8tag" style="font-size:20px; font-weight:600; letter-spacing:.5em; margin-top:26px; color:rgba(244,242,237,.78)">DESIGN. DESENVOLVIMENTO. DIGITAL.</div>
+        <div id="s8cta" style="opacity:0; margin-top:70px">
+          <div id="s8ctat" style="font-size:40px; font-weight:800; letter-spacing:-.015em; line-height:1.15; padding:0 90px"></div>
+          <div class="btn" id="s8btn" style="margin-top:28px; height:66px; font-size:26px; padding:0 40px"></div>
+        </div>
       </div>
     </div>
 
@@ -280,7 +284,8 @@ const prog = (f, a, b) => clamp((f - a) / (b - a));
 const expo = t => t >= 1 ? 1 : 1 - Math.pow(2, -10 * t);              // exponential ease-out
 const inout = t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 const lerp = (a, b, t) => a + (b - a) * t;
-const TYPED = "Transforme seu negócio com uma experiência digital premium.";
+let TYPED = "Transforme seu negócio com uma experiência digital premium.";
+let REEL = false;   // modo Reel: textos do roteiro, sem colapso final, com CTA
 
 // grão determinístico (sem Math.random): hash por pixel e quadro
 function grain(f) {
@@ -324,7 +329,7 @@ function renderFrame(f) {
     const a = expo(prog(f, 8, 38));
     show("s1", s1, `scale(${lerp(1, 1.08, prog(f, 0, 76))})`);
     $("s1word").style.opacity = a;
-    $("s1word").style.letterSpacing = `${lerp(0.35, 0.06, expo(prog(f, 8, 46)))}em`;
+    $("s1word").style.letterSpacing = REEL ? `${lerp(0.12, -0.01, expo(prog(f, 8, 46)))}em` : `${lerp(0.35, 0.06, expo(prog(f, 8, 46)))}em`;
     $("s1word").style.filter = `blur(${(1 - a) * 10}px)`;
     $("s1sub").style.opacity = expo(prog(f, 22, 46));
     $("ringC").style.strokeDashoffset = 868 * (1 - expo(prog(f, 4, 44)));
@@ -426,7 +431,7 @@ function renderFrame(f) {
   // ---------------- CENA 8 (301–359): assinatura e colapso final
   if (f >= 298) {
     const a = expo(prog(f, 300, 318));
-    const col = inout(prog(f, 346, 359));             // colapso cinematográfico controlado
+    const col = REEL ? 0 : inout(prog(f, 346, 359));             // colapso cinematográfico controlado
     show("s8", a * (1 - col), `scaleY(${lerp(1, 0.02, col)}) scaleX(${lerp(1, 1.12, col)})`);
     $("s8word").style.letterSpacing = `${lerp(0.12, -0.03, expo(prog(f, 300, 330)))}em`;
     $("s8word").style.filter = `blur(${(1 - a) * 14}px)`;
@@ -436,6 +441,12 @@ function renderFrame(f) {
     $("s8line").style.width = `${380 * expo(prog(f, 316, 336))}px`;
     $("s8tag").style.opacity = expo(prog(f, 322, 340));
     $("s8tag").style.letterSpacing = `${lerp(0.8, 0.5, expo(prog(f, 322, 346)))}em`;
+    if (REEL) {
+      const c = expo(prog(f, 330, 344));
+      $("s8cta").style.opacity = c;
+      $("s8cta").style.transform = `translateY(${(1 - c) * 40}px)`;
+      $("s8btn").style.boxShadow = `0 0 ${20 + 16 * Math.sin(f / 4)}px rgba(197,164,109,${0.25 + 0.2 * c})`;
+    }
   } else show("s8", 0);
 
   // câmera
@@ -451,6 +462,31 @@ window.setup = (W, H) => {
   window.__fit = Math.min(W, H) / 1080;
 };
 window.renderFrame = renderFrame;
+
+// textos do Reel (todos em português, vindos do roteiro)
+function tamanho(txt, faixas) { const n = (txt || "").length; for (const [lim, px] of faixas) if (n <= lim) return px; return faixas[faixas.length - 1][1]; }
+window.setTexts = d => {
+  REEL = true;
+  const put = (id, v) => { if (v !== undefined && v !== null) $(id).textContent = v; };
+  const w = $("s1word");
+  w.textContent = d.gancho;
+  w.style.fontSize = tamanho(d.gancho, [[12, 96], [24, 80], [40, 66], [60, 56], [999, 48]]) + "px";
+  w.style.lineHeight = "1.08"; w.style.padding = "0 70px"; w.style.whiteSpace = "normal";
+  if ((d.gancho || "").length > 12) $("ring").style.display = "none";   // anel só envolve textos curtos
+  put("s1sub", d.rotulo);
+  $("s1sub").style.letterSpacing = ".32em";
+  TYPED = d.digitado;
+  $("typed").style.fontSize = tamanho(d.digitado, [[60, 31], [90, 27], [999, 24]]) + "px";
+  put("t4label", d.secao); put("t4head", d.titulo); put("t4body", d.corpo); put("t4hl", d.frase);
+  $("t4head").style.fontSize = tamanho(d.titulo, [[40, 50], [70, 44], [999, 38]]) + "px";
+  ["a", "b", "c"].forEach((k, i) => { put("t4" + k, (d.tiles[i] || ["", ""])[0]); put("t4" + k + "s", (d.tiles[i] || ["", ""])[1]); });
+  document.querySelectorAll(".tile b").forEach(b => { b.style.fontSize = tamanho(b.textContent, [[10, 24], [16, 20], [999, 17]]) + "px"; });
+  put("t5title", d.card[0]); put("t5sub", d.card[1]);
+  $("t5title").style.fontSize = tamanho(d.card[0], [[20, 58], [34, 46], [999, 38]]) + "px";
+  put("t6a", d.cards[0][0]); put("t6as", d.cards[0][1]); put("t6b", d.cards[1][0]); put("t6bs", d.cards[1][1]);
+  ["t6a", "t6b"].forEach(id => { $(id).style.fontSize = tamanho($(id).textContent, [[8, 78], [12, 60], [18, 46], [26, 38], [999, 32]]) + "px"; });
+  put("s8ctat", d.cta); put("s8btn", d.botao);
+};
 </script>
 </body>
 </html>

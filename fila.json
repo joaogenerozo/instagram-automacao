@@ -1642,22 +1642,21 @@
     "legenda": ""
   },
   {
-    "id": "reel_2026-11-11_1100",
-    "status": "pausado",
-    "quando": "2026-11-11T11:00:00-03:00",
+    "id": "reel_2026-11-11_0750",
+    "status": "publicando",
+    "quando": "2026-11-11T07:50:00-03:00",
     "tipo": "reel",
     "tema": "agenda",
     "titulo": "Cliente que esquece o horário",
     "roteiro": "r09-agenda-faltas",
     "origem": "estudio",
-    "narracao": "edge",
-    "duracao": 28.3,
+    "narracao": null,
+    "duracao": 30.0,
     "imagens": [
       "midia/reels/2026-11-11_11h00_cliente-que-esquece-o-horario.mp4",
       "midia/reels/2026-11-11_11h00_cliente-que-esquece-o-horario.jpg"
     ],
-    "legenda": "Horário marcado. Cadeira vazia. 💺\n\nMuitas vezes o cliente simplesmente esqueceu.\n\nCom a agenda online, ele marca sozinho, recebe a confirmação e um lembrete antes do horário. Agenda organizada é dinheiro no caixa.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #salaodebeleza #agendamentoonline #agendaonline",
-    "motivo_pausa": "João disse que os vídeos estão errados (11/11 07:22); aguardando o que corrigir"
+    "legenda": "Horário marcado. Cadeira vazia. 💺\n\nMuitas vezes o cliente simplesmente esqueceu.\n\nCom a agenda online, ele marca sozinho, recebe a confirmação e um lembrete antes do horário. Agenda organizada é dinheiro no caixa.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #salaodebeleza #agendamentoonline #agendaonline"
   },
   {
     "id": "2026-11-11_2",
@@ -1771,24 +1770,6 @@
     "legenda": "Muitos pacientes lembram de marcar consulta à noite ou no fim de semana, justamente quando a recepção não está atendendo. 🌙\n\nCom a agenda online, ele escolhe o profissional, o procedimento e o horário disponível na hora, e recebe lembrete antes da consulta.\n\nPara clínicas odontológicas, de estética e consultórios que querem um atendimento mais moderno.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #clinicadeestetica #odontologia #agendaonline"
   },
   {
-    "id": "reel_2026-11-11_1900",
-    "status": "pausado",
-    "quando": "2026-11-11T19:00:00-03:00",
-    "tipo": "reel",
-    "tema": "sites",
-    "titulo": "Site que não abre direito no celular",
-    "roteiro": "r10-site-celular",
-    "origem": "estudio",
-    "narracao": "edge",
-    "duracao": 34.47,
-    "imagens": [
-      "midia/reels/2026-11-11_19h00_site-que-nao-abre-direito-no-celular.mp4",
-      "midia/reels/2026-11-11_19h00_site-que-nao-abre-direito-no-celular.jpg"
-    ],
-    "legenda": "Faça um teste agora: abra o seu site no celular. 📱\n\nPrecisa dar zoom para ler? O botão é difícil de tocar? Demora para carregar?\n\nSe a resposta for sim, o cliente volta para a busca e escolhe outro. Um site moderno é pensado primeiro para o celular.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #criacaodesites #siteprofissional #sitesparapequenasempresas",
-    "motivo_pausa": "João disse que os vídeos estão errados (11/11 07:22); aguardando o que corrigir"
-  },
-  {
     "id": "gnz01_2026-11-11_story6",
     "status": "pendente",
     "quando": "2026-11-11T19:30:00-03:00",
@@ -1823,24 +1804,6 @@
       "midia/gnz01/2026-11-11/stories/7.jpg"
     ],
     "legenda": ""
-  },
-  {
-    "id": "reel_2026-11-12_0700",
-    "status": "pausado",
-    "quando": "2026-11-12T07:00:00-03:00",
-    "tipo": "reel",
-    "tema": "cardapio",
-    "titulo": "Sexta à noite na pizzaria",
-    "roteiro": "r11-pizzaria-noite",
-    "origem": "estudio",
-    "narracao": "edge",
-    "duracao": 30.51,
-    "imagens": [
-      "midia/reels/2026-11-12_07h00_sexta-a-noite-na-pizzaria.mp4",
-      "midia/reels/2026-11-12_07h00_sexta-a-noite-na-pizzaria.jpg"
-    ],
-    "legenda": "Sexta, 20h. O WhatsApp não para. 🍕\n\nAlguém no forno, alguém digitando preço... e o pedido errado volta.\n\nCom o cardápio digital, o pedido chega escrito e completo, com sabores, observações e o total calculado. Sua equipe no forno, não no celular.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #pizzaria #cardapiodigital #donoderestaurante",
-    "motivo_pausa": "João disse que os vídeos estão errados (11/11 07:22); aguardando o que corrigir"
   },
   {
     "id": "gnz01_2026-11-12_story1",
@@ -1889,24 +1852,6 @@
       "midia/gnz01/2026-11-12/stories/3.jpg"
     ],
     "legenda": ""
-  },
-  {
-    "id": "reel_2026-11-12_1100",
-    "status": "pausado",
-    "quando": "2026-11-12T11:00:00-03:00",
-    "tipo": "reel",
-    "tema": "paginas",
-    "titulo": "Profissional liberal sem página própria",
-    "roteiro": "r12-pagina-profissional",
-    "origem": "estudio",
-    "narracao": "edge",
-    "duracao": 30.42,
-    "imagens": [
-      "midia/reels/2026-11-12_11h00_profissional-liberal-sem-pagina-propria.mp4",
-      "midia/reels/2026-11-12_11h00_profissional-liberal-sem-pagina-propria.jpg"
-    ],
-    "legenda": "Alguém te indicou. A pessoa pesquisou o seu nome. O que ela encontrou? 🔍\n\nA indicação abre a porta. O que a pessoa encontra quando pesquisa confirma (ou não) a confiança.\n\nUma página profissional mostra sua formação, especialidade, como você trabalha e um jeito simples de agendar.\n\n💬 Comente PÁGINA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #profissionalliberal #paginaprofissional #consultorio",
-    "motivo_pausa": "João disse que os vídeos estão errados (11/11 07:22); aguardando o que corrigir"
   },
   {
     "id": "gnz01_2026-11-12_2",
@@ -2013,24 +1958,6 @@
       "midia/quadros/2026-11-12/compartilhavel/08.jpg"
     ],
     "legenda": "Barbeiro, quantas vezes hoje você já respondeu \"tem horário?\"\n\nCada mensagem dessas parece pequena. Somadas, viram horas no celular em vez de horas na cadeira.\n\nQual dessas você mais recebe? Comenta o número de 1 a 5. 👇\n\nTem um amigo barbeiro? Manda este post para ele.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #barbearia #barbeiro #agendaonline"
-  },
-  {
-    "id": "reel_2026-11-12_1900",
-    "status": "pausado",
-    "quando": "2026-11-12T19:00:00-03:00",
-    "tipo": "reel",
-    "tema": "agenda",
-    "titulo": "Manicure que responde agenda de madrugada",
-    "roteiro": "r14-manicure-agenda",
-    "origem": "estudio",
-    "narracao": "edge",
-    "duracao": 30.0,
-    "imagens": [
-      "midia/reels/2026-11-12_19h00_manicure-que-responde-agenda-de-madrugad.mp4",
-      "midia/reels/2026-11-12_19h00_manicure-que-responde-agenda-de-madrugad.jpg"
-    ],
-    "legenda": "23h e você ainda respondendo pedido de horário? 💅\n\nSua agenda pode trabalhar enquanto você descansa.\n\nA cliente escolhe o serviço, vê os horários livres e confirma sozinha. Você acorda com a agenda organizada.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #manicure #naildesigner #agendaonline",
-    "motivo_pausa": "João disse que os vídeos estão errados (11/11 07:22); aguardando o que corrigir"
   },
   {
     "id": "gnz01_2026-11-12_story6",
