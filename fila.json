@@ -1593,7 +1593,7 @@
   },
   {
     "id": "gnz01_2026-11-11_story1",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-11T07:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -1601,7 +1601,9 @@
     "imagens": [
       "midia/gnz01/2026-11-11/stories/1.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "17996051036848712",
+    "publicado_em": "2026-11-11T10:37:03+00:00"
   },
   {
     "id": "gnz01_2026-11-11_1",
