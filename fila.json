@@ -1781,7 +1781,7 @@
   },
   {
     "id": "gnz01_2026-11-11_site_ia",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-11T15:00:00-03:00",
     "tipo": "carrossel",
     "tema": "sites",
@@ -1795,7 +1795,9 @@
       "midia/gnz01/2026-11-11/site_ia/06.jpg"
     ],
     "legenda": "Sexta, 19h. Alguém procura onde jantar e escolhe pelo que vê no celular. 🍽️\n\nUm site com fotos dos pratos, horários, mapa e pedido pelo WhatsApp faz o seu restaurante ser a escolha, sem pagar taxa por pedido.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #restaurante #donoderestaurante #criacaodesites\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
-    "capa_ia": true
+    "capa_ia": true,
+    "media_id": "18171117805496821",
+    "publicado_em": "2026-11-11T18:05:46+00:00"
   },
   {
     "id": "gnz01_2026-11-11_story5",
