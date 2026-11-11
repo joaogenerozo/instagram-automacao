@@ -1567,7 +1567,9 @@
       "midia/reels/2026-11-11_07h00_anuncio-que-leva-para-o-lugar-errado.mp4",
       "midia/reels/2026-11-11_07h00_anuncio-que-leva-para-o-lugar-errado.jpg"
     ],
-    "legenda": "O seu anúncio leva o cliente para onde? 🎯\n\nMandar o clique para um perfil cheio de posts distrai quem chegou pronto para comprar.\n\nA landing page tem uma oferta clara, tudo o que o cliente precisa saber e um único botão de ação. Uma página, um objetivo.\n\n💬 Comente PÁGINA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #landingpage #captacaodeclientes #pequenosnegocios"
+    "legenda": "O seu anúncio leva o cliente para onde? 🎯\n\nMandar o clique para um perfil cheio de posts distrai quem chegou pronto para comprar.\n\nA landing page tem uma oferta clara, tudo o que o cliente precisa saber e um único botão de ação. Uma página, um objetivo.\n\n💬 Comente PÁGINA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #landingpage #captacaodeclientes #pequenosnegocios",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "gnz01_2026-11-11_story1",
