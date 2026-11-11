@@ -197,8 +197,8 @@
     <div class="layer" id="s5" style="opacity:0">
       <div class="card" id="wcard" style="left:150px; top:170px; width:780px; height:740px; padding:26px">
         <div class="browser" style="position:relative; width:100%; height:440px; border-radius:16px">
-          <div class="bar" style="height:36px"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="url" style="height:20px; font-size:11px">pousada-maison.com.br</div></div>
-          <div class="nav" style="padding:14px 22px; font-size:12px"><b style="font-size:14px">MAISON</b><div><span>Quartos</span><span>Gastronomia</span><span>Reservar</span></div></div>
+          <div class="bar" style="height:36px"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="url" id="s5url" style="height:20px; font-size:11px">pousada-maison.com.br</div></div>
+          <div id="s5site"><div class="nav" style="padding:14px 22px; font-size:12px"><b style="font-size:14px">MAISON</b><div><span>Quartos</span><span>Gastronomia</span><span>Reservar</span></div></div>
           <div style="display:flex; gap:16px; padding:6px 22px">
             <div class="photo ph-arch" style="flex:1.3; height:300px"></div>
             <div style="flex:1; padding-top:8px">
@@ -208,7 +208,7 @@
               <div class="btn" style="height:34px; font-size:12px; margin-top:16px">Reservar agora</div>
               <div style="display:flex; gap:8px; margin-top:18px"><div class="photo ph-desk" style="flex:1; height:70px"></div><div class="photo ph-sys" style="flex:1; height:70px"></div></div>
             </div>
-          </div>
+          </div></div>
         </div>
         <div style="padding:34px 10px 0">
           <div class="glass-title" id="t5title" style="font-size:58px; line-height:1.08">Desenvolvimento Web</div>
@@ -285,7 +285,8 @@ const expo = t => t >= 1 ? 1 : 1 - Math.pow(2, -10 * t);              // exponen
 const inout = t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 const lerp = (a, b, t) => a + (b - a) * t;
 let TYPED = "Transforme seu negócio com uma experiência digital premium.";
-let REEL = false;   // modo Reel: textos do roteiro, sem colapso final, com CTA
+let REEL = false;
+let VAR = { cam: 0 };   // modo Reel: textos do roteiro, sem colapso final, com CTA
 
 // grão determinístico (sem Math.random): hash por pixel e quadro
 function grain(f) {
@@ -450,7 +451,9 @@ function renderFrame(f) {
   } else show("s8", 0);
 
   // câmera
-  camScale = lerp(1, 1.025, (f % 120) / 120) ;
+  camScale = lerp(1, 1.025, (f % 120) / 120);
+  if (VAR.cam === 1) { camScale = lerp(1.05, 1.0, (f % 150) / 150); camY = lerp(-14, 14, (f % 150) / 150); }
+  if (VAR.cam === 2) { camScale = 1.02 + 0.015 * Math.sin(f / 23); camY = 10 * Math.sin(f / 31); }
   stage.style.transform = `scale(${camScale * window.__fit}) translateY(${camY}px)`;
   stage.style.filter = camBlur > 0.3 ? `blur(${camBlur}px)` : "none";
 }
@@ -486,6 +489,12 @@ window.setTexts = d => {
   put("t6a", d.cards[0][0]); put("t6as", d.cards[0][1]); put("t6b", d.cards[1][0]); put("t6bs", d.cards[1][1]);
   ["t6a", "t6b"].forEach(id => { $(id).style.fontSize = tamanho($(id).textContent, [[8, 78], [12, 60], [18, 46], [26, 38], [999, 32]]) + "px"; });
   put("s8ctat", d.cta); put("s8btn", d.botao);
+  if (d.mock) $("s5site").innerHTML = d.mock;
+  if (d.url) { $("s5url").textContent = d.url; }
+  if (d.url4) document.querySelector("#s4 .url").textContent = d.url4;
+  VAR = Object.assign(VAR, d.variante || {});
+  if (VAR.luz) $("light").style.background = VAR.luz;
+  if (VAR.titulo5) document.querySelector("#t5title").parentElement.style.textAlign = VAR.titulo5;
 };
 </script>
 </body>
