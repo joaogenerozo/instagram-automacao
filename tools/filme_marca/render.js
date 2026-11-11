@@ -1,5 +1,5 @@
 // Renderiza filme.html quadro a quadro (determinístico) e entrega PNGs ao FFmpeg.
-// Uso: node tools/filme_marca/render.js SAIDA.mp4 [--w 1080] [--h 1080] [--fps 59.94] [--audio som.wav] [--preview 0,80,135,230]
+// Uso: node tools/filme_marca/render.js SAIDA.mp4 [--w 1080] [--h 1080] [--fps 59.94] [--audio som.wav] [--dur 30] [--preview 0,80,135,230]
 const { chromium } = require("playwright");
 const { spawn } = require("child_process");
 const path = require("path");
@@ -12,7 +12,8 @@ const W = +opt("w", 1080), H = +opt("h", 1080);
 const FPS = opt("fps", "59.94");
 const audio = opt("audio", null);
 const preview = opt("preview", null);
-const TIMELINE = 29.97, DUR = 12;
+const TIMELINE = 29.97, BASE = 12;
+const DUR = +opt("dur", 12);           // duração final; o filme é esticado de forma uniforme (ex.: --dur 30)
 
 (async () => {
   const browser = await chromium.launch();
@@ -40,7 +41,7 @@ const TIMELINE = 29.97, DUR = 12;
           "-r", rate, "-movflags", "+faststart", "-t", String(DUR), saida);
   const p = spawn("ffmpeg", ff, { stdio: ["pipe", "inherit", "inherit"] });
   for (let i = 0; i < n; i++) {
-    const f = i / fpsNum * TIMELINE;            // quadro da linha do tempo de 29,97 fps (fracionário no master 59,94)
+    const f = i / fpsNum * TIMELINE * (BASE / DUR);            // quadro da linha do tempo de 29,97 fps (fracionário no master 59,94)
     await page.evaluate(x => window.renderFrame(x), f);
     const png = await page.screenshot({ type: "png" });
     if (!p.stdin.write(png)) await new Promise(r => p.stdin.once("drain", r));

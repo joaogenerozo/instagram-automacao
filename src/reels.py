@@ -641,7 +641,7 @@ def cena_marca(c, t, dur, ctx):
     cam.alpha_composite(pedaco, (x - 10, y - 10))
     a2 = ease((t - 0.35) / 0.5)
     d.rectangle([W / 2 - 160 * a2, y + h + 60, W / 2 + 160 * a2, y + h + 62], fill=(*OURO, int(200 * a2)))
-    texto_simples(cam, "DESIGN.  DEVELOPMENT.  DIGITAL.", fonte("semi", 34), y + h + 100, OFF, a2)
+    texto_simples(cam, "DESIGN.  DESENVOLVIMENTO.  DIGITAL.", fonte("semi", 34), y + h + 100, OFF, a2)
     a3 = ease((t - 0.7) / 0.5)
     texto_simples(cam, f"WhatsApp {ctx.cfg.get('whatsapp', '')}  ·  @gnz01_", fonte("semi", 36), y + h + 210, OURO, a3)
     return cam
@@ -1034,6 +1034,38 @@ def duracao_leitura(c):
     return max(base, min(extra, 7.5)) if c["tipo"] != "marca" else base
 
 
+DURACAO_ALVO = 30.0  # pedido do João: todo Reel com 30 segundos
+
+
+def ajustar_duracao(cenas, alvo):
+    """Estica ou comprime as cenas para o vídeo fechar exatamente em `alvo` segundos.
+
+    Cenas com narração nunca ficam mais curtas que a fala. A assinatura da marca fica fixa.
+    """
+    def piso(c):
+        if c["tipo"] == "marca":
+            return c["_dur"]
+        if c.get("_fala"):
+            return c["_dur"] * 0.9
+        return max(1.5, c["_dur"] * 0.7)
+
+    for _ in range(4):
+        soma = sum(c["_dur"] for c in cenas)
+        dif = alvo - soma
+        if abs(dif) < 0.01:
+            break
+        ajust = [c for c in cenas if c["tipo"] != "marca" and (dif > 0 or c["_dur"] > piso(c) + 0.01)]
+        if not ajust:
+            break
+        peso = sum(c["_dur"] for c in ajust)
+        for c in ajust:
+            c["_dur"] = max(piso(c), c["_dur"] + dif * c["_dur"] / peso)
+    # fecha a conta exata na assinatura (se ainda sobrar ou faltar algo)
+    resto = alvo - sum(c["_dur"] for c in cenas)
+    marca = next((c for c in cenas if c["tipo"] == "marca"), cenas[-1])
+    marca["_dur"] = max(1.2, marca["_dur"] + resto)
+
+
 def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
     """Produz o Reel completo. Devolve um dicionário de relatório (duração, narração, legendas...)."""
     saida = Path(saida)
@@ -1074,6 +1106,7 @@ def produzir(roteiro, cfg, saida, pasta_entrega=None, voz=None):
                 c["_dur"] = duracao_leitura(c)
         rel["narracao"] = provedor
         com_legenda = provedor is not None
+        ajustar_duracao(cenas, DURACAO_ALVO)
         # 2) linha do tempo
         t = 0.0
         falas, eventos, palavras = [], [], []

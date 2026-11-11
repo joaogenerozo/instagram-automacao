@@ -3,7 +3,7 @@
 Determinística (semente fixa). Os efeitos seguem os quadros da timeline a 29,97 fps
 definidos em filme.html. A normalização para -14 LUFS / -1 dBTP é feita com o loudnorm do FFmpeg.
 
-Uso: python3 tools/filme_marca/trilha.py saida.wav
+Uso: python3 tools/filme_marca/trilha.py saida.wav [duração em s, padrão 12]
 """
 import subprocess
 import sys
@@ -13,7 +13,8 @@ import wave
 import numpy as np
 
 SR = 48000
-DUR = 12.0
+DUR = float(sys.argv[2]) if len(sys.argv) > 2 else 12.0
+ESC = DUR / 12.0  # o filme é esticado de forma uniforme quando DUR > 12
 BPM = 124
 BEAT = 60 / BPM
 N = int(SR * DUR)
@@ -22,7 +23,7 @@ t_all = np.arange(N) / SR
 
 
 def q(f):  # quadro da timeline (29,97) -> segundos
-    return f / 29.97
+    return f / 29.97 * ESC
 
 
 def env(n, a=0.002, d=0.2):
