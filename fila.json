@@ -1941,6 +1941,23 @@
     "legenda": ""
   },
   {
+    "id": "reel_2026-11-12_1100",
+    "status": "pendente",
+    "quando": "2026-11-12T11:00:00-03:00",
+    "tipo": "reel",
+    "tema": "agenda",
+    "titulo": "Manicure que responde agenda de madrugada",
+    "roteiro": "r14-manicure-agenda",
+    "origem": "estudio",
+    "narracao": null,
+    "duracao": 30.0,
+    "imagens": [
+      "midia/reels/2026-11-12_11h00_manicure-que-responde-agenda-de-madrugad.mp4",
+      "midia/reels/2026-11-12_11h00_manicure-que-responde-agenda-de-madrugad.jpg"
+    ],
+    "legenda": "23h e você ainda respondendo pedido de horário? 💅\n\nSua agenda pode trabalhar enquanto você descansa.\n\nA cliente escolhe o serviço, vê os horários livres e confirma sozinha. Você acorda com a agenda organizada.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #manicure #naildesigner #agendaonline"
+  },
+  {
     "id": "gnz01_2026-11-12_2",
     "status": "pendente",
     "quando": "2026-11-12T12:00:00-03:00",
@@ -2045,6 +2062,23 @@
       "midia/quadros/2026-11-12/compartilhavel/08.jpg"
     ],
     "legenda": "Barbeiro, quantas vezes hoje você já respondeu \"tem horário?\"\n\nCada mensagem dessas parece pequena. Somadas, viram horas no celular em vez de horas na cadeira.\n\nQual dessas você mais recebe? Comenta o número de 1 a 5. 👇\n\nTem um amigo barbeiro? Manda este post para ele.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #barbearia #barbeiro #agendaonline"
+  },
+  {
+    "id": "reel_2026-11-12_1900",
+    "status": "pendente",
+    "quando": "2026-11-12T19:00:00-03:00",
+    "tipo": "reel",
+    "tema": "sites",
+    "titulo": "As mesmas perguntas todo dia",
+    "roteiro": "r15-perguntas-repetidas",
+    "origem": "estudio",
+    "narracao": null,
+    "duracao": 30.0,
+    "imagens": [
+      "midia/reels/2026-11-12_19h00_as-mesmas-perguntas-todo-dia.mp4",
+      "midia/reels/2026-11-12_19h00_as-mesmas-perguntas-todo-dia.jpg"
+    ],
+    "legenda": "\"Qual o endereço?\" \"Abre sábado?\" \"Aceita cartão?\" 🔁\n\nVocê responde as mesmas perguntas todos os dias.\n\nUm site bem organizado responde por você, a qualquer hora: endereço, horários, formas de pagamento e perguntas frequentes. Você fica livre para atender quem já decidiu comprar.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #atendimentoaocliente #criacaodesites #siteprofissional"
   },
   {
     "id": "gnz01_2026-11-12_story6",
