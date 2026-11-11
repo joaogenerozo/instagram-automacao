@@ -106,7 +106,7 @@ def main():
 
 TAREFA: escreva 21 roteiros de Reels (3 por dia, 7 dias) para {cfg['instagram']}, que serão produzidos
 automaticamente por um motor de motion design (texto cinético, demonstrações em celular, listas, comparações),
-com narração por IA e legendas sincronizadas. Duração alvo: 20 a 35 segundos (60 a 85 palavras de fala no total).
+com narração por IA e legendas sincronizadas. Duração fixa: 30 segundos (75 a 85 palavras de fala no total). Todo texto na tela em português do Brasil, sem palavras em inglês.
 
 Regras:
 - Gancho (1ª cena) começa pelo problema ou pela cena real do cliente num nicho concreto (pizzaria, barbearia,
