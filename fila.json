@@ -1573,6 +1573,23 @@
     "publicado_em": "2026-11-10T23:48:00-03:00"
   },
   {
+    "id": "reel_2026-11-11_0700",
+    "status": "pendente",
+    "quando": "2026-11-11T07:00:00-03:00",
+    "tipo": "reel",
+    "tema": "sites",
+    "titulo": "O que todo site profissional precisa ter",
+    "roteiro": "r13-checklist-site",
+    "origem": "estudio",
+    "narracao": "edge",
+    "duracao": 30.0,
+    "imagens": [
+      "midia/reels/2026-11-11_07h00_o-que-todo-site-profissional-precisa-ter.mp4",
+      "midia/reels/2026-11-11_07h00_o-que-todo-site-profissional-precisa-ter.jpg"
+    ],
+    "legenda": "Seu site tem estes 5 itens? ✅ Salve para conferir.\n\n✅ Funciona bem no celular\n✅ Botão de WhatsApp visível\n✅ Serviços explicados\n✅ Endereço e mapa\n✅ Domínio com o nome da sua empresa\n\nFaltou algum? O seu cliente percebe.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #siteprofissional #checklist #criacaodesites"
+  },
+  {
     "id": "gnz01_2026-11-11_story1",
     "status": "pendente",
     "quando": "2026-11-11T07:30:00-03:00",
@@ -1988,6 +2005,23 @@
       "midia/quadros/2026-11-12/compartilhavel/08.jpg"
     ],
     "legenda": "Barbeiro, quantas vezes hoje você já respondeu \"tem horário?\"\n\nCada mensagem dessas parece pequena. Somadas, viram horas no celular em vez de horas na cadeira.\n\nQual dessas você mais recebe? Comenta o número de 1 a 5. 👇\n\nTem um amigo barbeiro? Manda este post para ele.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #barbearia #barbeiro #agendaonline"
+  },
+  {
+    "id": "reel_2026-11-12_1900",
+    "status": "pendente",
+    "quando": "2026-11-12T19:00:00-03:00",
+    "tipo": "reel",
+    "tema": "agenda",
+    "titulo": "Manicure que responde agenda de madrugada",
+    "roteiro": "r14-manicure-agenda",
+    "origem": "estudio",
+    "narracao": "edge",
+    "duracao": 30.0,
+    "imagens": [
+      "midia/reels/2026-11-12_19h00_manicure-que-responde-agenda-de-madrugad.mp4",
+      "midia/reels/2026-11-12_19h00_manicure-que-responde-agenda-de-madrugad.jpg"
+    ],
+    "legenda": "23h e você ainda respondendo pedido de horário? 💅\n\nSua agenda pode trabalhar enquanto você descansa.\n\nA cliente escolhe o serviço, vê os horários livres e confirma sozinha. Você acorda com a agenda organizada.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #manicure #naildesigner #agendaonline"
   },
   {
     "id": "gnz01_2026-11-12_story6",
