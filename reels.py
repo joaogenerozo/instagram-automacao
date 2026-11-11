@@ -16,6 +16,7 @@ Uso:
 """
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
@@ -204,6 +205,8 @@ def main():
     print(f"{len(slots)} horário(s) a produzir ({len(alvos)} com roteiro do João); "
           f"{len(disponiveis)} roteiro(s) gerado(s) disponível(is).")
     falhas = []
+    # o motor cinematográfico leva ~10-25 min por Reel; cada execução produz no máximo 2 (os próximos ficam para a seguinte)
+    slots = slots[:int(os.environ.get("MAX_REELS", "2"))]
     for q in slots:
         r = alvos.get(q.isoformat())
         if r is None:
