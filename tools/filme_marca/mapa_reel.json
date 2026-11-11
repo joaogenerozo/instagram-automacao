@@ -1,0 +1,7 @@
+{
+  "_doc": "Mapa de tempo do Reel (30 s): pares [segundo do vídeo, quadro da timeline do filme a 29,97 fps]. Transições perto de 1x, telas com texto seguram mais tempo.",
+  "duracao": 30,
+  "ancoras": [[0, 0], [1.6, 46], [3.3, 60], [3.85, 76], [4.75, 100], [5.6, 128], [8.8, 146], [9.7, 150], [10.2, 164],
+              [11.0, 178], [14.6, 184], [15.0, 192], [15.4, 198], [19.2, 210], [19.6, 220], [20.4, 236], [23.8, 242],
+              [24.2, 250], [26.0, 300], [27.3, 340], [30.0, 359]]
+}

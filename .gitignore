@@ -3,3 +3,4 @@ __pycache__/
 .env
 alerta.txt
 midia/reels/teste/
+node_modules/

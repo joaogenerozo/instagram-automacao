@@ -3,7 +3,7 @@
 Determinística (semente fixa). Os efeitos seguem os quadros da timeline a 29,97 fps
 definidos em filme.html. A normalização para -14 LUFS / -1 dBTP é feita com o loudnorm do FFmpeg.
 
-Uso: python3 tools/filme_marca/trilha.py saida.wav [duração em s, padrão 12]
+Uso: python3 tools/filme_marca/trilha.py saida.wav [duração em s, padrão 12] [mapa_reel.json]
 """
 import subprocess
 import sys
@@ -22,7 +22,18 @@ rng = np.random.default_rng(1240)
 t_all = np.arange(N) / SR
 
 
+MAPA = None
+if len(sys.argv) > 3:  # mapa de tempo do Reel (mesmo arquivo usado pelo render.js)
+    import json
+    MAPA = json.load(open(sys.argv[3], encoding="utf-8"))["ancoras"]
+
+
 def q(f):  # quadro da timeline (29,97) -> segundos
+    if MAPA:
+        for (t0, f0), (t1, f1) in zip(MAPA, MAPA[1:]):
+            if f <= f1:
+                return t0 + (t1 - t0) * (f - f0) / max(f1 - f0, 1e-6)
+        return MAPA[-1][0]
     return f / 29.97 * ESC
 
 
@@ -142,7 +153,7 @@ def main(saida):
     final = q(301)
     for i in range(int(DUR / BEAT)):
         t0 = i * BEAT
-        if t0 > final - 0.05:
+        if t0 > (DUR - 1.6 if MAPA else final - 0.05):
             break
         g = 0.55 if t0 < 2 * BEAT * 2 else 0.85  # entra mais leve
         put(mus, k, t0, g)
@@ -201,7 +212,7 @@ def main(saida):
             w.setframerate(SR)
             w.writeframes((st * 32767).astype("<i2").tobytes())
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp.name,
-                        "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000", saida], check=True)
+                        "-af", "loudnorm=I=-14:TP=-2:LRA=11,alimiter=limit=0.75:level=false", "-ar", "48000", saida], check=True)
 
 
 if __name__ == "__main__":
