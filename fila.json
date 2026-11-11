@@ -1829,7 +1829,7 @@
   },
   {
     "id": "reel_2026-11-11_1900",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-11T19:00:00-03:00",
     "tipo": "reel",
     "tema": "cardapio",
@@ -1843,11 +1843,13 @@
       "midia/reels/2026-11-11_19h00_sexta-a-noite-na-pizzaria.mp4",
       "midia/reels/2026-11-11_19h00_sexta-a-noite-na-pizzaria.jpg"
     ],
-    "legenda": "Sexta, 20h. O WhatsApp não para. 🍕\n\nAlguém no forno, alguém digitando preço... e o pedido errado volta.\n\nCom o cardápio digital, o pedido chega escrito e completo, com sabores, observações e o total calculado. Sua equipe no forno, não no celular.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #pizzaria #cardapiodigital #donoderestaurante"
+    "legenda": "Sexta, 20h. O WhatsApp não para. 🍕\n\nAlguém no forno, alguém digitando preço... e o pedido errado volta.\n\nCom o cardápio digital, o pedido chega escrito e completo, com sabores, observações e o total calculado. Sua equipe no forno, não no celular.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #pizzaria #cardapiodigital #donoderestaurante",
+    "media_id": "18015890585987901",
+    "publicado_em": "2026-11-11T22:37:24+00:00"
   },
   {
     "id": "gnz01_2026-11-11_story6",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-11T19:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -1855,7 +1857,9 @@
     "imagens": [
       "midia/gnz01/2026-11-11/stories/6.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18111562904525602",
+    "publicado_em": "2026-11-11T22:37:24+00:00"
   },
   {
     "id": "gnz01_2026-11-11_5",
