@@ -1822,6 +1822,24 @@
     "legenda": "Muitos pacientes lembram de marcar consulta à noite ou no fim de semana, justamente quando a recepção não está atendendo. 🌙\n\nCom a agenda online, ele escolhe o profissional, o procedimento e o horário disponível na hora, e recebe lembrete antes da consulta.\n\nPara clínicas odontológicas, de estética e consultórios que querem um atendimento mais moderno.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #clinicadeestetica #odontologia #agendaonline"
   },
   {
+    "id": "reel_2026-11-11_1900",
+    "status": "pendente",
+    "quando": "2026-11-11T19:00:00-03:00",
+    "tipo": "reel",
+    "tema": "cardapio",
+    "titulo": "Sexta à noite na pizzaria",
+    "roteiro": "r11-pizzaria-noite",
+    "origem": "estudio",
+    "narracao": null,
+    "duracao": 30.0,
+    "variante": 2,
+    "imagens": [
+      "midia/reels/2026-11-11_19h00_sexta-a-noite-na-pizzaria.mp4",
+      "midia/reels/2026-11-11_19h00_sexta-a-noite-na-pizzaria.jpg"
+    ],
+    "legenda": "Sexta, 20h. O WhatsApp não para. 🍕\n\nAlguém no forno, alguém digitando preço... e o pedido errado volta.\n\nCom o cardápio digital, o pedido chega escrito e completo, com sabores, observações e o total calculado. Sua equipe no forno, não no celular.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #pizzaria #cardapiodigital #donoderestaurante"
+  },
+  {
     "id": "gnz01_2026-11-11_story6",
     "status": "pendente",
     "quando": "2026-11-11T19:30:00-03:00",
@@ -3231,23 +3249,5 @@
       "midia/2026-11-19/stories/7.jpg"
     ],
     "legenda": ""
-  },
-  {
-    "id": "reel_2026-11-11_1900",
-    "status": "pendente",
-    "quando": "2026-11-11T19:00:00-03:00",
-    "tipo": "reel",
-    "tema": "cardapio",
-    "titulo": "Sexta à noite na pizzaria",
-    "roteiro": "r11-pizzaria-noite",
-    "origem": "estudio",
-    "narracao": null,
-    "duracao": 30.0,
-    "variante": 2,
-    "imagens": [
-      "midia/reels/2026-11-11_19h00_sexta-a-noite-na-pizzaria.mp4",
-      "midia/reels/2026-11-11_19h00_sexta-a-noite-na-pizzaria.jpg"
-    ],
-    "legenda": "Sexta, 20h. O WhatsApp não para. 🍕\n\nAlguém no forno, alguém digitando preço... e o pedido errado volta.\n\nCom o cardápio digital, o pedido chega escrito e completo, com sabores, observações e o total calculado. Sua equipe no forno, não no celular.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #pizzaria #cardapiodigital #donoderestaurante"
   }
 ]
