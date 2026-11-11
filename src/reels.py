@@ -41,6 +41,7 @@ OFF = (244, 243, 238)
 PRATA = (190, 195, 202)
 SUAVE = (138, 143, 151)
 VERDE = (37, 211, 102)
+OURO = (197, 164, 109)   # dourado discreto da identidade GNZ01_ (#C5A46D)
 
 TOPO_SEGURO = 250      # abaixo do cabeçalho do Reels
 BASE_LEGENDA = 1360    # legendas da narração ficam entre 1360 e 1520 (acima da legenda/botões do app)
@@ -292,7 +293,7 @@ def _notificacoes(cam, itens, t, fundo=False):
         d.rounded_rectangle([x + 6, y + 12, x + ww + 6, y + 142], radius=34, fill=(0, 0, 0, int(120 * a)))
         d.rounded_rectangle([x, y, x + ww, y + 130], radius=34, fill=(*GRAFITE2, int(240 * a)),
                             outline=(96, 101, 110, int(255 * a)), width=2)
-        d.rounded_rectangle([x + 28, y + 30, x + 98, y + 100], radius=18, fill=(*VERDE, int(255 * a)))
+        d.rounded_rectangle([x + 28, y + 30, x + 98, y + 100], radius=18, fill=(*OURO, int(255 * a)))
         d.rounded_rectangle([x + 46, y + 50, x + 80, y + 76], radius=7, fill=(255, 255, 255, int(255 * a)))
         d.polygon([(x + 50, y + 74), (x + 60, y + 74), (x + 48, y + 86)], fill=(255, 255, 255, int(255 * a)))
         tit, _, corpo = txt.partition("|")
@@ -384,7 +385,7 @@ def cena_lista(c, t, dur, ctx):
         elif c.get("check"):
             _icone_check(d, caixa[0] + 62, cy, 24, a)
         else:
-            d.text((caixa[0] + 34, cy - 34), num, font=fn, fill=(*PRATA, int(255 * a)))
+            d.text((caixa[0] + 34, cy - 34), num, font=fn, fill=(*OURO, int(255 * a)))
         tx = caixa[0] + 130
         from src.render import quebrar
         ls = quebrar(d, item, f, 740)
@@ -603,7 +604,7 @@ def cena_cta(c, t, dur, ctx):
             d.rounded_rectangle([caixa[0] + 36, cy - 17, caixa[0] + 76, cy + 13], radius=9, fill=(*PRETO, int(255 * al)))
             d.polygon([(caixa[0] + 44, cy + 10), (caixa[0] + 56, cy + 10), (caixa[0] + 42, cy + 24)], fill=(*PRETO, int(255 * al)))
         else:
-            d.ellipse([caixa[0] + 40, cy - 15, caixa[0] + 70, cy + 15], fill=(*VERDE, int(255 * al)))
+            d.ellipse([caixa[0] + 40, cy - 15, caixa[0] + 70, cy + 15], fill=(*OURO, int(255 * al)))
         d.text((caixa[0] + 92, yb + hh / 2 - f.size * 0.62), txt, font=f, fill=(*PRETO, int(255 * al)))
         a2 = ease((t - 0.9) / 0.4)
         y2 = yb + hh + 50
@@ -620,7 +621,7 @@ def cena_marca(c, t, dur, ctx):
     d = ImageDraw.Draw(cam)
     a = ease_out(t / 0.5)
     f = fonte("bold", int(200 * (0.9 + 0.1 * a)))
-    txt = "GNZ01"
+    txt = "GNZ01_"
     bb = f.getbbox(txt)
     w, h = bb[2] - bb[0], bb[3] - bb[1]
     x, y = (W - w) // 2, 760
@@ -639,10 +640,10 @@ def cena_marca(c, t, dur, ctx):
     pedaco.putalpha(m)
     cam.alpha_composite(pedaco, (x - 10, y - 10))
     a2 = ease((t - 0.35) / 0.5)
-    d.rectangle([W / 2 - 160 * a2, y + h + 60, W / 2 + 160 * a2, y + h + 62], fill=(*PRATA, int(200 * a2)))
-    texto_simples(cam, "Soluções digitais", fonte("serif_r", 54), y + h + 92, PRATA, a2)
+    d.rectangle([W / 2 - 160 * a2, y + h + 60, W / 2 + 160 * a2, y + h + 62], fill=(*OURO, int(200 * a2)))
+    texto_simples(cam, "DESIGN.  DEVELOPMENT.  DIGITAL.", fonte("semi", 34), y + h + 100, OFF, a2)
     a3 = ease((t - 0.7) / 0.5)
-    texto_simples(cam, f"WhatsApp {ctx.cfg.get('whatsapp', '')}  ·  @gnz01_", fonte("semi", 36), y + h + 210, OFF, a3)
+    texto_simples(cam, f"WhatsApp {ctx.cfg.get('whatsapp', '')}  ·  @gnz01_", fonte("semi", 36), y + h + 210, OURO, a3)
     return cam
 
 
@@ -721,7 +722,7 @@ def cena_busca(c, t, dur, ctx):
             d.rounded_rectangle([780, top + 26, 970, top + 144], radius=14, fill=(*GRAFITE, int(255 * b)))
             d.rectangle([800, top + 46, 900, top + 58], fill=(*OFF, int(220 * b)))
             d.rectangle([800, top + 70, 940, top + 78], fill=(*SUAVE, int(220 * b)))
-            d.rounded_rectangle([800, top + 100, 880, top + 126], radius=13, fill=(*VERDE, int(255 * b)))
+            d.rounded_rectangle([800, top + 100, 880, top + 126], radius=13, fill=(*OURO, int(255 * b)))
         d.text((cx0 + 36, top + 26), r.get("url", ""), font=fonte("regular", 28), fill=(*cor2, int(255 * b)))
         d.text((cx0 + 36, top + 66), r["titulo"], font=fonte("bold", 42), fill=(*cor1, int(255 * b)))
         if r.get("linha"):
@@ -854,7 +855,7 @@ def cena_dispositivos(c, t, dur, ctx):
         d.rounded_rectangle([caixa[0] + 6, caixa[1] + 10, caixa[2] + 6, caixa[3] + 10], radius=42,
                             fill=(0, 0, 0, int(110 * al)))
         verde = "whatsapp" in txt.lower()
-        d.rounded_rectangle(caixa, radius=42, fill=(*(VERDE if verde else OFF), int(250 * al)))
+        d.rounded_rectangle(caixa, radius=42, fill=(*(OURO if verde else OFF), int(250 * al)))
         d.ellipse([caixa[0] + 24, cy + 22, caixa[0] + 64, cy + 62], fill=(*PRETO, int(255 * al)))
         d.line([(caixa[0] + 35, cy + 43), (caixa[0] + 42, cy + 51), (caixa[0] + 55, cy + 34)],
                fill=(*OFF, int(255 * al)), width=5)
