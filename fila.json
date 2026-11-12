@@ -2114,7 +2114,9 @@
       "midia/reels/2026-11-12_19h00_as-mesmas-perguntas-todo-dia.mp4",
       "midia/reels/2026-11-12_19h00_as-mesmas-perguntas-todo-dia.jpg"
     ],
-    "legenda": "\"Qual o endereço?\" \"Abre sábado?\" \"Aceita cartão?\" 🔁\n\nVocê responde as mesmas perguntas todos os dias.\n\nUm site bem organizado responde por você, a qualquer hora: endereço, horários, formas de pagamento e perguntas frequentes. Você fica livre para atender quem já decidiu comprar.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #atendimentoaocliente #criacaodesites #siteprofissional"
+    "legenda": "\"Qual o endereço?\" \"Abre sábado?\" \"Aceita cartão?\" 🔁\n\nVocê responde as mesmas perguntas todos os dias.\n\nUm site bem organizado responde por você, a qualquer hora: endereço, horários, formas de pagamento e perguntas frequentes. Você fica livre para atender quem já decidiu comprar.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #atendimentoaocliente #criacaodesites #siteprofissional",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "gnz01_2026-11-12_story6",
@@ -2126,7 +2128,9 @@
     "imagens": [
       "midia/gnz01/2026-11-12/stories/6.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "gnz01_2026-11-12_5",
