@@ -2320,6 +2320,23 @@
     "motivo": "repetido: parecido com gnz01_2026-11-07_1 (Instagram não é site.)"
   },
   {
+    "id": "reel_2026-11-13_1900",
+    "status": "pendente",
+    "quando": "2026-11-13T19:00:00-03:00",
+    "tipo": "reel",
+    "tema": "sites",
+    "titulo": "Contato no Gmail passa confiança?",
+    "roteiro": "r19-dominio-email",
+    "origem": "estudio",
+    "narracao": null,
+    "duracao": 30.0,
+    "imagens": [
+      "midia/reels/2026-11-13_19h00_contato-no-gmail-passa-confianca.mp4",
+      "midia/reels/2026-11-13_19h00_contato-no-gmail-passa-confianca.jpg"
+    ],
+    "legenda": "O contato é um Gmail. Site? Não tem. 🤨\n\nPara o cliente, isso pode parecer improviso, mesmo quando o seu trabalho é excelente.\n\nUm site com domínio próprio (seunegocio.com.br) mostra que o seu negócio é sério e fácil de encontrar.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #dominioproprio #siteprofissional #criacaodesites"
+  },
+  {
     "id": "2026-11-13_story6",
     "status": "pendente",
     "quando": "2026-11-13T19:30:00-03:00",
@@ -2375,6 +2392,23 @@
       "midia/2026-11-13/stories/7.jpg"
     ],
     "legenda": ""
+  },
+  {
+    "id": "reel_2026-11-14_0700",
+    "status": "pendente",
+    "quando": "2026-11-14T07:00:00-03:00",
+    "tipo": "reel",
+    "tema": "sites",
+    "titulo": "Quem procura em Andradas encontra você?",
+    "roteiro": "r20-andradas-local",
+    "origem": "estudio",
+    "narracao": null,
+    "duracao": 30.0,
+    "imagens": [
+      "midia/reels/2026-11-14_07h00_quem-procura-em-andradas-encontra-voce.mp4",
+      "midia/reels/2026-11-14_07h00_quem-procura-em-andradas-encontra-voce.jpg"
+    ],
+    "legenda": "Alguém digita no Google: \"barbearia em Andradas\". Você aparece? 📍\n\nTroque barbearia pelo seu ramo: pizzaria, clínica, salão, loja.\n\nPara aparecer para quem procura na sua cidade: site com a cidade e os seus serviços, perfil no Google atualizado e avaliações de clientes.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #negociolocal #googlemeunegocio #criacaodesites"
   },
   {
     "id": "2026-11-14_story1",
