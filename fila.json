@@ -2474,6 +2474,23 @@
     "legenda": ""
   },
   {
+    "id": "reel_2026-11-14_1100",
+    "status": "pendente",
+    "quando": "2026-11-14T11:00:00-03:00",
+    "tipo": "reel",
+    "tema": "marca",
+    "titulo": "Tecnologia que trabalha pelo seu negócio",
+    "roteiro": "r21-gnz01-proposito",
+    "origem": "estudio",
+    "narracao": null,
+    "duracao": 30.0,
+    "imagens": [
+      "midia/reels/2026-11-14_11h00_tecnologia-que-trabalha-pelo-seu-negocio.mp4",
+      "midia/reels/2026-11-14_11h00_tecnologia-que-trabalha-pelo-seu-negocio.jpg"
+    ],
+    "legenda": "Você atende, vende, cobra e ainda precisa divulgar? ⚙️\n\nA tecnologia deveria tirar trabalho de você, não criar mais.\n\nNa GNZ01 criamos sites profissionais, cardápios e catálogos digitais, agendas online e landing pages, pensados para o seu negócio funcionar melhor.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #gnz01 #solucoesdigitais #pequenosnegocios"
+  },
+  {
     "id": "2026-11-14_2",
     "status": "pendente",
     "quando": "2026-11-14T12:00:00-03:00",
