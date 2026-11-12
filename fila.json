@@ -2005,7 +2005,7 @@
   },
   {
     "id": "gnz01_2026-11-12_story4",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-12T13:30:00-03:00",
     "tipo": "story",
     "tema": "conexao",
@@ -2013,7 +2013,9 @@
     "imagens": [
       "midia/gnz01/2026-11-12/stories/4.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18173447581421544",
+    "publicado_em": "2026-11-12T16:36:48+00:00"
   },
   {
     "id": "gnz01_2026-11-12_3",
