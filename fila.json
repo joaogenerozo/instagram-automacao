@@ -2120,7 +2120,7 @@
   },
   {
     "id": "gnz01_2026-11-12_story6",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-12T19:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -2130,7 +2130,9 @@
     ],
     "legenda": "",
     "tentativas": 1,
-    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)",
+    "media_id": "18109116935203407",
+    "publicado_em": "2026-11-12T22:37:54+00:00"
   },
   {
     "id": "gnz01_2026-11-12_5",
