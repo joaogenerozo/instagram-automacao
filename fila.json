@@ -1952,7 +1952,7 @@
   },
   {
     "id": "gnz01_2026-11-12_story3",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-12T11:00:00-03:00",
     "tipo": "story",
     "tema": "site",
@@ -1960,11 +1960,13 @@
     "imagens": [
       "midia/gnz01/2026-11-12/stories/3.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "17937850443411007",
+    "publicado_em": "2026-11-12T14:04:18+00:00"
   },
   {
     "id": "reel_2026-11-12_1100",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-12T11:00:00-03:00",
     "tipo": "reel",
     "tema": "agenda",
@@ -1977,7 +1979,9 @@
       "midia/reels/2026-11-12_11h00_manicure-que-responde-agenda-de-madrugad.mp4",
       "midia/reels/2026-11-12_11h00_manicure-que-responde-agenda-de-madrugad.jpg"
     ],
-    "legenda": "23h e você ainda respondendo pedido de horário? 💅\n\nSua agenda pode trabalhar enquanto você descansa.\n\nA cliente escolhe o serviço, vê os horários livres e confirma sozinha. Você acorda com a agenda organizada.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #manicure #naildesigner #agendaonline"
+    "legenda": "23h e você ainda respondendo pedido de horário? 💅\n\nSua agenda pode trabalhar enquanto você descansa.\n\nA cliente escolhe o serviço, vê os horários livres e confirma sozinha. Você acorda com a agenda organizada.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #manicure #naildesigner #agendaonline",
+    "media_id": "18126340534705737",
+    "publicado_em": "2026-11-12T14:04:18+00:00"
   },
   {
     "id": "gnz01_2026-11-12_2",
