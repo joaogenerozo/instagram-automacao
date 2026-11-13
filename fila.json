@@ -2165,7 +2165,7 @@
   },
   {
     "id": "gnz01_2026-11-12_story7",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-12T22:00:00-03:00",
     "tipo": "story",
     "tema": "vendas",
@@ -2173,7 +2173,9 @@
     "imagens": [
       "midia/gnz01/2026-11-12/stories/7.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18121871716758656",
+    "publicado_em": "2026-11-13T01:03:16+00:00"
   },
   {
     "id": "reel_2026-11-13_0700",
