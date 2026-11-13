@@ -2207,7 +2207,9 @@
     "imagens": [
       "midia/2026-11-13/stories/1.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "2026-11-13_1",
