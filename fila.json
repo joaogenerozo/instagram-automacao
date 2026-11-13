@@ -2228,7 +2228,7 @@
   },
   {
     "id": "2026-11-13_story2",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-13T09:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -2236,7 +2236,9 @@
     "imagens": [
       "midia/2026-11-13/stories/2.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18108130835525925",
+    "publicado_em": "2026-11-13T12:37:22+00:00"
   },
   {
     "id": "2026-11-13_story3",
