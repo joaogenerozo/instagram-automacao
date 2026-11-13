@@ -2242,7 +2242,7 @@
   },
   {
     "id": "2026-11-13_story3",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-13T11:00:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -2250,11 +2250,13 @@
     "imagens": [
       "midia/2026-11-13/stories/3.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "17918291973535122",
+    "publicado_em": "2026-11-13T15:30:30+00:00"
   },
   {
     "id": "reel_2026-11-13_1100",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-13T11:00:00-03:00",
     "tipo": "reel",
     "tema": "landing",
@@ -2267,7 +2269,9 @@
       "midia/reels/2026-11-13_11h00_uma-pagina-um-objetivo.mp4",
       "midia/reels/2026-11-13_11h00_uma-pagina-um-objetivo.jpg"
     ],
-    "legenda": "Vai lançar uma promoção, serviço ou evento? 🚀\n\nEle merece uma página própria.\n\nA landing page é feita para um objetivo só: sem menu, sem distração, com a oferta clara e um botão de ação. Ideal para lançamentos, promoções com prazo e inscrições.\n\n💬 Comente PÁGINA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #landingpage #lancamento #captacaodeclientes"
+    "legenda": "Vai lançar uma promoção, serviço ou evento? 🚀\n\nEle merece uma página própria.\n\nA landing page é feita para um objetivo só: sem menu, sem distração, com a oferta clara e um botão de ação. Ideal para lançamentos, promoções com prazo e inscrições.\n\n💬 Comente PÁGINA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #landingpage #lancamento #captacaodeclientes",
+    "media_id": "18148789219574802",
+    "publicado_em": "2026-11-13T15:30:30+00:00"
   },
   {
     "id": "2026-11-13_2",
