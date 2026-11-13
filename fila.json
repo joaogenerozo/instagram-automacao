@@ -2151,7 +2151,7 @@
   },
   {
     "id": "quadro_2026-11-12_isso-ou-aquilo",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-12T21:00:00-03:00",
     "tipo": "post",
     "tema": "cardapio",
@@ -2161,7 +2161,8 @@
       "midia/quadros/2026-11-12/isso-ou-aquilo/01.jpg"
     ],
     "legenda": "Pergunta rápida para quem tem pizzaria, lanchonete ou restaurante:\n\nO cliente chega no Direct: \"qual o preço da pizza grande?\"\n\nVocê responde com:\nA) a foto do cardápio impresso\nB) um link onde ele vê tudo, monta o pedido e manda pronto no seu WhatsApp\n\nNão existe resposta errada, mas existe diferença no que acontece depois. Comenta A ou B. 👇\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #pizzaria #donoderestaurante #cardapiodigital",
-    "obs": "00:01 UTC 13/11: Windsor devolveu \"Media ID is not available\"; get_data 3 min depois não mostrou o post. Conferir get_data (media_caption) antes de tentar de novo."
+    "media_id": "18120405251102070",
+    "publicado_em": "2026-11-13T01:06:00+00:00"
   },
   {
     "id": "gnz01_2026-11-12_story7",
