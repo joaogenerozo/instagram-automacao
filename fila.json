@@ -2199,7 +2199,7 @@
   },
   {
     "id": "2026-11-13_story1",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-13T07:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -2209,7 +2209,9 @@
     ],
     "legenda": "",
     "tentativas": 1,
-    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)",
+    "media_id": "17925286191223470",
+    "publicado_em": "2026-11-13T10:37:05+00:00"
   },
   {
     "id": "2026-11-13_1",
