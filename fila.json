@@ -2625,7 +2625,7 @@
   },
   {
     "id": "2026-11-14_4",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-14T18:30:00-03:00",
     "tipo": "post",
     "tema": "cardapio",
@@ -2635,7 +2635,9 @@
     ],
     "legenda": "Os aplicativos de delivery cobram uma fatia grande de cada pedido. 😬\n\nCom um cardápio digital próprio, você recebe pedidos direto no WhatsApp, sem comissão, e ainda cria uma lista de clientes fiéis.\n\nUse os apps para ser encontrado e o seu cardápio para fidelizar. 💡\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #cardapiodigital #delivery #pizzaria",
     "tentativas": 1,
-    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)",
+    "media_id": "18097460237664971",
+    "publicado_em": "2026-11-14T21:39:23+00:00"
   },
   {
     "id": "2026-11-14_story6",
