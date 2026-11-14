@@ -2437,7 +2437,7 @@
   },
   {
     "id": "2026-11-13_story7",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-13T22:00:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -2445,7 +2445,9 @@
     "imagens": [
       "midia/2026-11-13/stories/7.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18121837835071331",
+    "publicado_em": "2026-11-14T01:02:42+00:00"
   },
   {
     "id": "reel_2026-11-14_0700",
