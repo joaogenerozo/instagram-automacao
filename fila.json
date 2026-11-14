@@ -3460,5 +3460,653 @@
       "midia/2026-11-19/stories/7.jpg"
     ],
     "legenda": ""
+  },
+  {
+    "id": "2026-11-20_story1",
+    "status": "pendente",
+    "quando": "2026-11-20T07:30:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "Pago comissão por pedido?",
+    "imagens": [
+      "midia/2026-11-20/stories/1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-20_story2",
+    "status": "pendente",
+    "quando": "2026-11-20T09:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Qual a diferença entre landing page e site?",
+    "imagens": [
+      "midia/2026-11-20/stories/2.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-20_story3",
+    "status": "pendente",
+    "quando": "2026-11-20T11:00:00-03:00",
+    "tipo": "story",
+    "tema": "agenda",
+    "titulo": "Posso bloquear dias e horários?",
+    "imagens": [
+      "midia/2026-11-20/stories/3.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-20_story4",
+    "status": "pendente",
+    "quando": "2026-11-20T13:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Vocês escrevem os textos do site?",
+    "imagens": [
+      "midia/2026-11-20/stories/4.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-20_3",
+    "status": "pendente",
+    "quando": "2026-11-20T15:00:00-03:00",
+    "tipo": "post",
+    "tema": "agenda",
+    "titulo": "Você ainda marca horário pelo WhatsApp, um por um?",
+    "imagens": [
+      "midia/2026-11-20/3/01.jpg"
+    ],
+    "legenda": "Responder mensagem por mensagem para marcar horário toma o seu tempo e ainda gera confusão.\n\nCom a agenda online, seu cliente vê os horários livres e agenda sozinho, até de madrugada. Você só recebe o aviso. ✅\n\nIdeal para barbearias, salões, clínicas, personal trainers, psicólogos e todo profissional que atende com hora marcada.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #agendaonline #agendamentoonline #barbearia"
+  },
+  {
+    "id": "2026-11-20_story5",
+    "status": "pendente",
+    "quando": "2026-11-20T16:30:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "Dá para colocar foto em cada prato?",
+    "imagens": [
+      "midia/2026-11-20/stories/5.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-20_story6",
+    "status": "pendente",
+    "quando": "2026-11-20T19:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Site serve para profissional autônomo?",
+    "imagens": [
+      "midia/2026-11-20/stories/6.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-20_5",
+    "status": "pendente",
+    "quando": "2026-11-20T21:00:00-03:00",
+    "tipo": "post",
+    "tema": "cardapio",
+    "titulo": "O cliente decide o pedido em menos de 2 minutos.",
+    "imagens": [
+      "midia/2026-11-20/5/01.jpg"
+    ],
+    "legenda": "Um cardápio bem organizado faz o cliente gastar mais e decidir mais rápido. 🍔🍕\n\nNo cardápio digital você destaca os campeões de venda, sugere adicionais e combos e deixa tudo bonito no celular.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #cardapiodigital #restaurantes #pizzaria"
+  },
+  {
+    "id": "2026-11-20_story7",
+    "status": "pendente",
+    "quando": "2026-11-20T22:00:00-03:00",
+    "tipo": "story",
+    "tema": "agenda",
+    "titulo": "O cliente precisa criar conta para agendar?",
+    "imagens": [
+      "midia/2026-11-20/stories/7.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-21_story1",
+    "status": "pendente",
+    "quando": "2026-11-21T07:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Meu site vai ser igual a um modelo pronto?",
+    "imagens": [
+      "midia/2026-11-21/stories/1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-21_story2",
+    "status": "pendente",
+    "quando": "2026-11-21T09:30:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "Funciona para delivery e para mesa?",
+    "imagens": [
+      "midia/2026-11-21/stories/2.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-21_story3",
+    "status": "pendente",
+    "quando": "2026-11-21T11:00:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Posso vender produtos pelo site?",
+    "imagens": [
+      "midia/2026-11-21/stories/3.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-21_story4",
+    "status": "pendente",
+    "quando": "2026-11-21T13:30:00-03:00",
+    "tipo": "story",
+    "tema": "agenda",
+    "titulo": "Onde coloco o link da agenda?",
+    "imagens": [
+      "midia/2026-11-21/stories/4.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-21_3",
+    "status": "pendente",
+    "quando": "2026-11-21T15:00:00-03:00",
+    "tipo": "post",
+    "tema": "sites",
+    "titulo": "Site bonito que não vende é só enfeite.",
+    "imagens": [
+      "midia/2026-11-21/3/01.jpg"
+    ],
+    "legenda": "Design é importante, mas o que importa mesmo é resultado. 🎯\n\nTodo site que eu crio é pensado para gerar contato: carrega rápido, funciona perfeito no celular e tem o caminho certo até o seu WhatsApp.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #criacaodesites #landingpage #siteprofissional"
+  },
+  {
+    "id": "2026-11-21_story5",
+    "status": "pendente",
+    "quando": "2026-11-21T16:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Como é o processo para fazer meu site?",
+    "imagens": [
+      "midia/2026-11-21/stories/5.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-21_story6",
+    "status": "pendente",
+    "quando": "2026-11-21T19:30:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "Consigo colocar taxa de entrega por bairro?",
+    "imagens": [
+      "midia/2026-11-21/stories/6.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-21_story7",
+    "status": "pendente",
+    "quando": "2026-11-21T22:00:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Por que meu negócio precisa de site em 2026?",
+    "imagens": [
+      "midia/2026-11-21/stories/7.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-22_story1",
+    "status": "pendente",
+    "quando": "2026-11-22T07:30:00-03:00",
+    "tipo": "story",
+    "tema": "agenda",
+    "titulo": "Para quais profissões serve a agenda online?",
+    "imagens": [
+      "midia/2026-11-22/stories/1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-22_story2",
+    "status": "pendente",
+    "quando": "2026-11-22T09:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "O site fica rápido?",
+    "imagens": [
+      "midia/2026-11-22/stories/2.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-22_story3",
+    "status": "pendente",
+    "quando": "2026-11-22T11:00:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "Dá para oferecer adicionais e combos?",
+    "imagens": [
+      "midia/2026-11-22/stories/3.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-22_story4",
+    "status": "pendente",
+    "quando": "2026-11-22T13:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Posso mostrar meus trabalhos e depoimentos?",
+    "imagens": [
+      "midia/2026-11-22/stories/4.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-22_3",
+    "status": "pendente",
+    "quando": "2026-11-22T15:00:00-03:00",
+    "tipo": "post",
+    "tema": "agenda",
+    "titulo": "Sua agenda trabalhando enquanto você dorme.",
+    "imagens": [
+      "midia/2026-11-22/3/01.jpg"
+    ],
+    "legenda": "Quantas mensagens de \"tem horário amanhã?\" você recebe depois que já fechou? 🌙\n\nCom agenda online, esse cliente agenda na hora, mesmo com você descansando. De manhã, é só conferir a agenda.\n\n💬 Comente AGENDA que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #agendaonline #automacao #barbearia"
+  },
+  {
+    "id": "2026-11-22_story5",
+    "status": "pendente",
+    "quando": "2026-11-22T16:30:00-03:00",
+    "tipo": "story",
+    "tema": "agenda",
+    "titulo": "Consigo ver minha agenda pelo celular?",
+    "imagens": [
+      "midia/2026-11-22/stories/5.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-22_story6",
+    "status": "pendente",
+    "quando": "2026-11-22T19:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Atende negócios de outras cidades?",
+    "imagens": [
+      "midia/2026-11-22/stories/6.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-22_5",
+    "status": "pendente",
+    "quando": "2026-11-22T21:00:00-03:00",
+    "tipo": "post",
+    "tema": "cardapio",
+    "titulo": "Combo, adicional e sobremesa: o cardápio digital sugere por você.",
+    "imagens": [
+      "midia/2026-11-22/5/01.jpg"
+    ],
+    "legenda": "Sabe quando o atendente pergunta \"vai querer batata junto?\" O cardápio digital faz isso automaticamente. 🍟\n\nAdicionais, combos e sobremesas aparecem na hora certa, e o valor de cada pedido sobe.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #cardapiodigital #ticketmedio #pizzaria"
+  },
+  {
+    "id": "2026-11-22_story7",
+    "status": "pendente",
+    "quando": "2026-11-22T22:00:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Site é gasto ou investimento?",
+    "imagens": [
+      "midia/2026-11-22/stories/7.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-23_story1",
+    "status": "pendente",
+    "quando": "2026-11-23T07:30:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "Meu cardápio pode ter a cara da minha marca?",
+    "imagens": [
+      "midia/2026-11-23/stories/1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-23_story2",
+    "status": "pendente",
+    "quando": "2026-11-23T09:30:00-03:00",
+    "tipo": "story",
+    "tema": "agenda",
+    "titulo": "E se o cliente quiser remarcar?",
+    "imagens": [
+      "midia/2026-11-23/stories/2.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-23_story3",
+    "status": "pendente",
+    "quando": "2026-11-23T11:00:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Posso colocar formulário de contato?",
+    "imagens": [
+      "midia/2026-11-23/stories/3.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-23_story4",
+    "status": "pendente",
+    "quando": "2026-11-23T13:30:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "Funciona para lanchonete pequena?",
+    "imagens": [
+      "midia/2026-11-23/stories/4.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-23_story5",
+    "status": "pendente",
+    "quando": "2026-11-23T16:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Já tenho site, mas ele está feio e antigo. Dá para refazer?",
+    "imagens": [
+      "midia/2026-11-23/stories/5.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-23_story6",
+    "status": "pendente",
+    "quando": "2026-11-23T19:30:00-03:00",
+    "tipo": "story",
+    "tema": "agenda",
+    "titulo": "A agenda online substitui a secretária?",
+    "imagens": [
+      "midia/2026-11-23/stories/6.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-23_story7",
+    "status": "pendente",
+    "quando": "2026-11-23T22:00:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Como recebo os contatos do site?",
+    "imagens": [
+      "midia/2026-11-23/stories/7.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-24_story1",
+    "status": "pendente",
+    "quando": "2026-11-24T07:30:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "Posso definir horário de funcionamento?",
+    "imagens": [
+      "midia/2026-11-24/stories/1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-24_story2",
+    "status": "pendente",
+    "quando": "2026-11-24T09:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "O site aparece no Google Maps?",
+    "imagens": [
+      "midia/2026-11-24/stories/2.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-24_story3",
+    "status": "pendente",
+    "quando": "2026-11-24T11:00:00-03:00",
+    "tipo": "story",
+    "tema": "agenda",
+    "titulo": "Consigo cobrar sinal no agendamento?",
+    "imagens": [
+      "midia/2026-11-24/stories/3.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-24_story4",
+    "status": "pendente",
+    "quando": "2026-11-24T13:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Que informações eu preciso para começar?",
+    "imagens": [
+      "midia/2026-11-24/stories/4.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-24_story5",
+    "status": "pendente",
+    "quando": "2026-11-24T16:30:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "Quanto tempo leva para o cardápio ficar pronto?",
+    "imagens": [
+      "midia/2026-11-24/stories/5.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-24_story6",
+    "status": "pendente",
+    "quando": "2026-11-24T19:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Como faço para pedir meu orçamento?",
+    "imagens": [
+      "midia/2026-11-24/stories/6.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-24_story7",
+    "status": "pendente",
+    "quando": "2026-11-24T22:00:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Quanto custa um site?",
+    "imagens": [
+      "midia/2026-11-24/stories/7.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-25_story1",
+    "status": "pendente",
+    "quando": "2026-11-25T07:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Em quanto tempo meu site fica pronto?",
+    "imagens": [
+      "midia/2026-11-25/stories/1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-25_story2",
+    "status": "pendente",
+    "quando": "2026-11-25T09:30:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "O cliente precisa baixar aplicativo para ver o cardápio?",
+    "imagens": [
+      "midia/2026-11-25/stories/2.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-25_story3",
+    "status": "pendente",
+    "quando": "2026-11-25T11:00:00-03:00",
+    "tipo": "story",
+    "tema": "agenda",
+    "titulo": "Meu cliente consegue agendar sozinho?",
+    "imagens": [
+      "midia/2026-11-25/stories/3.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-25_story4",
+    "status": "pendente",
+    "quando": "2026-11-25T13:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Preciso entender de tecnologia para ter um site?",
+    "imagens": [
+      "midia/2026-11-25/stories/4.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-25_story5",
+    "status": "pendente",
+    "quando": "2026-11-25T16:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Meu site vai aparecer no Google?",
+    "imagens": [
+      "midia/2026-11-25/stories/5.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-25_story6",
+    "status": "pendente",
+    "quando": "2026-11-25T19:30:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "Consigo mudar os preços do cardápio sozinho?",
+    "imagens": [
+      "midia/2026-11-25/stories/6.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-25_story7",
+    "status": "pendente",
+    "quando": "2026-11-25T22:00:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Já tenho Instagram. Preciso de site?",
+    "imagens": [
+      "midia/2026-11-25/stories/7.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-26_story1",
+    "status": "pendente",
+    "quando": "2026-11-26T07:30:00-03:00",
+    "tipo": "story",
+    "tema": "agenda",
+    "titulo": "A agenda manda lembrete para o cliente?",
+    "imagens": [
+      "midia/2026-11-26/stories/1.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-26_story2",
+    "status": "pendente",
+    "quando": "2026-11-26T09:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "O site funciona bem no celular?",
+    "imagens": [
+      "midia/2026-11-26/stories/2.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-26_story3",
+    "status": "pendente",
+    "quando": "2026-11-26T11:00:00-03:00",
+    "tipo": "story",
+    "tema": "cardapio",
+    "titulo": "O pedido chega como para mim?",
+    "imagens": [
+      "midia/2026-11-26/stories/3.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-26_story4",
+    "status": "pendente",
+    "quando": "2026-11-26T13:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Posso ter um botão de WhatsApp no site?",
+    "imagens": [
+      "midia/2026-11-26/stories/4.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-26_story5",
+    "status": "pendente",
+    "quando": "2026-11-26T16:30:00-03:00",
+    "tipo": "story",
+    "tema": "agenda",
+    "titulo": "Funciona para quem tem mais de um profissional?",
+    "imagens": [
+      "midia/2026-11-26/stories/5.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-26_story6",
+    "status": "pendente",
+    "quando": "2026-11-26T19:30:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "Eu ganho o domínio com o meu nome?",
+    "imagens": [
+      "midia/2026-11-26/stories/6.jpg"
+    ],
+    "legenda": ""
+  },
+  {
+    "id": "2026-11-26_story7",
+    "status": "pendente",
+    "quando": "2026-11-26T22:00:00-03:00",
+    "tipo": "story",
+    "tema": "sites",
+    "titulo": "E se eu quiser mudar algo depois?",
+    "imagens": [
+      "midia/2026-11-26/stories/7.jpg"
+    ],
+    "legenda": ""
   }
 ]
