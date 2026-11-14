@@ -2470,7 +2470,7 @@
   },
   {
     "id": "2026-11-14_story1",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-14T07:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -2478,7 +2478,9 @@
     "imagens": [
       "midia/2026-11-14/stories/1.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18079166600735264",
+    "publicado_em": "2026-11-14T10:36:45+00:00"
   },
   {
     "id": "2026-11-14_1",
