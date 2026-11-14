@@ -2591,7 +2591,7 @@
   },
   {
     "id": "gnz01_2026-11-14_site_ia",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-14T15:00:00-03:00",
     "tipo": "carrossel",
     "tema": "sites",
@@ -2605,7 +2605,9 @@
       "midia/gnz01/2026-11-14/site_ia/06.jpg"
     ],
     "legenda": "Muita gente quer começar a treinar, mas quer confiar em quem vai acompanhar. 🏋️\n\nUm site apresenta sua metodologia, seus planos e leva o futuro aluno direto para o seu WhatsApp.\n\nArraste para ver como fica. Demonstração ilustrativa, nomes fictícios.\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #personaltrainer #educacaofisica #criacaodesites\n\n🖼️ Capa: imagem ilustrativa gerada por IA.",
-    "capa_ia": true
+    "capa_ia": true,
+    "media_id": "18638286736053422",
+    "publicado_em": "2026-11-14T18:05:58+00:00"
   },
   {
     "id": "2026-11-14_story5",
