@@ -2564,7 +2564,7 @@
   },
   {
     "id": "2026-11-14_story4",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-14T13:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -2572,7 +2572,9 @@
     "imagens": [
       "midia/2026-11-14/stories/4.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18081330395400471",
+    "publicado_em": "2026-11-14T16:36:43+00:00"
   },
   {
     "id": "2026-11-14_3",
