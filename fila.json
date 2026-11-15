@@ -2711,7 +2711,7 @@
   },
   {
     "id": "2026-11-15_story2",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-15T09:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -2719,7 +2719,9 @@
     "imagens": [
       "midia/2026-11-15/stories/2.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18032648345913523",
+    "publicado_em": "2026-11-15T12:37:17+00:00"
   },
   {
     "id": "2026-11-15_story3",
