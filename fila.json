@@ -3113,7 +3113,7 @@
   },
   {
     "id": "2026-11-17_story3",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-17T11:00:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -3121,7 +3121,9 @@
     "imagens": [
       "midia/2026-11-17/stories/3.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "17906372544604850",
+    "publicado_em": "2026-11-17T14:03:01+00:00"
   },
   {
     "id": "2026-11-17_2",
