@@ -3175,7 +3175,7 @@
   },
   {
     "id": "2026-11-17_story5",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-17T16:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -3183,7 +3183,9 @@
     "imagens": [
       "midia/2026-11-17/stories/5.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18122212276771182",
+    "publicado_em": "2026-11-17T19:37:07+00:00"
   },
   {
     "id": "2026-11-17_4",
