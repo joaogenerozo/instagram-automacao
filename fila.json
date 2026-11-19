@@ -3433,7 +3433,7 @@
   },
   {
     "id": "2026-11-19_story2",
-    "status": "pendente",
+    "status": "publicado",
     "quando": "2026-11-19T09:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -3441,7 +3441,9 @@
     "imagens": [
       "midia/2026-11-19/stories/2.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "media_id": "18123740264593404",
+    "publicado_em": "2026-11-19T12:37:02+00:00"
   },
   {
     "id": "2026-11-19_story3",
