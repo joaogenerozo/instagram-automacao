@@ -3657,7 +3657,9 @@
     "imagens": [
       "midia/2026-11-20/stories/6.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "2026-11-20_5",
@@ -3669,7 +3671,9 @@
     "imagens": [
       "midia/2026-11-20/5/01.jpg"
     ],
-    "legenda": "Um cardápio bem organizado faz o cliente gastar mais e decidir mais rápido. 🍔🍕\n\nNo cardápio digital você destaca os campeões de venda, sugere adicionais e combos e deixa tudo bonito no celular.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #cardapiodigital #restaurantes #pizzaria"
+    "legenda": "Um cardápio bem organizado faz o cliente gastar mais e decidir mais rápido. 🍔🍕\n\nNo cardápio digital você destaca os campeões de venda, sugere adicionais e combos e deixa tudo bonito no celular.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #cardapiodigital #restaurantes #pizzaria",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "2026-11-20_story7",
