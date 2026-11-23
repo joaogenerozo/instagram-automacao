@@ -3887,7 +3887,7 @@
   },
   {
     "id": "2026-11-22_story5",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-22T16:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -3897,11 +3897,12 @@
     ],
     "legenda": "",
     "tentativas": 1,
-    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "2026-11-19_4",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-22T18:30:00-03:00",
     "tipo": "post",
     "tema": "sites",
@@ -3910,11 +3911,12 @@
       "midia/2026-11-19/4/01.jpg"
     ],
     "legenda": "Nova semana, nova chance de tirar aquele projeto do papel. 🚀\n\nEu ajudo negócios e profissionais a venderem mais com:\n✅ Sites profissionais\n✅ Cardápios digitais\n✅ Agendas online\n\n💬 Comente SITE que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #criacaodesites #cardapiodigital #siteprofissional",
-    "obs": "movido de 19/11 (quinta) para domingo 22/11 18:30: texto fala de começo de semana"
+    "obs": "movido de 19/11 (quinta) para domingo 22/11 18:30: texto fala de começo de semana",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "2026-11-22_story6",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-22T19:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -3922,7 +3924,8 @@
     "imagens": [
       "midia/2026-11-22/stories/6.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "2026-11-22_5",
@@ -3934,7 +3937,9 @@
     "imagens": [
       "midia/2026-11-22/5/01.jpg"
     ],
-    "legenda": "Sabe quando o atendente pergunta \"vai querer batata junto?\" O cardápio digital faz isso automaticamente. 🍟\n\nAdicionais, combos e sobremesas aparecem na hora certa, e o valor de cada pedido sobe.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #cardapiodigital #ticketmedio #pizzaria"
+    "legenda": "Sabe quando o atendente pergunta \"vai querer batata junto?\" O cardápio digital faz isso automaticamente. 🍟\n\nAdicionais, combos e sobremesas aparecem na hora certa, e o valor de cada pedido sobe.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #cardapiodigital #ticketmedio #pizzaria",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "2026-11-22_story7",
@@ -3946,7 +3951,9 @@
     "imagens": [
       "midia/2026-11-22/stories/7.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "2026-11-23_story1",
