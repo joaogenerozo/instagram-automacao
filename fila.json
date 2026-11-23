@@ -3959,7 +3959,7 @@
   },
   {
     "id": "2026-11-23_story1",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-23T07:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -3967,11 +3967,12 @@
     "imagens": [
       "midia/2026-11-23/stories/1.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "2026-11-23_story2",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-23T09:30:00-03:00",
     "tipo": "story",
     "tema": "agenda",
@@ -3979,11 +3980,12 @@
     "imagens": [
       "midia/2026-11-23/stories/2.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "2026-11-23_story3",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-23T11:00:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -3991,11 +3993,12 @@
     "imagens": [
       "midia/2026-11-23/stories/3.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "2026-11-23_story4",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-23T13:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -4003,7 +4006,8 @@
     "imagens": [
       "midia/2026-11-23/stories/4.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "2026-11-23_story5",
@@ -4015,7 +4019,9 @@
     "imagens": [
       "midia/2026-11-23/stories/5.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "2026-11-23_story6",
