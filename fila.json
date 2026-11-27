@@ -4328,7 +4328,7 @@
   },
   {
     "id": "2026-11-26_story7",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-26T22:00:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -4338,7 +4338,8 @@
     ],
     "legenda": "",
     "tentativas": 1,
-    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "2026-11-27_story1",
@@ -4350,7 +4351,9 @@
     "imagens": [
       "midia/2026-11-27/stories/1.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "2026-11-27_story2",
@@ -4362,7 +4365,9 @@
     "imagens": [
       "midia/2026-11-27/stories/2.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "2026-11-27_story3",
