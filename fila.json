@@ -4399,7 +4399,7 @@
   },
   {
     "id": "2026-11-27_story5",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-27T16:30:00-03:00",
     "tipo": "story",
     "tema": "cardapio",
@@ -4409,11 +4409,12 @@
     ],
     "legenda": "",
     "tentativas": 1,
-    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "2026-11-27_story6",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-27T19:30:00-03:00",
     "tipo": "story",
     "tema": "sites",
@@ -4421,11 +4422,12 @@
     "imagens": [
       "midia/2026-11-27/stories/6.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "2026-11-27_5",
-    "status": "pendente",
+    "status": "pulado",
     "quando": "2026-11-27T21:00:00-03:00",
     "tipo": "post",
     "tema": "cardapio",
@@ -4433,7 +4435,8 @@
     "imagens": [
       "midia/2026-11-27/5/01.jpg"
     ],
-    "legenda": "Um cardápio bem organizado faz o cliente gastar mais e decidir mais rápido. 🍔🍕\n\nNo cardápio digital você destaca os campeões de venda, sugere adicionais e combos e deixa tudo bonito no celular.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #cardapiodigital #restaurantes #pizzaria"
+    "legenda": "Um cardápio bem organizado faz o cliente gastar mais e decidir mais rápido. 🍔🍕\n\nNo cardápio digital você destaca os campeões de venda, sugere adicionais e combos e deixa tudo bonito no celular.\n\n💬 Comente CARDÁPIO que eu te mando um exemplo pronto no Direct.\n📲 Prefere WhatsApp? O link está na bio.\n📍 GNZ01 · Andradas e região\n.\n.\n#andradas #andradasmg #cardapiodigital #restaurantes #pizzaria",
+    "motivo": "atrasou mais de 3 horas (agendamento do GitHub)"
   },
   {
     "id": "2026-11-27_story7",
@@ -4445,7 +4448,9 @@
     "imagens": [
       "midia/2026-11-27/stories/7.jpg"
     ],
-    "legenda": ""
+    "legenda": "",
+    "tentativas": 1,
+    "ultimo_erro": "Erro da API: Unsupported post request. Object with ID 'media' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (/media)"
   },
   {
     "id": "2026-11-28_story1",
